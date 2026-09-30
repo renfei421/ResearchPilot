@@ -19,7 +19,7 @@ gaps, analyzes prior-work overlap, and maintains persistent research projects.
 
 [Architecture & diagrams](docs/architecture.md) ·
 [Quick Start](#quick-start) · [Tests](#running-tests) ·
-[Release readiness](docs/public_release_readiness.md)
+[Release verification](docs/public_release_readiness.md)
 
 ## Why ResearchPilot?
 
@@ -151,8 +151,6 @@ configured models for live work. The repository pins Python 3.11 in
 `.python-version` and locks dependencies in `uv.lock`. Live work also needs
 network access to OpenAlex and document hosts. Tests do not need provider keys.
 
-Replace `https://github.com/renfei421/Researchpilot.git` with the URL of the public repository when it is created.
-
 ```powershell
 git clone https://github.com/renfei421/Researchpilot.git researchpilot
 cd researchpilot
@@ -266,15 +264,15 @@ and full-text acquisition contacts remote document hosts.
 Treat databases, cached documents, logs, and exports as private research material.
 Logs can include query text and run identifiers even with credential redaction.
 Review exports before sharing. Do not commit keys, `.env`, caches, or unpublished
-manuscripts. The [release readiness notes](docs/public_release_readiness.md) describe publication checks and remaining owner decisions.
+manuscripts. The [release verification record](docs/public_release_readiness.md)
+documents the checks performed before the v0.3.1 public release.
 
 ## Roadmap
 
 The portfolio baseline includes both modes, persistent Projects, hybrid evidence
 retrieval, atomic verification, and bounded core-claim source recovery. Three
 case studies and two reviewed product screenshots document existing results.
-Further evaluation remains future work; GitHub publication is a separate owner
-action.
+Further evaluation remains future work.
 
 ## License
 

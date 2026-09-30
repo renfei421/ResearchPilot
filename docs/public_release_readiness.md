@@ -1,10 +1,10 @@
-# Public release readiness — v0.3.1
+# Public release verification record — v0.3.1
 
-This is a local portfolio snapshot of ResearchPilot. Publication remains an
-owner action. No GitHub repository, remote, push, or hosted release is created
-by this preparation.
+This document records the verification performed before the ResearchPilot
+v0.3.1 public GitHub release. The results below describe those release checks,
+not a new verification of each subsequent documentation change.
 
-## Verification
+## Verification performed before release
 
 | Check | Result |
 | --- | --- |
@@ -15,12 +15,12 @@ by this preparation.
 | Package / CLI | Version and public-source import verified; Research CLI `--help` succeeds. |
 | Local application | Isolated loopback service on port 8011: home, health, API docs, OpenAPI schema, static assets, and both saved-result views returned HTTP 200. Temporary service stopped after verification. |
 | Product behavior | Source, tests, scripts, and frozen evaluation files retained byte-for-byte. No prompts, algorithms, or product workflows changed. |
-| History | Fresh `main` history: an initial public snapshot and a documentation-only licensing commit; no inherited development commits or remote. |
+| History | The public repository was initialized with fresh `main` history; no private development commits were inherited. |
 | Privacy | Reviewed public whitelist, credential/private-path scan, and staged-file review; no actual credentials or private runtime artifacts included. |
 | Documentation | Relative Markdown links and local anchors checked; no private-machine result links. |
 | Screenshots | Two real, reviewed UI excerpts of existing completed RAG results; see the [case-study index](case-studies/README.md#product-screenshots). No new research calls. |
 | License | [MIT License](../LICENSE), copyright (c) 2026 Renfei Wang. |
-| Tag | Annotated local `v0.3.1` tag; not pushed. |
+| Tag | An annotated `v0.3.1` tag was created for the portfolio release. |
 
 Run the same offline test suite after installation:
 
@@ -48,17 +48,15 @@ are selected presentation assets, not PDF page images or raw run exports.
 The ignore rules protect common generated state while leaving test fixtures
 and reproducible evaluation artifacts visible.
 
-## Owner steps before publication
+## Publication and attribution
 
-1. Review redistribution terms for any included third-party bibliographic/abstract
-   material; the project license does not replace those terms.
-2. Review the public files, screenshots, package author attribution, and initial
-   Git commit identity. No personal author email is stored in package metadata;
-   Git uses the owner's existing configured identity.
-3. Create the GitHub repository manually and replace the README clone-URL
-   placeholder. Add a remote and push only when ready.
-4. Review the tagged commit before publishing the existing local `v0.3.1` tag
-   and creating a GitHub release, if desired.
+The public repository is [ResearchPilot on GitHub](https://github.com/renfei421/Researchpilot).
+The README contains its clone command. The annotated `v0.3.1` tag records the
+release snapshot; subsequent documentation cleanup does not move that tag.
+
+The project license does not replace redistribution terms for included
+third-party bibliographic/abstract material. No personal author email is stored
+in package metadata; release commits used the owner's existing Git identity.
 
 Provider credentials are required only for live work. No live OpenAI/OpenAlex
 research, new Agent features, or new development phase was part of this release
