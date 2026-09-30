@@ -1,0 +1,1057 @@
+{
+  "schema_version": 1,
+  "version": "v1",
+  "annotation_source": "codex_model_assisted",
+  "label_status": "silver",
+  "human_gold": false,
+  "rubric_version": "v1",
+  "review_policy": "Include every medium/low-confidence proposal and the deterministic high-confidence audit sample. All items await manual review; none are human gold.",
+  "audit_policy": {
+    "scope": "All high-confidence judgments across the three benchmarks, identified by (benchmark_id, union_id).",
+    "fraction": 0.1,
+    "rounding": "ceil(high_confidence_population / 10)",
+    "high_confidence_population": 47,
+    "sample_count": 5,
+    "seed": "silver_relevance_audit_v1",
+    "selection": "Take the first sample_count items by ascending SHA-256 hexadecimal digest of UTF-8 seed|benchmark_id|union_id; break digest ties by benchmark_id, union_id."
+  },
+  "item_count": 37,
+  "items": [
+    {
+      "benchmark_id": "matrix_completion_v1",
+      "research_question": "How does spectral expansion affect deterministic matrix completion under fixed observation patterns?",
+      "union_id": "union:54d2a409d20e5a52ea3307dba3c55da019604b2facd764ff2b00a9556742ad65",
+      "title": "Sparse graph based sketching for fast numerical linear algebra",
+      "year": 2021,
+      "abstract": "In recent years, a variety of randomized constructions of sketching matrices have been devised, that have been used in fast algorithms for numerical linear algebra problems, such as least squares regression, low-rank approximation, and the approximation of leverage scores. A key property of sketching matrices is that of subspace embedding. In this paper, we study sketching matrices that are obtained from bipartite graphs that are sparse, i.e., have left degree~s that is small. In particular, we explore two popular classes of sparse graphs, namely, expander graphs and magical graphs. For a given subspace $\\mathcal{U} \\subseteq \\mathbb{R}^n$ of dimension $k$, we show that the magical graph with left degree $s=2$ yields a $(1\\pm ε)$ ${\\ell}_2$-subspace embedding for $\\mathcal{U}$, if the number of right vertices (the sketch size) $m = \\mathcal{O}({k^2}/{ε^2})$. The expander graph with $s = \\mathcal{O}({\\log k}/ε)$ yields a subspace embedding for $m = \\mathcal{O}({k \\log k}/{ε^2})$. We also discuss the construction of sparse sketching matrices with reduced randomness using expanders based on error-correcting codes. Empirical results on various synthetic and real datasets show that these sparse graph sketching matrices work very well in practice.",
+      "identifiers": [
+        "doi:10.48550/arxiv.2102.05758",
+        "version:88adfd569fafb9f4b36198515a736eda095ff5e04386331a54e65fd610395236"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:88adfd569fafb9f4b36198515a736eda095ff5e04386331a54e65fd610395236",
+          "paper_id": "doi:10.48550/arxiv.2102.05758",
+          "title": "Sparse graph based sketching for fast numerical linear algebra",
+          "year": 2021,
+          "abstract": "In recent years, a variety of randomized constructions of sketching matrices have been devised, that have been used in fast algorithms for numerical linear algebra problems, such as least squares regression, low-rank approximation, and the approximation of leverage scores. A key property of sketching matrices is that of subspace embedding. In this paper, we study sketching matrices that are obtained from bipartite graphs that are sparse, i.e., have left degree~s that is small. In particular, we explore two popular classes of sparse graphs, namely, expander graphs and magical graphs. For a given subspace $\\mathcal{U} \\subseteq \\mathbb{R}^n$ of dimension $k$, we show that the magical graph with left degree $s=2$ yields a $(1\\pm ε)$ ${\\ell}_2$-subspace embedding for $\\mathcal{U}$, if the number of right vertices (the sketch size) $m = \\mathcal{O}({k^2}/{ε^2})$. The expander graph with $s = \\mathcal{O}({\\log k}/ε)$ yields a subspace embedding for $m = \\mathcal{O}({k \\log k}/{ε^2})$. We also discuss the construction of sparse sketching matrices with reduced randomness using expanders based on error-correcting codes. Empirical results on various synthetic and real datasets show that these sparse graph sketching matrices work very well in practice."
+        }
+      ],
+      "proposed_label": 1,
+      "confidence": "medium",
+      "note": "Provides expander-based subspace-embedding constructions and bounds, offering a methodological bridge between graph expansion and linear measurement geometry. Their usefulness for fixed entry-observation patterns is plausible but not established in the abstract.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1",
+      "review_reason": "medium_confidence",
+      "review_status": "pending"
+    },
+    {
+      "benchmark_id": "matrix_completion_v1",
+      "research_question": "How does spectral expansion affect deterministic matrix completion under fixed observation patterns?",
+      "union_id": "union:5e20bfa90c5f973fa728f073ff5fe856decda1890401db4a35842a0858019a1d",
+      "title": "Compressive Sampling Photoacoustic Microscope System based on Low Rank Matrix Completion",
+      "year": 2016,
+      "abstract": null,
+      "identifiers": [
+        "doi:10.1016/j.bspc.2015.12.008",
+        "version:6d23fa50fa264a0d04e764d39d2bd77eb22f2c6be9cc1bfc2c5430d8c651db28"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:6d23fa50fa264a0d04e764d39d2bd77eb22f2c6be9cc1bfc2c5430d8c651db28",
+          "paper_id": "doi:10.1016/j.bspc.2015.12.008",
+          "title": "Compressive Sampling Photoacoustic Microscope System based on Low Rank Matrix Completion",
+          "year": 2016,
+          "abstract": null
+        }
+      ],
+      "proposed_label": 0,
+      "confidence": "low",
+      "note": "The title indicates a photoacoustic-microscopy application of matrix completion rather than analysis of deterministic patterns or expansion. With no abstract, evidence for a useful theoretical connection is insufficient.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1",
+      "review_reason": "low_confidence",
+      "review_status": "pending"
+    },
+    {
+      "benchmark_id": "matrix_completion_v1",
+      "research_question": "How does spectral expansion affect deterministic matrix completion under fixed observation patterns?",
+      "union_id": "union:7fc07130ae07606ffc32a755d2f014873e847d5c5c3d4aa1718a25e3ab5a6c8a",
+      "title": "Matrix Completion in Almost-Verification Time",
+      "year": 2023,
+      "abstract": "We give a new framework for solving the fundamental problem of low-rank matrix completion, i.e., approximating a rank-$r$ matrix $\\mathbf{M} \\in \\mathbb{R}^{m \\times n}$ (where $m \\ge n$) from random observations. First, we provide an algorithm which completes $\\mathbf{M}$ on $99\\%$ of rows and columns under no further assumptions on $\\mathbf{M}$ from $\\approx mr$ samples and using $\\approx mr^2$ time. Then, assuming the row and column spans of $\\mathbf{M}$ satisfy additional regularity properties, we show how to boost this partial completion guarantee to a full matrix completion algorithm by aggregating solutions to regression problems involving the observations. In the well-studied setting where $\\mathbf{M}$ has incoherent row and column spans, our algorithms complete $\\mathbf{M}$ to high precision from $mr^{2+o(1)}$ observations in $mr^{3 + o(1)}$ time (omitting logarithmic factors in problem parameters), improving upon the prior state-of-the-art [JN15] which used $\\approx mr^5$ samples and $\\approx mr^7$ time. Under an assumption on the row and column spans of $\\mathbf{M}$ we introduce (which is satisfied by random subspaces with high probability), our sample complexity improves to an almost information-theoretically optimal $mr^{1 + o(1)}$, and our runtime improves to $mr^{2 + o(1)}$. Our runtimes have the appealing property of matching the best known runtime to verify that a rank-$r$ decomposition $\\mathbf{U}\\mathbf{V}^\\top$ agrees with the sampled observations. We also provide robust variants of our algorithms that, given random observations from $\\mathbf{M} + \\mathbf{N}$ with $\\|\\mathbf{N}\\|_{F} \\le Δ$, complete $\\mathbf{M}$ to Frobenius norm distance $\\approx r^{1.5}Δ$ in the same runtimes as the noiseless setting. Prior noisy matrix completion algorithms [CP10] only guaranteed a distance of $\\approx \\sqrt{n}Δ$.",
+      "identifiers": [
+        "doi:10.48550/arxiv.2308.03661",
+        "version:bb2c9870598605fb4453f100b1c4b2ef23f5984bb71c68cadd24c7dbb7a87037"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:bb2c9870598605fb4453f100b1c4b2ef23f5984bb71c68cadd24c7dbb7a87037",
+          "paper_id": "doi:10.48550/arxiv.2308.03661",
+          "title": "Matrix Completion in Almost-Verification Time",
+          "year": 2023,
+          "abstract": "We give a new framework for solving the fundamental problem of low-rank matrix completion, i.e., approximating a rank-$r$ matrix $\\mathbf{M} \\in \\mathbb{R}^{m \\times n}$ (where $m \\ge n$) from random observations. First, we provide an algorithm which completes $\\mathbf{M}$ on $99\\%$ of rows and columns under no further assumptions on $\\mathbf{M}$ from $\\approx mr$ samples and using $\\approx mr^2$ time. Then, assuming the row and column spans of $\\mathbf{M}$ satisfy additional regularity properties, we show how to boost this partial completion guarantee to a full matrix completion algorithm by aggregating solutions to regression problems involving the observations. In the well-studied setting where $\\mathbf{M}$ has incoherent row and column spans, our algorithms complete $\\mathbf{M}$ to high precision from $mr^{2+o(1)}$ observations in $mr^{3 + o(1)}$ time (omitting logarithmic factors in problem parameters), improving upon the prior state-of-the-art [JN15] which used $\\approx mr^5$ samples and $\\approx mr^7$ time. Under an assumption on the row and column spans of $\\mathbf{M}$ we introduce (which is satisfied by random subspaces with high probability), our sample complexity improves to an almost information-theoretically optimal $mr^{1 + o(1)}$, and our runtime improves to $mr^{2 + o(1)}$. Our runtimes have the appealing property of matching the best known runtime to verify that a rank-$r$ decomposition $\\mathbf{U}\\mathbf{V}^\\top$ agrees with the sampled observations. We also provide robust variants of our algorithms that, given random observations from $\\mathbf{M} + \\mathbf{N}$ with $\\|\\mathbf{N}\\|_{F} \\le Δ$, complete $\\mathbf{M}$ to Frobenius norm distance $\\approx r^{1.5}Δ$ in the same runtimes as the noiseless setting. Prior noisy matrix completion algorithms [CP10] only guaranteed a distance of $\\approx \\sqrt{n}Δ$."
+        }
+      ],
+      "proposed_label": 0,
+      "confidence": "medium",
+      "note": "The recovery and runtime guarantees explicitly concern random observations and subspace regularity. The abstract does not establish how these results apply to fixed patterns or spectral expansion, so their usefulness for this narrower question remains uncertain.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1",
+      "review_reason": "medium_confidence",
+      "review_status": "pending"
+    },
+    {
+      "benchmark_id": "matrix_completion_v1",
+      "research_question": "How does spectral expansion affect deterministic matrix completion under fixed observation patterns?",
+      "union_id": "union:828a27173a5870f38743b7b035a70cf165d5324e51546a8458e68f2956ec8e2e",
+      "title": "Truncated Matrix Completion - An Empirical Study",
+      "year": 2022,
+      "abstract": "Low-rank Matrix Completion (LRMC) describes the problem where we wish to recover missing entries of partially observed low-rank matrix. Most existing matrix completion work deals with sampling procedures that are independent of the underlying data values. While this assumption allows the derivation of nice theoretical guarantees, it seldom holds in real-world applications. In this paper, we consider various settings where the sampling mask is dependent on the underlying data values, motivated by applications in sensing, sequential decision-making, and recommender systems. Through a series of experiments, we study and compare the performance of various LRMC algorithms that were originally successful for data-independent sampling patterns.",
+      "identifiers": [
+        "doi:10.23919/eusipco55093.2022.9909952",
+        "version:78790626a3c18d993829b5d03e94f3d8e7b74f4bf12b8bc8da47537b98130f6d"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:78790626a3c18d993829b5d03e94f3d8e7b74f4bf12b8bc8da47537b98130f6d",
+          "paper_id": "doi:10.23919/eusipco55093.2022.9909952",
+          "title": "Truncated Matrix Completion - An Empirical Study",
+          "year": 2022,
+          "abstract": "Low-rank Matrix Completion (LRMC) describes the problem where we wish to recover missing entries of partially observed low-rank matrix. Most existing matrix completion work deals with sampling procedures that are independent of the underlying data values. While this assumption allows the derivation of nice theoretical guarantees, it seldom holds in real-world applications. In this paper, we consider various settings where the sampling mask is dependent on the underlying data values, motivated by applications in sensing, sequential decision-making, and recommender systems. Through a series of experiments, we study and compare the performance of various LRMC algorithms that were originally successful for data-independent sampling patterns."
+        }
+      ],
+      "proposed_label": 1,
+      "confidence": "medium",
+      "note": "Empirically examines completion when observation masks depend on data values, providing useful evidence about departures from standard independent-sampling assumptions. It does not explicitly analyze fixed-pattern recovery or spectral expansion.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1",
+      "review_reason": "medium_confidence",
+      "review_status": "pending"
+    },
+    {
+      "benchmark_id": "matrix_completion_v1",
+      "research_question": "How does spectral expansion affect deterministic matrix completion under fixed observation patterns?",
+      "union_id": "union:8af083e009b40e5a15bf23c77ddc325d540f74f335d4a01c2a2d7d65a91645f5",
+      "title": "Harmonic Mean Iteratively Reweighted Least Squares for Low-Rank Matrix Recovery",
+      "year": 2017,
+      "abstract": "We propose a new iteratively reweighted least squares (IRLS) algorithm for the recovery of a matrix $X \\in \\mathbb{C}^{d_1\\times d_2}$ of rank $r \\ll\\min(d_1,d_2)$ from incomplete linear observations, solving a sequence of low complexity linear problems. The easily implementable algorithm, which we call harmonic mean iteratively reweighted least squares (HM-IRLS), optimizes a non-convex Schatten-$p$ quasi-norm penalization to promote low-rankness and carries three major strengths, in particular for the matrix completion setting. First, we observe a remarkable global convergence behavior of the algorithm's iterates to the low-rank matrix for relevant, interesting cases, for which any other state-of-the-art optimization approach fails the recovery. Secondly, HM-IRLS exhibits an empirical recovery probability close to $1$ even for a number of measurements very close to the theoretical lower bound $r (d_1 +d_2 -r)$, i.e., already for significantly fewer linear observations than any other tractable approach in the literature. Thirdly, HM-IRLS exhibits a locally superlinear rate of convergence (of order $2-p$) if the linear observations fulfill a suitable null space property. While for the first two properties we have so far only strong empirical evidence, we prove the third property as our main theoretical result.",
+      "identifiers": [
+        "doi:10.48550/arxiv.1703.05038",
+        "version:981a9996776fde9eb4f46e9440ab50327c071e9eea60b6437a88f8b28d09f812"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:981a9996776fde9eb4f46e9440ab50327c071e9eea60b6437a88f8b28d09f812",
+          "paper_id": "doi:10.48550/arxiv.1703.05038",
+          "title": "Harmonic Mean Iteratively Reweighted Least Squares for Low-Rank Matrix Recovery",
+          "year": 2017,
+          "abstract": "We propose a new iteratively reweighted least squares (IRLS) algorithm for the recovery of a matrix $X \\in \\mathbb{C}^{d_1\\times d_2}$ of rank $r \\ll\\min(d_1,d_2)$ from incomplete linear observations, solving a sequence of low complexity linear problems. The easily implementable algorithm, which we call harmonic mean iteratively reweighted least squares (HM-IRLS), optimizes a non-convex Schatten-$p$ quasi-norm penalization to promote low-rankness and carries three major strengths, in particular for the matrix completion setting. First, we observe a remarkable global convergence behavior of the algorithm's iterates to the low-rank matrix for relevant, interesting cases, for which any other state-of-the-art optimization approach fails the recovery. Secondly, HM-IRLS exhibits an empirical recovery probability close to $1$ even for a number of measurements very close to the theoretical lower bound $r (d_1 +d_2 -r)$, i.e., already for significantly fewer linear observations than any other tractable approach in the literature. Thirdly, HM-IRLS exhibits a locally superlinear rate of convergence (of order $2-p$) if the linear observations fulfill a suitable null space property. While for the first two properties we have so far only strong empirical evidence, we prove the third property as our main theoretical result."
+        }
+      ],
+      "proposed_label": 1,
+      "confidence": "medium",
+      "note": "Provides a matrix-recovery algorithm with a convergence guarantee under a null-space property of the observation operator. This is useful adjacent recovery theory, although the abstract does not connect that property to deterministic sampling graphs or expansion.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1",
+      "review_reason": "medium_confidence",
+      "review_status": "pending"
+    },
+    {
+      "benchmark_id": "matrix_completion_v1",
+      "research_question": "How does spectral expansion affect deterministic matrix completion under fixed observation patterns?",
+      "union_id": "union:97d5359cdb7f3129e67c4d1137b6796784bd97254c8f5cc679af346b8a9de0b9",
+      "title": "Robust Matrix Completion With Deterministic Sampling via Convex Optimization",
+      "year": 2026,
+      "abstract": "The problem of robust matrix completion-the recovery of a low-rank matrix and a sparse matrix from a sampling of their superposition-has been addressed extensively in prior literature. Yet, much of this work has focused exclusively on the case in which the matrix sampling is done at random, as this scenario is amenable to theoretical analysis. In contrast, sampling with an arbitrary deterministic pattern is often more accommodating to hardware implementation; consequently, the problem of robust matrix completion under deterministic sampling is considered. To this end, a restricted approximate isometry property is proposed and used, along with a modified golfing scheme and a slightly strengthened incoherence condition, to prove that the latent low-rank and sparse matrices are uniquely recoverable via convex optimization with asymptotically high probability, providing the first exact-recovery theory for robust matrix completion with arbitrary deterministic sampling. A corresponding convex-optimization algorithm, driven by a traditional nuclear norm, is developed and then subsequently generalized by substituting a convolutional nuclear norm in order to cover a broader range of application scenarios. Empirical experiments on synthetic data verify the proposed theory while a battery of results on real-world images demonstrate the practical efficacy of the generalized algorithm for robust matrix recovery.",
+      "identifiers": [
+        "doi:10.1109/tpami.2026.3659200",
+        "version:6d61975f148ae061ee24237423df10446fa8ef4bb57ff7531a7d8be35c9e7eb5"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:6d61975f148ae061ee24237423df10446fa8ef4bb57ff7531a7d8be35c9e7eb5",
+          "paper_id": "doi:10.1109/tpami.2026.3659200",
+          "title": "Robust Matrix Completion With Deterministic Sampling via Convex Optimization",
+          "year": 2026,
+          "abstract": "The problem of robust matrix completion-the recovery of a low-rank matrix and a sparse matrix from a sampling of their superposition-has been addressed extensively in prior literature. Yet, much of this work has focused exclusively on the case in which the matrix sampling is done at random, as this scenario is amenable to theoretical analysis. In contrast, sampling with an arbitrary deterministic pattern is often more accommodating to hardware implementation; consequently, the problem of robust matrix completion under deterministic sampling is considered. To this end, a restricted approximate isometry property is proposed and used, along with a modified golfing scheme and a slightly strengthened incoherence condition, to prove that the latent low-rank and sparse matrices are uniquely recoverable via convex optimization with asymptotically high probability, providing the first exact-recovery theory for robust matrix completion with arbitrary deterministic sampling. A corresponding convex-optimization algorithm, driven by a traditional nuclear norm, is developed and then subsequently generalized by substituting a convolutional nuclear norm in order to cover a broader range of application scenarios. Empirical experiments on synthetic data verify the proposed theory while a battery of results on real-world images demonstrate the practical efficacy of the generalized algorithm for robust matrix recovery."
+        }
+      ],
+      "proposed_label": 2,
+      "confidence": "high",
+      "note": "Directly develops exact-recovery theory and convex algorithms for robust matrix completion under arbitrary deterministic sampling. Its restricted approximate-isometry condition addresses a central component of the research question.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1",
+      "review_reason": "high_confidence_audit",
+      "review_status": "pending"
+    },
+    {
+      "benchmark_id": "matrix_completion_v1",
+      "research_question": "How does spectral expansion affect deterministic matrix completion under fixed observation patterns?",
+      "union_id": "union:98e8916d5a96436083c6c82eb34d957e1ec322ffbc144bbead8072e428e4db51",
+      "title": "Expander Graph and Communication-Efficient Decentralized Optimization",
+      "year": 2016,
+      "abstract": "In this paper, we discuss how to design the graph topology to reduce the communication complexity of certain algorithms for decentralized optimization. Our goal is to minimize the total communication needed to achieve a prescribed accuracy. We discover that the so-called expander graphs are near-optimal choices. We propose three approaches to construct expander graphs for different numbers of nodes and node degrees. Our numerical results show that the performance of decentralized optimization is significantly better on expander graphs than other regular graphs.",
+      "identifiers": [
+        "doi:10.48550/arxiv.1612.00903",
+        "version:3f6352bc8aceeb8e8a1f6c98288d01839824abae3b8303d0da4194e728155c28"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:3f6352bc8aceeb8e8a1f6c98288d01839824abae3b8303d0da4194e728155c28",
+          "paper_id": "doi:10.48550/arxiv.1612.00903",
+          "title": "Expander Graph and Communication-Efficient Decentralized Optimization",
+          "year": 2016,
+          "abstract": "In this paper, we discuss how to design the graph topology to reduce the communication complexity of certain algorithms for decentralized optimization. Our goal is to minimize the total communication needed to achieve a prescribed accuracy. We discover that the so-called expander graphs are near-optimal choices. We propose three approaches to construct expander graphs for different numbers of nodes and node degrees. Our numerical results show that the performance of decentralized optimization is significantly better on expander graphs than other regular graphs."
+        }
+      ],
+      "proposed_label": 0,
+      "confidence": "medium",
+      "note": "Uses expander graphs to reduce communication in decentralized optimization. Although it offers graph constructions, the supplied evidence does not show their material usefulness for fixed-pattern matrix recovery; the connection is primarily through the graph family.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1",
+      "review_reason": "medium_confidence",
+      "review_status": "pending"
+    },
+    {
+      "benchmark_id": "matrix_completion_v1",
+      "research_question": "How does spectral expansion affect deterministic matrix completion under fixed observation patterns?",
+      "union_id": "union:b374e0fa1f29d368a6c2ed70723cbad9d8109d69fda0a1ea91a4c361a3902130",
+      "title": "Nonconvex deterministic matrix completion by projected gradient descent methods",
+      "year": 2026,
+      "abstract": null,
+      "identifiers": [
+        "doi:10.1016/j.jco.2026.102056",
+        "version:a4245144eb105941c340055578c004c80229d04cb4d5c87b7924cde39b8c0dd0"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:a4245144eb105941c340055578c004c80229d04cb4d5c87b7924cde39b8c0dd0",
+          "paper_id": "doi:10.1016/j.jco.2026.102056",
+          "title": "Nonconvex deterministic matrix completion by projected gradient descent methods",
+          "year": 2026,
+          "abstract": null
+        }
+      ],
+      "proposed_label": 2,
+      "confidence": "low",
+      "note": "The title explicitly studies nonconvex deterministic matrix completion, a core part of the question. The abstract is absent, so its particular guarantees and relationship to spectral expansion cannot be assessed.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1",
+      "review_reason": "low_confidence",
+      "review_status": "pending"
+    },
+    {
+      "benchmark_id": "matrix_completion_v1",
+      "research_question": "How does spectral expansion affect deterministic matrix completion under fixed observation patterns?",
+      "union_id": "union:f4f2b55386ed20a2674cc7ca19c470559dfaef40a84cd443d5da7621d05f6d64",
+      "title": "An Introduction to Compressed Sensing",
+      "year": 2019,
+      "abstract": "The SIAM series on Computational Science and Engineering publishes research monographs, advanced undergraduate-or graduate-level textbooks, and other volumes of interest to an interdisciplinary CS&E community of computational mathematicians, computer scientists, scientists, and engineers.The series includes introductory volumes aimed at a broad audience of mathematically motivated readers interested in understanding methods and applications within computational science and engineering, monographs reporting on the most recent developments in the field, and volumes addressed to specific groups of professionals whose work relies extensively on computational science and engineering.SIAM created the CS&E series to support access to the rapid and far-ranging advances in computer modeling and simulation of complex problems in science and engineering, to promote the interdisciplinary culture required to meet these large-scale challenges, and to provide the means to the next generation of computational scientists and engineers.",
+      "identifiers": [
+        "doi:10.1137/1.9781611976120",
+        "version:a1c0926c664022d625e840c444ffcd59c2a06e402c8d85cfdcba2083dc2bb817"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:a1c0926c664022d625e840c444ffcd59c2a06e402c8d85cfdcba2083dc2bb817",
+          "paper_id": "doi:10.1137/1.9781611976120",
+          "title": "An Introduction to Compressed Sensing",
+          "year": 2019,
+          "abstract": "The SIAM series on Computational Science and Engineering publishes research monographs, advanced undergraduate-or graduate-level textbooks, and other volumes of interest to an interdisciplinary CS&E community of computational mathematicians, computer scientists, scientists, and engineers.The series includes introductory volumes aimed at a broad audience of mathematically motivated readers interested in understanding methods and applications within computational science and engineering, monographs reporting on the most recent developments in the field, and volumes addressed to specific groups of professionals whose work relies extensively on computational science and engineering.SIAM created the CS&E series to support access to the rapid and far-ranging advances in computer modeling and simulation of complex problems in science and engineering, to promote the interdisciplinary culture required to meet these large-scale challenges, and to provide the means to the next generation of computational scientists and engineers."
+        }
+      ],
+      "proposed_label": 0,
+      "confidence": "low",
+      "note": "The supplied abstract describes the publisher's book series rather than this work's technical content. The broad compressed-sensing title alone does not establish a materially useful connection to deterministic matrix completion or spectral expansion.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1",
+      "review_reason": "low_confidence",
+      "review_status": "pending"
+    },
+    {
+      "benchmark_id": "matrix_completion_v1",
+      "research_question": "How does spectral expansion affect deterministic matrix completion under fixed observation patterns?",
+      "union_id": "union:fe269d708df4a40c8b44d3f4e540f0940c57df68fa1cbfc7f3a26a4825ae52de",
+      "title": "A Scalable Second Order Method for Ill-Conditioned Matrix Completion from Few Samples",
+      "year": 2021,
+      "abstract": "We propose an iterative algorithm for low-rank matrix completion that can be interpreted as an iteratively reweighted least squares (IRLS) algorithm, a saddle-escaping smoothing Newton method or a variable metric proximal gradient method applied to a non-convex rank surrogate. It combines the favorable data-efficiency of previous IRLS approaches with an improved scalability by several orders of magnitude. We establish the first local convergence guarantee from a minimal number of samples for that class of algorithms, showing that the method attains a local quadratic convergence rate. Furthermore, we show that the linear systems to be solved are well-conditioned even for very ill-conditioned ground truth matrices. We provide extensive experiments, indicating that unlike many state-of-the-art approaches, our method is able to complete very ill-conditioned matrices with a condition number of up to $10^{10}$ from few samples, while being competitive in its scalability.",
+      "identifiers": [
+        "doi:10.48550/arxiv.2106.02119",
+        "version:4c948a21b3d9efcabe4a85cac89a4c8e036c816a33ac3c63a7390cad2fadccf5"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:4c948a21b3d9efcabe4a85cac89a4c8e036c816a33ac3c63a7390cad2fadccf5",
+          "paper_id": "doi:10.48550/arxiv.2106.02119",
+          "title": "A Scalable Second Order Method for Ill-Conditioned Matrix Completion from Few Samples",
+          "year": 2021,
+          "abstract": "We propose an iterative algorithm for low-rank matrix completion that can be interpreted as an iteratively reweighted least squares (IRLS) algorithm, a saddle-escaping smoothing Newton method or a variable metric proximal gradient method applied to a non-convex rank surrogate. It combines the favorable data-efficiency of previous IRLS approaches with an improved scalability by several orders of magnitude. We establish the first local convergence guarantee from a minimal number of samples for that class of algorithms, showing that the method attains a local quadratic convergence rate. Furthermore, we show that the linear systems to be solved are well-conditioned even for very ill-conditioned ground truth matrices. We provide extensive experiments, indicating that unlike many state-of-the-art approaches, our method is able to complete very ill-conditioned matrices with a condition number of up to $10^{10}$ from few samples, while being competitive in its scalability."
+        }
+      ],
+      "proposed_label": 1,
+      "confidence": "medium",
+      "note": "Provides a scalable completion method with local quadratic convergence and experiments on ill-conditioned matrices, potentially useful for studying numerical recovery behavior. The abstract does not establish a connection between its conditioning results and fixed-pattern spectral expansion.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1",
+      "review_reason": "medium_confidence",
+      "review_status": "pending"
+    },
+    {
+      "benchmark_id": "rag_hallucination_v1",
+      "research_question": "How does retrieval-augmented generation reduce hallucination and improve factuality in large language models?",
+      "union_id": "union:0013362cb6189b93ec3d5a86b2c5ad691f5579001415da4055b1752eb6b07dbd",
+      "title": "On the Origin of Hallucinations in Conversational Models: Is it the Datasets or the Models?",
+      "year": 2022,
+      "abstract": "Nouha Dziri, Sivan Milton, Mo Yu, Osmar Zaiane, Siva Reddy. Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies. 2022.",
+      "identifiers": [
+        "doi:10.18653/v1/2022.naacl-main.387",
+        "version:9f04ff239413c758316764541640569ca37344ff6dc2ce5caa370b924242b95c"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:9f04ff239413c758316764541640569ca37344ff6dc2ce5caa370b924242b95c",
+          "paper_id": "doi:10.18653/v1/2022.naacl-main.387",
+          "title": "On the Origin of Hallucinations in Conversational Models: Is it the Datasets or the Models?",
+          "year": 2022,
+          "abstract": "Nouha Dziri, Sivan Milton, Mo Yu, Osmar Zaiane, Siva Reddy. Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies. 2022."
+        }
+      ],
+      "proposed_label": 1,
+      "confidence": "low",
+      "note": "The title suggests analysis of dataset versus model causes of conversational hallucinations, useful background for interpreting mitigation. The frozen abstract is bibliographic only, so neither its findings nor a connection to retrieval can be established.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1",
+      "review_reason": "low_confidence",
+      "review_status": "pending"
+    },
+    {
+      "benchmark_id": "rag_hallucination_v1",
+      "research_question": "How does retrieval-augmented generation reduce hallucination and improve factuality in large language models?",
+      "union_id": "union:1d3a92d2846d833c7cbd0ee3f8957d4b05175381b79700a0f911edcb6fe81fb9",
+      "title": "Retrieval augmented generation for 10 large language models and its generalizability in assessing medical fitness",
+      "year": 2025,
+      "abstract": "Large Language Models (LLMs) hold promise for medical applications but often lack domain-specific expertise. Retrieval Augmented Generation (RAG) enables customization by integrating specialized knowledge. This study assessed the accuracy, consistency, and safety of LLM-RAG models in determining surgical fitness and delivering preoperative instructions using 35 local and 23 international guidelines. Ten LLMs (e.g., GPT3.5, GPT4, GPT4o, Gemini, Llama2, and Llama3, Claude) were tested across 14 clinical scenarios. A total of 3234 responses were generated and compared to 448 human-generated answers. The GPT4 LLM-RAG model with international guidelines generated answers within 20 s and achieved the highest accuracy, which was significantly better than human-generated responses (96.4% vs. 86.6%, p = 0.016). Additionally, the model exhibited an absence of hallucinations and produced more consistent output than humans. This study underscores the potential of GPT-4-based LLM-RAG models to deliver highly accurate, efficient, and consistent preoperative assessments.",
+      "identifiers": [
+        "doi:10.1038/s41746-025-01519-z",
+        "version:a601b5ab0304c8241810a49184d14d1c333bd4a503de02791f68fc740e2be6c7"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:a601b5ab0304c8241810a49184d14d1c333bd4a503de02791f68fc740e2be6c7",
+          "paper_id": "doi:10.1038/s41746-025-01519-z",
+          "title": "Retrieval augmented generation for 10 large language models and its generalizability in assessing medical fitness",
+          "year": 2025,
+          "abstract": "Large Language Models (LLMs) hold promise for medical applications but often lack domain-specific expertise. Retrieval Augmented Generation (RAG) enables customization by integrating specialized knowledge. This study assessed the accuracy, consistency, and safety of LLM-RAG models in determining surgical fitness and delivering preoperative instructions using 35 local and 23 international guidelines. Ten LLMs (e.g., GPT3.5, GPT4, GPT4o, Gemini, Llama2, and Llama3, Claude) were tested across 14 clinical scenarios. A total of 3234 responses were generated and compared to 448 human-generated answers. The GPT4 LLM-RAG model with international guidelines generated answers within 20 s and achieved the highest accuracy, which was significantly better than human-generated responses (96.4% vs. 86.6%, p = 0.016). Additionally, the model exhibited an absence of hallucinations and produced more consistent output than humans. This study underscores the potential of GPT-4-based LLM-RAG models to deliver highly accurate, efficient, and consistent preoperative assessments."
+        }
+      ],
+      "proposed_label": 1,
+      "confidence": "medium",
+      "note": "Reports accuracy, consistency, and hallucination outcomes for guideline-based RAG across medical scenarios, supplying relevant domain evidence. The abstract does not isolate the effect of retrieval against the same models without RAG, limiting conclusions about the general mechanism.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1",
+      "review_reason": "medium_confidence",
+      "review_status": "pending"
+    },
+    {
+      "benchmark_id": "rag_hallucination_v1",
+      "research_question": "How does retrieval-augmented generation reduce hallucination and improve factuality in large language models?",
+      "union_id": "union:2aa5d8bd2acb5a2885cc5e3dd4611f6d5d0ac3d60daf7c91f6dfc47d50d7fe55",
+      "title": "Focused Attention Improves Document-Grounded Generation",
+      "year": 2021,
+      "abstract": "Shrimai Prabhumoye, Kazuma Hashimoto, Yingbo Zhou, Alan W Black, Ruslan Salakhutdinov. Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies. 2021.",
+      "identifiers": [
+        "doi:10.18653/v1/2021.naacl-main.338",
+        "version:f2f33eb309ab58ffc17ccfa2747645d96e242500932ea90c895b0d90498d3720"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:f2f33eb309ab58ffc17ccfa2747645d96e242500932ea90c895b0d90498d3720",
+          "paper_id": "doi:10.18653/v1/2021.naacl-main.338",
+          "title": "Focused Attention Improves Document-Grounded Generation",
+          "year": 2021,
+          "abstract": "Shrimai Prabhumoye, Kazuma Hashimoto, Yingbo Zhou, Alan W Black, Ruslan Salakhutdinov. Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies. 2021."
+        }
+      ],
+      "proposed_label": 1,
+      "confidence": "low",
+      "note": "The title indicates an attention method for document-grounded generation, a potentially useful grounding mechanism. The supplied abstract contains only bibliographic information, so factuality outcomes and applicability to LLM RAG remain unverified.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1",
+      "review_reason": "low_confidence",
+      "review_status": "pending"
+    },
+    {
+      "benchmark_id": "rag_hallucination_v1",
+      "research_question": "How does retrieval-augmented generation reduce hallucination and improve factuality in large language models?",
+      "union_id": "union:38891e1dddcc749df2e64b95ac22dafbbc0e12fa0bde1d7eb0f2e8b9312b151c",
+      "title": "Automating Systematic Literature Reviews with Retrieval-Augmented Generation: A Comprehensive Overview",
+      "year": 2024,
+      "abstract": "This study examines Retrieval-Augmented Generation (RAG) in large language models (LLMs) and their significant application for undertaking systematic literature reviews (SLRs). RAG-based LLMs can potentially automate tasks like data extraction, summarization, and trend identification. However, while LLMs are exceptionally proficient in generating human-like text and interpreting complex linguistic nuances, their dependence on static, pre-trained knowledge can result in inaccuracies and hallucinations. RAG mitigates these limitations by integrating LLMs’ generative capabilities with the precision of real-time information retrieval. We review in detail the three key processes of the RAG framework—retrieval, augmentation, and generation. We then discuss applications of RAG-based LLMs to SLR automation and highlight future research topics, including integration of domain-specific LLMs, multimodal data processing and generation, and utilization of multiple retrieval sources. We propose a framework of RAG-based LLMs for automating SRLs, which covers four stages of SLR process: literature search, literature screening, data extraction, and information synthesis. Future research aims to optimize the interaction between LLM selection, training strategies, RAG techniques, and prompt engineering to implement the proposed framework, with particular emphasis on the retrieval of information from individual scientific papers and the integration of these data to produce outputs addressing various aspects such as current status, existing gaps, and emerging trends.",
+      "identifiers": [
+        "doi:10.3390/app14199103",
+        "version:8481ad81b7a777fea02d64516ea023063d985e8e1970c5f26cc726b4f580596e"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:8481ad81b7a777fea02d64516ea023063d985e8e1970c5f26cc726b4f580596e",
+          "paper_id": "doi:10.3390/app14199103",
+          "title": "Automating Systematic Literature Reviews with Retrieval-Augmented Generation: A Comprehensive Overview",
+          "year": 2024,
+          "abstract": "This study examines Retrieval-Augmented Generation (RAG) in large language models (LLMs) and their significant application for undertaking systematic literature reviews (SLRs). RAG-based LLMs can potentially automate tasks like data extraction, summarization, and trend identification. However, while LLMs are exceptionally proficient in generating human-like text and interpreting complex linguistic nuances, their dependence on static, pre-trained knowledge can result in inaccuracies and hallucinations. RAG mitigates these limitations by integrating LLMs’ generative capabilities with the precision of real-time information retrieval. We review in detail the three key processes of the RAG framework—retrieval, augmentation, and generation. We then discuss applications of RAG-based LLMs to SLR automation and highlight future research topics, including integration of domain-specific LLMs, multimodal data processing and generation, and utilization of multiple retrieval sources. We propose a framework of RAG-based LLMs for automating SRLs, which covers four stages of SLR process: literature search, literature screening, data extraction, and information synthesis. Future research aims to optimize the interaction between LLM selection, training strategies, RAG techniques, and prompt engineering to implement the proposed framework, with particular emphasis on the retrieval of information from individual scientific papers and the integration of these data to produce outputs addressing various aspects such as current status, existing gaps, and emerging trends."
+        }
+      ],
+      "proposed_label": 0,
+      "confidence": "medium",
+      "note": "Primarily proposes a RAG workflow for automating literature reviews. It motivates the workflow with generic hallucination-reduction claims but supplies no specific factuality evaluation or demonstrated mitigation mechanism beyond that application overview.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1",
+      "review_reason": "medium_confidence",
+      "review_status": "pending"
+    },
+    {
+      "benchmark_id": "rag_hallucination_v1",
+      "research_question": "How does retrieval-augmented generation reduce hallucination and improve factuality in large language models?",
+      "union_id": "union:40df839f32f950d32dafd3e42485e9a28fe26b1c55982e19478f0542d118849a",
+      "title": "Evaluation of Retrieval-Augmented Generation: A Survey",
+      "year": 2025,
+      "abstract": null,
+      "identifiers": [
+        "doi:10.1007/978-981-96-1024-2_8",
+        "version:38eef126348887cc6570c267db09d06d58c6a9de20a91d10b0ad1d24eeaa8b6a"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:38eef126348887cc6570c267db09d06d58c6a9de20a91d10b0ad1d24eeaa8b6a",
+          "paper_id": "doi:10.1007/978-981-96-1024-2_8",
+          "title": "Evaluation of Retrieval-Augmented Generation: A Survey",
+          "year": 2025,
+          "abstract": null
+        }
+      ],
+      "proposed_label": 1,
+      "confidence": "low",
+      "note": "A survey of RAG evaluation is likely useful for assessing whether retrieval improves generated answers. The abstract is absent, so coverage of hallucination or factuality metrics cannot be confirmed.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1",
+      "review_reason": "low_confidence",
+      "review_status": "pending"
+    },
+    {
+      "benchmark_id": "rag_hallucination_v1",
+      "research_question": "How does retrieval-augmented generation reduce hallucination and improve factuality in large language models?",
+      "union_id": "union:5208d838a8eeef394ea6fcd09455dc6727c452cdc0209708a5884aa299ef09b7",
+      "title": "Knowledge Graph-Guided Retrieval Augmented Generation",
+      "year": 2025,
+      "abstract": "Xiangrong Zhu, Yuexiang Xie, Yi Liu, Yaliang Li, Wei Hu. Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers). 2025.",
+      "identifiers": [
+        "doi:10.18653/v1/2025.naacl-long.449",
+        "version:75e8b124e04d4d4a4a889920784d3a5ad9eaa6d9fd562b32cde7f2c14bd955cc"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:75e8b124e04d4d4a4a889920784d3a5ad9eaa6d9fd562b32cde7f2c14bd955cc",
+          "paper_id": "doi:10.18653/v1/2025.naacl-long.449",
+          "title": "Knowledge Graph-Guided Retrieval Augmented Generation",
+          "year": 2025,
+          "abstract": "Xiangrong Zhu, Yuexiang Xie, Yi Liu, Yaliang Li, Wei Hu. Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers). 2025."
+        }
+      ],
+      "proposed_label": 2,
+      "confidence": "low",
+      "note": "The title directly proposes a knowledge-graph-guided RAG approach, addressing the question's central retrieval-and-grounding mechanism. The abstract is bibliographic only, so no particular method details or hallucination improvements can be inferred.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1",
+      "review_reason": "low_confidence",
+      "review_status": "pending"
+    },
+    {
+      "benchmark_id": "rag_hallucination_v1",
+      "research_question": "How does retrieval-augmented generation reduce hallucination and improve factuality in large language models?",
+      "union_id": "union:6f95939ad552d9c84f76e67698afda98378a1083ef0fed09fc68bcb497c4b1ab",
+      "title": "KCTS: Knowledge-Constrained Tree Search Decoding with Token-Level Hallucination Detection",
+      "year": 2023,
+      "abstract": "Large Language Models (LLMs) have demonstrated remarkable human-level natural language generation capabilities.However, their potential to generate misinformation, often called the hallucination problem, poses a significant risk to their deployment.A common approach to address this issue is to retrieve relevant knowledge and fine-tune the LLM with the knowledge in its input.Unfortunately, this method incurs high training costs and may cause catastrophic forgetting for multitasking models.To overcome these limitations, we propose a knowledge-constrained decoding method called KCTS (Knowledge-Constrained Tree Search), which guides a frozen LM to generate text aligned with the reference knowledge at each decoding step using a knowledge classifier score and MCTS (Monte-Carlo Tree Search).To adapt the sequence-level knowledge classifier to token-level guidance, we also propose a novel token-level hallucination detection method called RIPA (Reward Inflection Point Approximation).Our empirical results on knowledge-grounded dialogue and abstractive summarization demonstrate the strength of KCTS 1 as a plug-and-play, model-agnostic decoding method that can effectively reduce hallucinations in natural language generation.",
+      "identifiers": [
+        "doi:10.18653/v1/2023.emnlp-main.867",
+        "version:27441e1edc404f8806e8bb5905e7172d650205772f876c9c338e8e29cf366956"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:27441e1edc404f8806e8bb5905e7172d650205772f876c9c338e8e29cf366956",
+          "paper_id": "doi:10.18653/v1/2023.emnlp-main.867",
+          "title": "KCTS: Knowledge-Constrained Tree Search Decoding with Token-Level Hallucination Detection",
+          "year": 2023,
+          "abstract": "Large Language Models (LLMs) have demonstrated remarkable human-level natural language generation capabilities.However, their potential to generate misinformation, often called the hallucination problem, poses a significant risk to their deployment.A common approach to address this issue is to retrieve relevant knowledge and fine-tune the LLM with the knowledge in its input.Unfortunately, this method incurs high training costs and may cause catastrophic forgetting for multitasking models.To overcome these limitations, we propose a knowledge-constrained decoding method called KCTS (Knowledge-Constrained Tree Search), which guides a frozen LM to generate text aligned with the reference knowledge at each decoding step using a knowledge classifier score and MCTS (Monte-Carlo Tree Search).To adapt the sequence-level knowledge classifier to token-level guidance, we also propose a novel token-level hallucination detection method called RIPA (Reward Inflection Point Approximation).Our empirical results on knowledge-grounded dialogue and abstractive summarization demonstrate the strength of KCTS 1 as a plug-and-play, model-agnostic decoding method that can effectively reduce hallucinations in natural language generation."
+        }
+      ],
+      "proposed_label": 2,
+      "confidence": "high",
+      "note": "Guides a frozen language model to align generation with reference knowledge using constrained decoding and token-level hallucination detection. Its grounded-generation experiments directly address the mechanism needed to turn supplied knowledge into more faithful outputs.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1",
+      "review_reason": "high_confidence_audit",
+      "review_status": "pending"
+    },
+    {
+      "benchmark_id": "rag_hallucination_v1",
+      "research_question": "How does retrieval-augmented generation reduce hallucination and improve factuality in large language models?",
+      "union_id": "union:73769677aa679f8ff3ff3033be200e1aaae1f23e89171ebf4d44d3229fed75f2",
+      "title": "SurgeryLLM: a retrieval-augmented generation large language model framework for surgical decision support and workflow enhancement",
+      "year": 2024,
+      "abstract": "SurgeryLLM, a large language model framework using Retrieval Augmented Generation demonstrably incorporated domain-specific knowledge from current evidence-based surgical guidelines when presented with patient-specific data. The successful incorporation of guideline-based information represents a substantial step toward enabling greater surgeon efficiency, improving patient safety, and optimizing surgical outcomes.",
+      "identifiers": [
+        "doi:10.1038/s41746-024-01391-3",
+        "version:314f40ce250d4573b411a7ec3b6474f5e5861ea3d32bd0dab8ed5baaecbfa752"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:314f40ce250d4573b411a7ec3b6474f5e5861ea3d32bd0dab8ed5baaecbfa752",
+          "paper_id": "doi:10.1038/s41746-024-01391-3",
+          "title": "SurgeryLLM: a retrieval-augmented generation large language model framework for surgical decision support and workflow enhancement",
+          "year": 2024,
+          "abstract": "SurgeryLLM, a large language model framework using Retrieval Augmented Generation demonstrably incorporated domain-specific knowledge from current evidence-based surgical guidelines when presented with patient-specific data. The successful incorporation of guideline-based information represents a substantial step toward enabling greater surgeon efficiency, improving patient safety, and optimizing surgical outcomes."
+        }
+      ],
+      "proposed_label": 0,
+      "confidence": "medium",
+      "note": "Describes a surgical RAG application incorporating guidelines into patient-specific responses. The short abstract provides no factuality measurements, hallucination analysis, or specific explanation of a mitigation mechanism beyond successful domain-knowledge incorporation.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1",
+      "review_reason": "medium_confidence",
+      "review_status": "pending"
+    },
+    {
+      "benchmark_id": "rag_hallucination_v1",
+      "research_question": "How does retrieval-augmented generation reduce hallucination and improve factuality in large language models?",
+      "union_id": "union:b089c95540d7eb6ca25d79131f0767911a0ba79a656953768a8c346ab68500e7",
+      "title": "Searching for Best Practices in Retrieval-Augmented Generation",
+      "year": 2024,
+      "abstract": "Xiaohua Wang, Zhenghua Wang, Xuan Gao, Feiran Zhang, Yixin Wu, Zhibo Xu, Tianyuan Shi, Zhengyuan Wang, Shizheng Li, Qi Qian, Ruicheng Yin, Changze Lv, Xiaoqing Zheng, Xuanjing Huang. Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing. 2024.",
+      "identifiers": [
+        "doi:10.18653/v1/2024.emnlp-main.981",
+        "version:e46adc60f58952751d43fd168b4ef17aef7b582e6f35daaac7a6a482261666b5"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:e46adc60f58952751d43fd168b4ef17aef7b582e6f35daaac7a6a482261666b5",
+          "paper_id": "doi:10.18653/v1/2024.emnlp-main.981",
+          "title": "Searching for Best Practices in Retrieval-Augmented Generation",
+          "year": 2024,
+          "abstract": "Xiaohua Wang, Zhenghua Wang, Xuan Gao, Feiran Zhang, Yixin Wu, Zhibo Xu, Tianyuan Shi, Zhengyuan Wang, Shizheng Li, Qi Qian, Ruicheng Yin, Changze Lv, Xiaoqing Zheng, Xuanjing Huang. Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing. 2024."
+        }
+      ],
+      "proposed_label": 2,
+      "confidence": "low",
+      "note": "The title directly concerns RAG design practices, placing it in the core methodology relevant to the question. Its bibliographic-only abstract does not reveal which practices are studied or whether factuality gains are demonstrated.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1",
+      "review_reason": "low_confidence",
+      "review_status": "pending"
+    },
+    {
+      "benchmark_id": "rag_hallucination_v1",
+      "research_question": "How does retrieval-augmented generation reduce hallucination and improve factuality in large language models?",
+      "union_id": "union:c35a265de8a066a815416d98456f957aec677a1f9a96a9e7cda83d1469b81b90",
+      "title": "A Survey on Large Language Model (LLM) Security and Privacy: The Good, the Bad, and the Ugly",
+      "year": 2023,
+      "abstract": "Large Language Models (LLMs), such as ChatGPT and Bard, have revolutionized natural language understanding and generation. They possess deep language comprehension, human-like text generation capabilities, contextual awareness, and robust problem-solving skills, making them invaluable in various domains (e.g., search engines, customer support, translation). In the meantime, LLMs have also gained traction in the security community, revealing security vulnerabilities and showcasing their potential in security-related tasks. This paper explores the intersection of LLMs with security and privacy. Specifically, we investigate how LLMs positively impact security and privacy, potential risks and threats associated with their use, and inherent vulnerabilities within LLMs. Through a comprehensive literature review, the paper categorizes the papers into \"The Good\" (beneficial LLM applications), \"The Bad\" (offensive applications), and \"The Ugly\" (vulnerabilities of LLMs and their defenses). We have some interesting findings. For example, LLMs have proven to enhance code security (code vulnerability detection) and data privacy (data confidentiality protection), outperforming traditional methods. However, they can also be harnessed for various attacks (particularly user-level attacks) due to their human-like reasoning abilities. We have identified areas that require further research efforts. For example, Research on model and parameter extraction attacks is limited and often theoretical, hindered by LLM parameter scale and confidentiality. Safe instruction tuning, a recent development, requires more exploration. We hope that our work can shed light on the LLMs' potential to both bolster and jeopardize cybersecurity.",
+      "identifiers": [
+        "doi:10.48550/arxiv.2312.02003",
+        "version:2d5b1516fad483643cc576cf4246135cd32a938acb9cf122cf23257901492c21"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:2d5b1516fad483643cc576cf4246135cd32a938acb9cf122cf23257901492c21",
+          "paper_id": "doi:10.48550/arxiv.2312.02003",
+          "title": "A Survey on Large Language Model (LLM) Security and Privacy: The Good, the Bad, and the Ugly",
+          "year": 2023,
+          "abstract": "Large Language Models (LLMs), such as ChatGPT and Bard, have revolutionized natural language understanding and generation. They possess deep language comprehension, human-like text generation capabilities, contextual awareness, and robust problem-solving skills, making them invaluable in various domains (e.g., search engines, customer support, translation). In the meantime, LLMs have also gained traction in the security community, revealing security vulnerabilities and showcasing their potential in security-related tasks. This paper explores the intersection of LLMs with security and privacy. Specifically, we investigate how LLMs positively impact security and privacy, potential risks and threats associated with their use, and inherent vulnerabilities within LLMs. Through a comprehensive literature review, the paper categorizes the papers into \"The Good\" (beneficial LLM applications), \"The Bad\" (offensive applications), and \"The Ugly\" (vulnerabilities of LLMs and their defenses). We have some interesting findings. For example, LLMs have proven to enhance code security (code vulnerability detection) and data privacy (data confidentiality protection), outperforming traditional methods. However, they can also be harnessed for various attacks (particularly user-level attacks) due to their human-like reasoning abilities. We have identified areas that require further research efforts. For example, Research on model and parameter extraction attacks is limited and often theoretical, hindered by LLM parameter scale and confidentiality. Safe instruction tuning, a recent development, requires more exploration. We hope that our work can shed light on the LLMs' potential to both bolster and jeopardize cybersecurity."
+        }
+      ],
+      "proposed_label": 0,
+      "confidence": "high",
+      "note": "Surveys LLM cybersecurity applications, attacks, privacy risks, and defenses. The supplied contribution concerns security rather than retrieval-grounded factual generation.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1",
+      "review_reason": "high_confidence_audit",
+      "review_status": "pending"
+    },
+    {
+      "benchmark_id": "rag_hallucination_v1",
+      "research_question": "How does retrieval-augmented generation reduce hallucination and improve factuality in large language models?",
+      "union_id": "union:eee9fa58e4126dc221326d22a0858cea2249b59fbc16ecfd28d5e30ee85031c0",
+      "title": "ForensicLLM: A local large language model for digital forensics",
+      "year": 2025,
+      "abstract": "Large Language Models (LLMs) excel in diverse natural language tasks but often lack specialization for fields like digital forensics. Their reliance on cloud-based APIs or high-performance computers restricts use in resource-limited environments, and response hallucinations could compromise their applicability in forensic contexts. We introduce ForensicLLM, a 4-bit quantized LLaMA-3.1–8B model fine-tuned on Q&A samples extracted from digital forensic research articles and curated digital artifacts. Quantitative evaluation showed that ForensicLLM outperformed both the base LLaMA-3.1–8B model and the Retrieval Augmented Generation (RAG) model. ForensicLLM accurately attributes sources 86.6 % of the time, with 81.2 % of the responses including both authors and title. Additionally, a user survey conducted with digital forensics professionals confirmed significant improvements of ForensicLLM and RAG model over the base model. ForensicLLM showed strength in “correctness” and “relevance” metrics, while the RAG model was appreciated for providing more detailed responses. These advancements mark ForensicLLM as a transformative tool in digital forensics, elevating model performance and source attribution in critical investigative contexts.",
+      "identifiers": [
+        "doi:10.1016/j.fsidi.2025.301872",
+        "version:d267d82cc75ea41632d0973a13e14b0c40e6ac7d915af4a5ab977ce753666185"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:d267d82cc75ea41632d0973a13e14b0c40e6ac7d915af4a5ab977ce753666185",
+          "paper_id": "doi:10.1016/j.fsidi.2025.301872",
+          "title": "ForensicLLM: A local large language model for digital forensics",
+          "year": 2025,
+          "abstract": "Large Language Models (LLMs) excel in diverse natural language tasks but often lack specialization for fields like digital forensics. Their reliance on cloud-based APIs or high-performance computers restricts use in resource-limited environments, and response hallucinations could compromise their applicability in forensic contexts. We introduce ForensicLLM, a 4-bit quantized LLaMA-3.1–8B model fine-tuned on Q&A samples extracted from digital forensic research articles and curated digital artifacts. Quantitative evaluation showed that ForensicLLM outperformed both the base LLaMA-3.1–8B model and the Retrieval Augmented Generation (RAG) model. ForensicLLM accurately attributes sources 86.6 % of the time, with 81.2 % of the responses including both authors and title. Additionally, a user survey conducted with digital forensics professionals confirmed significant improvements of ForensicLLM and RAG model over the base model. ForensicLLM showed strength in “correctness” and “relevance” metrics, while the RAG model was appreciated for providing more detailed responses. These advancements mark ForensicLLM as a transformative tool in digital forensics, elevating model performance and source attribution in critical investigative contexts."
+        }
+      ],
+      "proposed_label": 1,
+      "confidence": "medium",
+      "note": "Compares a domain-fine-tuned model with RAG and a base model, reporting correctness-related judgments and source-attribution results. This offers limited comparative evidence, but the main contribution is a forensic application and the abstract does not isolate retrieval's factuality effect.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1",
+      "review_reason": "medium_confidence",
+      "review_status": "pending"
+    },
+    {
+      "benchmark_id": "rag_hallucination_v1",
+      "research_question": "How does retrieval-augmented generation reduce hallucination and improve factuality in large language models?",
+      "union_id": "union:fca12a0f8b043513ec8127d0b5aada2e6b9f8ce28f1f0554ac790e38d211d0f1",
+      "title": "Factuality challenges in the era of large language models and opportunities for fact-checking",
+      "year": 2024,
+      "abstract": null,
+      "identifiers": [
+        "doi:10.1038/s42256-024-00881-z",
+        "version:50f6bfc3df4f028ae08dffcef8ef3d11f0ed0fd039b442c7bfd978b9782aa7ad"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:50f6bfc3df4f028ae08dffcef8ef3d11f0ed0fd039b442c7bfd978b9782aa7ad",
+          "paper_id": "doi:10.1038/s42256-024-00881-z",
+          "title": "Factuality challenges in the era of large language models and opportunities for fact-checking",
+          "year": 2024,
+          "abstract": null
+        }
+      ],
+      "proposed_label": 1,
+      "confidence": "low",
+      "note": "The title suggests useful background on LLM factuality and fact-checking. With no abstract, specific findings and relevance to retrieval-based mitigation cannot be established.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1",
+      "review_reason": "low_confidence",
+      "review_status": "pending"
+    },
+    {
+      "benchmark_id": "cot_reasoning_faithfulness_v1",
+      "research_question": "How does chain-of-thought prompting affect reasoning accuracy and faithfulness in large language models?",
+      "union_id": "union:008c6f1ca4643b8f03c83c140bf72c69be70320d5090c4d687c173b068eff583",
+      "title": "G-Eval: NLG Evaluation using Gpt-4 with Better Human Alignment",
+      "year": 2023,
+      "abstract": "The quality of texts generated by natural language generation (NLG) systems is hard to measure automatically.Conventional referencebased metrics, such as BLEU and ROUGE, have been shown to have relatively low correlation with human judgments, especially for tasks that require creativity and diversity.Recent studies suggest using large language models (LLMs) as reference-free metrics for NLG evaluation, which have the benefit of being applicable to new tasks that lack human references.However, these LLM-based evaluators still have lower human correspondence than medium-size neural evaluators.In this work, we present G-EVAL, a framework of using large language models with chain-of-thoughts (CoT) and a form-filling paradigm, to assess the quality of NLG outputs.We experiment with two generation tasks, text summarization and dialogue generation.We show that G-EVAL with GPT-4 as the backbone model achieves a Spearman correlation of 0.514 with human on summarization task, outperforming all previous methods by a large margin.We also propose analysis on the behavior of LLM-based evaluators, and highlight the potential concern of LLM-based evaluators having a bias towards the LLM-generated texts. 1",
+      "identifiers": [
+        "doi:10.18653/v1/2023.emnlp-main.153",
+        "version:f0161d4bfa1c145aecdf0ae0a9a18dd078cefaf3c88f4540d3d097069133bc24"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:f0161d4bfa1c145aecdf0ae0a9a18dd078cefaf3c88f4540d3d097069133bc24",
+          "paper_id": "doi:10.18653/v1/2023.emnlp-main.153",
+          "title": "G-Eval: NLG Evaluation using Gpt-4 with Better Human Alignment",
+          "year": 2023,
+          "abstract": "The quality of texts generated by natural language generation (NLG) systems is hard to measure automatically.Conventional referencebased metrics, such as BLEU and ROUGE, have been shown to have relatively low correlation with human judgments, especially for tasks that require creativity and diversity.Recent studies suggest using large language models (LLMs) as reference-free metrics for NLG evaluation, which have the benefit of being applicable to new tasks that lack human references.However, these LLM-based evaluators still have lower human correspondence than medium-size neural evaluators.In this work, we present G-EVAL, a framework of using large language models with chain-of-thoughts (CoT) and a form-filling paradigm, to assess the quality of NLG outputs.We experiment with two generation tasks, text summarization and dialogue generation.We show that G-EVAL with GPT-4 as the backbone model achieves a Spearman correlation of 0.514 with human on summarization task, outperforming all previous methods by a large margin.We also propose analysis on the behavior of LLM-based evaluators, and highlight the potential concern of LLM-based evaluators having a bias towards the LLM-generated texts. 1"
+        }
+      ],
+      "proposed_label": 0,
+      "confidence": "medium",
+      "note": "Uses CoT as part of a summarization/dialogue quality evaluator and measures agreement with human quality judgments. The abstract does not test reasoning-task accuracy or whether generated reasoning faithfully reflects model decisions, making the connection application-level.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1",
+      "review_reason": "medium_confidence",
+      "review_status": "pending"
+    },
+    {
+      "benchmark_id": "cot_reasoning_faithfulness_v1",
+      "research_question": "How does chain-of-thought prompting affect reasoning accuracy and faithfulness in large language models?",
+      "union_id": "union:19e6093d7cfedc5121d1d43ad05024715edc5c3e07c7b64905758a66e703d790",
+      "title": "Hallucination is Inevitable: An Innate Limitation of Large Language Models",
+      "year": 2024,
+      "abstract": "Hallucination has been widely recognized to be a significant drawback for large language models (LLMs). There have been many works that attempt to reduce the extent of hallucination. These efforts have mostly been empirical so far, which cannot answer the fundamental question whether it can be completely eliminated. In this paper, we formalize the problem and show that it is impossible to eliminate hallucination in LLMs. Specifically, we define a formal world where hallucination is defined as inconsistencies between a computable LLM and a computable ground truth function. By employing results from learning theory, we show that LLMs cannot learn all the computable functions and will therefore inevitably hallucinate if used as general problem solvers. Since the formal world is a part of the real world which is much more complicated, hallucinations are also inevitable for real world LLMs. Furthermore, for real world LLMs constrained by provable time complexity, we describe the hallucination-prone tasks and empirically validate our claims. Finally, using the formal world framework, we discuss the possible mechanisms and efficacies of existing hallucination mitigators as well as the practical implications on the safe deployment of LLMs.",
+      "identifiers": [
+        "doi:10.48550/arxiv.2401.11817",
+        "version:531380586e2b16aed2c3c26d0616cf09faa9a78a73de795ee7dd64564be43e5d"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:531380586e2b16aed2c3c26d0616cf09faa9a78a73de795ee7dd64564be43e5d",
+          "paper_id": "doi:10.48550/arxiv.2401.11817",
+          "title": "Hallucination is Inevitable: An Innate Limitation of Large Language Models",
+          "year": 2024,
+          "abstract": "Hallucination has been widely recognized to be a significant drawback for large language models (LLMs). There have been many works that attempt to reduce the extent of hallucination. These efforts have mostly been empirical so far, which cannot answer the fundamental question whether it can be completely eliminated. In this paper, we formalize the problem and show that it is impossible to eliminate hallucination in LLMs. Specifically, we define a formal world where hallucination is defined as inconsistencies between a computable LLM and a computable ground truth function. By employing results from learning theory, we show that LLMs cannot learn all the computable functions and will therefore inevitably hallucinate if used as general problem solvers. Since the formal world is a part of the real world which is much more complicated, hallucinations are also inevitable for real world LLMs. Furthermore, for real world LLMs constrained by provable time complexity, we describe the hallucination-prone tasks and empirically validate our claims. Finally, using the formal world framework, we discuss the possible mechanisms and efficacies of existing hallucination mitigators as well as the practical implications on the safe deployment of LLMs."
+        }
+      ],
+      "proposed_label": 0,
+      "confidence": "medium",
+      "note": "Establishes general limits on matching computable ground-truth functions and discusses hallucination mitigation. The abstract does not connect these broad limits to CoT prompting, its accuracy effects, or the faithfulness of intermediate explanations.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1",
+      "review_reason": "medium_confidence",
+      "review_status": "pending"
+    },
+    {
+      "benchmark_id": "cot_reasoning_faithfulness_v1",
+      "research_question": "How does chain-of-thought prompting affect reasoning accuracy and faithfulness in large language models?",
+      "union_id": "union:2ce7946f294dac60c3b3b1dccd6fcb2e292324d8822ada9c5c50a81ebf19de81",
+      "title": "Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models",
+      "year": 2023,
+      "abstract": "While large language models (LLMs) have demonstrated remarkable capabilities across a range of downstream tasks, a significant concern revolves around their propensity to exhibit hallucinations: LLMs occasionally generate content that diverges from the user input, contradicts previously generated context, or misaligns with established world knowledge. This phenomenon poses a substantial challenge to the reliability of LLMs in real-world scenarios. In this paper, we survey recent efforts on the detection, explanation, and mitigation of hallucination, with an emphasis on the unique challenges posed by LLMs. We present taxonomies of the LLM hallucination phenomena and evaluation benchmarks, analyze existing approaches aiming at mitigating LLM hallucination, and discuss potential directions for future research.",
+      "identifiers": [
+        "doi:10.48550/arxiv.2309.01219",
+        "version:3a85e4a96173a2415a04937747fed4bb23a49c295e45a838cf2ba77323bae70f"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:3a85e4a96173a2415a04937747fed4bb23a49c295e45a838cf2ba77323bae70f",
+          "paper_id": "doi:10.48550/arxiv.2309.01219",
+          "title": "Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models",
+          "year": 2023,
+          "abstract": "While large language models (LLMs) have demonstrated remarkable capabilities across a range of downstream tasks, a significant concern revolves around their propensity to exhibit hallucinations: LLMs occasionally generate content that diverges from the user input, contradicts previously generated context, or misaligns with established world knowledge. This phenomenon poses a substantial challenge to the reliability of LLMs in real-world scenarios. In this paper, we survey recent efforts on the detection, explanation, and mitigation of hallucination, with an emphasis on the unique challenges posed by LLMs. We present taxonomies of the LLM hallucination phenomena and evaluation benchmarks, analyze existing approaches aiming at mitigating LLM hallucination, and discuss potential directions for future research."
+        }
+      ],
+      "proposed_label": 0,
+      "confidence": "medium",
+      "note": "Surveys hallucination, contextual inconsistency, and mitigation generally. The supplied abstract does not establish a specific connection to CoT-induced reasoning accuracy or faithful representations of the model's reasoning process.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1",
+      "review_reason": "medium_confidence",
+      "review_status": "pending"
+    },
+    {
+      "benchmark_id": "cot_reasoning_faithfulness_v1",
+      "research_question": "How does chain-of-thought prompting affect reasoning accuracy and faithfulness in large language models?",
+      "union_id": "union:304a028cc9820e348fbabf345b46d4e5e5a9b6c202178839d850f3228ea54e69",
+      "title": "Harnessing large language models (LLMs) for candidate gene prioritization and selection",
+      "year": 2023,
+      "abstract": "BACKGROUND: Feature selection is a critical step for translating advances afforded by systems-scale molecular profiling into actionable clinical insights. While data-driven methods are commonly utilized for selecting candidate genes, knowledge-driven methods must contend with the challenge of efficiently sifting through extensive volumes of biomedical information. This work aimed to assess the utility of large language models (LLMs) for knowledge-driven gene prioritization and selection. METHODS: In this proof of concept, we focused on 11 blood transcriptional modules associated with an Erythroid cells signature. We evaluated four leading LLMs across multiple tasks. Next, we established a workflow leveraging LLMs. The steps consisted of: (1) Selecting one of the 11 modules; (2) Identifying functional convergences among constituent genes using the LLMs; (3) Scoring candidate genes across six criteria capturing the gene's biological and clinical relevance; (4) Prioritizing candidate genes and summarizing justifications; (5) Fact-checking justifications and identifying supporting references; (6) Selecting a top candidate gene based on validated scoring justifications; and (7) Factoring in transcriptome profiling data to finalize the selection of the top candidate gene. RESULTS: Of the four LLMs evaluated, OpenAI's GPT-4 and Anthropic's Claude demonstrated the best performance and were chosen for the implementation of the candidate gene prioritization and selection workflow. This workflow was run in parallel for each of the 11 erythroid cell modules by participants in a data mining workshop. Module M9.2 served as an illustrative use case. The 30 candidate genes forming this module were assessed, and the top five scoring genes were identified as BCL2L1, ALAS2, SLC4A1, CA1, and FECH. Researchers carefully fact-checked the summarized scoring justifications, after which the LLMs were prompted to select a top candidate based on this information. GPT-4 initially chose BCL2L1, while Claude selected ALAS2. When transcriptional profiling data from three reference datasets were provided for additional context, GPT-4 revised its initial choice to ALAS2, whereas Claude reaffirmed its original selection for this module. CONCLUSIONS: Taken together, our findings highlight the ability of LLMs to prioritize candidate genes with minimal human intervention. This suggests the potential of this technology to boost productivity, especially for tasks that require leveraging extensive biomedical knowledge.",
+      "identifiers": [
+        "doi:10.1186/s12967-023-04576-8",
+        "version:897be9127e8cf6b56c61884daa35d9047891191d75cc77887b8b256ce4426a5e"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:897be9127e8cf6b56c61884daa35d9047891191d75cc77887b8b256ce4426a5e",
+          "paper_id": "doi:10.1186/s12967-023-04576-8",
+          "title": "Harnessing large language models (LLMs) for candidate gene prioritization and selection",
+          "year": 2023,
+          "abstract": "BACKGROUND: Feature selection is a critical step for translating advances afforded by systems-scale molecular profiling into actionable clinical insights. While data-driven methods are commonly utilized for selecting candidate genes, knowledge-driven methods must contend with the challenge of efficiently sifting through extensive volumes of biomedical information. This work aimed to assess the utility of large language models (LLMs) for knowledge-driven gene prioritization and selection. METHODS: In this proof of concept, we focused on 11 blood transcriptional modules associated with an Erythroid cells signature. We evaluated four leading LLMs across multiple tasks. Next, we established a workflow leveraging LLMs. The steps consisted of: (1) Selecting one of the 11 modules; (2) Identifying functional convergences among constituent genes using the LLMs; (3) Scoring candidate genes across six criteria capturing the gene's biological and clinical relevance; (4) Prioritizing candidate genes and summarizing justifications; (5) Fact-checking justifications and identifying supporting references; (6) Selecting a top candidate gene based on validated scoring justifications; and (7) Factoring in transcriptome profiling data to finalize the selection of the top candidate gene. RESULTS: Of the four LLMs evaluated, OpenAI's GPT-4 and Anthropic's Claude demonstrated the best performance and were chosen for the implementation of the candidate gene prioritization and selection workflow. This workflow was run in parallel for each of the 11 erythroid cell modules by participants in a data mining workshop. Module M9.2 served as an illustrative use case. The 30 candidate genes forming this module were assessed, and the top five scoring genes were identified as BCL2L1, ALAS2, SLC4A1, CA1, and FECH. Researchers carefully fact-checked the summarized scoring justifications, after which the LLMs were prompted to select a top candidate based on this information. GPT-4 initially chose BCL2L1, while Claude selected ALAS2. When transcriptional profiling data from three reference datasets were provided for additional context, GPT-4 revised its initial choice to ALAS2, whereas Claude reaffirmed its original selection for this module. CONCLUSIONS: Taken together, our findings highlight the ability of LLMs to prioritize candidate genes with minimal human intervention. This suggests the potential of this technology to boost productivity, especially for tasks that require leveraging extensive biomedical knowledge."
+        }
+      ],
+      "proposed_label": 0,
+      "confidence": "high",
+      "note": "Applies LLMs and human fact-checking to biomedical gene prioritization. The workflow does not evaluate CoT as a prompting intervention or test whether explanations reflect the model's actual decision process.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1",
+      "review_reason": "high_confidence_audit",
+      "review_status": "pending"
+    },
+    {
+      "benchmark_id": "cot_reasoning_faithfulness_v1",
+      "research_question": "How does chain-of-thought prompting affect reasoning accuracy and faithfulness in large language models?",
+      "union_id": "union:4547327d09947bb488e5cb7e6edee18cf1379e7a792c09e4de06940d52fca585",
+      "title": "Towards LLM-based Fact Verification on News Claims with a Hierarchical Step-by-Step Prompting Method",
+      "year": 2023,
+      "abstract": "Xuan Zhang, Wei Gao. Proceedings of the 13th International Joint Conference on Natural Language Processing and the 3rd Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics (Volume 1: Long Papers). 2023.",
+      "identifiers": [
+        "doi:10.18653/v1/2023.ijcnlp-main.64",
+        "version:5ab88f40f60a1b9717d7fd539d1881dd7b92858007e3ea164ad8d4e7e432570d"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:5ab88f40f60a1b9717d7fd539d1881dd7b92858007e3ea164ad8d4e7e432570d",
+          "paper_id": "doi:10.18653/v1/2023.ijcnlp-main.64",
+          "title": "Towards LLM-based Fact Verification on News Claims with a Hierarchical Step-by-Step Prompting Method",
+          "year": 2023,
+          "abstract": "Xuan Zhang, Wei Gao. Proceedings of the 13th International Joint Conference on Natural Language Processing and the 3rd Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics (Volume 1: Long Papers). 2023."
+        }
+      ],
+      "proposed_label": 1,
+      "confidence": "low",
+      "note": "The title proposes hierarchical step-by-step prompting for fact verification, a potentially useful adjacent reasoning method. The abstract is bibliographic only, so accuracy effects and connections to reasoning faithfulness cannot be assessed.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1",
+      "review_reason": "low_confidence",
+      "review_status": "pending"
+    },
+    {
+      "benchmark_id": "cot_reasoning_faithfulness_v1",
+      "research_question": "How does chain-of-thought prompting affect reasoning accuracy and faithfulness in large language models?",
+      "union_id": "union:4adec69fc9e0423a1d8f99050120b26384280d42af32c88105e6a517a275c43b",
+      "title": "Multi-Step Reasoning with Large Language Models, a Survey",
+      "year": 2025,
+      "abstract": "Large language models (LLMs) with billions of parameters exhibit in-context learning abilities, enabling few-shot learning on tasks that the model was not specifically trained for. Traditional models achieve breakthrough performance on language tasks, but do not perform well on basic reasoning benchmarks. However, a new in-context learning approach, Chain-of-thought, has demonstrated strong multi-step reasoning abilities on these benchmarks. The research on LLM reasoning abilities started with the question whether LLMs can solve grade school math word problems, and has expanded to other tasks in the past few years. This article reviews the field of multi-step reasoning with LLMs. We propose a taxonomy that identifies different ways to generate, evaluate, and control multi-step reasoning. We provide an in-depth coverage of core approaches and open problems, and we propose a research agenda for the near future. We find that multi-step reasoning approaches have progressed beyond math word problems, and can now successfully solve challenges in logic, combinatorial games, and robotics, sometimes by first generating code that is then executed by external tools. Many studies in multi-step methods use reinforcement learning for finetuning, external optimization loops, in-context reinforcement learning, and self-reflection.",
+      "identifiers": [
+        "doi:10.1145/3774896",
+        "version:aca15f56063b0ab6e064527e9668724ed11bf800174b0b255168cc338e13b3ea"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:aca15f56063b0ab6e064527e9668724ed11bf800174b0b255168cc338e13b3ea",
+          "paper_id": "doi:10.1145/3774896",
+          "title": "Multi-Step Reasoning with Large Language Models, a Survey",
+          "year": 2025,
+          "abstract": "Large language models (LLMs) with billions of parameters exhibit in-context learning abilities, enabling few-shot learning on tasks that the model was not specifically trained for. Traditional models achieve breakthrough performance on language tasks, but do not perform well on basic reasoning benchmarks. However, a new in-context learning approach, Chain-of-thought, has demonstrated strong multi-step reasoning abilities on these benchmarks. The research on LLM reasoning abilities started with the question whether LLMs can solve grade school math word problems, and has expanded to other tasks in the past few years. This article reviews the field of multi-step reasoning with LLMs. We propose a taxonomy that identifies different ways to generate, evaluate, and control multi-step reasoning. We provide an in-depth coverage of core approaches and open problems, and we propose a research agenda for the near future. We find that multi-step reasoning approaches have progressed beyond math word problems, and can now successfully solve challenges in logic, combinatorial games, and robotics, sometimes by first generating code that is then executed by external tools. Many studies in multi-step methods use reinforcement learning for finetuning, external optimization loops, in-context reinforcement learning, and self-reflection."
+        }
+      ],
+      "proposed_label": 2,
+      "confidence": "high",
+      "note": "Directly reviews CoT and other multi-step reasoning approaches, their evaluation, control, and reasoning-benchmark performance. This addresses the question's central methodology and accuracy component.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1",
+      "review_reason": "high_confidence_audit",
+      "review_status": "pending"
+    },
+    {
+      "benchmark_id": "cot_reasoning_faithfulness_v1",
+      "research_question": "How does chain-of-thought prompting affect reasoning accuracy and faithfulness in large language models?",
+      "union_id": "union:4f4361d6544cb9b6046b8578229ade80c14b6bd86296324cdefae07b0bd3eb8b",
+      "title": "Embers of autoregression show how large language models are shaped by the problem they are trained to solve",
+      "year": 2024,
+      "abstract": "The widespread adoption of large language models (LLMs) makes it important to recognize their strengths and limitations. We argue that to develop a holistic understanding of these systems, we must consider the problem that they were trained to solve: next-word prediction over Internet text. By recognizing the pressures that this task exerts, we can make predictions about the strategies that LLMs will adopt, allowing us to reason about when they will succeed or fail. Using this approach-which we call the teleological approach-we identify three factors that we hypothesize will influence LLM accuracy: the probability of the task to be performed, the probability of the target output, and the probability of the provided input. To test our predictions, we evaluate five LLMs (GPT-3.5, GPT-4, Claude 3, Llama 3, and Gemini 1.0) on 11 tasks, and we find robust evidence that LLMs are influenced by probability in the hypothesized ways. Many of the experiments reveal surprising failure modes. For instance, GPT-4's accuracy at decoding a simple cipher is 51% when the output is a high-probability sentence but only 13% when it is low-probability, even though this task is a deterministic one for which probability should not matter. These results show that AI practitioners should be careful about using LLMs in low-probability situations. More broadly, we conclude that we should not evaluate LLMs as if they are humans but should instead treat them as a distinct type of system-one that has been shaped by its own particular set of pressures.",
+      "identifiers": [
+        "doi:10.1073/pnas.2322420121",
+        "version:0a2014ee97c8f738f7a0c9349d0f28b84ee1278f2df5a231d1db8d2a8caf3fa9"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:0a2014ee97c8f738f7a0c9349d0f28b84ee1278f2df5a231d1db8d2a8caf3fa9",
+          "paper_id": "doi:10.1073/pnas.2322420121",
+          "title": "Embers of autoregression show how large language models are shaped by the problem they are trained to solve",
+          "year": 2024,
+          "abstract": "The widespread adoption of large language models (LLMs) makes it important to recognize their strengths and limitations. We argue that to develop a holistic understanding of these systems, we must consider the problem that they were trained to solve: next-word prediction over Internet text. By recognizing the pressures that this task exerts, we can make predictions about the strategies that LLMs will adopt, allowing us to reason about when they will succeed or fail. Using this approach-which we call the teleological approach-we identify three factors that we hypothesize will influence LLM accuracy: the probability of the task to be performed, the probability of the target output, and the probability of the provided input. To test our predictions, we evaluate five LLMs (GPT-3.5, GPT-4, Claude 3, Llama 3, and Gemini 1.0) on 11 tasks, and we find robust evidence that LLMs are influenced by probability in the hypothesized ways. Many of the experiments reveal surprising failure modes. For instance, GPT-4's accuracy at decoding a simple cipher is 51% when the output is a high-probability sentence but only 13% when it is low-probability, even though this task is a deterministic one for which probability should not matter. These results show that AI practitioners should be careful about using LLMs in low-probability situations. More broadly, we conclude that we should not evaluate LLMs as if they are humans but should instead treat them as a distinct type of system-one that has been shaped by its own particular set of pressures."
+        }
+      ],
+      "proposed_label": 1,
+      "confidence": "medium",
+      "note": "Shows that task, input, and output probabilities influence accuracy even on deterministic tasks. These findings are useful for interpreting apparent reasoning gains, although the abstract does not test CoT prompting or explanation faithfulness directly.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1",
+      "review_reason": "medium_confidence",
+      "review_status": "pending"
+    },
+    {
+      "benchmark_id": "cot_reasoning_faithfulness_v1",
+      "research_question": "How does chain-of-thought prompting affect reasoning accuracy and faithfulness in large language models?",
+      "union_id": "union:53ecf35ab18a4ee58bc95da4c465e17bec7097bc0577bbf439fb17a4594ef370",
+      "title": "Large Language Models Are Human-Level Prompt Engineers",
+      "year": 2022,
+      "abstract": "By conditioning on natural language instructions, large language models (LLMs) have displayed impressive capabilities as general-purpose computers. However, task performance depends significantly on the quality of the prompt used to steer the model, and most effective prompts have been handcrafted by humans. Inspired by classical program synthesis and the human approach to prompt engineering, we propose Automatic Prompt Engineer (APE) for automatic instruction generation and selection. In our method, we treat the instruction as the \"program,\" optimized by searching over a pool of instruction candidates proposed by an LLM in order to maximize a chosen score function. To evaluate the quality of the selected instruction, we evaluate the zero-shot performance of another LLM following the selected instruction. Experiments on 24 NLP tasks show that our automatically generated instructions outperform the prior LLM baseline by a large margin and achieve better or comparable performance to the instructions generated by human annotators on 19/24 tasks. We conduct extensive qualitative and quantitative analyses to explore the performance of APE. We show that APE-engineered prompts can be applied to steer models toward truthfulness and/or informativeness, as well as to improve few-shot learning performance by simply prepending them to standard in-context learning prompts. Please check out our webpage at https://sites.google.com/view/automatic-prompt-engineer.",
+      "identifiers": [
+        "doi:10.48550/arxiv.2211.01910",
+        "version:bb9620cd0298de8cafbc8cab6f96e88af12a010ac5adf91ab9003ac095fac686"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:bb9620cd0298de8cafbc8cab6f96e88af12a010ac5adf91ab9003ac095fac686",
+          "paper_id": "doi:10.48550/arxiv.2211.01910",
+          "title": "Large Language Models Are Human-Level Prompt Engineers",
+          "year": 2022,
+          "abstract": "By conditioning on natural language instructions, large language models (LLMs) have displayed impressive capabilities as general-purpose computers. However, task performance depends significantly on the quality of the prompt used to steer the model, and most effective prompts have been handcrafted by humans. Inspired by classical program synthesis and the human approach to prompt engineering, we propose Automatic Prompt Engineer (APE) for automatic instruction generation and selection. In our method, we treat the instruction as the \"program,\" optimized by searching over a pool of instruction candidates proposed by an LLM in order to maximize a chosen score function. To evaluate the quality of the selected instruction, we evaluate the zero-shot performance of another LLM following the selected instruction. Experiments on 24 NLP tasks show that our automatically generated instructions outperform the prior LLM baseline by a large margin and achieve better or comparable performance to the instructions generated by human annotators on 19/24 tasks. We conduct extensive qualitative and quantitative analyses to explore the performance of APE. We show that APE-engineered prompts can be applied to steer models toward truthfulness and/or informativeness, as well as to improve few-shot learning performance by simply prepending them to standard in-context learning prompts. Please check out our webpage at https://sites.google.com/view/automatic-prompt-engineer."
+        }
+      ],
+      "proposed_label": 1,
+      "confidence": "medium",
+      "note": "Studies automatic prompt generation and selection, showing task-performance and truthfulness effects. This is a useful adjacent prompt-design method, but the abstract does not establish a CoT-specific intervention or test reasoning-process faithfulness.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1",
+      "review_reason": "medium_confidence",
+      "review_status": "pending"
+    },
+    {
+      "benchmark_id": "cot_reasoning_faithfulness_v1",
+      "research_question": "How does chain-of-thought prompting affect reasoning accuracy and faithfulness in large language models?",
+      "union_id": "union:650827cbfa7f3327e5cf29e2a5e0ea202f886ef1f62089f60f192a8dbe877ca9",
+      "title": "Talking about Large Language Models",
+      "year": 2024,
+      "abstract": "Interacting with a contemporary LLM-based conversational agent can create an illusion of being in the presence of a thinking creature. Yet, in their very nature, such systems are fundamentally not like us.",
+      "identifiers": [
+        "doi:10.1145/3624724",
+        "version:6e9d4aeddc32a504aff299809f3288397545802eed5755cfedbc06c2158b85e0"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:6e9d4aeddc32a504aff299809f3288397545802eed5755cfedbc06c2158b85e0",
+          "paper_id": "doi:10.1145/3624724",
+          "title": "Talking about Large Language Models",
+          "year": 2024,
+          "abstract": "Interacting with a contemporary LLM-based conversational agent can create an illusion of being in the presence of a thinking creature. Yet, in their very nature, such systems are fundamentally not like us."
+        }
+      ],
+      "proposed_label": 0,
+      "confidence": "low",
+      "note": "The short abstract cautions against treating conversational LLMs as human-like thinking creatures. It supplies too little technical evidence to establish material usefulness for assessing CoT accuracy or faithfulness.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1",
+      "review_reason": "low_confidence",
+      "review_status": "pending"
+    },
+    {
+      "benchmark_id": "cot_reasoning_faithfulness_v1",
+      "research_question": "How does chain-of-thought prompting affect reasoning accuracy and faithfulness in large language models?",
+      "union_id": "union:68db18b20484809eb49ca079620260be25b701b6f039068beaaed558f1a18759",
+      "title": "Chain-of-Verification Reduces Hallucination in Large Language Models",
+      "year": 2024,
+      "abstract": "Generation of plausible yet incorrect factual information, termed hallucination, is an unsolved issue in large language models.We study the ability of language models to deliberate on the responses they give in order to correct their mistakes.We develop the Chain-of-Verification (COVE) method whereby the model first (i) drafts an initial response; then (ii) plans verification questions to fact-check its draft; (iii) answers those questions independently so the answers are not biased by other responses; and (iv) generates its final verified response.In experiments, we show COVE decreases hallucinations across a variety of tasks, from list-based questions from Wikidata, closed book Multi-SpanQA and longform text generation.",
+      "identifiers": [
+        "doi:10.18653/v1/2024.findings-acl.212",
+        "version:11fe4e18efb5cf237292b7085844bc1c04579fbeee2a754b14c7a6fa13cf7621"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:11fe4e18efb5cf237292b7085844bc1c04579fbeee2a754b14c7a6fa13cf7621",
+          "paper_id": "doi:10.18653/v1/2024.findings-acl.212",
+          "title": "Chain-of-Verification Reduces Hallucination in Large Language Models",
+          "year": 2024,
+          "abstract": "Generation of plausible yet incorrect factual information, termed hallucination, is an unsolved issue in large language models.We study the ability of language models to deliberate on the responses they give in order to correct their mistakes.We develop the Chain-of-Verification (COVE) method whereby the model first (i) drafts an initial response; then (ii) plans verification questions to fact-check its draft; (iii) answers those questions independently so the answers are not biased by other responses; and (iv) generates its final verified response.In experiments, we show COVE decreases hallucinations across a variety of tasks, from list-based questions from Wikidata, closed book Multi-SpanQA and longform text generation."
+        }
+      ],
+      "proposed_label": 1,
+      "confidence": "medium",
+      "note": "Tests a structured verification-prompting procedure that reduces factual mistakes and limits bias between intermediate answers. It is a useful comparison for multi-step prompting, but factual correction is distinct from demonstrating faithful CoT reasoning.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1",
+      "review_reason": "medium_confidence",
+      "review_status": "pending"
+    },
+    {
+      "benchmark_id": "cot_reasoning_faithfulness_v1",
+      "research_question": "How does chain-of-thought prompting affect reasoning accuracy and faithfulness in large language models?",
+      "union_id": "union:8cbeff63c7ec64e732aa0ccc1b45c0a37fdf66589512d0a0f58d65d145936927",
+      "title": "A Survey on Uncertainty Quantification of Large Language Models: Taxonomy, Open Research Challenges, and Future Directions",
+      "year": 2025,
+      "abstract": "The remarkable performance of large language models (LLMs) in content generation, coding, and common-sense reasoning has spurred widespread integration into many facets of society. However, integration of LLMs raises valid questions on their reliability and trustworthiness, given their propensity to generate hallucinations: plausible, factually-incorrect responses, which are expressed with striking confidence. Previous work has shown that hallucinations and other non-factual responses generated by LLMs can be detected by examining the uncertainty of the LLM in its response to the pertinent prompt, driving significant research efforts devoted to quantifying the uncertainty of LLMs. This survey seeks to provide an extensive review of existing uncertainty quantification methods for LLMs, identifying their salient features, along with their strengths and weaknesses. We present existing methods within a relevant taxonomy, unifying ostensibly disparate methods to aid understanding of the state-of-the-art. Furthermore, we highlight applications of uncertainty quantification methods for LLMs, spanning chatbot and textual applications to embodied artificial intelligence applications in robotics. We conclude with open research challenges in the uncertainty quantification of LLMs, seeking to motivate future research.",
+      "identifiers": [
+        "doi:10.1145/3744238",
+        "version:01a5d49fba95c06c67091a92287aa28527286c736bc38f53e8d0b4c880800f6c"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:01a5d49fba95c06c67091a92287aa28527286c736bc38f53e8d0b4c880800f6c",
+          "paper_id": "doi:10.1145/3744238",
+          "title": "A Survey on Uncertainty Quantification of Large Language Models: Taxonomy, Open Research Challenges, and Future Directions",
+          "year": 2025,
+          "abstract": "The remarkable performance of large language models (LLMs) in content generation, coding, and common-sense reasoning has spurred widespread integration into many facets of society. However, integration of LLMs raises valid questions on their reliability and trustworthiness, given their propensity to generate hallucinations: plausible, factually-incorrect responses, which are expressed with striking confidence. Previous work has shown that hallucinations and other non-factual responses generated by LLMs can be detected by examining the uncertainty of the LLM in its response to the pertinent prompt, driving significant research efforts devoted to quantifying the uncertainty of LLMs. This survey seeks to provide an extensive review of existing uncertainty quantification methods for LLMs, identifying their salient features, along with their strengths and weaknesses. We present existing methods within a relevant taxonomy, unifying ostensibly disparate methods to aid understanding of the state-of-the-art. Furthermore, we highlight applications of uncertainty quantification methods for LLMs, spanning chatbot and textual applications to embodied artificial intelligence applications in robotics. We conclude with open research challenges in the uncertainty quantification of LLMs, seeking to motivate future research."
+        }
+      ],
+      "proposed_label": 0,
+      "confidence": "medium",
+      "note": "Surveys response uncertainty as a way to detect hallucinations and nonfactual answers. The abstract does not connect calibration methods to CoT-specific accuracy changes or whether intermediate reasoning reflects the decision process.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1",
+      "review_reason": "medium_confidence",
+      "review_status": "pending"
+    },
+    {
+      "benchmark_id": "cot_reasoning_faithfulness_v1",
+      "research_question": "How does chain-of-thought prompting affect reasoning accuracy and faithfulness in large language models?",
+      "union_id": "union:a554d41cbc5a11a54d6e55610fef6163e4e1b2a5713c4c971c87d218ffbb62f2",
+      "title": "A Systematic Survey of Prompt Engineering in Large Language Models: Techniques and Applications",
+      "year": 2024,
+      "abstract": "Prompt engineering has emerged as an indispensable technique for extending the capabilities of large language models (LLMs) and vision-language models (VLMs). This approach leverages task-specific instructions, known as prompts, to enhance model efficacy without modifying the core model parameters. Rather than updating the model parameters, prompts allow seamless integration of pre-trained models into downstream tasks by eliciting desired model behaviors solely based on the given prompt. Prompts can be natural language instructions that provide context to guide the model or learned vector representations that activate relevant knowledge. This burgeoning field has enabled success across various applications, from question-answering to commonsense reasoning. However, there remains a lack of systematic organization and understanding of the diverse prompt engineering methods and techniques. This survey paper addresses the gap by providing a structured overview of recent advancements in prompt engineering, categorized by application area. For each prompting approach, we provide a summary detailing the prompting methodology, its applications, the models involved, and the datasets utilized. We also delve into the strengths and limitations of each approach and include a taxonomy diagram and table summarizing datasets, models, and critical points of each prompting technique. This systematic analysis enables a better understanding of this rapidly developing field and facilitates future research by illuminating open challenges and opportunities for prompt engineering.",
+      "identifiers": [
+        "doi:10.48550/arxiv.2402.07927",
+        "version:5da9c7b94a1a709c23e9ecc0af376cbee17c1b095321e7094b697ab53c21124f"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:5da9c7b94a1a709c23e9ecc0af376cbee17c1b095321e7094b697ab53c21124f",
+          "paper_id": "doi:10.48550/arxiv.2402.07927",
+          "title": "A Systematic Survey of Prompt Engineering in Large Language Models: Techniques and Applications",
+          "year": 2024,
+          "abstract": "Prompt engineering has emerged as an indispensable technique for extending the capabilities of large language models (LLMs) and vision-language models (VLMs). This approach leverages task-specific instructions, known as prompts, to enhance model efficacy without modifying the core model parameters. Rather than updating the model parameters, prompts allow seamless integration of pre-trained models into downstream tasks by eliciting desired model behaviors solely based on the given prompt. Prompts can be natural language instructions that provide context to guide the model or learned vector representations that activate relevant knowledge. This burgeoning field has enabled success across various applications, from question-answering to commonsense reasoning. However, there remains a lack of systematic organization and understanding of the diverse prompt engineering methods and techniques. This survey paper addresses the gap by providing a structured overview of recent advancements in prompt engineering, categorized by application area. For each prompting approach, we provide a summary detailing the prompting methodology, its applications, the models involved, and the datasets utilized. We also delve into the strengths and limitations of each approach and include a taxonomy diagram and table summarizing datasets, models, and critical points of each prompting technique. This systematic analysis enables a better understanding of this rapidly developing field and facilitates future research by illuminating open challenges and opportunities for prompt engineering."
+        }
+      ],
+      "proposed_label": 1,
+      "confidence": "medium",
+      "note": "Catalogs prompting techniques, their strengths, limitations, models, and datasets, including reasoning applications. This offers useful methodological context, while the abstract does not confirm a focused CoT or reasoning-faithfulness analysis.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1",
+      "review_reason": "medium_confidence",
+      "review_status": "pending"
+    },
+    {
+      "benchmark_id": "cot_reasoning_faithfulness_v1",
+      "research_question": "How does chain-of-thought prompting affect reasoning accuracy and faithfulness in large language models?",
+      "union_id": "union:c949cb0116d0d5febf64cb27bc928b6e1c481633781566680d035419d12ffe3c",
+      "title": "Large Language Models Can Self-Improve",
+      "year": 2023,
+      "abstract": "Large Language Models (LLMs) have achieved excellent performances in various tasks.However, fine-tuning an LLM requires extensive supervision.Human, on the other hand, may improve their reasoning abilities by self-thinking without external inputs.In this work, we demonstrate that an LLM is also capable of self-improving with only unlabeled datasets.We use a pre-trained LLM to generate \"highconfidence\" rationale-augmented answers for unlabeled questions using Chain-of-Though (CoT) prompting and self-consistency, and finetune the LLM using those self-generated solutions as target outputs.We show that without any ground truth label, our approach significantly improves the general reasoning ability of PaLM 540B model (74.4%→82.1% on GSM8K, 90.0%→94.4% on OpenBookQA, and 63.4%→67.9% on ANLI-A3) and can also be adapted to extreme low-resource cases where even training questions and CoT prompts are limited.We conduct ablation studies and show that fine-tuning on diverse reasoning paths is critical for self-improvement.",
+      "identifiers": [
+        "doi:10.18653/v1/2023.emnlp-main.67",
+        "version:45c13b279115241d212e2041f680328ad9c546a3d8deab564735613a8f77dd72"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:45c13b279115241d212e2041f680328ad9c546a3d8deab564735613a8f77dd72",
+          "paper_id": "doi:10.18653/v1/2023.emnlp-main.67",
+          "title": "Large Language Models Can Self-Improve",
+          "year": 2023,
+          "abstract": "Large Language Models (LLMs) have achieved excellent performances in various tasks.However, fine-tuning an LLM requires extensive supervision.Human, on the other hand, may improve their reasoning abilities by self-thinking without external inputs.In this work, we demonstrate that an LLM is also capable of self-improving with only unlabeled datasets.We use a pre-trained LLM to generate \"highconfidence\" rationale-augmented answers for unlabeled questions using Chain-of-Though (CoT) prompting and self-consistency, and finetune the LLM using those self-generated solutions as target outputs.We show that without any ground truth label, our approach significantly improves the general reasoning ability of PaLM 540B model (74.4%→82.1% on GSM8K, 90.0%→94.4% on OpenBookQA, and 63.4%→67.9% on ANLI-A3) and can also be adapted to extreme low-resource cases where even training questions and CoT prompts are limited.We conduct ablation studies and show that fine-tuning on diverse reasoning paths is critical for self-improvement."
+        }
+      ],
+      "proposed_label": 1,
+      "confidence": "medium",
+      "note": "Uses CoT and self-consistency to generate rationales for fine-tuning and analyzes the value of diverse reasoning paths. This supplies adjacent evidence about using reasoning traces, but the reported accuracy gains combine prompting with training rather than isolating prompting alone.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1",
+      "review_reason": "medium_confidence",
+      "review_status": "pending"
+    },
+    {
+      "benchmark_id": "cot_reasoning_faithfulness_v1",
+      "research_question": "How does chain-of-thought prompting affect reasoning accuracy and faithfulness in large language models?",
+      "union_id": "union:d7ffcf5fec9755827964c319a5b2c6d7e2ecf25e4c955884ac655a05a3ef6b2a",
+      "title": "AI Chains: Transparent and Controllable Human-AI Interaction by Chaining Large Language Model Prompts",
+      "year": 2022,
+      "abstract": "Although large language models (LLMs) have demonstrated impressive potential on simple tasks, their breadth of scope, lack of transparency, and insufficient controllability can make them less effective when assisting humans on more complex tasks. In response, we introduce the concept of Chaining LLM steps together, where the output of one step becomes the input for the next, thus aggregating the gains per step. We first define a set of LLM primitive operations useful for Chain construction, then present an interactive system where users can modify these Chains, along with their intermediate results, in a modular way. In a 20-person user study, we found that Chaining not only improved the quality of task outcomes, but also significantly enhanced system transparency, controllability, and sense of collaboration. Additionally, we saw that users developed new ways of interacting with LLMs through Chains: they leveraged sub-tasks to calibrate model expectations, compared and contrasted alternative strategies by observing parallel downstream effects, and debugged unexpected model outputs by “unit-testing” sub-components of a Chain. In two case studies, we further explore how LLM Chains may be used in future applications.",
+      "identifiers": [
+        "doi:10.1145/3491102.3517582",
+        "version:dc9b85cc409cb3167e861919f503da3db26e8d615b7cb9580ee9d6038d2fa1ce"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:dc9b85cc409cb3167e861919f503da3db26e8d615b7cb9580ee9d6038d2fa1ce",
+          "paper_id": "doi:10.1145/3491102.3517582",
+          "title": "AI Chains: Transparent and Controllable Human-AI Interaction by Chaining Large Language Model Prompts",
+          "year": 2022,
+          "abstract": "Although large language models (LLMs) have demonstrated impressive potential on simple tasks, their breadth of scope, lack of transparency, and insufficient controllability can make them less effective when assisting humans on more complex tasks. In response, we introduce the concept of Chaining LLM steps together, where the output of one step becomes the input for the next, thus aggregating the gains per step. We first define a set of LLM primitive operations useful for Chain construction, then present an interactive system where users can modify these Chains, along with their intermediate results, in a modular way. In a 20-person user study, we found that Chaining not only improved the quality of task outcomes, but also significantly enhanced system transparency, controllability, and sense of collaboration. Additionally, we saw that users developed new ways of interacting with LLMs through Chains: they leveraged sub-tasks to calibrate model expectations, compared and contrasted alternative strategies by observing parallel downstream effects, and debugged unexpected model outputs by “unit-testing” sub-components of a Chain. In two case studies, we further explore how LLM Chains may be used in future applications."
+        }
+      ],
+      "proposed_label": 1,
+      "confidence": "medium",
+      "note": "Studies explicit prompt chains and intermediate-result inspection, reporting improved task quality and user-perceived transparency. This offers an adjacent decomposition method, but interactive transparency is not evidence that a model's internal CoT reasoning is faithful.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1",
+      "review_reason": "medium_confidence",
+      "review_status": "pending"
+    },
+    {
+      "benchmark_id": "cot_reasoning_faithfulness_v1",
+      "research_question": "How does chain-of-thought prompting affect reasoning accuracy and faithfulness in large language models?",
+      "union_id": "union:da471aa5f4df7391e899bd27b3e79f6b5dbf7b6cd60e1cd70c887d0f9f01fab5",
+      "title": "🧜Siren’s Song in the AI Ocean: A Survey on Hallucination in Large Language Models",
+      "year": 2025,
+      "abstract": "Abstract While large language models (LLMs) have demonstrated remarkable capabilities across a range of downstream tasks, a significant concern revolves around their propensity to exhibit hallucinations: LLMs occasionally generate content that diverges from the user input, contradicts previously generated context, or misaligns with established world knowledge. This phenomenon poses a substantial challenge to the reliability of LLMs in real-world scenarios. In this article, we survey recent efforts on the detection, explanation, and mitigation of hallucination, with an emphasis on the unique challenges posed by LLMs. We present taxonomies of the LLM hallucination phenomena and evaluation benchmarks, analyze existing approaches aiming at mitigating LLM hallucination, and discuss potential directions for future research.",
+      "identifiers": [
+        "doi:10.1162/coli.a.16",
+        "version:cc1fa7b13135e5b2cac8b7156a9f3653c81339d55e98f026fe2679e1472cf56b"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:cc1fa7b13135e5b2cac8b7156a9f3653c81339d55e98f026fe2679e1472cf56b",
+          "paper_id": "doi:10.1162/coli.a.16",
+          "title": "🧜Siren’s Song in the AI Ocean: A Survey on Hallucination in Large Language Models",
+          "year": 2025,
+          "abstract": "Abstract While large language models (LLMs) have demonstrated remarkable capabilities across a range of downstream tasks, a significant concern revolves around their propensity to exhibit hallucinations: LLMs occasionally generate content that diverges from the user input, contradicts previously generated context, or misaligns with established world knowledge. This phenomenon poses a substantial challenge to the reliability of LLMs in real-world scenarios. In this article, we survey recent efforts on the detection, explanation, and mitigation of hallucination, with an emphasis on the unique challenges posed by LLMs. We present taxonomies of the LLM hallucination phenomena and evaluation benchmarks, analyze existing approaches aiming at mitigating LLM hallucination, and discuss potential directions for future research."
+        }
+      ],
+      "proposed_label": 0,
+      "confidence": "medium",
+      "note": "Surveys hallucination types, evaluation benchmarks, and mitigation generally. The frozen abstract does not establish a specific link to CoT-induced reasoning accuracy or explanations that faithfully reflect model decisions.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1",
+      "review_reason": "medium_confidence",
+      "review_status": "pending"
+    }
+  ]
+}

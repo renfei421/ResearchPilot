@@ -1,0 +1,72 @@
+__pycache__/
+*.py[cod]
+
+# Credentials: keep only the public configuration template.
+.env
+.env.*
+!.env.example
+/credentials.json
+/secrets/
+
+# Python environments, build outputs and local tool state.
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+/build/
+/dist/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Runtime state, downloaded documents, rendered pages and generated exports.
+.researchpilot_cache/
+/cache/
+/downloads/
+/page_images/
+/embeddings/
+/exports/
+/logs/
+/tmp/
+/temp/
+*.log
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite-journal
+*.sqlite3-wal
+*.sqlite3-shm
+*.sqlite3-journal
+*.db
+*.db-wal
+*.db-shm
+*.db-journal
+# Reproducible database fixtures, if added, remain visible.
+!tests/fixtures/**/*.sqlite
+!tests/fixtures/**/*.sqlite3
+!tests/fixtures/**/*.db
+/validation*.diff
+/validation*.patch
+/task_changes.diff
+/working_changes.diff
+*.tmp
+
+# Preserve unrelated local research and historical acceptance material on disk.
+# See docs/public_release_readiness.md for publication boundaries.
+/manuscript/
+/output/
+/git
+/docs/phase*.md
+/docs/manuscript*.md
+/docs/final_*.md
+/docs/paper_novelty_audit.*
+/docs/idea_check_source_recovery_validation.md
+
+# Do not blanket-ignore PDFs, images, JSON, eval/runs or eval/reports:
+# frozen evaluation artifacts and test fixtures are part of reproducibility.

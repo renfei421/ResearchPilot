@@ -1,0 +1,922 @@
+{
+  "benchmark_id": "matrix_completion_v1",
+  "version": "v1",
+  "identity_review_complete": true,
+  "counts_status": "final",
+  "works": [
+    {
+      "union_id": "union:5b5e3936a729135b882463b7d9076fd420b827764c807af1837e5e4436d80e2a",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 1,
+          "group_id": "version:fb9cd1e79b4020882e1225a96ef81ab3fbae5a6c39cb6844328dabbd8b559644",
+          "paper_id": "doi:10.1109/jstsp.2016.2537145",
+          "title": "A Characterization of Deterministic Sampling Patterns for Low-Rank Matrix Completion",
+          "year": 2016,
+          "version_count": 2
+        },
+        {
+          "source": "llm",
+          "original_rank": 1,
+          "group_id": "version:fb9cd1e79b4020882e1225a96ef81ab3fbae5a6c39cb6844328dabbd8b559644",
+          "paper_id": "doi:10.1109/jstsp.2016.2537145",
+          "title": "A Characterization of Deterministic Sampling Patterns for Low-Rank Matrix Completion",
+          "year": 2016,
+          "version_count": 2
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": true,
+      "human_best_rank": 1,
+      "llm_best_rank": 1
+    },
+    {
+      "union_id": "union:8c208e41b2f7692be27d2b865ec81b764c7588593776e60050ff12c9cbd90ce7",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 2,
+          "group_id": "version:e76978fef10725854146bf7a7b7af97cf0532a4a14d8f7f1bd2444e13c8045d4",
+          "paper_id": "doi:10.1007/s10208-019-09429-9",
+          "title": "Implicit Regularization in Nonconvex Statistical Estimation: Gradient Descent Converges Linearly for Phase Retrieval, Matrix Completion, and Blind Deconvolution",
+          "year": 2019,
+          "version_count": 1
+        },
+        {
+          "source": "llm",
+          "original_rank": 11,
+          "group_id": "version:e76978fef10725854146bf7a7b7af97cf0532a4a14d8f7f1bd2444e13c8045d4",
+          "paper_id": "doi:10.1007/s10208-019-09429-9",
+          "title": "Implicit Regularization in Nonconvex Statistical Estimation: Gradient Descent Converges Linearly for Phase Retrieval, Matrix Completion, and Blind Deconvolution",
+          "year": 2019,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": true,
+      "human_best_rank": 2,
+      "llm_best_rank": 11
+    },
+    {
+      "union_id": "union:9605632ea0321cae4bd5d59f31c66db4b8c1674f2011ea8ab9a09b8493ef19da",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 3,
+          "group_id": "version:6486d681af3f09c380f1939ae9d5598a641897854f94562ab38cd24d05ab0e32",
+          "paper_id": "doi:10.1109/lsp.2017.2780983",
+          "title": "On Deterministic Sampling Patterns for Robust Low-Rank Matrix Completion",
+          "year": 2017,
+          "version_count": 1
+        },
+        {
+          "source": "llm",
+          "original_rank": 4,
+          "group_id": "version:6486d681af3f09c380f1939ae9d5598a641897854f94562ab38cd24d05ab0e32",
+          "paper_id": "doi:10.1109/lsp.2017.2780983",
+          "title": "On Deterministic Sampling Patterns for Robust Low-Rank Matrix Completion",
+          "year": 2017,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": true,
+      "human_best_rank": 3,
+      "llm_best_rank": 4
+    },
+    {
+      "union_id": "union:8acd5654dad7b3d70043f9057a711574dab2f5cb4c8c0135c26c95ed649d727d",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 4,
+          "group_id": "version:0510fb81d5019e24410f9236266b95194b46e2987f16d2ed215fa52f5154c2e0",
+          "paper_id": "doi:10.1117/12.2275004",
+          "title": "De-biasing low-rank projection for matrix completion",
+          "year": 2017,
+          "version_count": 1
+        },
+        {
+          "source": "llm",
+          "original_rank": 19,
+          "group_id": "version:0510fb81d5019e24410f9236266b95194b46e2987f16d2ed215fa52f5154c2e0",
+          "paper_id": "doi:10.1117/12.2275004",
+          "title": "De-biasing low-rank projection for matrix completion",
+          "year": 2017,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": true,
+      "human_best_rank": 4,
+      "llm_best_rank": 19
+    },
+    {
+      "union_id": "union:5d8ce79d6e2bc8bf32cf55b2521adab55c95454c76ce22aaa62c30dba88f194c",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 5,
+          "group_id": "version:adc7c07897a8df5a4353467cb86be68db2e2a718d531e7568cf6b1af16404431",
+          "paper_id": "doi:10.26599/bdma.2018.9020008",
+          "title": "A survey of matrix completion methods for recommendation systems",
+          "year": 2018,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": false,
+      "human_best_rank": 5,
+      "llm_best_rank": null
+    },
+    {
+      "union_id": "union:68a8fd801cffce5fa46db30cbee335bd5e3225963cad070d777eae41533fb57e",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 6,
+          "group_id": "version:38ed31c056bf1fc70ccfb98c98e97763737dc5cf0950682f39575abaa37a9306",
+          "paper_id": "doi:10.1017/s0963548321000249",
+          "title": "Spectral gap in random bipartite biregular graphs and applications",
+          "year": 2021,
+          "version_count": 1
+        },
+        {
+          "source": "llm",
+          "original_rank": 2,
+          "group_id": "version:38ed31c056bf1fc70ccfb98c98e97763737dc5cf0950682f39575abaa37a9306",
+          "paper_id": "doi:10.1017/s0963548321000249",
+          "title": "Spectral gap in random bipartite biregular graphs and applications",
+          "year": 2021,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": true,
+      "human_best_rank": 6,
+      "llm_best_rank": 2
+    },
+    {
+      "union_id": "union:57ac13a4a10cb393a538a70111105915ef61033baa22af38083c14ccc6d56aac",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 7,
+          "group_id": "version:380ff13e0cdc1f5a5130e3ea67fb6f4173ee368a9a4595c2d8d3814e469fce24",
+          "paper_id": "doi:10.1109/tsp.2018.2885494",
+          "title": "Matrix Completion With Deterministic Pattern: A Geometric Perspective",
+          "year": 2018,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": false,
+      "human_best_rank": 7,
+      "llm_best_rank": null
+    },
+    {
+      "union_id": "union:848b337edc2bea5b71ea65e21f46db123dd5f27e3d0c3ab354aac5e3e5e56e03",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 8,
+          "group_id": "version:5040ed8f5a0796e4d461c8f13e45aea42a88a0ec954242b7eb6fab1fba53981e",
+          "paper_id": "doi:10.1038/lsa.2017.179",
+          "title": "Spectroscopic stimulated Raman scattering imaging of highly dynamic specimens through matrix completion",
+          "year": 2017,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": false,
+      "human_best_rank": 8,
+      "llm_best_rank": null
+    },
+    {
+      "union_id": "union:38e35de0a38fa7cad8de50775cdd2e8bfa0ee6895f4ae8a6a6b143a9a52f8131",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 9,
+          "group_id": "version:1a7f55ad555431763a01f69437a8641f31aa5c8f75d5578a167334840766c13e",
+          "paper_id": "doi:10.1214/17-aop1180",
+          "title": "Size biased couplings and the spectral gap for random regular graphs",
+          "year": 2018,
+          "version_count": 1
+        },
+        {
+          "source": "llm",
+          "original_rank": 16,
+          "group_id": "version:1a7f55ad555431763a01f69437a8641f31aa5c8f75d5578a167334840766c13e",
+          "paper_id": "doi:10.1214/17-aop1180",
+          "title": "Size biased couplings and the spectral gap for random regular graphs",
+          "year": 2018,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": true,
+      "human_best_rank": 9,
+      "llm_best_rank": 16
+    },
+    {
+      "union_id": "union:e12f93b69cbc4325423a27b89e776e1a89b549a663a1e4c2585524dfca583c3b",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 10,
+          "group_id": "version:dec105bceb966bf1aa8f6cd51a7d24e6c163e5d91b465af831dbc2f01d4e6d84",
+          "paper_id": "doi:10.1109/tpami.2019.2937869",
+          "title": "Matrix Completion with Deterministic Sampling: Theories and Methods",
+          "year": 2019,
+          "version_count": 1
+        },
+        {
+          "source": "llm",
+          "original_rank": 12,
+          "group_id": "version:dec105bceb966bf1aa8f6cd51a7d24e6c163e5d91b465af831dbc2f01d4e6d84",
+          "paper_id": "doi:10.1109/tpami.2019.2937869",
+          "title": "Matrix Completion with Deterministic Sampling: Theories and Methods",
+          "year": 2019,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": true,
+      "human_best_rank": 10,
+      "llm_best_rank": 12
+    },
+    {
+      "union_id": "union:2603d17873118180508539c71341059b98496dbfeb574c7e9b72d0a10a97b9a8",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 11,
+          "group_id": "version:28bb46cfd7e2a2b4c00f972f09fab365557e4f9383c233f503f8a6769bf161ab",
+          "paper_id": "doi:10.1214/19-aos1854",
+          "title": "Entrywise eigenvector analysis of random matrices with low expected rank",
+          "year": 2020,
+          "version_count": 1
+        },
+        {
+          "source": "llm",
+          "original_rank": 22,
+          "group_id": "version:28bb46cfd7e2a2b4c00f972f09fab365557e4f9383c233f503f8a6769bf161ab",
+          "paper_id": "doi:10.1214/19-aos1854",
+          "title": "Entrywise eigenvector analysis of random matrices with low expected rank",
+          "year": 2020,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": true,
+      "human_best_rank": 11,
+      "llm_best_rank": 22
+    },
+    {
+      "union_id": "union:281d245ce3279067d7ce39dd42c1a5f23bbbd5ca487789c264eaec151c380b3b",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 12,
+          "group_id": "version:356d9b588772daac1414fad417b775c5521ffbbd756daa09a98e93562cf6ae89",
+          "paper_id": "openalex:W2751391930",
+          "title": "A New Theory for Matrix Completion",
+          "year": 2017,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": false,
+      "human_best_rank": 12,
+      "llm_best_rank": null
+    },
+    {
+      "union_id": "union:f38fd1fd59b1645ebb9488dc75e0ff42a144de7c43988dddbd395e291d27ff60",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 13,
+          "group_id": "version:f29052f8eb35c02608aae9b52dda225bfcd26fd4251a36b06d926ad88dffe7da",
+          "paper_id": "doi:10.1109/tgrs.2023.3237464",
+          "title": "Spectral Gap-Based Seismic Survey Design",
+          "year": 2023,
+          "version_count": 1
+        },
+        {
+          "source": "llm",
+          "original_rank": 3,
+          "group_id": "version:fefd21e9bcc31d8bda7b5dc01ef328b56404ad1daefeea2d800d29adb9b0e602",
+          "paper_id": "doi:10.48550/arxiv.2202.04623",
+          "title": "Spectral Gap-Based Seismic Survey Design",
+          "year": 2022,
+          "version_count": 1
+        },
+        {
+          "source": "llm",
+          "original_rank": 20,
+          "group_id": "version:f29052f8eb35c02608aae9b52dda225bfcd26fd4251a36b06d926ad88dffe7da",
+          "paper_id": "doi:10.1109/tgrs.2023.3237464",
+          "title": "Spectral Gap-Based Seismic Survey Design",
+          "year": 2023,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": true,
+      "human_best_rank": 13,
+      "llm_best_rank": 3
+    },
+    {
+      "union_id": "union:1355afb134e4c44cf34969eb4f40d8d5f9b9865c08bb4983fc0d720acd22cf66",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 14,
+          "group_id": "version:71d6f4515e0fc35d0dd659fb6c747496376235ed9e6c947721922f4520b5368a",
+          "paper_id": "doi:10.1002/mrm.27594",
+          "title": "Cartesian MR fingerprinting in the eye at 7T using compressed sensing and matrix completion‐based reconstructions",
+          "year": 2018,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": false,
+      "human_best_rank": 14,
+      "llm_best_rank": null
+    },
+    {
+      "union_id": "union:5d93de44ef3ddb61824e4e79d34876684ddea489fee8521b8571e05f01e4c2e0",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 15,
+          "group_id": "version:a9c1bae368ab351f55f5fc6d68063f3a8067cd247d6a5e885da993f7dd037cf4",
+          "paper_id": "doi:10.48550/arxiv.1502.06689",
+          "title": "1-Bit Matrix Completion under Exact Low-Rank Constraint",
+          "year": 2015,
+          "version_count": 1
+        },
+        {
+          "source": "llm",
+          "original_rank": 27,
+          "group_id": "version:a9c1bae368ab351f55f5fc6d68063f3a8067cd247d6a5e885da993f7dd037cf4",
+          "paper_id": "doi:10.48550/arxiv.1502.06689",
+          "title": "1-Bit Matrix Completion under Exact Low-Rank Constraint",
+          "year": 2015,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": true,
+      "human_best_rank": 15,
+      "llm_best_rank": 27
+    },
+    {
+      "union_id": "union:d9674f4b603f2d7a429d7263d8d0362fe1285cbc6841542875a15f874cbb4fa6",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 16,
+          "group_id": "version:dc9c2459b1d1569eefac2b64cfc9cdd092c7cc727321b740bce8d0415c381ce9",
+          "paper_id": "doi:10.1109/tsp.2019.2932875",
+          "title": "Matrix Completion and Extrapolation via Kernel Regression",
+          "year": 2019,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": false,
+      "human_best_rank": 16,
+      "llm_best_rank": null
+    },
+    {
+      "union_id": "union:0d8caa4ab9f1db38af460d427ccb777c5293327859ed69d2e8ed7fa11f816300",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 17,
+          "group_id": "version:c085578f8fe8310a7de202a8f862987492d11114d490b669ba65a6b643c1e310",
+          "paper_id": "doi:10.48550/arxiv.1702.02267",
+          "title": "Matrix Completion from $O(n)$ Samples in Linear Time",
+          "year": 2017,
+          "version_count": 1
+        },
+        {
+          "source": "llm",
+          "original_rank": 9,
+          "group_id": "version:c085578f8fe8310a7de202a8f862987492d11114d490b669ba65a6b643c1e310",
+          "paper_id": "doi:10.48550/arxiv.1702.02267",
+          "title": "Matrix Completion from $O(n)$ Samples in Linear Time",
+          "year": 2017,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": true,
+      "human_best_rank": 17,
+      "llm_best_rank": 9
+    },
+    {
+      "union_id": "union:bed034a268cf40f3bbdab14cf52452639bc7d11cffc8d92d426c233b29bd5b95",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 18,
+          "group_id": "version:6f259d593832712fb17c9941aafdae060b5c062eff0ff90f3ce28badd05a7c6d",
+          "paper_id": "doi:10.1109/isit.2017.8006708",
+          "title": "A characterization of sampling patterns for low-rank multi-view data completion problem",
+          "year": 2017,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": false,
+      "human_best_rank": 18,
+      "llm_best_rank": null
+    },
+    {
+      "union_id": "union:8c83904b6c814701be1c56739c357c2c06d284926afab5ae8217fc3c234f11bd",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 19,
+          "group_id": "version:8f673bdf3f50a6ade7bcc954daed642c72c26372c74057c5cec59d445759d488",
+          "paper_id": "doi:10.48550/arxiv.2005.06062",
+          "title": "Detection thresholds in very sparse matrix completion",
+          "year": 2020,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": false,
+      "human_best_rank": 19,
+      "llm_best_rank": null
+    },
+    {
+      "union_id": "union:1fbab3286b930a3e374a2d9bcb8eff0d704ad273242a5b380ee10f807dc0916a",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 20,
+          "group_id": "version:1cea7e7a06f705356ae770140064d4816b12b315b77c06195180bed69438d6ef",
+          "paper_id": "doi:10.1007/s00440-016-0736-y",
+          "title": "Robust matrix completion",
+          "year": 2016,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": false,
+      "human_best_rank": 20,
+      "llm_best_rank": null
+    },
+    {
+      "union_id": "union:02d6416cacc6d69210d51d5f6ecddc38077f7a57f4564c3740bfad9d64000c50",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 21,
+          "group_id": "version:8b3562f10085a1afa2bdba526f98cf4ad6a1f6a74142aa49f55a78826fc347e0",
+          "paper_id": "doi:10.1109/jstsp.2016.2618502",
+          "title": "Corrections to “A Characterization of Deterministic Sampling Patterns for Low-Rank Matrix Completion”",
+          "year": 2016,
+          "version_count": 1
+        },
+        {
+          "source": "llm",
+          "original_rank": 6,
+          "group_id": "version:8b3562f10085a1afa2bdba526f98cf4ad6a1f6a74142aa49f55a78826fc347e0",
+          "paper_id": "doi:10.1109/jstsp.2016.2618502",
+          "title": "Corrections to “A Characterization of Deterministic Sampling Patterns for Low-Rank Matrix Completion”",
+          "year": 2016,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": true,
+      "human_best_rank": 21,
+      "llm_best_rank": 6
+    },
+    {
+      "union_id": "union:9e9277c746d063948b972cf392b43e0d10bcda5fb6f55ca29327501f72920d75",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 22,
+          "group_id": "version:cad2b6d607cc39f41f44cf1acb5b92a031f84e5b34656c89554398ddf5ae4257",
+          "paper_id": "doi:10.1190/image2022-3751690.1",
+          "title": "A simulation-free seismic survey design by maximizing the spectral gap",
+          "year": 2022,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": false,
+      "human_best_rank": 22,
+      "llm_best_rank": null
+    },
+    {
+      "union_id": "union:b374e0fa1f29d368a6c2ed70723cbad9d8109d69fda0a1ea91a4c361a3902130",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 5,
+          "group_id": "version:a4245144eb105941c340055578c004c80229d04cb4d5c87b7924cde39b8c0dd0",
+          "paper_id": "doi:10.1016/j.jco.2026.102056",
+          "title": "Nonconvex deterministic matrix completion by projected gradient descent methods",
+          "year": 2026,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 5
+    },
+    {
+      "union_id": "union:c0b973b059b4e2be3951bb9bbeed9e260dbb6d9a3c5635d3f0c9a082ba9f5c3d",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 7,
+          "group_id": "version:42ee6423d0ddacd92377bac5cc1808dec1ca2d3dd86cecfb9260f53c6504dd6f",
+          "paper_id": "doi:10.48550/arxiv.1910.13986",
+          "title": "Weighted matrix completion from non-random, non-uniform sampling\\n patterns",
+          "year": 2019,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 7
+    },
+    {
+      "union_id": "union:fe269d708df4a40c8b44d3f4e540f0940c57df68fa1cbfc7f3a26a4825ae52de",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 8,
+          "group_id": "version:4c948a21b3d9efcabe4a85cac89a4c8e036c816a33ac3c63a7390cad2fadccf5",
+          "paper_id": "doi:10.48550/arxiv.2106.02119",
+          "title": "A Scalable Second Order Method for Ill-Conditioned Matrix Completion from Few Samples",
+          "year": 2021,
+          "version_count": 2
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 8
+    },
+    {
+      "union_id": "union:5e20bfa90c5f973fa728f073ff5fe856decda1890401db4a35842a0858019a1d",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 10,
+          "group_id": "version:6d23fa50fa264a0d04e764d39d2bd77eb22f2c6be9cc1bfc2c5430d8c651db28",
+          "paper_id": "doi:10.1016/j.bspc.2015.12.008",
+          "title": "Compressive Sampling Photoacoustic Microscope System based on Low Rank Matrix Completion",
+          "year": 2016,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 10
+    },
+    {
+      "union_id": "union:98e8916d5a96436083c6c82eb34d957e1ec322ffbc144bbead8072e428e4db51",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 13,
+          "group_id": "version:3f6352bc8aceeb8e8a1f6c98288d01839824abae3b8303d0da4194e728155c28",
+          "paper_id": "doi:10.48550/arxiv.1612.00903",
+          "title": "Expander Graph and Communication-Efficient Decentralized Optimization",
+          "year": 2016,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 13
+    },
+    {
+      "union_id": "union:0381a7abe02700a70072e31fe0eda9a488ed819daee210fb323dd977ce95cf2b",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 14,
+          "group_id": "version:4a4ffd8f6c24bbea3597260db28470d6ec455c528b3025d81105275b234fc6aa",
+          "paper_id": "doi:10.33969/j-nana.2026.060203",
+          "title": "Multimedia Data Recovery and Latent Factor Analysis",
+          "year": 2026,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 14
+    },
+    {
+      "union_id": "union:54d2a409d20e5a52ea3307dba3c55da019604b2facd764ff2b00a9556742ad65",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 15,
+          "group_id": "version:88adfd569fafb9f4b36198515a736eda095ff5e04386331a54e65fd610395236",
+          "paper_id": "doi:10.48550/arxiv.2102.05758",
+          "title": "Sparse graph based sketching for fast numerical linear algebra",
+          "year": 2021,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 15
+    },
+    {
+      "union_id": "union:8af083e009b40e5a15bf23c77ddc325d540f74f335d4a01c2a2d7d65a91645f5",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 17,
+          "group_id": "version:981a9996776fde9eb4f46e9440ab50327c071e9eea60b6437a88f8b28d09f812",
+          "paper_id": "doi:10.48550/arxiv.1703.05038",
+          "title": "Harmonic Mean Iteratively Reweighted Least Squares for Low-Rank Matrix Recovery",
+          "year": 2017,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 17
+    },
+    {
+      "union_id": "union:3db627f9ff938c082812520cc99356174a0252986591d6237fd5506b27fee689",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 18,
+          "group_id": "version:58384fedf58271c3f246521e48c1711e1bc200f5181655a1ecbe6c7bcf7a65aa",
+          "paper_id": "doi:10.1080/10888438.2025.2557919",
+          "title": "Rosetta: A Method for Integration of Genetically Informative Studies of Reading Comprehension Development",
+          "year": 2025,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 18
+    },
+    {
+      "union_id": "union:7fc07130ae07606ffc32a755d2f014873e847d5c5c3d4aa1718a25e3ab5a6c8a",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 21,
+          "group_id": "version:bb2c9870598605fb4453f100b1c4b2ef23f5984bb71c68cadd24c7dbb7a87037",
+          "paper_id": "doi:10.48550/arxiv.2308.03661",
+          "title": "Matrix Completion in Almost-Verification Time",
+          "year": 2023,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 21
+    },
+    {
+      "union_id": "union:d8863daeba02025744235f7aff3e8da7e0cf2d80671eaed22d94b7a5089cf5a1",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 23,
+          "group_id": "version:511365b184a50330c0213cf81df37f0e740515343c836533f9eff80ed53fbb88",
+          "paper_id": "doi:10.1109/tpami.2023.3250325",
+          "title": "Low-Rank Matrix Completion Theory via Plücker Coordinates",
+          "year": 2023,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 23
+    },
+    {
+      "union_id": "union:97d5359cdb7f3129e67c4d1137b6796784bd97254c8f5cc679af346b8a9de0b9",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 24,
+          "group_id": "version:6d61975f148ae061ee24237423df10446fa8ef4bb57ff7531a7d8be35c9e7eb5",
+          "paper_id": "doi:10.1109/tpami.2026.3659200",
+          "title": "Robust Matrix Completion With Deterministic Sampling via Convex Optimization",
+          "year": 2026,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 24
+    },
+    {
+      "union_id": "union:b68ec275c3ea2faff30dc817fd1144d202045c0353c3b619bb6b70c7c2f1a780",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 25,
+          "group_id": "version:2282839c3fcf0f84825e98b057c189e1efabf8ed644b3ae824a3bc41db229e2c",
+          "paper_id": "doi:10.1609/aaai.v38i14.29557",
+          "title": "LERE: Learning-Based Low-Rank Matrix Recovery with Rank Estimation",
+          "year": 2024,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 25
+    },
+    {
+      "union_id": "union:f4f2b55386ed20a2674cc7ca19c470559dfaef40a84cd443d5da7621d05f6d64",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 26,
+          "group_id": "version:a1c0926c664022d625e840c444ffcd59c2a06e402c8d85cfdcba2083dc2bb817",
+          "paper_id": "doi:10.1137/1.9781611976120",
+          "title": "An Introduction to Compressed Sensing",
+          "year": 2019,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 26
+    },
+    {
+      "union_id": "union:1897f6163d9c02b64814033d5cfdb835ce83a0207943059ae8717357789927c6",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 28,
+          "group_id": "version:f3473c04d56355fceb4f413f24fdc2f3834279d4b878dac0c362f1be6b73e3e9",
+          "paper_id": "openalex:W2802356633",
+          "title": "Matrix Completion with Nonuniform Sampling: Theories and Methods.",
+          "year": 2018,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 28
+    },
+    {
+      "union_id": "union:b02809e166666377b7c4bd4233baf9c6651ff0377d3204a332af7f0d5d3994d3",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 29,
+          "group_id": "version:c2d285d3c1b1a5d332e6b5d40f4e1e0dc55194758a96930f0c2d71878904113a",
+          "paper_id": "openalex:W7128554658",
+          "title": "Trellis codes with a good distance profile constructed from expander graphs",
+          "year": 2026,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 29
+    },
+    {
+      "union_id": "union:828a27173a5870f38743b7b035a70cf165d5324e51546a8458e68f2956ec8e2e",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 30,
+          "group_id": "version:78790626a3c18d993829b5d03e94f3d8e7b74f4bf12b8bc8da47537b98130f6d",
+          "paper_id": "doi:10.23919/eusipco55093.2022.9909952",
+          "title": "Truncated Matrix Completion - An Empirical Study",
+          "year": 2022,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 30
+    },
+    {
+      "union_id": "union:4c2728fb1bc544a3014b63900a25536818fdcc1dbcedcd4e3e52e078027a9a4c",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 31,
+          "group_id": "version:31a4487b9dfdb8e155f205a8b4aa6eaf3f5f769bf66b9ff6b553caae7f6491a0",
+          "paper_id": "doi:10.48550/arxiv.2101.05231",
+          "title": "Robust CUR Decomposition: Theory and Imaging Applications",
+          "year": 2021,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 31
+    }
+  ],
+  "human_union_ranking": [
+    "union:5b5e3936a729135b882463b7d9076fd420b827764c807af1837e5e4436d80e2a",
+    "union:8c208e41b2f7692be27d2b865ec81b764c7588593776e60050ff12c9cbd90ce7",
+    "union:9605632ea0321cae4bd5d59f31c66db4b8c1674f2011ea8ab9a09b8493ef19da",
+    "union:8acd5654dad7b3d70043f9057a711574dab2f5cb4c8c0135c26c95ed649d727d",
+    "union:5d8ce79d6e2bc8bf32cf55b2521adab55c95454c76ce22aaa62c30dba88f194c",
+    "union:68a8fd801cffce5fa46db30cbee335bd5e3225963cad070d777eae41533fb57e",
+    "union:57ac13a4a10cb393a538a70111105915ef61033baa22af38083c14ccc6d56aac",
+    "union:848b337edc2bea5b71ea65e21f46db123dd5f27e3d0c3ab354aac5e3e5e56e03",
+    "union:38e35de0a38fa7cad8de50775cdd2e8bfa0ee6895f4ae8a6a6b143a9a52f8131",
+    "union:e12f93b69cbc4325423a27b89e776e1a89b549a663a1e4c2585524dfca583c3b",
+    "union:2603d17873118180508539c71341059b98496dbfeb574c7e9b72d0a10a97b9a8",
+    "union:281d245ce3279067d7ce39dd42c1a5f23bbbd5ca487789c264eaec151c380b3b",
+    "union:f38fd1fd59b1645ebb9488dc75e0ff42a144de7c43988dddbd395e291d27ff60",
+    "union:1355afb134e4c44cf34969eb4f40d8d5f9b9865c08bb4983fc0d720acd22cf66",
+    "union:5d93de44ef3ddb61824e4e79d34876684ddea489fee8521b8571e05f01e4c2e0",
+    "union:d9674f4b603f2d7a429d7263d8d0362fe1285cbc6841542875a15f874cbb4fa6",
+    "union:0d8caa4ab9f1db38af460d427ccb777c5293327859ed69d2e8ed7fa11f816300",
+    "union:bed034a268cf40f3bbdab14cf52452639bc7d11cffc8d92d426c233b29bd5b95",
+    "union:8c83904b6c814701be1c56739c357c2c06d284926afab5ae8217fc3c234f11bd",
+    "union:1fbab3286b930a3e374a2d9bcb8eff0d704ad273242a5b380ee10f807dc0916a",
+    "union:02d6416cacc6d69210d51d5f6ecddc38077f7a57f4564c3740bfad9d64000c50",
+    "union:9e9277c746d063948b972cf392b43e0d10bcda5fb6f55ca29327501f72920d75"
+  ],
+  "llm_union_ranking": [
+    "union:5b5e3936a729135b882463b7d9076fd420b827764c807af1837e5e4436d80e2a",
+    "union:68a8fd801cffce5fa46db30cbee335bd5e3225963cad070d777eae41533fb57e",
+    "union:f38fd1fd59b1645ebb9488dc75e0ff42a144de7c43988dddbd395e291d27ff60",
+    "union:9605632ea0321cae4bd5d59f31c66db4b8c1674f2011ea8ab9a09b8493ef19da",
+    "union:b374e0fa1f29d368a6c2ed70723cbad9d8109d69fda0a1ea91a4c361a3902130",
+    "union:02d6416cacc6d69210d51d5f6ecddc38077f7a57f4564c3740bfad9d64000c50",
+    "union:c0b973b059b4e2be3951bb9bbeed9e260dbb6d9a3c5635d3f0c9a082ba9f5c3d",
+    "union:fe269d708df4a40c8b44d3f4e540f0940c57df68fa1cbfc7f3a26a4825ae52de",
+    "union:0d8caa4ab9f1db38af460d427ccb777c5293327859ed69d2e8ed7fa11f816300",
+    "union:5e20bfa90c5f973fa728f073ff5fe856decda1890401db4a35842a0858019a1d",
+    "union:8c208e41b2f7692be27d2b865ec81b764c7588593776e60050ff12c9cbd90ce7",
+    "union:e12f93b69cbc4325423a27b89e776e1a89b549a663a1e4c2585524dfca583c3b",
+    "union:98e8916d5a96436083c6c82eb34d957e1ec322ffbc144bbead8072e428e4db51",
+    "union:0381a7abe02700a70072e31fe0eda9a488ed819daee210fb323dd977ce95cf2b",
+    "union:54d2a409d20e5a52ea3307dba3c55da019604b2facd764ff2b00a9556742ad65",
+    "union:38e35de0a38fa7cad8de50775cdd2e8bfa0ee6895f4ae8a6a6b143a9a52f8131",
+    "union:8af083e009b40e5a15bf23c77ddc325d540f74f335d4a01c2a2d7d65a91645f5",
+    "union:3db627f9ff938c082812520cc99356174a0252986591d6237fd5506b27fee689",
+    "union:8acd5654dad7b3d70043f9057a711574dab2f5cb4c8c0135c26c95ed649d727d",
+    "union:7fc07130ae07606ffc32a755d2f014873e847d5c5c3d4aa1718a25e3ab5a6c8a",
+    "union:2603d17873118180508539c71341059b98496dbfeb574c7e9b72d0a10a97b9a8",
+    "union:d8863daeba02025744235f7aff3e8da7e0cf2d80671eaed22d94b7a5089cf5a1",
+    "union:97d5359cdb7f3129e67c4d1137b6796784bd97254c8f5cc679af346b8a9de0b9",
+    "union:b68ec275c3ea2faff30dc817fd1144d202045c0353c3b619bb6b70c7c2f1a780",
+    "union:f4f2b55386ed20a2674cc7ca19c470559dfaef40a84cd443d5da7621d05f6d64",
+    "union:5d93de44ef3ddb61824e4e79d34876684ddea489fee8521b8571e05f01e4c2e0",
+    "union:1897f6163d9c02b64814033d5cfdb835ce83a0207943059ae8717357789927c6",
+    "union:b02809e166666377b7c4bd4233baf9c6651ff0377d3204a332af7f0d5d3994d3",
+    "union:828a27173a5870f38743b7b035a70cf165d5324e51546a8458e68f2956ec8e2e",
+    "union:4c2728fb1bc544a3014b63900a25536818fdcc1dbcedcd4e3e52e078027a9a4c"
+  ],
+  "review_candidates": [],
+  "review_decisions": [
+    {
+      "left_source": "human",
+      "left_group_id": "version:f29052f8eb35c02608aae9b52dda225bfcd26fd4251a36b06d926ad88dffe7da",
+      "right_source": "llm",
+      "right_group_id": "version:fefd21e9bcc31d8bda7b5dc01ef328b56404ad1daefeea2d800d29adb9b0e602",
+      "decision": "same_work",
+      "note": "Same work: arXiv preprint 2202.04623 and the later IEEE TGRS publication DOI 10.1109/TGRS.2023.3237464."
+    }
+  ],
+  "summary": {
+    "raw_human_groups": 22,
+    "raw_llm_groups": 31,
+    "canonical_human_works": 22,
+    "canonical_llm_works": 30,
+    "intersection": 12,
+    "human_only": 10,
+    "llm_only": 18,
+    "unresolved_title_pairs": 0
+  }
+}

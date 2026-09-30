@@ -1,0 +1,21 @@
+{
+  "benchmark_id": "matrix_completion_v1",
+  "question": "How does spectral expansion affect deterministic matrix completion under fixed observation patterns?",
+  "year_from": 2015,
+  "year_to": 2026,
+  "per_query": 10,
+  "queries": [
+    {
+      "query_id": "q1",
+      "text": "\"matrix completion\" AND deterministic"
+    },
+    {
+      "query_id": "q2",
+      "text": "\"matrix completion\" AND \"sampling pattern\""
+    },
+    {
+      "query_id": "q3",
+      "text": "\"matrix completion\" AND \"spectral gap\""
+    }
+  ]
+}

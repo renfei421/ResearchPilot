@@ -1,0 +1,54 @@
+{
+  "benchmark_id": "rag_hallucination_v1",
+  "planner_version": "v1",
+  "model": "gpt-5.6-terra",
+  "generated_at": "2026-09-17T07:15:00.353979+00:00",
+  "request": {
+    "research_question": "How does retrieval-augmented generation reduce hallucination and improve factuality in large language models?",
+    "year_from": 2020,
+    "year_to": 2026,
+    "max_queries": 5
+  },
+  "plan": {
+    "research_question": "How does retrieval-augmented generation reduce hallucination and improve factuality in large language models?",
+    "concepts": [
+      "retrieval-augmented generation",
+      "hallucination reduction",
+      "factuality",
+      "large language models",
+      "retrieval grounding and evidence integration"
+    ],
+    "queries": [
+      {
+        "query_id": "q1",
+        "text": "\"retrieval-augmented generation\" AND (hallucination OR factuality) AND \"large language model\"",
+        "role": "core",
+        "rationale": "Directly targets research evaluating RAG in relation to hallucination and factuality in LLMs."
+      },
+      {
+        "query_id": "q2",
+        "text": "(\"retrieval-augmented generation\" OR RAG) AND (\"factual consistency\" OR \"faithfulness\" OR \"factual accuracy\")",
+        "role": "facet",
+        "rationale": "Covers factuality evaluation terminology used beyond the word hallucination."
+      },
+      {
+        "query_id": "q3",
+        "text": "(\"retrieval grounding\" OR \"knowledge-grounded generation\" OR \"document-grounded generation\") AND (hallucination OR \"unsupported claims\")",
+        "role": "synonym",
+        "rationale": "Finds adjacent literature using alternative names for retrieval-supported generation and ungrounded outputs."
+      },
+      {
+        "query_id": "q4",
+        "text": "(\"large language models\" OR LLMs) AND (retrieval OR \"external knowledge\") AND (\"citation generation\" OR \"evidence attribution\" OR \"source attribution\")",
+        "role": "bridge",
+        "rationale": "Connects RAG with evidence attribution and citations, mechanisms that can improve verifiability and factual grounding."
+      },
+      {
+        "query_id": "q5",
+        "text": "(\"retrieval-augmented generation\" OR \"retrieval-augmented language model\") AND (\"retrieval quality\" OR \"retrieval relevance\" OR \"context quality\") AND (hallucination OR factuality)",
+        "role": "facet",
+        "rationale": "Targets studies on how retrieval and retrieved-context quality affects hallucination and factual outcomes."
+      }
+    ]
+  }
+}

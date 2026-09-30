@@ -1,0 +1,21 @@
+{
+  "benchmark_id": "rag_hallucination_v1",
+  "question": "How does retrieval-augmented generation reduce hallucination and improve factuality in large language models?",
+  "year_from": 2020,
+  "year_to": 2026,
+  "per_query": 10,
+  "queries": [
+    {
+      "query_id": "q1",
+      "text": "\"retrieval augmented generation\" AND hallucination"
+    },
+    {
+      "query_id": "q2",
+      "text": "\"retrieval augmented generation\" AND factuality"
+    },
+    {
+      "query_id": "q3",
+      "text": "\"retrieval augmented generation\" AND grounding"
+    }
+  ]
+}

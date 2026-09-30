@@ -1,0 +1,190 @@
+{
+  "benchmark_id": "rag_hallucination_v1",
+  "question": "How does retrieval-augmented generation reduce hallucination and improve factuality in large language models?",
+  "model": "gpt-5.6-terra",
+  "timestamp": "2026-09-16T13:45:22.378870+00:00",
+  "assessments": [
+    {
+      "group_id": "version:dad91b6a012ec4c70b8c5162153987b08808c3719a75aba246b0f3838528c413",
+      "original_rrf_rank": 1,
+      "original_rrf_score": 0.04918032786885246,
+      "title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+      "category": "direct",
+      "semantic_score": 0.98,
+      "reason": "This survey directly addresses RAG for LLMs, explicitly framing hallucination as a challenge and describing how external retrieval improves generation accuracy and credibility. Its coverage of RAG components, paradigms, evaluation, and challenges is core to explaining how RAG improves factuality."
+    },
+    {
+      "group_id": "version:2022bab10e21d22fee7760455688a9ce74cea7a8a4ded58a86dd8d411834c2bb",
+      "original_rrf_rank": 2,
+      "original_rrf_score": 0.04838709677419355,
+      "title": "Active Retrieval Augmented Generation",
+      "category": "direct",
+      "semantic_score": 0.72,
+      "reason": "The title explicitly concerns retrieval-augmented generation, the core method in the research question. However, the supplied abstract contains only bibliographic information and no evidence about hallucination reduction or factuality outcomes, so relevance to those specific effects is uncertain."
+    },
+    {
+      "group_id": "version:4fbc6af4e0bd5627101a52f16405d33b4b15043f4efaac31ca9a5240f4977fb7",
+      "original_rrf_rank": 3,
+      "original_rrf_score": 0.04664224664224664,
+      "title": "Benchmarking Retrieval-Augmented Generation for Medicine",
+      "category": "direct",
+      "semantic_score": 0.88,
+      "reason": "The paper directly evaluates RAG as a solution to LLM hallucinations and outdated knowledge, benchmarking retrievers, corpora, and models in medical QA. It reports substantial accuracy improvements and analyzes RAG behaviors, though its factuality evidence is framed primarily through QA accuracy in the medical domain."
+    },
+    {
+      "group_id": "version:55b8fea1a274330da0186b53fb630885f5b43687f531008e089414a626c5a690",
+      "original_rrf_rank": 4,
+      "original_rrf_score": 0.04395604395604395,
+      "title": "Integrating Retrieval-Augmented Generation with Large Language Models in Nephrology: Advancing Practical Applications",
+      "category": "direct",
+      "semantic_score": 0.9,
+      "reason": "The paper explicitly discusses RAG as a strategy to mitigate LLM hallucinations by integrating external data, improving output accuracy and relevance, and presents a guideline-grounded nephrology RAG application. Although domain-specific, it directly addresses the question’s hallucination and factuality relationship."
+    },
+    {
+      "group_id": "version:e1fee44aebdf33cb8404ac653537868c043f9ec8e169b7637c5909275f34bee5",
+      "original_rrf_rank": 5,
+      "original_rrf_score": 0.031746031746031744,
+      "title": "RAGAs: Automated Evaluation of Retrieval Augmented Generation",
+      "category": "supporting",
+      "semantic_score": 0.6,
+      "reason": "The title indicates an automated evaluation framework for retrieval-augmented generation, which is relevant for measuring hallucination and factuality improvements. However, the supplied abstract contains only bibliographic information, so it does not establish that the paper studies how RAG reduces hallucination or improves factuality."
+    },
+    {
+      "group_id": "version:9dc16cf734022405d7deac7415627d9338799889e4702ee8da9e36de88d48cf7",
+      "original_rrf_rank": 6,
+      "original_rrf_score": 0.03125,
+      "title": "Benchmarking Large Language Models in Retrieval-Augmented Generation",
+      "category": "direct",
+      "semantic_score": 0.93,
+      "reason": "The paper directly evaluates how RAG affects LLM behavior relevant to hallucination and factuality, including robustness to noise and counterfactual/false information, negative rejection, and information integration. Its benchmark identifies practical limitations and bottlenecks in RAG’s ability to mitigate hallucination."
+    },
+    {
+      "group_id": "version:3b183b2565682c9e0a852f62d6f8661369e28531a17a4cc762c10cc4483b972a",
+      "original_rrf_rank": 7,
+      "original_rrf_score": 0.030330882352941176,
+      "title": "LightRAG: Simple and Fast Retrieval-Augmented Generation",
+      "category": "direct",
+      "semantic_score": 0.9,
+      "reason": "The paper directly studies a retrieval-augmented generation framework for LLMs, proposing graph-based retrieval to improve retrieval accuracy, contextual relevance, and response quality. Although it does not explicitly measure hallucination or factuality in the abstract, these are central mechanisms through which the question concerns RAG."
+    },
+    {
+      "group_id": "version:8bb990637397dc668bbea1de538761db992641d93e9f6e8f6f24bd04004aba16",
+      "original_rrf_rank": 8,
+      "original_rrf_score": 0.03007688828584351,
+      "title": "Improving the Domain Adaptation of Retrieval Augmented Generation (RAG) Models for Open Domain Question Answering",
+      "category": "direct",
+      "semantic_score": 0.88,
+      "reason": "The paper directly studies RAG for open-domain QA, including retriever–generator joint training and domain-specific knowledge bases. Its reported QA improvements are relevant to how retrieval grounding can improve factual responses, though the abstract does not explicitly measure hallucination or factuality."
+    },
+    {
+      "group_id": "version:157358bbf0b8d63559f35a5d80b621cb0826a1a8ae80b31fcad798e6065b6e9f",
+      "original_rrf_rank": 9,
+      "original_rrf_score": 0.028985507246376812,
+      "title": "Retrieval-augmented generation for educational application: A systematic survey",
+      "category": "direct",
+      "semantic_score": 0.9,
+      "reason": "The survey explicitly explains RAG as retrieving external knowledge for generation and states that this improves factual accuracy and mitigates hallucination. Although centered on educational applications, it reviews RAG workflow, retrievers, and generation optimization methods directly relevant to how RAG affects LLM factuality."
+    },
+    {
+      "group_id": "version:530f9fcd99cbb05e7123fde8ac6b4fb565b1fadf7614b73643d6f759b35b4413",
+      "original_rrf_rank": 10,
+      "original_rrf_score": 0.015151515151515152,
+      "title": "Graph Retrieval-Augmented Generation: A Survey",
+      "category": "direct",
+      "semantic_score": 0.92,
+      "reason": "The survey directly addresses RAG as a way to mitigate LLM hallucination and improve accuracy/contextual factuality through external knowledge retrieval. It also reviews GraphRAG mechanisms, training, evaluation, and applications relevant to explaining how retrieval improves outputs."
+    },
+    {
+      "group_id": "version:51181febdb3bd8698e120475d2f847daea1418dab086352cadb006d882306841",
+      "original_rrf_rank": 11,
+      "original_rrf_score": 0.015151515151515152,
+      "title": "Retrieval-Augmented Generation (RAG)",
+      "category": "off_target",
+      "semantic_score": 0.18,
+      "reason": "Despite the RAG title, the abstract only motivates shortcomings of enterprise information retrieval and the need for improved organizational search. It provides no evidence about generation, LLMs, hallucination, or factuality."
+    },
+    {
+      "group_id": "version:5fbbc5b4185fff73f68233c73d34144a6a7b1bca46c0e0247ffc6045722948c7",
+      "original_rrf_rank": 12,
+      "original_rrf_score": 0.014925373134328358,
+      "title": "Retrieval augmented generation for large language models in healthcare: A systematic review",
+      "category": "direct",
+      "semantic_score": 0.9,
+      "reason": "The review directly addresses RAG as a method to ground LLM responses in external knowledge to mitigate inaccurate/hallucinated content, and surveys RAG methods and evaluation in healthcare. Its healthcare focus narrows scope, but it is core evidence for the factuality and hallucination-reduction role of RAG."
+    },
+    {
+      "group_id": "version:8e3ccef640c165b95e5abae732b290ab2fa11bea83328aaa15b508e96ae00cbc",
+      "original_rrf_rank": 13,
+      "original_rrf_score": 0.014925373134328358,
+      "title": "Retrieval-Augmented Generation for AI-Generated Content: A Survey",
+      "category": "direct",
+      "semantic_score": 0.93,
+      "reason": "This survey directly concerns retrieval-augmented generation and states that retrieval of relevant information improves generation accuracy and robustness. It reviews RAG foundations, enhancement methods, benchmarks, limitations, and applications, making it core literature for explaining how RAG can improve factuality and mitigate hallucination-related failures."
+    },
+    {
+      "group_id": "version:61e0e3110c04daaa4f332d938c2a52c8a5dade14e91f2817b90db44ccd51f678",
+      "original_rrf_rank": 14,
+      "original_rrf_score": 0.014705882352941176,
+      "title": "Corrective Retrieval Augmented Generation",
+      "category": "direct",
+      "semantic_score": 0.72,
+      "reason": "The title explicitly concerns corrective retrieval-augmented generation, which is directly relevant to studying how RAG may reduce hallucination and improve factuality. However, the abstract is missing, so the specific mechanisms and evidence cannot be verified."
+    },
+    {
+      "group_id": "version:a17f3e0a6b9d2d534aece4f171da9cc9f26ed93f2628d29c9d57b2d3485fdf62",
+      "original_rrf_rank": 15,
+      "original_rrf_score": 0.014705882352941176,
+      "title": "MedRAG: Enhancing Retrieval-augmented Generation with Knowledge Graph-Elicited Reasoning for Healthcare Copilot",
+      "category": "supporting",
+      "semantic_score": 0.72,
+      "reason": "The paper directly studies a RAG system in which retrieved EHRs and knowledge-graph reasoning are integrated into an LLM, reporting improved diagnostic specificity and reduced misdiagnosis. It is useful evidence on RAG improving factual/decision accuracy in a high-stakes domain, but it does not explicitly study hallucination or general LLM factuality."
+    },
+    {
+      "group_id": "version:581a31ee29ae92d2bfa971839069ce1f9b79d77361ff5f7ee06d46299349bfd9",
+      "original_rrf_rank": 16,
+      "original_rrf_score": 0.014492753623188406,
+      "title": "Retrieval-Augmented Generation (RAG) in Healthcare: A Comprehensive Review",
+      "category": "direct",
+      "semantic_score": 0.9,
+      "reason": "The review directly addresses how RAG integrates external retrieval to improve factual consistency and reduce hallucinations in LLMs. It also covers RAG architectures, factuality-oriented evaluation metrics, and limitations such as retrieval noise, albeit with a healthcare focus."
+    },
+    {
+      "group_id": "version:5423e20e7f4bfb6c9afadb503e2e90dda2f9e99fe6ac591916189e3d7ee0ac53",
+      "original_rrf_rank": 17,
+      "original_rrf_score": 0.014285714285714285,
+      "title": "CareerX: A Retrieval-Augmented Generation Framework for Personalized AI-Driven Career Guidance",
+      "category": "direct",
+      "semantic_score": 0.8,
+      "reason": "The paper directly presents a RAG system motivated by LLM hallucination and training-data staleness, using live web retrieval and source-attributed citations to provide current, traceable career information. It offers an applied example of how retrieval can improve factual grounding, though it reports system metrics rather than a rigorous hallucination or factuality evaluation."
+    }
+  ],
+  "semantic_ranking": [
+    "version:dad91b6a012ec4c70b8c5162153987b08808c3719a75aba246b0f3838528c413",
+    "version:9dc16cf734022405d7deac7415627d9338799889e4702ee8da9e36de88d48cf7",
+    "version:8e3ccef640c165b95e5abae732b290ab2fa11bea83328aaa15b508e96ae00cbc",
+    "version:530f9fcd99cbb05e7123fde8ac6b4fb565b1fadf7614b73643d6f759b35b4413",
+    "version:55b8fea1a274330da0186b53fb630885f5b43687f531008e089414a626c5a690",
+    "version:3b183b2565682c9e0a852f62d6f8661369e28531a17a4cc762c10cc4483b972a",
+    "version:157358bbf0b8d63559f35a5d80b621cb0826a1a8ae80b31fcad798e6065b6e9f",
+    "version:5fbbc5b4185fff73f68233c73d34144a6a7b1bca46c0e0247ffc6045722948c7",
+    "version:581a31ee29ae92d2bfa971839069ce1f9b79d77361ff5f7ee06d46299349bfd9",
+    "version:4fbc6af4e0bd5627101a52f16405d33b4b15043f4efaac31ca9a5240f4977fb7",
+    "version:8bb990637397dc668bbea1de538761db992641d93e9f6e8f6f24bd04004aba16",
+    "version:5423e20e7f4bfb6c9afadb503e2e90dda2f9e99fe6ac591916189e3d7ee0ac53",
+    "version:2022bab10e21d22fee7760455688a9ce74cea7a8a4ded58a86dd8d411834c2bb",
+    "version:61e0e3110c04daaa4f332d938c2a52c8a5dade14e91f2817b90db44ccd51f678",
+    "version:a17f3e0a6b9d2d534aece4f171da9cc9f26ed93f2628d29c9d57b2d3485fdf62",
+    "version:e1fee44aebdf33cb8404ac653537868c043f9ec8e169b7637c5909275f34bee5",
+    "version:51181febdb3bd8698e120475d2f847daea1418dab086352cadb006d882306841"
+  ],
+  "baseline_metrics": {
+    "precision_at_10": 1.0,
+    "strict_precision_at_10": 0.3,
+    "ndcg_at_10": 0.8104156585300656
+  },
+  "semantic_metrics": {
+    "precision_at_10": 1.0,
+    "strict_precision_at_10": 0.4,
+    "ndcg_at_10": 0.9588342406066944
+  }
+}

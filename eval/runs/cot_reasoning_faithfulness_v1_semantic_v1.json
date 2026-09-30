@@ -1,0 +1,240 @@
+{
+  "benchmark_id": "cot_reasoning_faithfulness_v1",
+  "question": "How does chain-of-thought prompting affect reasoning accuracy and faithfulness in large language models?",
+  "model": "gpt-5.6-terra",
+  "timestamp": "2026-09-17T04:22:44.106015+00:00",
+  "assessments": [
+    {
+      "group_id": "version:c00e8ba42890369d7f38211de65512e1c1c7833d347b76f6ea34b5b696a69ea0",
+      "original_rrf_rank": 1,
+      "original_rrf_score": 0.0474478480153437,
+      "title": "Automatic Chain of Thought Prompting in Large Language Models",
+      "category": "direct",
+      "semantic_score": 0.84,
+      "reason": "Directly studies chain-of-thought prompting in LLMs and evaluates reasoning-task performance/accuracy, including effects of errors and diversity in generated reasoning demonstrations. It does not explicitly evaluate faithfulness, so it only addresses that part indirectly."
+    },
+    {
+      "group_id": "version:993e12e4013d782d9415f5a747dedb772fa95b995f3ae941c2ce38d10e3230a1",
+      "original_rrf_rank": 2,
+      "original_rrf_score": 0.046024698110220356,
+      "title": "Faithful Chain-of-Thought Reasoning",
+      "category": "direct",
+      "semantic_score": 0.83,
+      "reason": "The title directly targets faithfulness in chain-of-thought reasoning, an essential part of the question. However, the supplied abstract contains only bibliographic information, so its specific findings on reasoning accuracy and the effects of prompting cannot be verified."
+    },
+    {
+      "group_id": "version:a4e5a68c9f6143dad856a15d062d20e20b896fd3834de4098139e3ecfcdfd4df",
+      "original_rrf_rank": 3,
+      "original_rrf_score": 0.031754032258064516,
+      "title": "Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions",
+      "category": "direct",
+      "semantic_score": 0.82,
+      "reason": "Directly studies chain-of-thought reasoning in LLMs and reports improvements in downstream multi-step QA accuracy and reduced hallucination/factually more accurate CoT. Its focus is retrieval-interleaved CoT rather than a broad comparison of CoT prompting or explicit faithfulness evaluation, but it is core evidence on accuracy and factual reliability."
+    },
+    {
+      "group_id": "version:56d9d87e4b754bd411bf976805e42bf5d5f4b6e50cc59858e6eb6d621ee1b23c",
+      "original_rrf_rank": 4,
+      "original_rrf_score": 0.031009615384615385,
+      "title": "Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models",
+      "category": "direct",
+      "semantic_score": 0.84,
+      "reason": "The title explicitly studies a prompting method for improving zero-shot chain-of-thought reasoning in large language models, making it directly relevant to reasoning accuracy. However, the supplied abstract contains only bibliographic information, so its treatment of faithfulness cannot be established."
+    },
+    {
+      "group_id": "version:c489cbd9f4d740055c56225c2edb4e1b358a29bd259a8bcd3b2490cc1bf6b8eb",
+      "original_rrf_rank": 5,
+      "original_rrf_score": 0.028991596638655463,
+      "title": "Reasoning Implicit Sentiment with Chain-of-Thought Prompting",
+      "category": "direct",
+      "semantic_score": 0.78,
+      "reason": "The paper directly evaluates a chain-of-thought prompting framework on an implicit-sentiment task and reports substantial reasoning-task accuracy gains. It is relevant to CoT’s effect on reasoning accuracy, though the abstract provides no evidence of evaluating faithfulness."
+    },
+    {
+      "group_id": "version:76cc0bd49d1b2854be984006831c02a5a51b1329576a95a045f4edea929c2af3",
+      "original_rrf_rank": 6,
+      "original_rrf_score": 0.01639344262295082,
+      "title": "Chain-Of-Thought Prompting Elicits Reasoning in Large Language Models",
+      "category": "direct",
+      "semantic_score": 0.8,
+      "reason": "The title directly concerns chain-of-thought prompting and reasoning in large language models, making it core to the question. However, the abstract is missing, so it is uncertain whether the paper evaluates reasoning accuracy, faithfulness, or both."
+    },
+    {
+      "group_id": "version:5bb599df2e747b966e596e1604002f6b891fd237384aa00332d349642c513b6e",
+      "original_rrf_rank": 7,
+      "original_rrf_score": 0.016129032258064516,
+      "title": "Self-Consistency Improves Chain of Thought Reasoning in Language Models",
+      "category": "direct",
+      "semantic_score": 0.84,
+      "reason": "Directly studies chain-of-thought prompting and reports substantial reasoning-accuracy improvements via self-consistency decoding across several reasoning benchmarks. It does not address faithfulness of the generated reasoning paths, so coverage of that part of the question is limited."
+    },
+    {
+      "group_id": "version:16c6111b254599f73210417ed7f9cdab6a0ae939c6efd0f5a6246f48fccc7fd4",
+      "original_rrf_rank": 8,
+      "original_rrf_score": 0.015873015873015872,
+      "title": "DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning",
+      "category": "supporting",
+      "semantic_score": 0.68,
+      "reason": "The paper concerns LLM reasoning and explicitly situates its contribution relative to chain-of-thought prompting, while showing that RL can induce reasoning patterns and improve performance on reasoning tasks. However, it does not appear to directly evaluate how CoT prompting affects accuracy or, especially, the faithfulness of reasoning traces."
+    },
+    {
+      "group_id": "version:a6f8cb54e40040f477e0c85b8191b979e22ce74bdd8cb2a2e6f96d6c4091fa42",
+      "original_rrf_rank": 9,
+      "original_rrf_score": 0.015873015873015872,
+      "title": "Faithful Logical Reasoning via Symbolic Chain-of-Thought",
+      "category": "direct",
+      "semantic_score": 0.94,
+      "reason": "The paper directly studies a chain-of-thought variant in LLMs, comparing it with CoT on logical-reasoning benchmarks and explicitly claiming improvements in both reasoning performance and faithfulness through symbolic representations and verification."
+    },
+    {
+      "group_id": "version:7e709013b0710885ded03bf7a815db8682e8a9468dc293f759734bdda966be1a",
+      "original_rrf_rank": 10,
+      "original_rrf_score": 0.015873015873015872,
+      "title": "Applying large language models and chain-of-thought for automatic scoring",
+      "category": "supporting",
+      "semantic_score": 0.66,
+      "reason": "The paper empirically tests how chain-of-thought prompting affects LLM scoring accuracy, finding gains when paired with item stems and rubrics. It is useful evidence on CoT’s task-dependent accuracy effects, but it does not directly evaluate reasoning accuracy broadly or assess faithfulness of CoT reasoning."
+    },
+    {
+      "group_id": "version:d03caa07de55f8058e95b7c349f29e340d42935e5c07ebf295205c96262f8f6a",
+      "original_rrf_rank": 11,
+      "original_rrf_score": 0.015625,
+      "title": "Measuring Faithfulness in Chain-of-Thought Reasoning",
+      "category": "direct",
+      "semantic_score": 0.98,
+      "reason": "Directly investigates CoT’s reasoning-performance boost and whether generated CoT faithfully reflects the model’s actual reasoning, including intervention-based evidence and effects of model size and task."
+    },
+    {
+      "group_id": "version:6b458621104c6e93b90220b9b5b27bebeb4d990291ab1c9d2544c2a5052de48d",
+      "original_rrf_rank": 12,
+      "original_rrf_score": 0.015384615384615385,
+      "title": "Challenging BIG-Bench Tasks and Whether Chain-of-Thought Can Solve Them",
+      "category": "direct",
+      "semantic_score": 0.72,
+      "reason": "The title explicitly examines whether chain-of-thought can solve challenging BIG-Bench tasks, making it directly relevant to chain-of-thought's effect on reasoning-task accuracy. However, the supplied abstract contains only bibliographic metadata and provides no evidence that the paper evaluates faithfulness, so relevance to that part is uncertain."
+    },
+    {
+      "group_id": "version:42adbc319f9f78f05960b114bd675fd4187ccb2dc6231d0306600e01e0a3390b",
+      "original_rrf_rank": 13,
+      "original_rrf_score": 0.015151515151515152,
+      "title": "BNAI, NO-TOKEN, and MIND-UNITY: Pillars of a Systemic Revolution in Artificial Intelligence",
+      "category": "supporting",
+      "semantic_score": 0.62,
+      "reason": "The abstract concerns LLM outputs that resemble careful reasoning without corresponding cognitive work, a concept directly relevant to reasoning faithfulness. However, it does not specifically evaluate chain-of-thought prompting or its effects on reasoning accuracy."
+    },
+    {
+      "group_id": "version:d13364bb8b96515019ee3ad86b9d07dba9720e9a85da21e758e81999acc1dd25",
+      "original_rrf_rank": 14,
+      "original_rrf_score": 0.015151515151515152,
+      "title": "SCOTT: Self-Consistent Chain-of-Thought Distillation",
+      "category": "direct",
+      "semantic_score": 0.95,
+      "reason": "The paper directly addresses CoT prompting, noting its performance gains and potential lack of faithful justification, and proposes/evaluates a method to produce more self-consistent, faithful CoT rationales while maintaining end-task accuracy."
+    },
+    {
+      "group_id": "version:dcadbfb6114af7a0042bac62d91c76e750872da230f1324cdf2e45094a2ef0c3",
+      "original_rrf_rank": 15,
+      "original_rrf_score": 0.015151515151515152,
+      "title": "Structured Chain-of-Thought Prompting for Code Generation",
+      "category": "direct",
+      "semantic_score": 0.78,
+      "reason": "Directly studies how a structured variant of chain-of-thought prompting changes reasoning/code-generation accuracy relative to standard CoT, with benchmarked Pass@1 improvements. It is less complete for the question because it focuses on code generation and does not assess reasoning faithfulness."
+    },
+    {
+      "group_id": "version:d8a8ab8acd5758ca0e6e941e5fb55987f86a7a85483f51ba6c78de7b70b722c9",
+      "original_rrf_rank": 16,
+      "original_rrf_score": 0.014925373134328358,
+      "title": "Towards Understanding Chain-of-Thought Prompting: An Empirical Study of What Matters",
+      "category": "direct",
+      "semantic_score": 0.62,
+      "reason": "The title explicitly concerns understanding chain-of-thought prompting, making it core to the question. However, the supplied abstract contains only bibliographic information and provides no evidence about reasoning accuracy or faithfulness, so the specific relevance is uncertain."
+    },
+    {
+      "group_id": "version:e9104717ecfc98f2059ef436df547e8a46594334eda802a3e7aca3fe6a8c9787",
+      "original_rrf_rank": 17,
+      "original_rrf_score": 0.014705882352941176,
+      "title": "Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting",
+      "category": "direct",
+      "semantic_score": 0.99,
+      "reason": "Directly studies chain-of-thought prompting in LLMs, showing that biased inputs can reduce reasoning-task accuracy and that generated CoT explanations can be systematically unfaithful to the factors driving predictions."
+    },
+    {
+      "group_id": "version:2830797d09de086393f52b6252c18eba4cf2b896b5f9174d9782b821f2225f42",
+      "original_rrf_rank": 18,
+      "original_rrf_score": 0.014492753623188406,
+      "title": "Large Language Models are Zero-Shot Reasoners",
+      "category": "direct",
+      "semantic_score": 0.9,
+      "reason": "The paper directly evaluates a chain-of-thought-style prompt (\"Let's think step by step\") and reports large reasoning-accuracy gains across arithmetic, symbolic, and logical reasoning benchmarks. It does not address faithfulness of the generated reasoning traces, but is core evidence on CoT prompting's effect on accuracy."
+    },
+    {
+      "group_id": "version:8d260e3ad03f049717b6c2d836b33e9873e8b8d9e22ca910514b1aeddc42cda9",
+      "original_rrf_rank": 19,
+      "original_rrf_score": 0.014492753623188406,
+      "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+      "category": "direct",
+      "semantic_score": 0.82,
+      "reason": "The paper directly compares a reasoning framework to chain-of-thought prompting and reports substantial problem-solving accuracy differences. It is highly relevant to reasoning accuracy, though the abstract does not address faithfulness of the generated reasoning."
+    },
+    {
+      "group_id": "version:bd5255d547da921efac24ed858e6b6e63b8e58e7eb7571e930c6ba776cf17ed0",
+      "original_rrf_rank": 20,
+      "original_rrf_score": 0.014492753623188406,
+      "title": "Multimodal Chain-of-Thought Reasoning in Language Models",
+      "category": "direct",
+      "semantic_score": 0.76,
+      "reason": "The paper directly studies chain-of-thought prompting and reports its effect on reasoning-task performance, including hallucination mitigation. Its multimodal setting and focus on rationale generation make it useful for accuracy and potentially faithfulness, though it does not explicitly evaluate rationale faithfulness."
+    },
+    {
+      "group_id": "version:d520c7d42af3d5815957a116980e42a7211d172bf122cd478cbe8e9f40ef47be",
+      "original_rrf_rank": 21,
+      "original_rrf_score": 0.014285714285714285,
+      "title": "Extractive Summarization via ChatGPT for Faithful Summary Generation",
+      "category": "supporting",
+      "semantic_score": 0.38,
+      "reason": "The paper evaluates chain-of-thought reasoning as a way to improve ChatGPT’s extractive summarization and discusses summary faithfulness, but it does not appear to study how CoT prompting affects reasoning accuracy or the faithfulness of reasoning processes in LLMs."
+    },
+    {
+      "group_id": "version:2380659b4346ee6f22ebaddc7b0859725da36743e4916c2b703c5991e537ac3a",
+      "original_rrf_rank": 22,
+      "original_rrf_score": 0.014285714285714285,
+      "title": "Scaling Instruction-Finetuned Language Models",
+      "category": "direct",
+      "semantic_score": 0.78,
+      "reason": "The paper explicitly studies finetuning on chain-of-thought data and reports performance improvements across CoT prompting setups and reasoning-oriented benchmarks, making it directly relevant to reasoning accuracy. However, the abstract does not discuss faithfulness of chain-of-thought explanations, so its relevance to that part is limited."
+    }
+  ],
+  "semantic_ranking": [
+    "version:e9104717ecfc98f2059ef436df547e8a46594334eda802a3e7aca3fe6a8c9787",
+    "version:d03caa07de55f8058e95b7c349f29e340d42935e5c07ebf295205c96262f8f6a",
+    "version:d13364bb8b96515019ee3ad86b9d07dba9720e9a85da21e758e81999acc1dd25",
+    "version:a6f8cb54e40040f477e0c85b8191b979e22ce74bdd8cb2a2e6f96d6c4091fa42",
+    "version:2830797d09de086393f52b6252c18eba4cf2b896b5f9174d9782b821f2225f42",
+    "version:c00e8ba42890369d7f38211de65512e1c1c7833d347b76f6ea34b5b696a69ea0",
+    "version:56d9d87e4b754bd411bf976805e42bf5d5f4b6e50cc59858e6eb6d621ee1b23c",
+    "version:5bb599df2e747b966e596e1604002f6b891fd237384aa00332d349642c513b6e",
+    "version:993e12e4013d782d9415f5a747dedb772fa95b995f3ae941c2ce38d10e3230a1",
+    "version:a4e5a68c9f6143dad856a15d062d20e20b896fd3834de4098139e3ecfcdfd4df",
+    "version:8d260e3ad03f049717b6c2d836b33e9873e8b8d9e22ca910514b1aeddc42cda9",
+    "version:76cc0bd49d1b2854be984006831c02a5a51b1329576a95a045f4edea929c2af3",
+    "version:c489cbd9f4d740055c56225c2edb4e1b358a29bd259a8bcd3b2490cc1bf6b8eb",
+    "version:dcadbfb6114af7a0042bac62d91c76e750872da230f1324cdf2e45094a2ef0c3",
+    "version:2380659b4346ee6f22ebaddc7b0859725da36743e4916c2b703c5991e537ac3a",
+    "version:bd5255d547da921efac24ed858e6b6e63b8e58e7eb7571e930c6ba776cf17ed0",
+    "version:6b458621104c6e93b90220b9b5b27bebeb4d990291ab1c9d2544c2a5052de48d",
+    "version:16c6111b254599f73210417ed7f9cdab6a0ae939c6efd0f5a6246f48fccc7fd4",
+    "version:7e709013b0710885ded03bf7a815db8682e8a9468dc293f759734bdda966be1a",
+    "version:42adbc319f9f78f05960b114bd675fd4187ccb2dc6231d0306600e01e0a3390b",
+    "version:d8a8ab8acd5758ca0e6e941e5fb55987f86a7a85483f51ba6c78de7b70b722c9",
+    "version:d520c7d42af3d5815957a116980e42a7211d172bf122cd478cbe8e9f40ef47be"
+  ],
+  "baseline_metrics": {
+    "precision_at_10": 0.8,
+    "strict_precision_at_10": 0.3,
+    "ndcg_at_10": 0.6398670761344658
+  },
+  "semantic_metrics": {
+    "precision_at_10": 1.0,
+    "strict_precision_at_10": 0.6,
+    "ndcg_at_10": 0.9669081124356761
+  }
+}

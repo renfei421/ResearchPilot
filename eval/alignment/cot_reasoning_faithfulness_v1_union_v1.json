@@ -1,0 +1,1212 @@
+{
+  "benchmark_id": "cot_reasoning_faithfulness_v1",
+  "version": "v1",
+  "identity_review_complete": true,
+  "counts_status": "final",
+  "works": [
+    {
+      "union_id": "union:122d9d1b5f8486c091fd5f4bc5cca18fe3ab054f6aa79a197eb26871eabafab5",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 1,
+          "group_id": "version:c00e8ba42890369d7f38211de65512e1c1c7833d347b76f6ea34b5b696a69ea0",
+          "paper_id": "doi:10.48550/arxiv.2210.03493",
+          "title": "Automatic Chain of Thought Prompting in Large Language Models",
+          "year": 2022,
+          "version_count": 1
+        },
+        {
+          "source": "llm",
+          "original_rank": 1,
+          "group_id": "version:c00e8ba42890369d7f38211de65512e1c1c7833d347b76f6ea34b5b696a69ea0",
+          "paper_id": "doi:10.48550/arxiv.2210.03493",
+          "title": "Automatic Chain of Thought Prompting in Large Language Models",
+          "year": 2022,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": true,
+      "human_best_rank": 1,
+      "llm_best_rank": 1
+    },
+    {
+      "union_id": "union:36842c292cc2146163dd9b623ec1ddf92b4168d62c246bca03e4fe4d96c19de8",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 2,
+          "group_id": "version:993e12e4013d782d9415f5a747dedb772fa95b995f3ae941c2ce38d10e3230a1",
+          "paper_id": "doi:10.18653/v1/2023.ijcnlp-main.20",
+          "title": "Faithful Chain-of-Thought Reasoning",
+          "year": 2023,
+          "version_count": 2
+        },
+        {
+          "source": "llm",
+          "original_rank": 39,
+          "group_id": "version:47427c522e78d70c2d24f7c8744803b003ff985781bec8297d212d45345ed8f3",
+          "paper_id": "doi:10.18653/v1/2023.ijcnlp-main.20",
+          "title": "Faithful Chain-of-Thought Reasoning",
+          "year": 2023,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": true,
+      "human_best_rank": 2,
+      "llm_best_rank": 39
+    },
+    {
+      "union_id": "union:bef3a95534e6bbb961d914644c3fe1bb82750464cbe4363eff9949a9d20e9103",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 3,
+          "group_id": "version:a4e5a68c9f6143dad856a15d062d20e20b896fd3834de4098139e3ecfcdfd4df",
+          "paper_id": "doi:10.18653/v1/2023.acl-long.557",
+          "title": "Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions",
+          "year": 2023,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": false,
+      "human_best_rank": 3,
+      "llm_best_rank": null
+    },
+    {
+      "union_id": "union:96d91638d2647144346a83a8ca1cc0da53e8091698cf59bcbbf582615883c09b",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 4,
+          "group_id": "version:56d9d87e4b754bd411bf976805e42bf5d5f4b6e50cc59858e6eb6d621ee1b23c",
+          "paper_id": "doi:10.18653/v1/2023.acl-long.147",
+          "title": "Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models",
+          "year": 2023,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": false,
+      "human_best_rank": 4,
+      "llm_best_rank": null
+    },
+    {
+      "union_id": "union:05b3b2cebe5ea98dc7029424079b6b63722d0fc67a065e4f7cb695f89a34d9b8",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 5,
+          "group_id": "version:c489cbd9f4d740055c56225c2edb4e1b358a29bd259a8bcd3b2490cc1bf6b8eb",
+          "paper_id": "doi:10.18653/v1/2023.acl-short.101",
+          "title": "Reasoning Implicit Sentiment with Chain-of-Thought Prompting",
+          "year": 2023,
+          "version_count": 1
+        },
+        {
+          "source": "llm",
+          "original_rank": 9,
+          "group_id": "version:c489cbd9f4d740055c56225c2edb4e1b358a29bd259a8bcd3b2490cc1bf6b8eb",
+          "paper_id": "doi:10.18653/v1/2023.acl-short.101",
+          "title": "Reasoning Implicit Sentiment with Chain-of-Thought Prompting",
+          "year": 2023,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": true,
+      "human_best_rank": 5,
+      "llm_best_rank": 9
+    },
+    {
+      "union_id": "union:04c65ee6a7ce3deaa314cd9c4b2c6713dbf783f6eed7cb1c6622b935589e262f",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 6,
+          "group_id": "version:76cc0bd49d1b2854be984006831c02a5a51b1329576a95a045f4edea929c2af3",
+          "paper_id": "doi:10.52202/068431-1800",
+          "title": "Chain-Of-Thought Prompting Elicits Reasoning in Large Language Models",
+          "year": 2022,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": false,
+      "human_best_rank": 6,
+      "llm_best_rank": null
+    },
+    {
+      "union_id": "union:09a2a1fa045576065daa09eb6136099aa5d0f549bf71fb823758563298ecf5e4",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 7,
+          "group_id": "version:5bb599df2e747b966e596e1604002f6b891fd237384aa00332d349642c513b6e",
+          "paper_id": "doi:10.48550/arxiv.2203.11171",
+          "title": "Self-Consistency Improves Chain of Thought Reasoning in Language Models",
+          "year": 2022,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": false,
+      "human_best_rank": 7,
+      "llm_best_rank": null
+    },
+    {
+      "union_id": "union:60ea6e18d95245a7f9d3181dffa7e4d358a146fc84bc168758e594234cb7cba2",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 8,
+          "group_id": "version:16c6111b254599f73210417ed7f9cdab6a0ae939c6efd0f5a6246f48fccc7fd4",
+          "paper_id": "doi:10.1038/s41586-025-09422-z",
+          "title": "DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning",
+          "year": 2025,
+          "version_count": 1
+        },
+        {
+          "source": "llm",
+          "original_rank": 18,
+          "group_id": "version:16c6111b254599f73210417ed7f9cdab6a0ae939c6efd0f5a6246f48fccc7fd4",
+          "paper_id": "doi:10.1038/s41586-025-09422-z",
+          "title": "DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning",
+          "year": 2025,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": true,
+      "human_best_rank": 8,
+      "llm_best_rank": 18
+    },
+    {
+      "union_id": "union:f81c7d4bddafd52eb75006121f985c94e57f049adfd1abb8c90cd4627f7e4a88",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 9,
+          "group_id": "version:a6f8cb54e40040f477e0c85b8191b979e22ce74bdd8cb2a2e6f96d6c4091fa42",
+          "paper_id": "doi:10.18653/v1/2024.acl-long.720",
+          "title": "Faithful Logical Reasoning via Symbolic Chain-of-Thought",
+          "year": 2024,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": false,
+      "human_best_rank": 9,
+      "llm_best_rank": null
+    },
+    {
+      "union_id": "union:c9791e91145222392024b22a75e82e97381f543624872d6e3e80675efd400267",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 10,
+          "group_id": "version:7e709013b0710885ded03bf7a815db8682e8a9468dc293f759734bdda966be1a",
+          "paper_id": "doi:10.1016/j.caeai.2024.100213",
+          "title": "Applying large language models and chain-of-thought for automatic scoring",
+          "year": 2024,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": false,
+      "human_best_rank": 10,
+      "llm_best_rank": null
+    },
+    {
+      "union_id": "union:a64d4f659c3fa13b63ac18826446012f9ee4a21672092ff92159cfbef612052d",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 11,
+          "group_id": "version:d03caa07de55f8058e95b7c349f29e340d42935e5c07ebf295205c96262f8f6a",
+          "paper_id": "doi:10.48550/arxiv.2307.13702",
+          "title": "Measuring Faithfulness in Chain-of-Thought Reasoning",
+          "year": 2023,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": false,
+      "human_best_rank": 11,
+      "llm_best_rank": null
+    },
+    {
+      "union_id": "union:9ae3a6d9cae1c4ed57eb977c09fd14047b1af91d9872484ccd1f76ce9e37e670",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 12,
+          "group_id": "version:6b458621104c6e93b90220b9b5b27bebeb4d990291ab1c9d2544c2a5052de48d",
+          "paper_id": "doi:10.18653/v1/2023.findings-acl.824",
+          "title": "Challenging BIG-Bench Tasks and Whether Chain-of-Thought Can Solve Them",
+          "year": 2023,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": false,
+      "human_best_rank": 12,
+      "llm_best_rank": null
+    },
+    {
+      "union_id": "union:c34817f636383bb71826e691ec3d1fca106fe7e38cb2562ca966dbe8489b970e",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 13,
+          "group_id": "version:42adbc319f9f78f05960b114bd675fd4187ccb2dc6231d0306600e01e0a3390b",
+          "paper_id": "doi:10.48550/arxiv.2201.11903",
+          "title": "BNAI, NO-TOKEN, and MIND-UNITY: Pillars of a Systemic Revolution in Artificial Intelligence",
+          "year": 2022,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": false,
+      "human_best_rank": 13,
+      "llm_best_rank": null
+    },
+    {
+      "union_id": "union:37c32ba980f41c38729f2ee1ec1a7eb9ae50d77b48600b5aea4a5e97879c12b0",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 14,
+          "group_id": "version:d13364bb8b96515019ee3ad86b9d07dba9720e9a85da21e758e81999acc1dd25",
+          "paper_id": "doi:10.18653/v1/2023.acl-long.304",
+          "title": "SCOTT: Self-Consistent Chain-of-Thought Distillation",
+          "year": 2023,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": false,
+      "human_best_rank": 14,
+      "llm_best_rank": null
+    },
+    {
+      "union_id": "union:27a1c4f54188ff806e529566abed1581fa76a818060b8d304bca9fea4398d6a0",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 15,
+          "group_id": "version:dcadbfb6114af7a0042bac62d91c76e750872da230f1324cdf2e45094a2ef0c3",
+          "paper_id": "doi:10.1145/3690635",
+          "title": "Structured Chain-of-Thought Prompting for Code Generation",
+          "year": 2024,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": false,
+      "human_best_rank": 15,
+      "llm_best_rank": null
+    },
+    {
+      "union_id": "union:d79e951b8cc6dd503158ec7cee460ae9d7c1f4bcaaa9fcf2585c1bf1d155ef5d",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 16,
+          "group_id": "version:d8a8ab8acd5758ca0e6e941e5fb55987f86a7a85483f51ba6c78de7b70b722c9",
+          "paper_id": "doi:10.18653/v1/2023.acl-long.153",
+          "title": "Towards Understanding Chain-of-Thought Prompting: An Empirical Study of What Matters",
+          "year": 2023,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": false,
+      "human_best_rank": 16,
+      "llm_best_rank": null
+    },
+    {
+      "union_id": "union:4febb348917aff092437bf928ca720c441900ceecd770f8448047817a8840ff1",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 17,
+          "group_id": "version:e9104717ecfc98f2059ef436df547e8a46594334eda802a3e7aca3fe6a8c9787",
+          "paper_id": "doi:10.48550/arxiv.2305.04388",
+          "title": "Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting",
+          "year": 2023,
+          "version_count": 1
+        },
+        {
+          "source": "llm",
+          "original_rank": 7,
+          "group_id": "version:e9104717ecfc98f2059ef436df547e8a46594334eda802a3e7aca3fe6a8c9787",
+          "paper_id": "doi:10.48550/arxiv.2305.04388",
+          "title": "Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting",
+          "year": 2023,
+          "version_count": 1
+        },
+        {
+          "source": "llm",
+          "original_rank": 13,
+          "group_id": "version:89921b38bf329c2890235abfe659abc3c763aaf4f49312d5890a81d95a7e1ab3",
+          "paper_id": "doi:10.52202/075280-3275",
+          "title": "Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting",
+          "year": 2023,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": true,
+      "human_best_rank": 17,
+      "llm_best_rank": 7
+    },
+    {
+      "union_id": "union:a62750f462ab6bf0e14ecd109fa89a7e2cb213520fcd5c2163f87c76f9c907b1",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 18,
+          "group_id": "version:2830797d09de086393f52b6252c18eba4cf2b896b5f9174d9782b821f2225f42",
+          "paper_id": "doi:10.48550/arxiv.2205.11916",
+          "title": "Large Language Models are Zero-Shot Reasoners",
+          "year": 2022,
+          "version_count": 1
+        },
+        {
+          "source": "llm",
+          "original_rank": 5,
+          "group_id": "version:2830797d09de086393f52b6252c18eba4cf2b896b5f9174d9782b821f2225f42",
+          "paper_id": "doi:10.48550/arxiv.2205.11916",
+          "title": "Large Language Models are Zero-Shot Reasoners",
+          "year": 2022,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": true,
+      "human_best_rank": 18,
+      "llm_best_rank": 5
+    },
+    {
+      "union_id": "union:62c128f6b00f4eb66cc7fad4f52fc21a2b3caff28c0c423610ec874832afc397",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 19,
+          "group_id": "version:8d260e3ad03f049717b6c2d836b33e9873e8b8d9e22ca910514b1aeddc42cda9",
+          "paper_id": "doi:10.48550/arxiv.2305.10601",
+          "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+          "year": 2023,
+          "version_count": 1
+        },
+        {
+          "source": "llm",
+          "original_rank": 10,
+          "group_id": "version:8d260e3ad03f049717b6c2d836b33e9873e8b8d9e22ca910514b1aeddc42cda9",
+          "paper_id": "doi:10.48550/arxiv.2305.10601",
+          "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+          "year": 2023,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": true,
+      "human_best_rank": 19,
+      "llm_best_rank": 10
+    },
+    {
+      "union_id": "union:397edb0c7aa2622192e2ba74225714b901bfcce15839bfa6a5ccbcffe67f1c4e",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 20,
+          "group_id": "version:bd5255d547da921efac24ed858e6b6e63b8e58e7eb7571e930c6ba776cf17ed0",
+          "paper_id": "doi:10.48550/arxiv.2302.00923",
+          "title": "Multimodal Chain-of-Thought Reasoning in Language Models",
+          "year": 2023,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": false,
+      "human_best_rank": 20,
+      "llm_best_rank": null
+    },
+    {
+      "union_id": "union:19bfa10fdd5a8aec5618cdb2a944680543c2c3169875d5ea8d935320854d2aab",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 21,
+          "group_id": "version:d520c7d42af3d5815957a116980e42a7211d172bf122cd478cbe8e9f40ef47be",
+          "paper_id": "doi:10.18653/v1/2023.findings-emnlp.214",
+          "title": "Extractive Summarization via ChatGPT for Faithful Summary Generation",
+          "year": 2023,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": false,
+      "human_best_rank": 21,
+      "llm_best_rank": null
+    },
+    {
+      "union_id": "union:c8b1e6e1a4909cd495ca54b58aa0eed8541014303b9d422640b70924864a3a23",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 22,
+          "group_id": "version:2380659b4346ee6f22ebaddc7b0859725da36743e4916c2b703c5991e537ac3a",
+          "paper_id": "doi:10.48550/arxiv.2210.11416",
+          "title": "Scaling Instruction-Finetuned Language Models",
+          "year": 2022,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": false,
+      "human_best_rank": 22,
+      "llm_best_rank": null
+    },
+    {
+      "union_id": "union:a26a426d92ab7480066a3f0379b18367b7ea92799add0bc25dceb0292cefc000",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 2,
+          "group_id": "version:a11816c70c591435d6144175d9ad3c815cb071f16a5235ccf14ba96008ec866e",
+          "paper_id": "doi:10.18653/v1/2023.findings-acl.67",
+          "title": "Towards Reasoning in Large Language Models: A Survey",
+          "year": 2023,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 2
+    },
+    {
+      "union_id": "union:7d2f214add732ac0ec37bedf69be8f877c6606222faa2c69160cdec2d20f8feb",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 3,
+          "group_id": "version:7b59ed84109a0f4dfc8ad669b8d59c0b29bf2fd7b8bb973344474558f88f2dbf",
+          "paper_id": "doi:10.1145/3639372",
+          "title": "Explainability for Large Language Models: A Survey",
+          "year": 2024,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 3
+    },
+    {
+      "union_id": "union:1c1de556ea60379ede361fc816d5d14b443fe5324f4d7005e48c3cf9627c0be8",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 4,
+          "group_id": "version:ff8be35de5a87456091dc1bfb2bc41fefc9881db28e1f1e6ca60cb0bc46de1d3",
+          "paper_id": "doi:10.4230/oasics.icpec.2025.4",
+          "title": "Can Open Large Language Models Catch Vulnerabilities?",
+          "year": 2025,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 4
+    },
+    {
+      "union_id": "union:50971d48fd1d3760e58554f040236bb10f4c1770435893cf03abd2fda37b6032",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 6,
+          "group_id": "version:b3c8fd2991de6965070859e03eb86ecc236d50c6ad94687aaf98d2368fabf0d3",
+          "paper_id": "doi:10.1007/s11704-026-60308-3",
+          "title": "A Survey of Large Language Models",
+          "year": 2026,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 6
+    },
+    {
+      "union_id": "union:5e4ae8745ea4d01255e54f395be02a5e210e8753b25bdda2daa5ee3d4a359e31",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 8,
+          "group_id": "version:9d809d6171bba9f6c43de418014c6ef147654cbc5ffe7ac76d0579f691660e75",
+          "paper_id": "doi:10.1145/3637528.3671470",
+          "title": "A Survey on RAG Meeting LLMs: Towards Retrieval-Augmented Large Language Models",
+          "year": 2024,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 8
+    },
+    {
+      "union_id": "union:413d86d492fe54723b7f6ac5dcdd118fdcc1450e6db9a8183099c350c32a87b7",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 11,
+          "group_id": "version:a7607c9f28319507fa28dfb88f89837e11854ac0cfdbd1c506ffba5813c2d7a5",
+          "paper_id": "doi:10.48550/arxiv.2307.10169",
+          "title": "Challenges and Applications of Large Language Models",
+          "year": 2023,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 11
+    },
+    {
+      "union_id": "union:8d5885b0386c556860321bfc5248a90fd43551fc11a7676b91a2b52878531fe2",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 12,
+          "group_id": "version:96b6524f254c0e05efafa609f1027b6bf25e15942750b6f02f763c6155c89f96",
+          "paper_id": "doi:10.1145/3597926.3598067",
+          "title": "Large Language Models Are Zero-Shot Fuzzers: Fuzzing Deep-Learning Libraries via Large Language Models",
+          "year": 2023,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 12
+    },
+    {
+      "union_id": "union:1884959c33fa9c725043da3a7ffe3b8a8ef0414a5928548a990113851f602411",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 14,
+          "group_id": "version:dad91b6a012ec4c70b8c5162153987b08808c3719a75aba246b0f3838528c413",
+          "paper_id": "doi:10.48550/arxiv.2312.10997",
+          "title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+          "year": 2023,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 14
+    },
+    {
+      "union_id": "union:53a4f83045965dcba52f4a80e96cc730111efa5dfb95bcd5e053aecf83ea8bc4",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 15,
+          "group_id": "version:9fd0b657d3a99d654d541ab8c3bacde27c8a60988107ebb7d04726c530547ec3",
+          "paper_id": "doi:10.48550/arxiv.2305.18703",
+          "title": "Domain Specialization as the Key to Make Large Language Models Disruptive: A Comprehensive Survey",
+          "year": 2023,
+          "version_count": 1
+        },
+        {
+          "source": "llm",
+          "original_rank": 19,
+          "group_id": "version:5fad098a14bfea25810aa9177272658225147a32bc39d0dd100c4472b1c10028",
+          "paper_id": "doi:10.1145/3764579",
+          "title": "Domain Specialization as the Key to Make Large Language Models Disruptive: A Comprehensive Survey",
+          "year": 2025,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 15
+    },
+    {
+      "union_id": "union:906a287885849ff7ec65ca0699ac664fe621611d61390d14166b2cf18a0bf512",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 16,
+          "group_id": "version:06237e9509c97657a87bc112122d3a1aca90b849fef373df472e3f1575520ab4",
+          "paper_id": "doi:10.48550/arxiv.2402.06196",
+          "title": "Large Language Models: A Survey",
+          "year": 2024,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 16
+    },
+    {
+      "union_id": "union:5254507c56a67117f436481aaf305e25cd389d0d723d1c61da917dab09d6464e",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 17,
+          "group_id": "version:942d97b2e13b025e9b8d0f569fd4cf1c4b45ac45592dff10c4fff6d5a7009279",
+          "paper_id": "doi:10.1145/3582269.3615599",
+          "title": "Gender bias and stereotypes in Large Language Models",
+          "year": 2023,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 17
+    },
+    {
+      "union_id": "union:a554d41cbc5a11a54d6e55610fef6163e4e1b2a5713c4c971c87d218ffbb62f2",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 20,
+          "group_id": "version:5da9c7b94a1a709c23e9ecc0af376cbee17c1b095321e7094b697ab53c21124f",
+          "paper_id": "doi:10.48550/arxiv.2402.07927",
+          "title": "A Systematic Survey of Prompt Engineering in Large Language Models: Techniques and Applications",
+          "year": 2024,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 20
+    },
+    {
+      "union_id": "union:68db18b20484809eb49ca079620260be25b701b6f039068beaaed558f1a18759",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 21,
+          "group_id": "version:11fe4e18efb5cf237292b7085844bc1c04579fbeee2a754b14c7a6fa13cf7621",
+          "paper_id": "doi:10.18653/v1/2024.findings-acl.212",
+          "title": "Chain-of-Verification Reduces Hallucination in Large Language Models",
+          "year": 2024,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 21
+    },
+    {
+      "union_id": "union:d7ffcf5fec9755827964c319a5b2c6d7e2ecf25e4c955884ac655a05a3ef6b2a",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 22,
+          "group_id": "version:dc9b85cc409cb3167e861919f503da3db26e8d615b7cb9580ee9d6038d2fa1ce",
+          "paper_id": "doi:10.1145/3491102.3517582",
+          "title": "AI Chains: Transparent and Controllable Human-AI Interaction by Chaining Large Language Model Prompts",
+          "year": 2022,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 22
+    },
+    {
+      "union_id": "union:68408ddfe4793c2e4bc6498e29e6ee99d0a928da4ad2190126a7e415ff8a405b",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 23,
+          "group_id": "version:b82e73a14d6a09b34736631c269bd42ed740c56cce09de9ef578e297ce9f8019",
+          "paper_id": "doi:10.48550/arxiv.2402.01761",
+          "title": "Rethinking Interpretability in the Era of Large Language Models",
+          "year": 2024,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 23
+    },
+    {
+      "union_id": "union:4f4361d6544cb9b6046b8578229ade80c14b6bd86296324cdefae07b0bd3eb8b",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 24,
+          "group_id": "version:0a2014ee97c8f738f7a0c9349d0f28b84ee1278f2df5a231d1db8d2a8caf3fa9",
+          "paper_id": "doi:10.1073/pnas.2322420121",
+          "title": "Embers of autoregression show how large language models are shaped by the problem they are trained to solve",
+          "year": 2024,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 24
+    },
+    {
+      "union_id": "union:dfcabaf5006ff5cacbc192a51cc914466349339d74084a7982254bb900e34b10",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 25,
+          "group_id": "version:5bc2c807b534185fe7c64f5f65c3ef57b373bf947a6a843d9a24ce3000e2249f",
+          "paper_id": "doi:10.18653/v1/2024.emnlp-main.992",
+          "title": "Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate",
+          "year": 2024,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 25
+    },
+    {
+      "union_id": "union:53ecf35ab18a4ee58bc95da4c465e17bec7097bc0577bbf439fb17a4594ef370",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 26,
+          "group_id": "version:bb9620cd0298de8cafbc8cab6f96e88af12a010ac5adf91ab9003ac095fac686",
+          "paper_id": "doi:10.48550/arxiv.2211.01910",
+          "title": "Large Language Models Are Human-Level Prompt Engineers",
+          "year": 2022,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 26
+    },
+    {
+      "union_id": "union:8cbeff63c7ec64e732aa0ccc1b45c0a37fdf66589512d0a0f58d65d145936927",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 27,
+          "group_id": "version:01a5d49fba95c06c67091a92287aa28527286c736bc38f53e8d0b4c880800f6c",
+          "paper_id": "doi:10.1145/3744238",
+          "title": "A Survey on Uncertainty Quantification of Large Language Models: Taxonomy, Open Research Challenges, and Future Directions",
+          "year": 2025,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 27
+    },
+    {
+      "union_id": "union:a5fb220a7718fde50f83b5fb0c1267158beb9e5f775a6d657c8922d1271cd2a7",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 28,
+          "group_id": "version:5a30c46ce42e6e2899a147bd4c7f8ed838f72e26748b04eac111972aa8a5708e",
+          "paper_id": "doi:10.3390/fi16080298",
+          "title": "A Survey on the Use of Large Language Models (LLMs) in Fake News",
+          "year": 2024,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 28
+    },
+    {
+      "union_id": "union:19e6093d7cfedc5121d1d43ad05024715edc5c3e07c7b64905758a66e703d790",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 29,
+          "group_id": "version:531380586e2b16aed2c3c26d0616cf09faa9a78a73de795ee7dd64564be43e5d",
+          "paper_id": "doi:10.48550/arxiv.2401.11817",
+          "title": "Hallucination is Inevitable: An Innate Limitation of Large Language Models",
+          "year": 2024,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 29
+    },
+    {
+      "union_id": "union:2ce7946f294dac60c3b3b1dccd6fcb2e292324d8822ada9c5c50a81ebf19de81",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 30,
+          "group_id": "version:3a85e4a96173a2415a04937747fed4bb23a49c295e45a838cf2ba77323bae70f",
+          "paper_id": "doi:10.48550/arxiv.2309.01219",
+          "title": "Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models",
+          "year": 2023,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 30
+    },
+    {
+      "union_id": "union:650827cbfa7f3327e5cf29e2a5e0ea202f886ef1f62089f60f192a8dbe877ca9",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 31,
+          "group_id": "version:6e9d4aeddc32a504aff299809f3288397545802eed5755cfedbc06c2158b85e0",
+          "paper_id": "doi:10.1145/3624724",
+          "title": "Talking about Large Language Models",
+          "year": 2024,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 31
+    },
+    {
+      "union_id": "union:6d674899720f14071a6790d7df7940c473258680933482abe619cf12fecb4ac2",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 32,
+          "group_id": "version:4d053cb77a683752fa0dcf12abaae535fe13991f552a294d5395d38b7948a9ed",
+          "paper_id": "doi:10.1007/s00521-024-10827-6",
+          "title": "Generalization potential of large language models",
+          "year": 2024,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 32
+    },
+    {
+      "union_id": "union:4547327d09947bb488e5cb7e6edee18cf1379e7a792c09e4de06940d52fca585",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 33,
+          "group_id": "version:5ab88f40f60a1b9717d7fd539d1881dd7b92858007e3ea164ad8d4e7e432570d",
+          "paper_id": "doi:10.18653/v1/2023.ijcnlp-main.64",
+          "title": "Towards LLM-based Fact Verification on News Claims with a Hierarchical Step-by-Step Prompting Method",
+          "year": 2023,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 33
+    },
+    {
+      "union_id": "union:9e9e3c6175e90dde34dd87e6da1cf6db93ae6ca1c5f5d9f25fb9e4a02f3b7c62",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 34,
+          "group_id": "version:5dbeaa395d52c7fa065318e59e7c8839fdd022c3ad249fce65ef2c1b935d1cfe",
+          "paper_id": "doi:10.1186/s12911-024-02459-6",
+          "title": "Assessing the research landscape and clinical utility of large language models: a scoping review",
+          "year": 2024,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 34
+    },
+    {
+      "union_id": "union:c949cb0116d0d5febf64cb27bc928b6e1c481633781566680d035419d12ffe3c",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 35,
+          "group_id": "version:45c13b279115241d212e2041f680328ad9c546a3d8deab564735613a8f77dd72",
+          "paper_id": "doi:10.18653/v1/2023.emnlp-main.67",
+          "title": "Large Language Models Can Self-Improve",
+          "year": 2023,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 35
+    },
+    {
+      "union_id": "union:060ff5a913fbe4725273b7e5d9231eda20d2ec4d5f3b795fc7b02c26cc76ebae",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 36,
+          "group_id": "version:9dc16cf734022405d7deac7415627d9338799889e4702ee8da9e36de88d48cf7",
+          "paper_id": "doi:10.1609/aaai.v38i16.29728",
+          "title": "Benchmarking Large Language Models in Retrieval-Augmented Generation",
+          "year": 2024,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 36
+    },
+    {
+      "union_id": "union:bb8aed419ca0fe2b330f8322350529c5a6d991d1740788f0d0140a38171644c1",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 37,
+          "group_id": "version:c21dd8b2aeb4833f40f90ab417a4ffee850bdd315dd50d0b89477f32911b3f5e",
+          "paper_id": "doi:10.18653/v1/2023.emnlp-main.435",
+          "title": "A Mechanistic Interpretation of Arithmetic Reasoning in Language Models using Causal Mediation Analysis",
+          "year": 2023,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 37
+    },
+    {
+      "union_id": "union:304a028cc9820e348fbabf345b46d4e5e5a9b6c202178839d850f3228ea54e69",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 38,
+          "group_id": "version:897be9127e8cf6b56c61884daa35d9047891191d75cc77887b8b256ce4426a5e",
+          "paper_id": "doi:10.1186/s12967-023-04576-8",
+          "title": "Harnessing large language models (LLMs) for candidate gene prioritization and selection",
+          "year": 2023,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 38
+    },
+    {
+      "union_id": "union:da471aa5f4df7391e899bd27b3e79f6b5dbf7b6cd60e1cd70c887d0f9f01fab5",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 40,
+          "group_id": "version:cc1fa7b13135e5b2cac8b7156a9f3653c81339d55e98f026fe2679e1472cf56b",
+          "paper_id": "doi:10.1162/coli.a.16",
+          "title": "🧜Siren’s Song in the AI Ocean: A Survey on Hallucination in Large Language Models",
+          "year": 2025,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 40
+    },
+    {
+      "union_id": "union:008c6f1ca4643b8f03c83c140bf72c69be70320d5090c4d687c173b068eff583",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 41,
+          "group_id": "version:f0161d4bfa1c145aecdf0ae0a9a18dd078cefaf3c88f4540d3d097069133bc24",
+          "paper_id": "doi:10.18653/v1/2023.emnlp-main.153",
+          "title": "G-Eval: NLG Evaluation using Gpt-4 with Better Human Alignment",
+          "year": 2023,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 41
+    },
+    {
+      "union_id": "union:4adec69fc9e0423a1d8f99050120b26384280d42af32c88105e6a517a275c43b",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 42,
+          "group_id": "version:aca15f56063b0ab6e064527e9668724ed11bf800174b0b255168cc338e13b3ea",
+          "paper_id": "doi:10.1145/3774896",
+          "title": "Multi-Step Reasoning with Large Language Models, a Survey",
+          "year": 2025,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 42
+    },
+    {
+      "union_id": "union:0a44f0e09fbae91b5396a4fdc56d2bad6f1aedf951cf00f30d6137de43b93782",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 43,
+          "group_id": "version:c4e6b5f1ac063c9505a268ab23d4515d7ef636d6ca220c74f58a5e6fa2c5c399",
+          "paper_id": "doi:10.1145/3777411",
+          "title": "Instruction Tuning for Large Language Models: A Survey",
+          "year": 2025,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 43
+    },
+    {
+      "union_id": "union:99975e67d7e195b1984faa53e35ef3220f831c6a7b555afc3995382f89d2d037",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 44,
+          "group_id": "version:0036dbb881d9f51d9c4e1a76860441ed5b63a1e657de6819f31a1511d803cbaa",
+          "paper_id": "doi:10.1007/s11280-024-01276-1",
+          "title": "When large language models meet personalization: perspectives of challenges and opportunities",
+          "year": 2024,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 44
+    }
+  ],
+  "human_union_ranking": [
+    "union:122d9d1b5f8486c091fd5f4bc5cca18fe3ab054f6aa79a197eb26871eabafab5",
+    "union:36842c292cc2146163dd9b623ec1ddf92b4168d62c246bca03e4fe4d96c19de8",
+    "union:bef3a95534e6bbb961d914644c3fe1bb82750464cbe4363eff9949a9d20e9103",
+    "union:96d91638d2647144346a83a8ca1cc0da53e8091698cf59bcbbf582615883c09b",
+    "union:05b3b2cebe5ea98dc7029424079b6b63722d0fc67a065e4f7cb695f89a34d9b8",
+    "union:04c65ee6a7ce3deaa314cd9c4b2c6713dbf783f6eed7cb1c6622b935589e262f",
+    "union:09a2a1fa045576065daa09eb6136099aa5d0f549bf71fb823758563298ecf5e4",
+    "union:60ea6e18d95245a7f9d3181dffa7e4d358a146fc84bc168758e594234cb7cba2",
+    "union:f81c7d4bddafd52eb75006121f985c94e57f049adfd1abb8c90cd4627f7e4a88",
+    "union:c9791e91145222392024b22a75e82e97381f543624872d6e3e80675efd400267",
+    "union:a64d4f659c3fa13b63ac18826446012f9ee4a21672092ff92159cfbef612052d",
+    "union:9ae3a6d9cae1c4ed57eb977c09fd14047b1af91d9872484ccd1f76ce9e37e670",
+    "union:c34817f636383bb71826e691ec3d1fca106fe7e38cb2562ca966dbe8489b970e",
+    "union:37c32ba980f41c38729f2ee1ec1a7eb9ae50d77b48600b5aea4a5e97879c12b0",
+    "union:27a1c4f54188ff806e529566abed1581fa76a818060b8d304bca9fea4398d6a0",
+    "union:d79e951b8cc6dd503158ec7cee460ae9d7c1f4bcaaa9fcf2585c1bf1d155ef5d",
+    "union:4febb348917aff092437bf928ca720c441900ceecd770f8448047817a8840ff1",
+    "union:a62750f462ab6bf0e14ecd109fa89a7e2cb213520fcd5c2163f87c76f9c907b1",
+    "union:62c128f6b00f4eb66cc7fad4f52fc21a2b3caff28c0c423610ec874832afc397",
+    "union:397edb0c7aa2622192e2ba74225714b901bfcce15839bfa6a5ccbcffe67f1c4e",
+    "union:19bfa10fdd5a8aec5618cdb2a944680543c2c3169875d5ea8d935320854d2aab",
+    "union:c8b1e6e1a4909cd495ca54b58aa0eed8541014303b9d422640b70924864a3a23"
+  ],
+  "llm_union_ranking": [
+    "union:122d9d1b5f8486c091fd5f4bc5cca18fe3ab054f6aa79a197eb26871eabafab5",
+    "union:a26a426d92ab7480066a3f0379b18367b7ea92799add0bc25dceb0292cefc000",
+    "union:7d2f214add732ac0ec37bedf69be8f877c6606222faa2c69160cdec2d20f8feb",
+    "union:1c1de556ea60379ede361fc816d5d14b443fe5324f4d7005e48c3cf9627c0be8",
+    "union:a62750f462ab6bf0e14ecd109fa89a7e2cb213520fcd5c2163f87c76f9c907b1",
+    "union:50971d48fd1d3760e58554f040236bb10f4c1770435893cf03abd2fda37b6032",
+    "union:4febb348917aff092437bf928ca720c441900ceecd770f8448047817a8840ff1",
+    "union:5e4ae8745ea4d01255e54f395be02a5e210e8753b25bdda2daa5ee3d4a359e31",
+    "union:05b3b2cebe5ea98dc7029424079b6b63722d0fc67a065e4f7cb695f89a34d9b8",
+    "union:62c128f6b00f4eb66cc7fad4f52fc21a2b3caff28c0c423610ec874832afc397",
+    "union:413d86d492fe54723b7f6ac5dcdd118fdcc1450e6db9a8183099c350c32a87b7",
+    "union:8d5885b0386c556860321bfc5248a90fd43551fc11a7676b91a2b52878531fe2",
+    "union:1884959c33fa9c725043da3a7ffe3b8a8ef0414a5928548a990113851f602411",
+    "union:53a4f83045965dcba52f4a80e96cc730111efa5dfb95bcd5e053aecf83ea8bc4",
+    "union:906a287885849ff7ec65ca0699ac664fe621611d61390d14166b2cf18a0bf512",
+    "union:5254507c56a67117f436481aaf305e25cd389d0d723d1c61da917dab09d6464e",
+    "union:60ea6e18d95245a7f9d3181dffa7e4d358a146fc84bc168758e594234cb7cba2",
+    "union:a554d41cbc5a11a54d6e55610fef6163e4e1b2a5713c4c971c87d218ffbb62f2",
+    "union:68db18b20484809eb49ca079620260be25b701b6f039068beaaed558f1a18759",
+    "union:d7ffcf5fec9755827964c319a5b2c6d7e2ecf25e4c955884ac655a05a3ef6b2a",
+    "union:68408ddfe4793c2e4bc6498e29e6ee99d0a928da4ad2190126a7e415ff8a405b",
+    "union:4f4361d6544cb9b6046b8578229ade80c14b6bd86296324cdefae07b0bd3eb8b",
+    "union:dfcabaf5006ff5cacbc192a51cc914466349339d74084a7982254bb900e34b10",
+    "union:53ecf35ab18a4ee58bc95da4c465e17bec7097bc0577bbf439fb17a4594ef370",
+    "union:8cbeff63c7ec64e732aa0ccc1b45c0a37fdf66589512d0a0f58d65d145936927",
+    "union:a5fb220a7718fde50f83b5fb0c1267158beb9e5f775a6d657c8922d1271cd2a7",
+    "union:19e6093d7cfedc5121d1d43ad05024715edc5c3e07c7b64905758a66e703d790",
+    "union:2ce7946f294dac60c3b3b1dccd6fcb2e292324d8822ada9c5c50a81ebf19de81",
+    "union:650827cbfa7f3327e5cf29e2a5e0ea202f886ef1f62089f60f192a8dbe877ca9",
+    "union:6d674899720f14071a6790d7df7940c473258680933482abe619cf12fecb4ac2",
+    "union:4547327d09947bb488e5cb7e6edee18cf1379e7a792c09e4de06940d52fca585",
+    "union:9e9e3c6175e90dde34dd87e6da1cf6db93ae6ca1c5f5d9f25fb9e4a02f3b7c62",
+    "union:c949cb0116d0d5febf64cb27bc928b6e1c481633781566680d035419d12ffe3c",
+    "union:060ff5a913fbe4725273b7e5d9231eda20d2ec4d5f3b795fc7b02c26cc76ebae",
+    "union:bb8aed419ca0fe2b330f8322350529c5a6d991d1740788f0d0140a38171644c1",
+    "union:304a028cc9820e348fbabf345b46d4e5e5a9b6c202178839d850f3228ea54e69",
+    "union:36842c292cc2146163dd9b623ec1ddf92b4168d62c246bca03e4fe4d96c19de8",
+    "union:da471aa5f4df7391e899bd27b3e79f6b5dbf7b6cd60e1cd70c887d0f9f01fab5",
+    "union:008c6f1ca4643b8f03c83c140bf72c69be70320d5090c4d687c173b068eff583",
+    "union:4adec69fc9e0423a1d8f99050120b26384280d42af32c88105e6a517a275c43b",
+    "union:0a44f0e09fbae91b5396a4fdc56d2bad6f1aedf951cf00f30d6137de43b93782",
+    "union:99975e67d7e195b1984faa53e35ef3220f831c6a7b555afc3995382f89d2d037"
+  ],
+  "review_candidates": [],
+  "review_decisions": [
+    {
+      "left_source": "llm",
+      "left_group_id": "version:9fd0b657d3a99d654d541ab8c3bacde27c8a60988107ebb7d04726c530547ec3",
+      "right_source": "llm",
+      "right_group_id": "version:5fad098a14bfea25810aa9177272658225147a32bc39d0dd100c4472b1c10028",
+      "decision": "same_work",
+      "note": "Same work: arXiv preprint 2305.18703 and later ACM publication DOI 10.1145/3764579."
+    },
+    {
+      "left_source": "human",
+      "left_group_id": "version:e9104717ecfc98f2059ef436df547e8a46594334eda802a3e7aca3fe6a8c9787",
+      "right_source": "llm",
+      "right_group_id": "version:89921b38bf329c2890235abfe659abc3c763aaf4f49312d5890a81d95a7e1ab3",
+      "decision": "same_work",
+      "note": "Same work: arXiv preprint 2305.04388 and NeurIPS 2023 publication DOI 10.52202/075280-3275."
+    }
+  ],
+  "summary": {
+    "raw_human_groups": 22,
+    "raw_llm_groups": 44,
+    "canonical_human_works": 22,
+    "canonical_llm_works": 42,
+    "intersection": 7,
+    "human_only": 15,
+    "llm_only": 35,
+    "unresolved_title_pairs": 0
+  }
+}

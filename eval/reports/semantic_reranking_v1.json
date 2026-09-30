@@ -1,0 +1,1016 @@
+{
+  "report_id": "semantic_reranking_v1",
+  "generated_at": "2026-09-16T14:05:31.225475+00:00",
+  "benchmark_ids": [
+    "matrix_completion_v1",
+    "rag_hallucination_v1"
+  ],
+  "benchmark_count": 2,
+  "per_benchmark": {
+    "matrix_completion_v1": {
+      "benchmark_id": "matrix_completion_v1",
+      "research_question": "How does spectral expansion affect deterministic matrix completion under fixed observation patterns?",
+      "candidate_count": 22,
+      "model": "gpt-5.6-terra",
+      "semantic_run_timestamp": "2026-09-16T11:11:06.262222+00:00",
+      "direct_count": 7,
+      "supporting_count": 5,
+      "off_target_count": 10,
+      "validation_notes": [
+        "Candidate snapshot predates benchmark_id; identity validated by the standard path, matching question and complete group_id sets."
+      ],
+      "semantic_top_10": [
+        {
+          "group_id": "version:dec105bceb966bf1aa8f6cd51a7d24e6c163e5d91b465af831dbc2f01d4e6d84",
+          "title": "Matrix Completion with Deterministic Sampling: Theories and Methods",
+          "original_rrf_rank": 10,
+          "semantic_rank": 1,
+          "rank_change": 9,
+          "semantic_score": 0.95,
+          "model_category": "direct",
+          "gold_relevance": 2,
+          "gold_label_name": "direct"
+        },
+        {
+          "group_id": "version:f29052f8eb35c02608aae9b52dda225bfcd26fd4251a36b06d926ad88dffe7da",
+          "title": "Spectral Gap-Based Seismic Survey Design",
+          "original_rrf_rank": 13,
+          "semantic_rank": 2,
+          "rank_change": 11,
+          "semantic_score": 0.95,
+          "model_category": "direct",
+          "gold_relevance": 2,
+          "gold_label_name": "direct"
+        },
+        {
+          "group_id": "version:fb9cd1e79b4020882e1225a96ef81ab3fbae5a6c39cb6844328dabbd8b559644",
+          "title": "A Characterization of Deterministic Sampling Patterns for Low-Rank Matrix Completion",
+          "original_rrf_rank": 1,
+          "semantic_rank": 3,
+          "rank_change": -2,
+          "semantic_score": 0.9,
+          "model_category": "direct",
+          "gold_relevance": 2,
+          "gold_label_name": "direct"
+        },
+        {
+          "group_id": "version:0510fb81d5019e24410f9236266b95194b46e2987f16d2ed215fa52f5154c2e0",
+          "title": "De-biasing low-rank projection for matrix completion",
+          "original_rrf_rank": 4,
+          "semantic_rank": 4,
+          "rank_change": 0,
+          "semantic_score": 0.9,
+          "model_category": "direct",
+          "gold_relevance": 2,
+          "gold_label_name": "direct"
+        },
+        {
+          "group_id": "version:380ff13e0cdc1f5a5130e3ea67fb6f4173ee368a9a4595c2d8d3814e469fce24",
+          "title": "Matrix Completion With Deterministic Pattern: A Geometric Perspective",
+          "original_rrf_rank": 7,
+          "semantic_rank": 5,
+          "rank_change": 2,
+          "semantic_score": 0.9,
+          "model_category": "direct",
+          "gold_relevance": 2,
+          "gold_label_name": "direct"
+        },
+        {
+          "group_id": "version:6486d681af3f09c380f1939ae9d5598a641897854f94562ab38cd24d05ab0e32",
+          "title": "On Deterministic Sampling Patterns for Robust Low-Rank Matrix Completion",
+          "original_rrf_rank": 3,
+          "semantic_rank": 6,
+          "rank_change": -3,
+          "semantic_score": 0.82,
+          "model_category": "direct",
+          "gold_relevance": 2,
+          "gold_label_name": "direct"
+        },
+        {
+          "group_id": "version:356d9b588772daac1414fad417b775c5521ffbbd756daa09a98e93562cf6ae89",
+          "title": "A New Theory for Matrix Completion",
+          "original_rrf_rank": 12,
+          "semantic_rank": 7,
+          "rank_change": 5,
+          "semantic_score": 0.82,
+          "model_category": "direct",
+          "gold_relevance": 2,
+          "gold_label_name": "direct"
+        },
+        {
+          "group_id": "version:cad2b6d607cc39f41f44cf1acb5b92a031f84e5b34656c89554398ddf5ae4257",
+          "title": "A simulation-free seismic survey design by maximizing the spectral gap",
+          "original_rrf_rank": 22,
+          "semantic_rank": 8,
+          "rank_change": 14,
+          "semantic_score": 0.82,
+          "model_category": "direct",
+          "gold_relevance": 1,
+          "gold_label_name": "supporting"
+        },
+        {
+          "group_id": "version:38ed31c056bf1fc70ccfb98c98e97763737dc5cf0950682f39575abaa37a9306",
+          "title": "Spectral gap in random bipartite biregular graphs and applications",
+          "original_rrf_rank": 6,
+          "semantic_rank": 9,
+          "rank_change": -3,
+          "semantic_score": 0.78,
+          "model_category": "supporting",
+          "gold_relevance": 1,
+          "gold_label_name": "supporting"
+        },
+        {
+          "group_id": "version:6f259d593832712fb17c9941aafdae060b5c062eff0ff90f3ce28badd05a7c6d",
+          "title": "A characterization of sampling patterns for low-rank multi-view data completion problem",
+          "original_rrf_rank": 18,
+          "semantic_rank": 10,
+          "rank_change": 8,
+          "semantic_score": 0.78,
+          "model_category": "direct",
+          "gold_relevance": 1,
+          "gold_label_name": "supporting"
+        }
+      ],
+      "rank_movements": [
+        {
+          "group_id": "version:fb9cd1e79b4020882e1225a96ef81ab3fbae5a6c39cb6844328dabbd8b559644",
+          "title": "A Characterization of Deterministic Sampling Patterns for Low-Rank Matrix Completion",
+          "original_rrf_rank": 1,
+          "semantic_rank": 3,
+          "rank_change": -2,
+          "semantic_score": 0.9,
+          "model_category": "direct",
+          "gold_relevance": 2,
+          "gold_label_name": "direct"
+        },
+        {
+          "group_id": "version:e76978fef10725854146bf7a7b7af97cf0532a4a14d8f7f1bd2444e13c8045d4",
+          "title": "Implicit Regularization in Nonconvex Statistical Estimation: Gradient Descent Converges Linearly for Phase Retrieval, Matrix Completion, and Blind Deconvolution",
+          "original_rrf_rank": 2,
+          "semantic_rank": 15,
+          "rank_change": -13,
+          "semantic_score": 0.2,
+          "model_category": "off_target",
+          "gold_relevance": 0,
+          "gold_label_name": "off_target"
+        },
+        {
+          "group_id": "version:6486d681af3f09c380f1939ae9d5598a641897854f94562ab38cd24d05ab0e32",
+          "title": "On Deterministic Sampling Patterns for Robust Low-Rank Matrix Completion",
+          "original_rrf_rank": 3,
+          "semantic_rank": 6,
+          "rank_change": -3,
+          "semantic_score": 0.82,
+          "model_category": "direct",
+          "gold_relevance": 2,
+          "gold_label_name": "direct"
+        },
+        {
+          "group_id": "version:0510fb81d5019e24410f9236266b95194b46e2987f16d2ed215fa52f5154c2e0",
+          "title": "De-biasing low-rank projection for matrix completion",
+          "original_rrf_rank": 4,
+          "semantic_rank": 4,
+          "rank_change": 0,
+          "semantic_score": 0.9,
+          "model_category": "direct",
+          "gold_relevance": 2,
+          "gold_label_name": "direct"
+        },
+        {
+          "group_id": "version:adc7c07897a8df5a4353467cb86be68db2e2a718d531e7568cf6b1af16404431",
+          "title": "A survey of matrix completion methods for recommendation systems",
+          "original_rrf_rank": 5,
+          "semantic_rank": 19,
+          "rank_change": -14,
+          "semantic_score": 0.12,
+          "model_category": "off_target",
+          "gold_relevance": 0,
+          "gold_label_name": "off_target"
+        },
+        {
+          "group_id": "version:38ed31c056bf1fc70ccfb98c98e97763737dc5cf0950682f39575abaa37a9306",
+          "title": "Spectral gap in random bipartite biregular graphs and applications",
+          "original_rrf_rank": 6,
+          "semantic_rank": 9,
+          "rank_change": -3,
+          "semantic_score": 0.78,
+          "model_category": "supporting",
+          "gold_relevance": 1,
+          "gold_label_name": "supporting"
+        },
+        {
+          "group_id": "version:380ff13e0cdc1f5a5130e3ea67fb6f4173ee368a9a4595c2d8d3814e469fce24",
+          "title": "Matrix Completion With Deterministic Pattern: A Geometric Perspective",
+          "original_rrf_rank": 7,
+          "semantic_rank": 5,
+          "rank_change": 2,
+          "semantic_score": 0.9,
+          "model_category": "direct",
+          "gold_relevance": 2,
+          "gold_label_name": "direct"
+        },
+        {
+          "group_id": "version:5040ed8f5a0796e4d461c8f13e45aea42a88a0ec954242b7eb6fab1fba53981e",
+          "title": "Spectroscopic stimulated Raman scattering imaging of highly dynamic specimens through matrix completion",
+          "original_rrf_rank": 8,
+          "semantic_rank": 20,
+          "rank_change": -12,
+          "semantic_score": 0.12,
+          "model_category": "off_target",
+          "gold_relevance": 0,
+          "gold_label_name": "off_target"
+        },
+        {
+          "group_id": "version:1a7f55ad555431763a01f69437a8641f31aa5c8f75d5578a167334840766c13e",
+          "title": "Size biased couplings and the spectral gap for random regular graphs",
+          "original_rrf_rank": 9,
+          "semantic_rank": 12,
+          "rank_change": -3,
+          "semantic_score": 0.58,
+          "model_category": "supporting",
+          "gold_relevance": 0,
+          "gold_label_name": "off_target"
+        },
+        {
+          "group_id": "version:dec105bceb966bf1aa8f6cd51a7d24e6c163e5d91b465af831dbc2f01d4e6d84",
+          "title": "Matrix Completion with Deterministic Sampling: Theories and Methods",
+          "original_rrf_rank": 10,
+          "semantic_rank": 1,
+          "rank_change": 9,
+          "semantic_score": 0.95,
+          "model_category": "direct",
+          "gold_relevance": 2,
+          "gold_label_name": "direct"
+        },
+        {
+          "group_id": "version:28bb46cfd7e2a2b4c00f972f09fab365557e4f9383c233f503f8a6769bf161ab",
+          "title": "Entrywise eigenvector analysis of random matrices with low expected rank",
+          "original_rrf_rank": 11,
+          "semantic_rank": 14,
+          "rank_change": -3,
+          "semantic_score": 0.38,
+          "model_category": "supporting",
+          "gold_relevance": 0,
+          "gold_label_name": "off_target"
+        },
+        {
+          "group_id": "version:356d9b588772daac1414fad417b775c5521ffbbd756daa09a98e93562cf6ae89",
+          "title": "A New Theory for Matrix Completion",
+          "original_rrf_rank": 12,
+          "semantic_rank": 7,
+          "rank_change": 5,
+          "semantic_score": 0.82,
+          "model_category": "direct",
+          "gold_relevance": 2,
+          "gold_label_name": "direct"
+        },
+        {
+          "group_id": "version:f29052f8eb35c02608aae9b52dda225bfcd26fd4251a36b06d926ad88dffe7da",
+          "title": "Spectral Gap-Based Seismic Survey Design",
+          "original_rrf_rank": 13,
+          "semantic_rank": 2,
+          "rank_change": 11,
+          "semantic_score": 0.95,
+          "model_category": "direct",
+          "gold_relevance": 2,
+          "gold_label_name": "direct"
+        },
+        {
+          "group_id": "version:71d6f4515e0fc35d0dd659fb6c747496376235ed9e6c947721922f4520b5368a",
+          "title": "Cartesian MR fingerprinting in the eye at 7T using compressed sensing and matrix completion‐based reconstructions",
+          "original_rrf_rank": 14,
+          "semantic_rank": 22,
+          "rank_change": -8,
+          "semantic_score": 0.08,
+          "model_category": "off_target",
+          "gold_relevance": 0,
+          "gold_label_name": "off_target"
+        },
+        {
+          "group_id": "version:a9c1bae368ab351f55f5fc6d68063f3a8067cd247d6a5e885da993f7dd037cf4",
+          "title": "1-Bit Matrix Completion under Exact Low-Rank Constraint",
+          "original_rrf_rank": 15,
+          "semantic_rank": 17,
+          "rank_change": -2,
+          "semantic_score": 0.18,
+          "model_category": "off_target",
+          "gold_relevance": 0,
+          "gold_label_name": "off_target"
+        },
+        {
+          "group_id": "version:dc9c2459b1d1569eefac2b64cfc9cdd092c7cc727321b740bce8d0415c381ce9",
+          "title": "Matrix Completion and Extrapolation via Kernel Regression",
+          "original_rrf_rank": 16,
+          "semantic_rank": 21,
+          "rank_change": -5,
+          "semantic_score": 0.12,
+          "model_category": "off_target",
+          "gold_relevance": 0,
+          "gold_label_name": "off_target"
+        },
+        {
+          "group_id": "version:c085578f8fe8310a7de202a8f862987492d11114d490b669ba65a6b643c1e310",
+          "title": "Matrix Completion from $O(n)$ Samples in Linear Time",
+          "original_rrf_rank": 17,
+          "semantic_rank": 13,
+          "rank_change": 4,
+          "semantic_score": 0.58,
+          "model_category": "supporting",
+          "gold_relevance": 1,
+          "gold_label_name": "supporting"
+        },
+        {
+          "group_id": "version:6f259d593832712fb17c9941aafdae060b5c062eff0ff90f3ce28badd05a7c6d",
+          "title": "A characterization of sampling patterns for low-rank multi-view data completion problem",
+          "original_rrf_rank": 18,
+          "semantic_rank": 10,
+          "rank_change": 8,
+          "semantic_score": 0.78,
+          "model_category": "direct",
+          "gold_relevance": 1,
+          "gold_label_name": "supporting"
+        },
+        {
+          "group_id": "version:8f673bdf3f50a6ade7bcc954daed642c72c26372c74057c5cec59d445759d488",
+          "title": "Detection thresholds in very sparse matrix completion",
+          "original_rrf_rank": 19,
+          "semantic_rank": 18,
+          "rank_change": 1,
+          "semantic_score": 0.18,
+          "model_category": "off_target",
+          "gold_relevance": 0,
+          "gold_label_name": "off_target"
+        },
+        {
+          "group_id": "version:1cea7e7a06f705356ae770140064d4816b12b315b77c06195180bed69438d6ef",
+          "title": "Robust matrix completion",
+          "original_rrf_rank": 20,
+          "semantic_rank": 16,
+          "rank_change": 4,
+          "semantic_score": 0.2,
+          "model_category": "off_target",
+          "gold_relevance": 0,
+          "gold_label_name": "off_target"
+        },
+        {
+          "group_id": "version:8b3562f10085a1afa2bdba526f98cf4ad6a1f6a74142aa49f55a78826fc347e0",
+          "title": "Corrections to “A Characterization of Deterministic Sampling Patterns for Low-Rank Matrix Completion”",
+          "original_rrf_rank": 21,
+          "semantic_rank": 11,
+          "rank_change": 10,
+          "semantic_score": 0.7,
+          "model_category": "direct",
+          "gold_relevance": 1,
+          "gold_label_name": "supporting"
+        },
+        {
+          "group_id": "version:cad2b6d607cc39f41f44cf1acb5b92a031f84e5b34656c89554398ddf5ae4257",
+          "title": "A simulation-free seismic survey design by maximizing the spectral gap",
+          "original_rrf_rank": 22,
+          "semantic_rank": 8,
+          "rank_change": 14,
+          "semantic_score": 0.82,
+          "model_category": "direct",
+          "gold_relevance": 1,
+          "gold_label_name": "supporting"
+        }
+      ],
+      "top_5_upward_movements": [
+        {
+          "group_id": "version:cad2b6d607cc39f41f44cf1acb5b92a031f84e5b34656c89554398ddf5ae4257",
+          "title": "A simulation-free seismic survey design by maximizing the spectral gap",
+          "original_rrf_rank": 22,
+          "semantic_rank": 8,
+          "rank_change": 14,
+          "semantic_score": 0.82,
+          "model_category": "direct",
+          "gold_relevance": 1,
+          "gold_label_name": "supporting"
+        },
+        {
+          "group_id": "version:f29052f8eb35c02608aae9b52dda225bfcd26fd4251a36b06d926ad88dffe7da",
+          "title": "Spectral Gap-Based Seismic Survey Design",
+          "original_rrf_rank": 13,
+          "semantic_rank": 2,
+          "rank_change": 11,
+          "semantic_score": 0.95,
+          "model_category": "direct",
+          "gold_relevance": 2,
+          "gold_label_name": "direct"
+        },
+        {
+          "group_id": "version:8b3562f10085a1afa2bdba526f98cf4ad6a1f6a74142aa49f55a78826fc347e0",
+          "title": "Corrections to “A Characterization of Deterministic Sampling Patterns for Low-Rank Matrix Completion”",
+          "original_rrf_rank": 21,
+          "semantic_rank": 11,
+          "rank_change": 10,
+          "semantic_score": 0.7,
+          "model_category": "direct",
+          "gold_relevance": 1,
+          "gold_label_name": "supporting"
+        },
+        {
+          "group_id": "version:dec105bceb966bf1aa8f6cd51a7d24e6c163e5d91b465af831dbc2f01d4e6d84",
+          "title": "Matrix Completion with Deterministic Sampling: Theories and Methods",
+          "original_rrf_rank": 10,
+          "semantic_rank": 1,
+          "rank_change": 9,
+          "semantic_score": 0.95,
+          "model_category": "direct",
+          "gold_relevance": 2,
+          "gold_label_name": "direct"
+        },
+        {
+          "group_id": "version:6f259d593832712fb17c9941aafdae060b5c062eff0ff90f3ce28badd05a7c6d",
+          "title": "A characterization of sampling patterns for low-rank multi-view data completion problem",
+          "original_rrf_rank": 18,
+          "semantic_rank": 10,
+          "rank_change": 8,
+          "semantic_score": 0.78,
+          "model_category": "direct",
+          "gold_relevance": 1,
+          "gold_label_name": "supporting"
+        }
+      ],
+      "top_5_downward_movements": [
+        {
+          "group_id": "version:adc7c07897a8df5a4353467cb86be68db2e2a718d531e7568cf6b1af16404431",
+          "title": "A survey of matrix completion methods for recommendation systems",
+          "original_rrf_rank": 5,
+          "semantic_rank": 19,
+          "rank_change": -14,
+          "semantic_score": 0.12,
+          "model_category": "off_target",
+          "gold_relevance": 0,
+          "gold_label_name": "off_target"
+        },
+        {
+          "group_id": "version:e76978fef10725854146bf7a7b7af97cf0532a4a14d8f7f1bd2444e13c8045d4",
+          "title": "Implicit Regularization in Nonconvex Statistical Estimation: Gradient Descent Converges Linearly for Phase Retrieval, Matrix Completion, and Blind Deconvolution",
+          "original_rrf_rank": 2,
+          "semantic_rank": 15,
+          "rank_change": -13,
+          "semantic_score": 0.2,
+          "model_category": "off_target",
+          "gold_relevance": 0,
+          "gold_label_name": "off_target"
+        },
+        {
+          "group_id": "version:5040ed8f5a0796e4d461c8f13e45aea42a88a0ec954242b7eb6fab1fba53981e",
+          "title": "Spectroscopic stimulated Raman scattering imaging of highly dynamic specimens through matrix completion",
+          "original_rrf_rank": 8,
+          "semantic_rank": 20,
+          "rank_change": -12,
+          "semantic_score": 0.12,
+          "model_category": "off_target",
+          "gold_relevance": 0,
+          "gold_label_name": "off_target"
+        },
+        {
+          "group_id": "version:71d6f4515e0fc35d0dd659fb6c747496376235ed9e6c947721922f4520b5368a",
+          "title": "Cartesian MR fingerprinting in the eye at 7T using compressed sensing and matrix completion‐based reconstructions",
+          "original_rrf_rank": 14,
+          "semantic_rank": 22,
+          "rank_change": -8,
+          "semantic_score": 0.08,
+          "model_category": "off_target",
+          "gold_relevance": 0,
+          "gold_label_name": "off_target"
+        },
+        {
+          "group_id": "version:dc9c2459b1d1569eefac2b64cfc9cdd092c7cc727321b740bce8d0415c381ce9",
+          "title": "Matrix Completion and Extrapolation via Kernel Regression",
+          "original_rrf_rank": 16,
+          "semantic_rank": 21,
+          "rank_change": -5,
+          "semantic_score": 0.12,
+          "model_category": "off_target",
+          "gold_relevance": 0,
+          "gold_label_name": "off_target"
+        }
+      ],
+      "category_accuracy": 0.7727272727272727,
+      "confusion_matrix": {
+        "row_labels": [
+          "direct",
+          "supporting",
+          "off_target"
+        ],
+        "column_labels": [
+          "direct",
+          "supporting",
+          "off_target"
+        ],
+        "counts": [
+          [
+            7,
+            0,
+            0
+          ],
+          [
+            3,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            8
+          ]
+        ]
+      },
+      "rrf_precision_at_10": 0.6,
+      "semantic_precision_at_10": 1.0,
+      "delta_precision_at_10": 0.4,
+      "rrf_strict_precision_at_10": 0.5,
+      "semantic_strict_precision_at_10": 0.7,
+      "delta_strict_precision_at_10": 0.19999999999999996,
+      "rrf_ndcg_at_10": 0.6781498023908037,
+      "semantic_ndcg_at_10": 1.0,
+      "delta_ndcg_at_10": 0.3218501976091963
+    },
+    "rag_hallucination_v1": {
+      "benchmark_id": "rag_hallucination_v1",
+      "research_question": "How does retrieval-augmented generation reduce hallucination and improve factuality in large language models?",
+      "candidate_count": 17,
+      "model": "gpt-5.6-terra",
+      "semantic_run_timestamp": "2026-09-16T13:45:22.378870+00:00",
+      "direct_count": 4,
+      "supporting_count": 12,
+      "off_target_count": 1,
+      "validation_notes": [],
+      "semantic_top_10": [
+        {
+          "group_id": "version:dad91b6a012ec4c70b8c5162153987b08808c3719a75aba246b0f3838528c413",
+          "title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+          "original_rrf_rank": 1,
+          "semantic_rank": 1,
+          "rank_change": 0,
+          "semantic_score": 0.98,
+          "model_category": "direct",
+          "gold_relevance": 2,
+          "gold_label_name": "direct"
+        },
+        {
+          "group_id": "version:9dc16cf734022405d7deac7415627d9338799889e4702ee8da9e36de88d48cf7",
+          "title": "Benchmarking Large Language Models in Retrieval-Augmented Generation",
+          "original_rrf_rank": 6,
+          "semantic_rank": 2,
+          "rank_change": 4,
+          "semantic_score": 0.93,
+          "model_category": "direct",
+          "gold_relevance": 2,
+          "gold_label_name": "direct"
+        },
+        {
+          "group_id": "version:8e3ccef640c165b95e5abae732b290ab2fa11bea83328aaa15b508e96ae00cbc",
+          "title": "Retrieval-Augmented Generation for AI-Generated Content: A Survey",
+          "original_rrf_rank": 13,
+          "semantic_rank": 3,
+          "rank_change": 10,
+          "semantic_score": 0.93,
+          "model_category": "direct",
+          "gold_relevance": 1,
+          "gold_label_name": "supporting"
+        },
+        {
+          "group_id": "version:530f9fcd99cbb05e7123fde8ac6b4fb565b1fadf7614b73643d6f759b35b4413",
+          "title": "Graph Retrieval-Augmented Generation: A Survey",
+          "original_rrf_rank": 10,
+          "semantic_rank": 4,
+          "rank_change": 6,
+          "semantic_score": 0.92,
+          "model_category": "direct",
+          "gold_relevance": 2,
+          "gold_label_name": "direct"
+        },
+        {
+          "group_id": "version:55b8fea1a274330da0186b53fb630885f5b43687f531008e089414a626c5a690",
+          "title": "Integrating Retrieval-Augmented Generation with Large Language Models in Nephrology: Advancing Practical Applications",
+          "original_rrf_rank": 4,
+          "semantic_rank": 5,
+          "rank_change": -1,
+          "semantic_score": 0.9,
+          "model_category": "direct",
+          "gold_relevance": 1,
+          "gold_label_name": "supporting"
+        },
+        {
+          "group_id": "version:3b183b2565682c9e0a852f62d6f8661369e28531a17a4cc762c10cc4483b972a",
+          "title": "LightRAG: Simple and Fast Retrieval-Augmented Generation",
+          "original_rrf_rank": 7,
+          "semantic_rank": 6,
+          "rank_change": 1,
+          "semantic_score": 0.9,
+          "model_category": "direct",
+          "gold_relevance": 1,
+          "gold_label_name": "supporting"
+        },
+        {
+          "group_id": "version:157358bbf0b8d63559f35a5d80b621cb0826a1a8ae80b31fcad798e6065b6e9f",
+          "title": "Retrieval-augmented generation for educational application: A systematic survey",
+          "original_rrf_rank": 9,
+          "semantic_rank": 7,
+          "rank_change": 2,
+          "semantic_score": 0.9,
+          "model_category": "direct",
+          "gold_relevance": 1,
+          "gold_label_name": "supporting"
+        },
+        {
+          "group_id": "version:5fbbc5b4185fff73f68233c73d34144a6a7b1bca46c0e0247ffc6045722948c7",
+          "title": "Retrieval augmented generation for large language models in healthcare: A systematic review",
+          "original_rrf_rank": 12,
+          "semantic_rank": 8,
+          "rank_change": 4,
+          "semantic_score": 0.9,
+          "model_category": "direct",
+          "gold_relevance": 1,
+          "gold_label_name": "supporting"
+        },
+        {
+          "group_id": "version:581a31ee29ae92d2bfa971839069ce1f9b79d77361ff5f7ee06d46299349bfd9",
+          "title": "Retrieval-Augmented Generation (RAG) in Healthcare: A Comprehensive Review",
+          "original_rrf_rank": 16,
+          "semantic_rank": 9,
+          "rank_change": 7,
+          "semantic_score": 0.9,
+          "model_category": "direct",
+          "gold_relevance": 2,
+          "gold_label_name": "direct"
+        },
+        {
+          "group_id": "version:4fbc6af4e0bd5627101a52f16405d33b4b15043f4efaac31ca9a5240f4977fb7",
+          "title": "Benchmarking Retrieval-Augmented Generation for Medicine",
+          "original_rrf_rank": 3,
+          "semantic_rank": 10,
+          "rank_change": -7,
+          "semantic_score": 0.88,
+          "model_category": "direct",
+          "gold_relevance": 1,
+          "gold_label_name": "supporting"
+        }
+      ],
+      "rank_movements": [
+        {
+          "group_id": "version:dad91b6a012ec4c70b8c5162153987b08808c3719a75aba246b0f3838528c413",
+          "title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+          "original_rrf_rank": 1,
+          "semantic_rank": 1,
+          "rank_change": 0,
+          "semantic_score": 0.98,
+          "model_category": "direct",
+          "gold_relevance": 2,
+          "gold_label_name": "direct"
+        },
+        {
+          "group_id": "version:2022bab10e21d22fee7760455688a9ce74cea7a8a4ded58a86dd8d411834c2bb",
+          "title": "Active Retrieval Augmented Generation",
+          "original_rrf_rank": 2,
+          "semantic_rank": 13,
+          "rank_change": -11,
+          "semantic_score": 0.72,
+          "model_category": "direct",
+          "gold_relevance": 1,
+          "gold_label_name": "supporting"
+        },
+        {
+          "group_id": "version:4fbc6af4e0bd5627101a52f16405d33b4b15043f4efaac31ca9a5240f4977fb7",
+          "title": "Benchmarking Retrieval-Augmented Generation for Medicine",
+          "original_rrf_rank": 3,
+          "semantic_rank": 10,
+          "rank_change": -7,
+          "semantic_score": 0.88,
+          "model_category": "direct",
+          "gold_relevance": 1,
+          "gold_label_name": "supporting"
+        },
+        {
+          "group_id": "version:55b8fea1a274330da0186b53fb630885f5b43687f531008e089414a626c5a690",
+          "title": "Integrating Retrieval-Augmented Generation with Large Language Models in Nephrology: Advancing Practical Applications",
+          "original_rrf_rank": 4,
+          "semantic_rank": 5,
+          "rank_change": -1,
+          "semantic_score": 0.9,
+          "model_category": "direct",
+          "gold_relevance": 1,
+          "gold_label_name": "supporting"
+        },
+        {
+          "group_id": "version:e1fee44aebdf33cb8404ac653537868c043f9ec8e169b7637c5909275f34bee5",
+          "title": "RAGAs: Automated Evaluation of Retrieval Augmented Generation",
+          "original_rrf_rank": 5,
+          "semantic_rank": 16,
+          "rank_change": -11,
+          "semantic_score": 0.6,
+          "model_category": "supporting",
+          "gold_relevance": 1,
+          "gold_label_name": "supporting"
+        },
+        {
+          "group_id": "version:9dc16cf734022405d7deac7415627d9338799889e4702ee8da9e36de88d48cf7",
+          "title": "Benchmarking Large Language Models in Retrieval-Augmented Generation",
+          "original_rrf_rank": 6,
+          "semantic_rank": 2,
+          "rank_change": 4,
+          "semantic_score": 0.93,
+          "model_category": "direct",
+          "gold_relevance": 2,
+          "gold_label_name": "direct"
+        },
+        {
+          "group_id": "version:3b183b2565682c9e0a852f62d6f8661369e28531a17a4cc762c10cc4483b972a",
+          "title": "LightRAG: Simple and Fast Retrieval-Augmented Generation",
+          "original_rrf_rank": 7,
+          "semantic_rank": 6,
+          "rank_change": 1,
+          "semantic_score": 0.9,
+          "model_category": "direct",
+          "gold_relevance": 1,
+          "gold_label_name": "supporting"
+        },
+        {
+          "group_id": "version:8bb990637397dc668bbea1de538761db992641d93e9f6e8f6f24bd04004aba16",
+          "title": "Improving the Domain Adaptation of Retrieval Augmented Generation (RAG) Models for Open Domain Question Answering",
+          "original_rrf_rank": 8,
+          "semantic_rank": 11,
+          "rank_change": -3,
+          "semantic_score": 0.88,
+          "model_category": "direct",
+          "gold_relevance": 1,
+          "gold_label_name": "supporting"
+        },
+        {
+          "group_id": "version:157358bbf0b8d63559f35a5d80b621cb0826a1a8ae80b31fcad798e6065b6e9f",
+          "title": "Retrieval-augmented generation for educational application: A systematic survey",
+          "original_rrf_rank": 9,
+          "semantic_rank": 7,
+          "rank_change": 2,
+          "semantic_score": 0.9,
+          "model_category": "direct",
+          "gold_relevance": 1,
+          "gold_label_name": "supporting"
+        },
+        {
+          "group_id": "version:530f9fcd99cbb05e7123fde8ac6b4fb565b1fadf7614b73643d6f759b35b4413",
+          "title": "Graph Retrieval-Augmented Generation: A Survey",
+          "original_rrf_rank": 10,
+          "semantic_rank": 4,
+          "rank_change": 6,
+          "semantic_score": 0.92,
+          "model_category": "direct",
+          "gold_relevance": 2,
+          "gold_label_name": "direct"
+        },
+        {
+          "group_id": "version:51181febdb3bd8698e120475d2f847daea1418dab086352cadb006d882306841",
+          "title": "Retrieval-Augmented Generation (RAG)",
+          "original_rrf_rank": 11,
+          "semantic_rank": 17,
+          "rank_change": -6,
+          "semantic_score": 0.18,
+          "model_category": "off_target",
+          "gold_relevance": 0,
+          "gold_label_name": "off_target"
+        },
+        {
+          "group_id": "version:5fbbc5b4185fff73f68233c73d34144a6a7b1bca46c0e0247ffc6045722948c7",
+          "title": "Retrieval augmented generation for large language models in healthcare: A systematic review",
+          "original_rrf_rank": 12,
+          "semantic_rank": 8,
+          "rank_change": 4,
+          "semantic_score": 0.9,
+          "model_category": "direct",
+          "gold_relevance": 1,
+          "gold_label_name": "supporting"
+        },
+        {
+          "group_id": "version:8e3ccef640c165b95e5abae732b290ab2fa11bea83328aaa15b508e96ae00cbc",
+          "title": "Retrieval-Augmented Generation for AI-Generated Content: A Survey",
+          "original_rrf_rank": 13,
+          "semantic_rank": 3,
+          "rank_change": 10,
+          "semantic_score": 0.93,
+          "model_category": "direct",
+          "gold_relevance": 1,
+          "gold_label_name": "supporting"
+        },
+        {
+          "group_id": "version:61e0e3110c04daaa4f332d938c2a52c8a5dade14e91f2817b90db44ccd51f678",
+          "title": "Corrective Retrieval Augmented Generation",
+          "original_rrf_rank": 14,
+          "semantic_rank": 14,
+          "rank_change": 0,
+          "semantic_score": 0.72,
+          "model_category": "direct",
+          "gold_relevance": 1,
+          "gold_label_name": "supporting"
+        },
+        {
+          "group_id": "version:a17f3e0a6b9d2d534aece4f171da9cc9f26ed93f2628d29c9d57b2d3485fdf62",
+          "title": "MedRAG: Enhancing Retrieval-augmented Generation with Knowledge Graph-Elicited Reasoning for Healthcare Copilot",
+          "original_rrf_rank": 15,
+          "semantic_rank": 15,
+          "rank_change": 0,
+          "semantic_score": 0.72,
+          "model_category": "supporting",
+          "gold_relevance": 1,
+          "gold_label_name": "supporting"
+        },
+        {
+          "group_id": "version:581a31ee29ae92d2bfa971839069ce1f9b79d77361ff5f7ee06d46299349bfd9",
+          "title": "Retrieval-Augmented Generation (RAG) in Healthcare: A Comprehensive Review",
+          "original_rrf_rank": 16,
+          "semantic_rank": 9,
+          "rank_change": 7,
+          "semantic_score": 0.9,
+          "model_category": "direct",
+          "gold_relevance": 2,
+          "gold_label_name": "direct"
+        },
+        {
+          "group_id": "version:5423e20e7f4bfb6c9afadb503e2e90dda2f9e99fe6ac591916189e3d7ee0ac53",
+          "title": "CareerX: A Retrieval-Augmented Generation Framework for Personalized AI-Driven Career Guidance",
+          "original_rrf_rank": 17,
+          "semantic_rank": 12,
+          "rank_change": 5,
+          "semantic_score": 0.8,
+          "model_category": "direct",
+          "gold_relevance": 1,
+          "gold_label_name": "supporting"
+        }
+      ],
+      "top_5_upward_movements": [
+        {
+          "group_id": "version:8e3ccef640c165b95e5abae732b290ab2fa11bea83328aaa15b508e96ae00cbc",
+          "title": "Retrieval-Augmented Generation for AI-Generated Content: A Survey",
+          "original_rrf_rank": 13,
+          "semantic_rank": 3,
+          "rank_change": 10,
+          "semantic_score": 0.93,
+          "model_category": "direct",
+          "gold_relevance": 1,
+          "gold_label_name": "supporting"
+        },
+        {
+          "group_id": "version:581a31ee29ae92d2bfa971839069ce1f9b79d77361ff5f7ee06d46299349bfd9",
+          "title": "Retrieval-Augmented Generation (RAG) in Healthcare: A Comprehensive Review",
+          "original_rrf_rank": 16,
+          "semantic_rank": 9,
+          "rank_change": 7,
+          "semantic_score": 0.9,
+          "model_category": "direct",
+          "gold_relevance": 2,
+          "gold_label_name": "direct"
+        },
+        {
+          "group_id": "version:530f9fcd99cbb05e7123fde8ac6b4fb565b1fadf7614b73643d6f759b35b4413",
+          "title": "Graph Retrieval-Augmented Generation: A Survey",
+          "original_rrf_rank": 10,
+          "semantic_rank": 4,
+          "rank_change": 6,
+          "semantic_score": 0.92,
+          "model_category": "direct",
+          "gold_relevance": 2,
+          "gold_label_name": "direct"
+        },
+        {
+          "group_id": "version:5423e20e7f4bfb6c9afadb503e2e90dda2f9e99fe6ac591916189e3d7ee0ac53",
+          "title": "CareerX: A Retrieval-Augmented Generation Framework for Personalized AI-Driven Career Guidance",
+          "original_rrf_rank": 17,
+          "semantic_rank": 12,
+          "rank_change": 5,
+          "semantic_score": 0.8,
+          "model_category": "direct",
+          "gold_relevance": 1,
+          "gold_label_name": "supporting"
+        },
+        {
+          "group_id": "version:9dc16cf734022405d7deac7415627d9338799889e4702ee8da9e36de88d48cf7",
+          "title": "Benchmarking Large Language Models in Retrieval-Augmented Generation",
+          "original_rrf_rank": 6,
+          "semantic_rank": 2,
+          "rank_change": 4,
+          "semantic_score": 0.93,
+          "model_category": "direct",
+          "gold_relevance": 2,
+          "gold_label_name": "direct"
+        }
+      ],
+      "top_5_downward_movements": [
+        {
+          "group_id": "version:2022bab10e21d22fee7760455688a9ce74cea7a8a4ded58a86dd8d411834c2bb",
+          "title": "Active Retrieval Augmented Generation",
+          "original_rrf_rank": 2,
+          "semantic_rank": 13,
+          "rank_change": -11,
+          "semantic_score": 0.72,
+          "model_category": "direct",
+          "gold_relevance": 1,
+          "gold_label_name": "supporting"
+        },
+        {
+          "group_id": "version:e1fee44aebdf33cb8404ac653537868c043f9ec8e169b7637c5909275f34bee5",
+          "title": "RAGAs: Automated Evaluation of Retrieval Augmented Generation",
+          "original_rrf_rank": 5,
+          "semantic_rank": 16,
+          "rank_change": -11,
+          "semantic_score": 0.6,
+          "model_category": "supporting",
+          "gold_relevance": 1,
+          "gold_label_name": "supporting"
+        },
+        {
+          "group_id": "version:4fbc6af4e0bd5627101a52f16405d33b4b15043f4efaac31ca9a5240f4977fb7",
+          "title": "Benchmarking Retrieval-Augmented Generation for Medicine",
+          "original_rrf_rank": 3,
+          "semantic_rank": 10,
+          "rank_change": -7,
+          "semantic_score": 0.88,
+          "model_category": "direct",
+          "gold_relevance": 1,
+          "gold_label_name": "supporting"
+        },
+        {
+          "group_id": "version:51181febdb3bd8698e120475d2f847daea1418dab086352cadb006d882306841",
+          "title": "Retrieval-Augmented Generation (RAG)",
+          "original_rrf_rank": 11,
+          "semantic_rank": 17,
+          "rank_change": -6,
+          "semantic_score": 0.18,
+          "model_category": "off_target",
+          "gold_relevance": 0,
+          "gold_label_name": "off_target"
+        },
+        {
+          "group_id": "version:8bb990637397dc668bbea1de538761db992641d93e9f6e8f6f24bd04004aba16",
+          "title": "Improving the Domain Adaptation of Retrieval Augmented Generation (RAG) Models for Open Domain Question Answering",
+          "original_rrf_rank": 8,
+          "semantic_rank": 11,
+          "rank_change": -3,
+          "semantic_score": 0.88,
+          "model_category": "direct",
+          "gold_relevance": 1,
+          "gold_label_name": "supporting"
+        }
+      ],
+      "category_accuracy": 0.4117647058823529,
+      "confusion_matrix": {
+        "row_labels": [
+          "direct",
+          "supporting",
+          "off_target"
+        ],
+        "column_labels": [
+          "direct",
+          "supporting",
+          "off_target"
+        ],
+        "counts": [
+          [
+            4,
+            0,
+            0
+          ],
+          [
+            10,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ]
+      },
+      "rrf_precision_at_10": 1.0,
+      "semantic_precision_at_10": 1.0,
+      "delta_precision_at_10": 0.0,
+      "rrf_strict_precision_at_10": 0.3,
+      "semantic_strict_precision_at_10": 0.4,
+      "delta_strict_precision_at_10": 0.10000000000000003,
+      "rrf_ndcg_at_10": 0.8104156585300656,
+      "semantic_ndcg_at_10": 0.9588342406066944,
+      "delta_ndcg_at_10": 0.14841858207662884
+    }
+  },
+  "aggregate": {
+    "number_of_benchmarks": 2,
+    "precision_at_10": {
+      "mean_rrf": 0.8,
+      "mean_semantic": 1.0,
+      "mean_delta": 0.2
+    },
+    "strict_precision_at_10": {
+      "mean_rrf": 0.4,
+      "mean_semantic": 0.55,
+      "mean_delta": 0.15
+    },
+    "ndcg_at_10": {
+      "mean_rrf": 0.7442827304604347,
+      "mean_semantic": 0.9794171203033473,
+      "mean_delta": 0.23513438984291257
+    }
+  }
+}

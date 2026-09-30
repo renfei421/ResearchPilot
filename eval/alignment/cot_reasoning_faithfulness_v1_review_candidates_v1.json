@@ -1,0 +1,7 @@
+{
+  "benchmark_id": "cot_reasoning_faithfulness_v1",
+  "version": "v1",
+  "identity_review_complete": true,
+  "counts_status": "final",
+  "review_candidates": []
+}

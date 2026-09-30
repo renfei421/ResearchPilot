@@ -1,0 +1,54 @@
+{
+  "benchmark_id": "cot_reasoning_faithfulness_v1",
+  "planner_version": "v1",
+  "model": "gpt-5.6-terra",
+  "generated_at": "2026-09-17T07:15:08.231640+00:00",
+  "request": {
+    "research_question": "How does chain-of-thought prompting affect reasoning accuracy and faithfulness in large language models?",
+    "year_from": 2022,
+    "year_to": 2026,
+    "max_queries": 5
+  },
+  "plan": {
+    "research_question": "How does chain-of-thought prompting affect reasoning accuracy and faithfulness in large language models?",
+    "concepts": [
+      "chain-of-thought prompting",
+      "reasoning accuracy",
+      "faithfulness",
+      "large language models",
+      "rationale reliability"
+    ],
+    "queries": [
+      {
+        "query_id": "q1_core",
+        "text": "\"chain-of-thought prompting\" AND (\"reasoning accuracy\" OR \"reasoning performance\") AND (\"large language model\" OR LLM)",
+        "role": "core",
+        "rationale": "Directly targets empirical work on how chain-of-thought prompting changes reasoning performance in LLMs."
+      },
+      {
+        "query_id": "q2_faithfulness",
+        "text": "(\"chain-of-thought\" OR \"step-by-step reasoning\") AND (faithfulness OR \"faithful reasoning\" OR \"rationale faithfulness\") AND (\"large language model\" OR LLM)",
+        "role": "facet",
+        "rationale": "Focuses on whether generated chains of thought faithfully reflect the model reasoning process."
+      },
+      {
+        "query_id": "q3_bridge",
+        "text": "(\"chain-of-thought prompting\" OR \"reasoning traces\") AND (\"causal mediation\" OR \"mechanistic interpretability\" OR \"causal intervention\") AND (\"language model\" OR LLM)",
+        "role": "bridge",
+        "rationale": "Connects prompting studies with causal and mechanistic methods used to assess whether reasoning traces are causally involved rather than post-hoc explanations."
+      },
+      {
+        "query_id": "q4_synonym",
+        "text": "(\"scratchpad prompting\" OR \"rationale prompting\" OR \"step-by-step prompting\") AND (accuracy OR correctness) AND (\"large language model\" OR LLM)",
+        "role": "synonym",
+        "rationale": "Retrieves adjacent terminology for chain-of-thought-style prompting and its effects on answer correctness."
+      },
+      {
+        "query_id": "q5_facet",
+        "text": "(\"chain-of-thought\" OR rationale) AND (\"unfaithful explanations\" OR \"post-hoc rationalization\" OR \"plausible but incorrect\") AND (\"language model\" OR LLM)",
+        "role": "facet",
+        "rationale": "Targets studies identifying misleading, post-hoc, or otherwise unfaithful rationales produced by language models."
+      }
+    ]
+  }
+}

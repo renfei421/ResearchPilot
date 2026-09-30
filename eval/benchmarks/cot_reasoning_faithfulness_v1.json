@@ -1,0 +1,21 @@
+{
+  "benchmark_id": "cot_reasoning_faithfulness_v1",
+  "question": "How does chain-of-thought prompting affect reasoning accuracy and faithfulness in large language models?",
+  "year_from": 2022,
+  "year_to": 2026,
+  "per_query": 10,
+  "queries": [
+    {
+      "query_id": "q1",
+      "text": "\"chain of thought\" AND reasoning"
+    },
+    {
+      "query_id": "q2",
+      "text": "\"chain of thought\" AND faithfulness"
+    },
+    {
+      "query_id": "q3",
+      "text": "\"chain of thought\" AND accuracy"
+    }
+  ]
+}

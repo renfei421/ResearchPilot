@@ -1,0 +1,22 @@
+{
+  "benchmark_id": "cot_reasoning_faithfulness_v1",
+  "version": "v1",
+  "decisions": [
+    {
+      "left_source": "llm",
+      "left_group_id": "version:9fd0b657d3a99d654d541ab8c3bacde27c8a60988107ebb7d04726c530547ec3",
+      "right_source": "llm",
+      "right_group_id": "version:5fad098a14bfea25810aa9177272658225147a32bc39d0dd100c4472b1c10028",
+      "decision": "same_work",
+      "note": "Same work: arXiv preprint 2305.18703 and later ACM publication DOI 10.1145/3764579."
+    },
+    {
+      "left_source": "human",
+      "left_group_id": "version:e9104717ecfc98f2059ef436df547e8a46594334eda802a3e7aca3fe6a8c9787",
+      "right_source": "llm",
+      "right_group_id": "version:89921b38bf329c2890235abfe659abc3c763aaf4f49312d5890a81d95a7e1ab3",
+      "decision": "same_work",
+      "note": "Same work: arXiv preprint 2305.04388 and NeurIPS 2023 publication DOI 10.52202/075280-3275."
+    }
+  ]
+}

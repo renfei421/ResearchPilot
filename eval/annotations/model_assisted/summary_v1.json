@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "version": "v1",
+  "annotation_source": "codex_model_assisted",
+  "label_status": "silver",
+  "human_gold": false,
+  "rubric_version": "v1",
+  "manual_review_required_definition": "All medium/low-confidence judgments plus the selected high-confidence audit sample.",
+  "audit_policy": {
+    "scope": "All high-confidence judgments across the three benchmarks, identified by (benchmark_id, union_id).",
+    "fraction": 0.1,
+    "rounding": "ceil(high_confidence_population / 10)",
+    "high_confidence_population": 47,
+    "sample_count": 5,
+    "seed": "silver_relevance_audit_v1",
+    "selection": "Take the first sample_count items by ascending SHA-256 hexadecimal digest of UTF-8 seed|benchmark_id|union_id; break digest ties by benchmark_id, union_id."
+  },
+  "benchmarks": {
+    "matrix_completion_v1": {
+      "total": 18,
+      "label_0_count": 9,
+      "label_1_count": 4,
+      "label_2_count": 5,
+      "high_confidence": 9,
+      "medium_confidence": 6,
+      "low_confidence": 3,
+      "high_confidence_audit_count": 1,
+      "manual_review_required": 10
+    },
+    "rag_hallucination_v1": {
+      "total": 26,
+      "label_0_count": 6,
+      "label_1_count": 12,
+      "label_2_count": 8,
+      "high_confidence": 16,
+      "medium_confidence": 4,
+      "low_confidence": 6,
+      "high_confidence_audit_count": 2,
+      "manual_review_required": 12
+    },
+    "cot_reasoning_faithfulness_v1": {
+      "total": 35,
+      "label_0_count": 21,
+      "label_1_count": 12,
+      "label_2_count": 2,
+      "high_confidence": 22,
+      "medium_confidence": 11,
+      "low_confidence": 2,
+      "high_confidence_audit_count": 2,
+      "manual_review_required": 15
+    }
+  },
+  "totals": {
+    "total": 79,
+    "label_0_count": 36,
+    "label_1_count": 28,
+    "label_2_count": 15,
+    "high_confidence": 47,
+    "medium_confidence": 21,
+    "low_confidence": 11,
+    "high_confidence_audit_count": 5,
+    "manual_review_required": 37
+  },
+  "validation": {
+    "exact_task_id_coverage": true,
+    "no_duplicate_or_unknown_task_ids": true,
+    "labels_and_confidence_valid": true,
+    "source_task_sha256_matches": true,
+    "human_gold_written": false,
+    "external_api_calls": false
+  }
+}

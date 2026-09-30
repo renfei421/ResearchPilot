@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "version": "v1",
+  "annotation_source": "codex_model_assisted",
+  "label_status": "silver",
+  "human_gold": false,
+  "rubric_version": "v1",
+  "annotation_method": "In-session Codex assessment using only the frozen task research question, title, year, abstract, identifiers, and aliases; no external model API calls.",
+  "rubric": {
+    "0": {
+      "category": "Off-target",
+      "definition": "Keyword overlap or broad topical proximity without material usefulness for answering the research question."
+    },
+    "1": {
+      "category": "Supporting / Bridge",
+      "definition": "The paper's primary problem may differ, but its theory, method, evidence, or analysis is directly useful for answering the research question."
+    },
+    "2": {
+      "category": "Direct / Core",
+      "definition": "Core literature useful for answering the benchmark research question. The paper does NOT need to cover every concept in a composite research question."
+    }
+  },
+  "confidence_scale": {
+    "high": "The abstract makes the relevance decision clear.",
+    "medium": "Likely judgment, but there is meaningful ambiguity.",
+    "low": "Abstract/metadata is insufficient or the 0/1/2 boundary is difficult."
+  },
+  "benchmark_id": "matrix_completion_v1",
+  "research_question": "How does spectral expansion affect deterministic matrix completion under fixed observation patterns?",
+  "source_task_file": "eval/annotations/matrix_completion_v1_new_gold_tasks_v1.json",
+  "source_task_sha256": "785957af2dce5ab13961b558dfe6f63862b9437012842492b72af6394ee96f19",
+  "judgment_count": 18,
+  "judgments": [
+    {
+      "union_id": "union:0381a7abe02700a70072e31fe0eda9a488ed819daee210fb323dd977ce95cf2b",
+      "label": 0,
+      "confidence": "high",
+      "note": "Presents a mask-aware factor-analysis workflow for image recovery, evaluated with random masks. The abstract does not connect its application results to deterministic matrix-completion conditions or spectral expansion.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1"
+    },
+    {
+      "union_id": "union:1897f6163d9c02b64814033d5cfdb835ce83a0207943059ae8717357789927c6",
+      "label": 2,
+      "confidence": "high",
+      "note": "Directly studies deterministic matrix completion and gives identifiability and recovery conditions beyond random sampling. This addresses the question's core problem setting even without an explicit spectral-expansion analysis.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1"
+    },
+    {
+      "union_id": "union:3db627f9ff938c082812520cc99356174a0252986591d6237fd5506b27fee689",
+      "label": 0,
+      "confidence": "high",
+      "note": "Studies harmonization of reading-comprehension datasets and genetic-development estimates. The supplied abstract provides no materially useful connection to matrix-completion theory or spectral expansion.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1"
+    },
+    {
+      "union_id": "union:4c2728fb1bc544a3014b63900a25536818fdcc1dbcedcd4e3e52e078027a9a4c",
+      "label": 0,
+      "confidence": "high",
+      "note": "Develops robust CUR factorizations and image/video applications; its deterministic sampling selects rows and columns for compact decompositions. The abstract does not study recovery from fixed missing-entry patterns or an expansion-based recovery mechanism.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1"
+    },
+    {
+      "union_id": "union:54d2a409d20e5a52ea3307dba3c55da019604b2facd764ff2b00a9556742ad65",
+      "label": 1,
+      "confidence": "medium",
+      "note": "Provides expander-based subspace-embedding constructions and bounds, offering a methodological bridge between graph expansion and linear measurement geometry. Their usefulness for fixed entry-observation patterns is plausible but not established in the abstract.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1"
+    },
+    {
+      "union_id": "union:5e20bfa90c5f973fa728f073ff5fe856decda1890401db4a35842a0858019a1d",
+      "label": 0,
+      "confidence": "low",
+      "note": "The title indicates a photoacoustic-microscopy application of matrix completion rather than analysis of deterministic patterns or expansion. With no abstract, evidence for a useful theoretical connection is insufficient.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1"
+    },
+    {
+      "union_id": "union:7fc07130ae07606ffc32a755d2f014873e847d5c5c3d4aa1718a25e3ab5a6c8a",
+      "label": 0,
+      "confidence": "medium",
+      "note": "The recovery and runtime guarantees explicitly concern random observations and subspace regularity. The abstract does not establish how these results apply to fixed patterns or spectral expansion, so their usefulness for this narrower question remains uncertain.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1"
+    },
+    {
+      "union_id": "union:828a27173a5870f38743b7b035a70cf165d5324e51546a8458e68f2956ec8e2e",
+      "label": 1,
+      "confidence": "medium",
+      "note": "Empirically examines completion when observation masks depend on data values, providing useful evidence about departures from standard independent-sampling assumptions. It does not explicitly analyze fixed-pattern recovery or spectral expansion.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1"
+    },
+    {
+      "union_id": "union:8af083e009b40e5a15bf23c77ddc325d540f74f335d4a01c2a2d7d65a91645f5",
+      "label": 1,
+      "confidence": "medium",
+      "note": "Provides a matrix-recovery algorithm with a convergence guarantee under a null-space property of the observation operator. This is useful adjacent recovery theory, although the abstract does not connect that property to deterministic sampling graphs or expansion.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1"
+    },
+    {
+      "union_id": "union:97d5359cdb7f3129e67c4d1137b6796784bd97254c8f5cc679af346b8a9de0b9",
+      "label": 2,
+      "confidence": "high",
+      "note": "Directly develops exact-recovery theory and convex algorithms for robust matrix completion under arbitrary deterministic sampling. Its restricted approximate-isometry condition addresses a central component of the research question.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1"
+    },
+    {
+      "union_id": "union:98e8916d5a96436083c6c82eb34d957e1ec322ffbc144bbead8072e428e4db51",
+      "label": 0,
+      "confidence": "medium",
+      "note": "Uses expander graphs to reduce communication in decentralized optimization. Although it offers graph constructions, the supplied evidence does not show their material usefulness for fixed-pattern matrix recovery; the connection is primarily through the graph family.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1"
+    },
+    {
+      "union_id": "union:b02809e166666377b7c4bd4233baf9c6651ff0377d3204a332af7f0d5d3994d3",
+      "label": 0,
+      "confidence": "high",
+      "note": "Uses expanders to construct trellis codes and improve coding distance/alphabet trade-offs. These contributions do not address matrix completion or recovery from a fixed observation pattern.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1"
+    },
+    {
+      "union_id": "union:b374e0fa1f29d368a6c2ed70723cbad9d8109d69fda0a1ea91a4c361a3902130",
+      "label": 2,
+      "confidence": "low",
+      "note": "The title explicitly studies nonconvex deterministic matrix completion, a core part of the question. The abstract is absent, so its particular guarantees and relationship to spectral expansion cannot be assessed.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1"
+    },
+    {
+      "union_id": "union:b68ec275c3ea2faff30dc817fd1144d202045c0353c3b619bb6b70c7c2f1a780",
+      "label": 0,
+      "confidence": "high",
+      "note": "Focuses on learned rank estimation and low-rank recovery using uniformly random row/column sampling. The abstract supplies no analysis linking fixed observation patterns or graph expansion to recovery.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1"
+    },
+    {
+      "union_id": "union:c0b973b059b4e2be3951bb9bbeed9e260dbb6d9a3c5635d3f0c9a082ba9f5c3d",
+      "label": 2,
+      "confidence": "high",
+      "note": "Directly analyzes deterministic, nonuniform matrix completion, relating recovery error to the weight matrix and sampling pattern. Its upper and lower bounds address how observation structure affects recovery.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1"
+    },
+    {
+      "union_id": "union:d8863daeba02025744235f7aff3e8da7e0cf2d80671eaed22d94b7a5089cf5a1",
+      "label": 2,
+      "confidence": "high",
+      "note": "Characterizes nonrandom observation patterns that permit unique or finitely many low-rank completions. This is core fixed-pattern completion theory, even though the stated approach uses Pluecker coordinates rather than spectral expansion.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1"
+    },
+    {
+      "union_id": "union:f4f2b55386ed20a2674cc7ca19c470559dfaef40a84cd443d5da7621d05f6d64",
+      "label": 0,
+      "confidence": "low",
+      "note": "The supplied abstract describes the publisher's book series rather than this work's technical content. The broad compressed-sensing title alone does not establish a materially useful connection to deterministic matrix completion or spectral expansion.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1"
+    },
+    {
+      "union_id": "union:fe269d708df4a40c8b44d3f4e540f0940c57df68fa1cbfc7f3a26a4825ae52de",
+      "label": 1,
+      "confidence": "medium",
+      "note": "Provides a scalable completion method with local quadratic convergence and experiments on ill-conditioned matrices, potentially useful for studying numerical recovery behavior. The abstract does not establish a connection between its conditioning results and fixed-pattern spectral expansion.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1"
+    }
+  ]
+}

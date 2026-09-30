@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "version": "v1",
+  "annotation_source": "codex_model_assisted",
+  "label_status": "silver",
+  "human_gold": false,
+  "rubric_version": "v1",
+  "annotation_method": "In-session Codex assessment using only the frozen task research question, title, year, abstract, identifiers, and aliases; no external model API calls.",
+  "rubric": {
+    "0": {
+      "category": "Off-target",
+      "definition": "Keyword overlap or broad topical proximity without material usefulness for answering the research question."
+    },
+    "1": {
+      "category": "Supporting / Bridge",
+      "definition": "The paper's primary problem may differ, but its theory, method, evidence, or analysis is directly useful for answering the research question."
+    },
+    "2": {
+      "category": "Direct / Core",
+      "definition": "Core literature useful for answering the benchmark research question. The paper does NOT need to cover every concept in a composite research question."
+    }
+  },
+  "confidence_scale": {
+    "high": "The abstract makes the relevance decision clear.",
+    "medium": "Likely judgment, but there is meaningful ambiguity.",
+    "low": "Abstract/metadata is insufficient or the 0/1/2 boundary is difficult."
+  },
+  "benchmark_id": "rag_hallucination_v1",
+  "research_question": "How does retrieval-augmented generation reduce hallucination and improve factuality in large language models?",
+  "source_task_file": "eval/annotations/rag_hallucination_v1_new_gold_tasks_v1.json",
+  "source_task_sha256": "f86cda6867946084846467895b86ac2e3d53b945622d0d87d75e6d083f7fb74d",
+  "judgment_count": 26,
+  "judgments": [
+    {
+      "union_id": "union:0013362cb6189b93ec3d5a86b2c5ad691f5579001415da4055b1752eb6b07dbd",
+      "label": 1,
+      "confidence": "low",
+      "note": "The title suggests analysis of dataset versus model causes of conversational hallucinations, useful background for interpreting mitigation. The frozen abstract is bibliographic only, so neither its findings nor a connection to retrieval can be established.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1"
+    },
+    {
+      "union_id": "union:0c4c47ee18f76af8f20fcc8b1bbd956d1443f7ba5d6cf2162816abf3b5e7f850",
+      "label": 1,
+      "confidence": "high",
+      "note": "Provides a framework and empirical evidence for checking whether cited sources actually support LLM claims, including web-search-assisted responses. This is directly useful evaluation methodology for distinguishing retrieval-backed citations from factual grounding.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1"
+    },
+    {
+      "union_id": "union:0f351b36074cce0dd29ddc1bf86ad44bc7d706f206ed7bc75ed4552bec291820",
+      "label": 2,
+      "confidence": "high",
+      "note": "Surveys hallucination causes, evaluation, and mitigation while explicitly analyzing limitations of retrieval-augmented LLMs in combating hallucinations. This directly informs the central problem and the limits of the proposed mechanism.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1"
+    },
+    {
+      "union_id": "union:1d3a92d2846d833c7cbd0ee3f8957d4b05175381b79700a0f911edcb6fe81fb9",
+      "label": 1,
+      "confidence": "medium",
+      "note": "Reports accuracy, consistency, and hallucination outcomes for guideline-based RAG across medical scenarios, supplying relevant domain evidence. The abstract does not isolate the effect of retrieval against the same models without RAG, limiting conclusions about the general mechanism.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1"
+    },
+    {
+      "union_id": "union:21d3b3d23964b41ca369ca6d07d57a4ffacbfa8a911424f1b0cd738536697215",
+      "label": 1,
+      "confidence": "high",
+      "note": "Synthesizes factual-error causes, factuality evaluation, and improvement strategies for LLMs. These concepts and measurement methods support the question, although the abstract does not specifically analyze retrieval augmentation.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1"
+    },
+    {
+      "union_id": "union:2aa5d8bd2acb5a2885cc5e3dd4611f6d5d0ac3d60daf7c91f6dfc47d50d7fe55",
+      "label": 1,
+      "confidence": "low",
+      "note": "The title indicates an attention method for document-grounded generation, a potentially useful grounding mechanism. The supplied abstract contains only bibliographic information, so factuality outcomes and applicability to LLM RAG remain unverified.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1"
+    },
+    {
+      "union_id": "union:38891e1dddcc749df2e64b95ac22dafbbc0e12fa0bde1d7eb0f2e8b9312b151c",
+      "label": 0,
+      "confidence": "medium",
+      "note": "Primarily proposes a RAG workflow for automating literature reviews. It motivates the workflow with generic hallucination-reduction claims but supplies no specific factuality evaluation or demonstrated mitigation mechanism beyond that application overview.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1"
+    },
+    {
+      "union_id": "union:40df839f32f950d32dafd3e42485e9a28fe26b1c55982e19478f0542d118849a",
+      "label": 1,
+      "confidence": "low",
+      "note": "A survey of RAG evaluation is likely useful for assessing whether retrieval improves generated answers. The abstract is absent, so coverage of hallucination or factuality metrics cannot be confirmed.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1"
+    },
+    {
+      "union_id": "union:4f391262d5ccbb506d87d461bf3de0d8a23301df9a835a60bb20be1c82f9a09f",
+      "label": 1,
+      "confidence": "high",
+      "note": "Provides a grounded-dialogue benchmark, hallucination critic, and training evidence for improving faithfulness to knowledge sources. These are useful evaluation and data-quality tools, although the intervention is dialogue-data construction rather than LLM retrieval augmentation.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1"
+    },
+    {
+      "union_id": "union:50971d48fd1d3760e58554f040236bb10f4c1770435893cf03abd2fda37b6032",
+      "label": 0,
+      "confidence": "high",
+      "note": "Offers a broad overview of LLM training, deployment, capabilities, and safety. The supplied abstract does not identify a concrete contribution about retrieval-based hallucination reduction or factuality.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1"
+    },
+    {
+      "union_id": "union:5208d838a8eeef394ea6fcd09455dc6727c452cdc0209708a5884aa299ef09b7",
+      "label": 2,
+      "confidence": "low",
+      "note": "The title directly proposes a knowledge-graph-guided RAG approach, addressing the question's central retrieval-and-grounding mechanism. The abstract is bibliographic only, so no particular method details or hallucination improvements can be inferred.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1"
+    },
+    {
+      "union_id": "union:538302f8c2d9ffa0d4de51c3a7666ac3a3eb93f9713fe6990b3cde23784c2cb0",
+      "label": 2,
+      "confidence": "high",
+      "note": "Dynamically retrieves grounding information from structured and unstructured sources to correct rationales and reduce hallucinations. The described knowledge-adaptation and answer-consolidation mechanism directly addresses the question.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1"
+    },
+    {
+      "union_id": "union:5e4ae8745ea4d01255e54f395be02a5e210e8753b25bdda2daa5ee3d4a359e31",
+      "label": 2,
+      "confidence": "high",
+      "note": "Surveys retrieval-augmented LLMs and explicitly connects external authoritative knowledge with hallucination and outdated internal knowledge. This is core literature on how retrieval augments generation.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1"
+    },
+    {
+      "union_id": "union:68db18b20484809eb49ca079620260be25b701b6f039068beaaed558f1a18759",
+      "label": 1,
+      "confidence": "high",
+      "note": "Shows how independently answering verification questions can reduce hallucinations before producing a final answer. This supplies a useful adjacent verification mechanism and comparison, while the abstract does not describe retrieval augmentation.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1"
+    },
+    {
+      "union_id": "union:6f95939ad552d9c84f76e67698afda98378a1083ef0fed09fc68bcb497c4b1ab",
+      "label": 2,
+      "confidence": "high",
+      "note": "Guides a frozen language model to align generation with reference knowledge using constrained decoding and token-level hallucination detection. Its grounded-generation experiments directly address the mechanism needed to turn supplied knowledge into more faithful outputs.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1"
+    },
+    {
+      "union_id": "union:73769677aa679f8ff3ff3033be200e1aaae1f23e89171ebf4d44d3229fed75f2",
+      "label": 0,
+      "confidence": "medium",
+      "note": "Describes a surgical RAG application incorporating guidelines into patient-specific responses. The short abstract provides no factuality measurements, hallucination analysis, or specific explanation of a mitigation mechanism beyond successful domain-knowledge incorporation.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1"
+    },
+    {
+      "union_id": "union:79f5e8934d8b14537827a77c40de36da8e1c92ae10367342a3a13e8da9dd789f",
+      "label": 2,
+      "confidence": "high",
+      "note": "Directly studies hallucination and statement-level faithfulness across simple and agentic RAG pipelines. Its analysis of source granularity and retrieval orchestration informs how RAG design affects grounding and its evaluation.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1"
+    },
+    {
+      "union_id": "union:8fadfd94ff33b9c745189332eacb8c15a1748c83183bbed4cf3d15f8599c0dbd",
+      "label": 0,
+      "confidence": "high",
+      "note": "Reviews LLM use and responsible-use practices in medical writing and publishing. Its general recommendation to verify generated content does not supply a retrieval-based mechanism or evidence addressing the question.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1"
+    },
+    {
+      "union_id": "union:9f4fc6da726640e118c2cbef2a5109987492edee7ee85e29330dc5004ef0f8ec",
+      "label": 1,
+      "confidence": "high",
+      "note": "Empirically evaluates hallucination metrics and exposes failures to align with human judgments, including findings in knowledge-grounded settings. This is directly useful for judging whether claimed RAG factuality improvements are measured reliably.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1"
+    },
+    {
+      "union_id": "union:aa0535752d6e8b825b7f37b72e1512f908ef56993fb09d4beb29ac0ad3e5f7b4",
+      "label": 1,
+      "confidence": "high",
+      "note": "Studies knowledge selection and post-ranking of generated dialogue to reduce hallucinated responses. These provide useful adjacent grounding and response-selection mechanisms, although the stated setting is task-oriented dialogue rather than general-purpose LLM RAG.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1"
+    },
+    {
+      "union_id": "union:b089c95540d7eb6ca25d79131f0767911a0ba79a656953768a8c346ab68500e7",
+      "label": 2,
+      "confidence": "low",
+      "note": "The title directly concerns RAG design practices, placing it in the core methodology relevant to the question. Its bibliographic-only abstract does not reveal which practices are studied or whether factuality gains are demonstrated.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1"
+    },
+    {
+      "union_id": "union:c35a265de8a066a815416d98456f957aec677a1f9a96a9e7cda83d1469b81b90",
+      "label": 0,
+      "confidence": "high",
+      "note": "Surveys LLM cybersecurity applications, attacks, privacy risks, and defenses. The supplied contribution concerns security rather than retrieval-grounded factual generation.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1"
+    },
+    {
+      "union_id": "union:cf2573cf967ad2a67383d00b9baf7f3686e4dafcfe91fe73735a6688074db2a1",
+      "label": 2,
+      "confidence": "high",
+      "note": "Studies generation conditioned on retrieved grounding documents without changing or retraining the language model, including retrieval and document-ranking choices. This directly addresses a core RAG mechanism; the abstract's reported gains should not be mistaken for a quantified hallucination reduction.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1"
+    },
+    {
+      "union_id": "union:d7e55a242b2e1d743c51dfc9cda3feb6deea926c5bc2f8bf8278f24c4b20e2ca",
+      "label": 0,
+      "confidence": "high",
+      "note": "Analyzes bias and unfairness in LLM-based information retrieval through distribution mismatch. The abstract does not study factual correctness, hallucination mitigation, or grounded generation.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1"
+    },
+    {
+      "union_id": "union:eee9fa58e4126dc221326d22a0858cea2249b59fbc16ecfd28d5e30ee85031c0",
+      "label": 1,
+      "confidence": "medium",
+      "note": "Compares a domain-fine-tuned model with RAG and a base model, reporting correctness-related judgments and source-attribution results. This offers limited comparative evidence, but the main contribution is a forensic application and the abstract does not isolate retrieval's factuality effect.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1"
+    },
+    {
+      "union_id": "union:fca12a0f8b043513ec8127d0b5aada2e6b9f8ce28f1f0554ac790e38d211d0f1",
+      "label": 1,
+      "confidence": "low",
+      "note": "The title suggests useful background on LLM factuality and fact-checking. With no abstract, specific findings and relevance to retrieval-based mitigation cannot be established.",
+      "annotation_source": "codex_model_assisted",
+      "rubric_version": "v1"
+    }
+  ]
+}

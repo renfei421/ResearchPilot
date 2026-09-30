@@ -1,0 +1,706 @@
+{
+  "benchmark_id": "rag_hallucination_v1",
+  "source": "llm_query_plan_v1",
+  "planner_version": "v1",
+  "planner_model": "gpt-5.6-terra",
+  "question": "How does retrieval-augmented generation reduce hallucination and improve factuality in large language models?",
+  "plan_path": "eval/plans/rag_hallucination_v1_llm_plan_v1.json",
+  "candidates": [
+    {
+      "rrf_rank": 1,
+      "group_id": "version:dad91b6a012ec4c70b8c5162153987b08808c3719a75aba246b0f3838528c413",
+      "rrf_score": 0.04918032786885246,
+      "title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+      "paper_id": "doi:10.48550/arxiv.2312.10997",
+      "year": 2023,
+      "abstract": "Large Language Models (LLMs) showcase impressive capabilities but encounter challenges like hallucination, outdated knowledge, and non-transparent, untraceable reasoning processes. Retrieval-Augmented Generation (RAG) has emerged as a promising solution by incorporating knowledge from external databases. This enhances the accuracy and credibility of the generation, particularly for knowledge-intensive tasks, and allows for continuous knowledge updates and integration of domain-specific information. RAG synergistically merges LLMs' intrinsic knowledge with the vast, dynamic repositories of external databases. This comprehensive review paper offers a detailed examination of the progression of RAG paradigms, encompassing the Naive RAG, the Advanced RAG, and the Modular RAG. It meticulously scrutinizes the tripartite foundation of RAG frameworks, which includes the retrieval, the generation and the augmentation techniques. The paper highlights the state-of-the-art technologies embedded in each of these critical components, providing a profound understanding of the advancements in RAG systems. Furthermore, this paper introduces up-to-date evaluation framework and benchmark. At the end, this article delineates the challenges currently faced and points out prospective avenues for research and development.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q1",
+          "query_text": "\"retrieval-augmented generation\" AND (hallucination OR factuality) AND \"large language model\"",
+          "rank": 1
+        },
+        {
+          "query_id": "q2",
+          "query_text": "(\"retrieval-augmented generation\" OR RAG) AND (\"factual consistency\" OR \"faithfulness\" OR \"factual accuracy\")",
+          "rank": 1
+        },
+        {
+          "query_id": "q5",
+          "query_text": "(\"retrieval-augmented generation\" OR \"retrieval-augmented language model\") AND (\"retrieval quality\" OR \"retrieval relevance\" OR \"context quality\") AND (hallucination OR factuality)",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "rrf_rank": 2,
+      "group_id": "version:2022bab10e21d22fee7760455688a9ce74cea7a8a4ded58a86dd8d411834c2bb",
+      "rrf_score": 0.04738666351569577,
+      "title": "Active Retrieval Augmented Generation",
+      "paper_id": "doi:10.18653/v1/2023.emnlp-main.495",
+      "year": 2023,
+      "abstract": "Zhengbao Jiang, Frank Xu, Luyu Gao, Zhiqing Sun, Qian Liu, Jane Dwivedi-Yu, Yiming Yang, Jamie Callan, Graham Neubig. Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing. 2023.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q1",
+          "query_text": "\"retrieval-augmented generation\" AND (hallucination OR factuality) AND \"large language model\"",
+          "rank": 5
+        },
+        {
+          "query_id": "q2",
+          "query_text": "(\"retrieval-augmented generation\" OR RAG) AND (\"factual consistency\" OR \"faithfulness\" OR \"factual accuracy\")",
+          "rank": 3
+        },
+        {
+          "query_id": "q5",
+          "query_text": "(\"retrieval-augmented generation\" OR \"retrieval-augmented language model\") AND (\"retrieval quality\" OR \"retrieval relevance\" OR \"context quality\") AND (hallucination OR factuality)",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "rrf_rank": 3,
+      "group_id": "version:5fbbc5b4185fff73f68233c73d34144a6a7b1bca46c0e0247ffc6045722948c7",
+      "rrf_score": 0.045504271360285405,
+      "title": "Retrieval augmented generation for large language models in healthcare: A systematic review",
+      "paper_id": "doi:10.1371/journal.pdig.0000877",
+      "year": 2025,
+      "abstract": "Large Language Models (LLMs) have demonstrated promising capabilities to solve complex tasks in critical sectors such as healthcare. However, LLMs are limited by their training data which is often outdated, the tendency to generate inaccurate (\"hallucinated\") content and a lack of transparency in the content they generate. To address these limitations, retrieval augmented generation (RAG) grounds the responses of LLMs by exposing them to external knowledge sources. However, in the healthcare domain there is currently a lack of systematic understanding of which datasets, RAG methodologies and evaluation frameworks are available. This review aims to bridge this gap by assessing RAG-based approaches employed by LLMs in healthcare, focusing on the different steps of retrieval, augmentation and generation. Additionally, we identify the limitations, strengths and gaps in the existing literature. Our synthesis shows that 78.9% of studies used English datasets and 21.1% of the datasets are in Chinese. We find that a range of techniques are employed RAG-based LLMs in healthcare, including Naive RAG, Advanced RAG, and Modular RAG. Surprisingly, proprietary models such as GPT-3.5/4 are the most used for RAG applications in healthcare. We find that there is a lack of standardised evaluation frameworks for RAG-based applications. In addition, the majority of the studies do not assess or address ethical considerations related to RAG in healthcare. It is important to account for ethical challenges that are inherent when AI systems are implemented in the clinical setting. Lastly, we highlight the need for further research and development to ensure responsible and effective adoption of RAG in the medical domain.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q1",
+          "query_text": "\"retrieval-augmented generation\" AND (hallucination OR factuality) AND \"large language model\"",
+          "rank": 7
+        },
+        {
+          "query_id": "q2",
+          "query_text": "(\"retrieval-augmented generation\" OR RAG) AND (\"factual consistency\" OR \"faithfulness\" OR \"factual accuracy\")",
+          "rank": 8
+        },
+        {
+          "query_id": "q5",
+          "query_text": "(\"retrieval-augmented generation\" OR \"retrieval-augmented language model\") AND (\"retrieval quality\" OR \"retrieval relevance\" OR \"context quality\") AND (hallucination OR factuality)",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "rrf_rank": 4,
+      "group_id": "version:9dc16cf734022405d7deac7415627d9338799889e4702ee8da9e36de88d48cf7",
+      "rrf_score": 0.03225806451612903,
+      "title": "Benchmarking Large Language Models in Retrieval-Augmented Generation",
+      "paper_id": "doi:10.1609/aaai.v38i16.29728",
+      "year": 2024,
+      "abstract": "Retrieval-Augmented Generation (RAG) is a promising approach for mitigating the hallucination of large language models (LLMs). However, existing research lacks rigorous evaluation of the impact of retrieval-augmented generation on different large language models, which make it challenging to identify the potential bottlenecks in the capabilities of RAG for different LLMs. In this paper, we systematically investigate the impact of Retrieval-Augmented Generation on large language models. We analyze the performance of different large language models in 4 fundamental abilities required for RAG, including noise robustness, negative rejection, information integration, and counterfactual robustness. To this end, we establish Retrieval-Augmented Generation Benchmark (RGB), a new corpus for RAG evaluation in both English and Chinese. RGB divides the instances within the benchmark into 4 separate testbeds based on the aforementioned fundamental abilities required to resolve the case. Then we evaluate 6 representative LLMs on RGB to diagnose the challenges of current LLMs when applying RAG. Evaluation reveals that while LLMs exhibit a certain degree of noise robustness, they still struggle significantly in terms of negative rejection, information integration, and dealing with false information. The aforementioned assessment outcomes indicate that there is still a considerable journey ahead to effectively apply RAG to LLMs.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q1",
+          "query_text": "\"retrieval-augmented generation\" AND (hallucination OR factuality) AND \"large language model\"",
+          "rank": 2
+        },
+        {
+          "query_id": "q2",
+          "query_text": "(\"retrieval-augmented generation\" OR RAG) AND (\"factual consistency\" OR \"faithfulness\" OR \"factual accuracy\")",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "rrf_rank": 5,
+      "group_id": "version:e1fee44aebdf33cb8404ac653537868c043f9ec8e169b7637c5909275f34bee5",
+      "rrf_score": 0.030776515151515152,
+      "title": "RAGAs: Automated Evaluation of Retrieval Augmented Generation",
+      "paper_id": "doi:10.18653/v1/2024.eacl-demo.16",
+      "year": 2024,
+      "abstract": "Shahul Es, Jithin James, Luis Espinosa Anke, Steven Schockaert. Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics: System Demonstrations. 2024.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q1",
+          "query_text": "\"retrieval-augmented generation\" AND (hallucination OR factuality) AND \"large language model\"",
+          "rank": 6
+        },
+        {
+          "query_id": "q2",
+          "query_text": "(\"retrieval-augmented generation\" OR RAG) AND (\"factual consistency\" OR \"faithfulness\" OR \"factual accuracy\")",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "rrf_rank": 6,
+      "group_id": "version:9d809d6171bba9f6c43de418014c6ef147654cbc5ffe7ac76d0579f691660e75",
+      "rrf_score": 0.03055037313432836,
+      "title": "A Survey on RAG Meeting LLMs: Towards Retrieval-Augmented Large Language Models",
+      "paper_id": "doi:10.1145/3637528.3671470",
+      "year": 2024,
+      "abstract": "As one of the most advanced techniques in AI, Retrieval-Augmented Generation (RAG) can offer reliable and up-to-date external knowledge, providing huge convenience for numerous tasks. Particularly in the era of AI-Generated Content (AIGC), the powerful capacity of retrieval in providing additional knowledge enables RAG to assist existing generative AI in producing high-quality outputs. Recently, Large Language Models (LLMs) have demonstrated revolutionary abilities in language understanding and generation, while still facing inherent limitations such as hallucinations and out-of-date internal knowledge. Given the powerful abilities of RAG in providing the latest and helpful auxiliary information, Retrieval-Augmented Large Language Models (RA-LLMs) have emerged to harness external and authoritative knowledge bases, rather than solely relying on the model's internal knowledge, to augment the quality of the generated content of LLMs. In this survey, we comprehensively review existing research studies in RA-LLMs, covering three primary technical perspectives: Furthermore, to deliver deeper insights, we discuss current limitations and several promising directions for future research. Updated information about this survey can be found at: https://advanced-recommender-systems.github.io/RAG-Meets-LLMs/",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q1",
+          "query_text": "\"retrieval-augmented generation\" AND (hallucination OR factuality) AND \"large language model\"",
+          "rank": 4
+        },
+        {
+          "query_id": "q2",
+          "query_text": "(\"retrieval-augmented generation\" OR RAG) AND (\"factual consistency\" OR \"faithfulness\" OR \"factual accuracy\")",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "rrf_rank": 7,
+      "group_id": "version:581a31ee29ae92d2bfa971839069ce1f9b79d77361ff5f7ee06d46299349bfd9",
+      "rrf_score": 0.029877369007803793,
+      "title": "Retrieval-Augmented Generation (RAG) in Healthcare: A Comprehensive Review",
+      "paper_id": "doi:10.3390/ai6090226",
+      "year": 2025,
+      "abstract": "Retrieval-Augmented Generation (RAG) enhances large language models (LLMs) by integrating external knowledge retrieval to improve factual consistency and reduce hallucinations. Despite growing interest, its use in healthcare remains fragmented. This paper presents a Systematic Literature Review (SLR) following PRISMA guidelines, synthesizing 30 peer-reviewed studies on RAG in clinical domains, focusing on three of its most prevalent and promising applications in diagnostic support, electronic health record (EHR) summarization, and medical question answering. We synthesize the existing architectural variants (naïve, advanced, and modular) and examine their deployment across these applications. Persistent challenges are identified, including retrieval noise (irrelevant or low-quality retrieved information), domain shift (performance degradation when models are applied to data distributions different from their training set), generation latency, and limited explainability. Evaluation strategies are compared using both standard metrics and clinical-specific metrics, FactScore, RadGraph-F1, and MED-F1, which are particularly critical for ensuring factual accuracy, medical validity, and clinical relevance. This synthesis offers a domain-focused perspective to guide researchers, healthcare providers, and policymakers in developing reliable, interpretable, and clinically aligned AI systems, laying the groundwork for future innovation in RAG-based healthcare solutions.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q2",
+          "query_text": "(\"retrieval-augmented generation\" OR RAG) AND (\"factual consistency\" OR \"faithfulness\" OR \"factual accuracy\")",
+          "rank": 9
+        },
+        {
+          "query_id": "q5",
+          "query_text": "(\"retrieval-augmented generation\" OR \"retrieval-augmented language model\") AND (\"retrieval quality\" OR \"retrieval relevance\" OR \"context quality\") AND (hallucination OR factuality)",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "rrf_rank": 8,
+      "group_id": "version:9f04ff239413c758316764541640569ca37344ff6dc2ce5caa370b924242b95c",
+      "rrf_score": 0.01639344262295082,
+      "title": "On the Origin of Hallucinations in Conversational Models: Is it the Datasets or the Models?",
+      "paper_id": "doi:10.18653/v1/2022.naacl-main.387",
+      "year": 2022,
+      "abstract": "Nouha Dziri, Sivan Milton, Mo Yu, Osmar Zaiane, Siva Reddy. Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies. 2022.",
+      "version_count": 2,
+      "hits": [
+        {
+          "query_id": "q3",
+          "query_text": "(\"retrieval grounding\" OR \"knowledge-grounded generation\" OR \"document-grounded generation\") AND (hallucination OR \"unsupported claims\")",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "rrf_rank": 9,
+      "group_id": "version:ab00ba31f1f00f31ccf7c1eef8a27318831cdd663f7047eec4db295a5fa72b45",
+      "rrf_score": 0.01639344262295082,
+      "title": "A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions",
+      "paper_id": "doi:10.48550/arxiv.2311.05232",
+      "year": 2023,
+      "abstract": "The emergence of large language models (LLMs) has marked a significant breakthrough in natural language processing (NLP), fueling a paradigm shift in information acquisition. Nevertheless, LLMs are prone to hallucination, generating plausible yet nonfactual content. This phenomenon raises significant concerns over the reliability of LLMs in real-world information retrieval (IR) systems and has attracted intensive research to detect and mitigate such hallucinations. Given the open-ended general-purpose attributes inherent to LLMs, LLM hallucinations present distinct challenges that diverge from prior task-specific models. This divergence highlights the urgency for a nuanced understanding and comprehensive overview of recent advances in LLM hallucinations. In this survey, we begin with an innovative taxonomy of hallucination in the era of LLM and then delve into the factors contributing to hallucinations. Subsequently, we present a thorough overview of hallucination detection methods and benchmarks. Our discussion then transfers to representative methodologies for mitigating LLM hallucinations. Additionally, we delve into the current limitations faced by retrieval-augmented LLMs in combating hallucinations, offering insights for developing more robust IR systems. Finally, we highlight the promising research directions on LLM hallucinations, including hallucination in large vision-language models and understanding of knowledge boundaries in LLM hallucinations.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q4",
+          "query_text": "(\"large language models\" OR LLMs) AND (retrieval OR \"external knowledge\") AND (\"citation generation\" OR \"evidence attribution\" OR \"source attribution\")",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "rrf_rank": 10,
+      "group_id": "version:f2f33eb309ab58ffc17ccfa2747645d96e242500932ea90c895b0d90498d3720",
+      "rrf_score": 0.016129032258064516,
+      "title": "Focused Attention Improves Document-Grounded Generation",
+      "paper_id": "doi:10.18653/v1/2021.naacl-main.338",
+      "year": 2021,
+      "abstract": "Shrimai Prabhumoye, Kazuma Hashimoto, Yingbo Zhou, Alan W Black, Ruslan Salakhutdinov. Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies. 2021.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q3",
+          "query_text": "(\"retrieval grounding\" OR \"knowledge-grounded generation\" OR \"document-grounded generation\") AND (hallucination OR \"unsupported claims\")",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "rrf_rank": 11,
+      "group_id": "version:028d11b27e3406307a0a174a1e95b13d374809d1c8b4071d97c0dc13e1165605",
+      "rrf_score": 0.016129032258064516,
+      "title": "In-Context Retrieval-Augmented Language Models",
+      "paper_id": "doi:10.1162/tacl_a_00605",
+      "year": 2023,
+      "abstract": "Abstract Retrieval-Augmented Language Modeling (RALM) methods, which condition a language model (LM) on relevant documents from a grounding corpus during generation, were shown to significantly improve language modeling performance. In addition, they can mitigate the problem of factually inaccurate text generation and provide natural source attribution mechanism. Existing RALM approaches focus on modifying the LM architecture in order to facilitate the incorporation of external information, significantly complicating deployment. This paper considers a simple alternative, which we dub In-Context RALM: leaving the LM architecture unchanged and prepending grounding documents to the input, without any further training of the LM. We show that In-Context RALM that builds on off-the-shelf general purpose retrievers provides surprisingly large LM gains across model sizes and diverse corpora. We also demonstrate that the document retrieval and ranking mechanism can be specialized to the RALM setting to further boost performance. We conclude that In-Context RALM has considerable potential to increase the prevalence of LM grounding, particularly in settings where a pretrained LM must be used without modification or even via API access.1",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q4",
+          "query_text": "(\"large language models\" OR LLMs) AND (retrieval OR \"external knowledge\") AND (\"citation generation\" OR \"evidence attribution\" OR \"source attribution\")",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "rrf_rank": 12,
+      "group_id": "version:b3c8fd2991de6965070859e03eb86ecc236d50c6ad94687aaf98d2368fabf0d3",
+      "rrf_score": 0.015873015873015872,
+      "title": "A Survey of Large Language Models",
+      "paper_id": "doi:10.1007/s11704-026-60308-3",
+      "year": 2026,
+      "abstract": "Abstract The rapid evolution of large language models (LLMs) has driven a transformative shift in artificial intelligence (AI), reshaping both research paradigms and practical applications. Distinguished from their predecessors by unprecedented scale and advanced capabilities, LLMs necessitate new frameworks for understanding their development, behavior, and societal impact. This survey systematically reviews recent advancements in LLM techniques across four key dimensions: (1) pre-training methodologies, which establish core model capabilities through large-scale self-supervised training, architectural innovations, and data curation strategies; (2) post-training techniques, including supervised fine-tuning and reinforcement learning, which adapt foundational models to downstream tasks and enhance their alignment and safety; (3) utilization strategies, such as in-context learning, prompt engineering, and agentic reasoning, that optimize real-world deployment and enable effective interaction with external environments; and (4) evaluation methods, encompassing benchmarks for key ability dimensions such as core language capabilities, reasoning, and safety, which support comprehensive and reliable assessment of model performance. Additionally, we identify critical research issues, including those concerning theoretical foundations, efficient scaling, alignment, and agentic capability, and highlight the open challenges they present. By synthesizing state-of-the-art insights and emerging trends, this survey aims to provide a systematic and comprehensive framework for understanding the trajectory, current limitations, and future directions of LLM progress.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q1",
+          "query_text": "\"retrieval-augmented generation\" AND (hallucination OR factuality) AND \"large language model\"",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "rrf_rank": 13,
+      "group_id": "version:50f6bfc3df4f028ae08dffcef8ef3d11f0ed0fd039b442c7bfd978b9782aa7ad",
+      "rrf_score": 0.015873015873015872,
+      "title": "Factuality challenges in the era of large language models and opportunities for fact-checking",
+      "paper_id": "doi:10.1038/s42256-024-00881-z",
+      "year": 2024,
+      "abstract": null,
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q4",
+          "query_text": "(\"large language models\" OR LLMs) AND (retrieval OR \"external knowledge\") AND (\"citation generation\" OR \"evidence attribution\" OR \"source attribution\")",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "rrf_rank": 14,
+      "group_id": "version:27441e1edc404f8806e8bb5905e7172d650205772f876c9c338e8e29cf366956",
+      "rrf_score": 0.015625,
+      "title": "KCTS: Knowledge-Constrained Tree Search Decoding with Token-Level Hallucination Detection",
+      "paper_id": "doi:10.18653/v1/2023.emnlp-main.867",
+      "year": 2023,
+      "abstract": "Large Language Models (LLMs) have demonstrated remarkable human-level natural language generation capabilities.However, their potential to generate misinformation, often called the hallucination problem, poses a significant risk to their deployment.A common approach to address this issue is to retrieve relevant knowledge and fine-tune the LLM with the knowledge in its input.Unfortunately, this method incurs high training costs and may cause catastrophic forgetting for multitasking models.To overcome these limitations, we propose a knowledge-constrained decoding method called KCTS (Knowledge-Constrained Tree Search), which guides a frozen LM to generate text aligned with the reference knowledge at each decoding step using a knowledge classifier score and MCTS (Monte-Carlo Tree Search).To adapt the sequence-level knowledge classifier to token-level guidance, we also propose a novel token-level hallucination detection method called RIPA (Reward Inflection Point Approximation).Our empirical results on knowledge-grounded dialogue and abstractive summarization demonstrate the strength of KCTS 1 as a plug-and-play, model-agnostic decoding method that can effectively reduce hallucinations in natural language generation.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q3",
+          "query_text": "(\"retrieval grounding\" OR \"knowledge-grounded generation\" OR \"document-grounded generation\") AND (hallucination OR \"unsupported claims\")",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "rrf_rank": 15,
+      "group_id": "version:ed02109f0c0b59b42dea721b432cfd74cf0520e591148c3f543c90a8b8d1eea1",
+      "rrf_score": 0.015625,
+      "title": "Bias and Unfairness in Information Retrieval Systems: New Challenges in the LLM Era",
+      "paper_id": "doi:10.1145/3637528.3671458",
+      "year": 2024,
+      "abstract": "With the rapid advancements of large language models (LLMs), information retrieval (IR) systems, such as search engines and recommender systems, have undergone a significant paradigm shift. This evolution, while heralding new opportunities, introduces emerging challenges, particularly in terms of biases and unfairness, which may threaten the information ecosystem. In this paper, we present a comprehensive survey of existing works on emerging and pressing bias and unfairness issues in IR systems when the integration of LLMs. We first unify bias and unfairness issues as distribution mismatch problems, providing a groundwork for categorizing various mitigation strategies through distribution alignment. Subsequently, we systematically delve into the specific bias and unfairness issues arising from three critical stages of LLMs integration into IR systems: data collection, model development, and result evaluation. In doing so, we meticulously review and analyze recent literature, focusing on the definitions, characteristics, and corresponding mitigation strategies associated with these issues. Finally, we identify and highlight some open problems and challenges for future work, aiming to inspire researchers and stakeholders in the IR field and beyond to better understand and mitigate bias and unfairness issues of IR in this LLM era. We also consistently maintain a GitHub repository for the relevant papers and resources in this rising direction at https://github.com/KID-22/LLM-IR-Bias-Fairness-Survey.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q4",
+          "query_text": "(\"large language models\" OR LLMs) AND (retrieval OR \"external knowledge\") AND (\"citation generation\" OR \"evidence attribution\" OR \"source attribution\")",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "rrf_rank": 16,
+      "group_id": "version:3b183b2565682c9e0a852f62d6f8661369e28531a17a4cc762c10cc4483b972a",
+      "rrf_score": 0.015625,
+      "title": "LightRAG: Simple and Fast Retrieval-Augmented Generation",
+      "paper_id": "doi:10.18653/v1/2025.findings-emnlp.568",
+      "year": 2025,
+      "abstract": "Retrieval-Augmented Generation (RAG) systems enhance large language models (LLMs) by integrating external knowledge sources, enabling more accurate and contextually relevant responses tailored to user needs.However, existing RAG systems have significant limitations, including reliance on flat data representations and inadequate contextual awareness, which can lead to fragmented answers that fail to capture complex interdependencies.To address these challenges, we propose Ligh-tRAG, a novel framework that incorporates graph structures into text indexing and retrieval processes.This innovative approach employs a dual-level retrieval system that enhances comprehensive information retrieval from both lowand high-level knowledge discovery.Additionally, the integration of graph structures with vector representations facilitates efficient retrieval of related entities and their relationships, significantly improving response times while maintaining contextual relevance.This capability is further enhanced by an incremental update algorithm that ensures the timely integration of new data, allowing the system to remain effective and responsive in rapidly changing data environments.Extensive experimental validation demonstrates considerable improvements in retrieval accuracy and efficiency compared to existing approaches.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q5",
+          "query_text": "(\"retrieval-augmented generation\" OR \"retrieval-augmented language model\") AND (\"retrieval quality\" OR \"retrieval relevance\" OR \"context quality\") AND (hallucination OR factuality)",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "rrf_rank": 17,
+      "group_id": "version:8bb990637397dc668bbea1de538761db992641d93e9f6e8f6f24bd04004aba16",
+      "rrf_score": 0.015384615384615385,
+      "title": "Improving the Domain Adaptation of Retrieval Augmented Generation (RAG) Models for Open Domain Question Answering",
+      "paper_id": "doi:10.1162/tacl_a_00530",
+      "year": 2023,
+      "abstract": "Abstract Retrieval Augment Generation (RAG) is a recent advancement in Open-Domain Question Answering (ODQA). RAG has only been trained and explored with a Wikipedia-based external knowledge base and is not optimized for use in other specialized domains such as healthcare and news. In this paper, we evaluate the impact of joint training of the retriever and generator components of RAG for the task of domain adaptation in ODQA. We propose RAG-end2end, an extension to RAG that can adapt to a domain-specific knowledge base by updating all components of the external knowledge base during training. In addition, we introduce an auxiliary training signal to inject more domain-specific knowledge. This auxiliary signal forces RAG-end2end to reconstruct a given sentence by accessing the relevant information from the external knowledge base. Our novel contribution is that, unlike RAG, RAG-end2end does joint training of the retriever and generator for the end QA task and domain adaptation. We evaluate our approach with datasets from three domains: COVID-19, News, and Conversations, and achieve significant performance improvements compared to the original RAG model. Our work has been open-sourced through the HuggingFace Transformers library, attesting to our work’s credibility and technical consistency.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q2",
+          "query_text": "(\"retrieval-augmented generation\" OR RAG) AND (\"factual consistency\" OR \"faithfulness\" OR \"factual accuracy\")",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "rrf_rank": 18,
+      "group_id": "version:25bc7d6174fa99158ca2b1e7cc61cc3587c1df8ce9c113fbb43a273af08d2f91",
+      "rrf_score": 0.015384615384615385,
+      "title": "FaithDial : A Faithful Benchmark for Information-Seeking Dialogue",
+      "paper_id": "doi:10.1162/tacl_a_00529",
+      "year": 2022,
+      "abstract": "Abstract The goal of information-seeking dialogue is to respond to seeker queries with natural language utterances that are grounded on knowledge sources. However, dialogue systems often produce unsupported utterances, a phenomenon known as hallucination. To mitigate this behavior, we adopt a data-centric solution and create FaithDial, a new benchmark for hallucination-free dialogues, by editing hallucinated responses in the Wizard of Wikipedia (WoW) benchmark. We observe that FaithDial is more faithful than WoW while also maintaining engaging conversations. We show that FaithDial can serve as training signal for: i) a hallucination critic, which discriminates whether an utterance is faithful or not, and boosts the performance by 12.8 F1 score on the BEGIN benchmark compared to existing datasets for dialogue coherence; ii) high-quality dialogue generation. We benchmark a series of state-of-the-art models and propose an auxiliary contrastive objective that achieves the highest level of faithfulness and abstractiveness based on several automated metrics. Further, we find that the benefits of FaithDial generalize to zero-shot transfer on other datasets, such as CMU-Dog and TopicalChat. Finally, human evaluation reveals that responses generated by models trained on FaithDial are perceived as more interpretable, cooperative, and engaging.",
+      "version_count": 2,
+      "hits": [
+        {
+          "query_id": "q3",
+          "query_text": "(\"retrieval grounding\" OR \"knowledge-grounded generation\" OR \"document-grounded generation\") AND (hallucination OR \"unsupported claims\")",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "rrf_rank": 19,
+      "group_id": "version:2d5b1516fad483643cc576cf4246135cd32a938acb9cf122cf23257901492c21",
+      "rrf_score": 0.015384615384615385,
+      "title": "A Survey on Large Language Model (LLM) Security and Privacy: The Good, the Bad, and the Ugly",
+      "paper_id": "doi:10.48550/arxiv.2312.02003",
+      "year": 2023,
+      "abstract": "Large Language Models (LLMs), such as ChatGPT and Bard, have revolutionized natural language understanding and generation. They possess deep language comprehension, human-like text generation capabilities, contextual awareness, and robust problem-solving skills, making them invaluable in various domains (e.g., search engines, customer support, translation). In the meantime, LLMs have also gained traction in the security community, revealing security vulnerabilities and showcasing their potential in security-related tasks. This paper explores the intersection of LLMs with security and privacy. Specifically, we investigate how LLMs positively impact security and privacy, potential risks and threats associated with their use, and inherent vulnerabilities within LLMs. Through a comprehensive literature review, the paper categorizes the papers into \"The Good\" (beneficial LLM applications), \"The Bad\" (offensive applications), and \"The Ugly\" (vulnerabilities of LLMs and their defenses). We have some interesting findings. For example, LLMs have proven to enhance code security (code vulnerability detection) and data privacy (data confidentiality protection), outperforming traditional methods. However, they can also be harnessed for various attacks (particularly user-level attacks) due to their human-like reasoning abilities. We have identified areas that require further research efforts. For example, Research on model and parameter extraction attacks is limited and often theoretical, hindered by LLM parameter scale and confidentiality. Safe instruction tuning, a recent development, requires more exploration. We hope that our work can shed light on the LLMs' potential to both bolster and jeopardize cybersecurity.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q4",
+          "query_text": "(\"large language models\" OR LLMs) AND (retrieval OR \"external knowledge\") AND (\"citation generation\" OR \"evidence attribution\" OR \"source attribution\")",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "rrf_rank": 20,
+      "group_id": "version:38eef126348887cc6570c267db09d06d58c6a9de20a91d10b0ad1d24eeaa8b6a",
+      "rrf_score": 0.015151515151515152,
+      "title": "Evaluation of Retrieval-Augmented Generation: A Survey",
+      "paper_id": "doi:10.1007/978-981-96-1024-2_8",
+      "year": 2025,
+      "abstract": null,
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q2",
+          "query_text": "(\"retrieval-augmented generation\" OR RAG) AND (\"factual consistency\" OR \"faithfulness\" OR \"factual accuracy\")",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "rrf_rank": 21,
+      "group_id": "version:afeda3b5abe099d81e254ebdc9dc55d019749c30dc52ce6be53291f8f348f9ff",
+      "rrf_score": 0.015151515151515152,
+      "title": "Evaluating Evaluation Metrics – The Mirage of Hallucination Detection",
+      "paper_id": "doi:10.18653/v1/2025.findings-emnlp.1035",
+      "year": 2025,
+      "abstract": "Hallucinations pose a significant obstacle to the reliability and widespread adoption of language models, yet their accurate measurement remains a persistent challenge. While many task- and domain-specific metrics have been proposed to assess faithfulness and factuality concerns, the robustness and generalization of these metrics are still untested. In this paper, we conduct a large-scale empirical evaluation of 6 diverse sets of hallucination detection metrics across 4 datasets, 37 language models from 5 families, and 5 decoding methods. Our extensive investigation reveals concerning gaps in current hallucination evaluation: metrics often fail to align with human judgments, take an overtly myopic view of the problem, and show inconsistent gains with parameter scaling. Encouragingly, LLM-based evaluation, particularly with GPT-4, yields the best overall results, and mode-seeking decoding methods seem to reduce hallucinations, especially in knowledge-grounded settings. These findings underscore the need for more robust metrics to understand and quantify hallucinations, and better strategies to mitigate them.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q3",
+          "query_text": "(\"retrieval grounding\" OR \"knowledge-grounded generation\" OR \"document-grounded generation\") AND (hallucination OR \"unsupported claims\")",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "rrf_rank": 22,
+      "group_id": "version:f52fd2cd183d5acefd4350e7c907a42e8b11c4c519c74cfde39f335f0839d978",
+      "rrf_score": 0.015151515151515152,
+      "title": "Survey on Factuality in Large Language Models",
+      "paper_id": "doi:10.1145/3742420",
+      "year": 2025,
+      "abstract": "This survey addresses the crucial issue of factuality in Large Language Models (LLMs). As LLMs find applications across diverse domains, the reliability and accuracy of their outputs become vital. We define the “factuality issue” as the probability of LLMs to produce content inconsistent with established facts. We first delve into the implications of these inaccuracies. Subsequently, we analyze the mechanisms through which LLMs store and process facts, seeking the primary causes of factual errors. Our discussion then transitions to methodologies for evaluating LLM factuality, emphasizing key metrics, benchmarks, and studies. We further explore strategies for enhancing LLM factuality. Our survey offers a structured guide for researchers aiming to fortify the factual reliability of LLMs. We consistently maintain and update the related open-source materials at https://github.com/wangcunxiang/LLM-Factuality-Survey .",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q4",
+          "query_text": "(\"large language models\" OR LLMs) AND (retrieval OR \"external knowledge\") AND (\"citation generation\" OR \"evidence attribution\" OR \"source attribution\")",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "rrf_rank": 23,
+      "group_id": "version:a601b5ab0304c8241810a49184d14d1c333bd4a503de02791f68fc740e2be6c7",
+      "rrf_score": 0.015151515151515152,
+      "title": "Retrieval augmented generation for 10 large language models and its generalizability in assessing medical fitness",
+      "paper_id": "doi:10.1038/s41746-025-01519-z",
+      "year": 2025,
+      "abstract": "Large Language Models (LLMs) hold promise for medical applications but often lack domain-specific expertise. Retrieval Augmented Generation (RAG) enables customization by integrating specialized knowledge. This study assessed the accuracy, consistency, and safety of LLM-RAG models in determining surgical fitness and delivering preoperative instructions using 35 local and 23 international guidelines. Ten LLMs (e.g., GPT3.5, GPT4, GPT4o, Gemini, Llama2, and Llama3, Claude) were tested across 14 clinical scenarios. A total of 3234 responses were generated and compared to 448 human-generated answers. The GPT4 LLM-RAG model with international guidelines generated answers within 20 s and achieved the highest accuracy, which was significantly better than human-generated responses (96.4% vs. 86.6%, p = 0.016). Additionally, the model exhibited an absence of hallucinations and produced more consistent output than humans. This study underscores the potential of GPT-4-based LLM-RAG models to deliver highly accurate, efficient, and consistent preoperative assessments.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q5",
+          "query_text": "(\"retrieval-augmented generation\" OR \"retrieval-augmented language model\") AND (\"retrieval quality\" OR \"retrieval relevance\" OR \"context quality\") AND (hallucination OR factuality)",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "rrf_rank": 24,
+      "group_id": "version:c52ea2c3340c063503a79955887b6b65e9dfb56802e646cb805b679441cd1a4c",
+      "rrf_score": 0.014925373134328358,
+      "title": "The transformative impact of large language models on medical writing and publishing: current applications, challenges and future directions",
+      "paper_id": "doi:10.4196/kjpp.2024.28.5.393",
+      "year": 2024,
+      "abstract": "Large language models (LLMs) are rapidly transforming medical writing and publishing. This review article focuses on experimental evidence to provide a comprehensive overview of the current applications, challenges, and future implications of LLMs in various stages of academic research and publishing process. Global surveys reveal a high prevalence of LLM usage in scientific writing, with both potential benefits and challenges associated with its adoption. LLMs have been successfully applied in literature search, research design, writing assistance, quality assessment, citation generation, and data analysis. LLMs have also been used in peer review and publication processes, including manuscript screening, generating review comments, and identifying potential biases. To ensure the integrity and quality of scholarly work in the era of LLM-assisted research, responsible artificial intelligence (AI) use is crucial. Researchers should prioritize verifying the accuracy and reliability of AI-generated content, maintain transparency in the use of LLMs, and develop collaborative human-AI workflows. Reviewers should focus on higher-order reviewing skills and be aware of the potential use of LLMs in manuscripts. Editorial offices should develop clear policies and guidelines on AI use and foster open dialogue within the academic community. Future directions include addressing the limitations and biases of current LLMs, exploring innovative applications, and continuously updating policies and practices in response to technological advancements. Collaborative efforts among stakeholders are necessary to harness the transformative potential of LLMs while maintaining the integrity of medical writing and publishing.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q4",
+          "query_text": "(\"large language models\" OR LLMs) AND (retrieval OR \"external knowledge\") AND (\"citation generation\" OR \"evidence attribution\" OR \"source attribution\")",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "rrf_rank": 25,
+      "group_id": "version:e46adc60f58952751d43fd168b4ef17aef7b582e6f35daaac7a6a482261666b5",
+      "rrf_score": 0.014925373134328358,
+      "title": "Searching for Best Practices in Retrieval-Augmented Generation",
+      "paper_id": "doi:10.18653/v1/2024.emnlp-main.981",
+      "year": 2024,
+      "abstract": "Xiaohua Wang, Zhenghua Wang, Xuan Gao, Feiran Zhang, Yixin Wu, Zhibo Xu, Tianyuan Shi, Zhengyuan Wang, Shizheng Li, Qi Qian, Ruicheng Yin, Changze Lv, Xiaoqing Zheng, Xuanjing Huang. Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing. 2024.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q5",
+          "query_text": "(\"retrieval-augmented generation\" OR \"retrieval-augmented language model\") AND (\"retrieval quality\" OR \"retrieval relevance\" OR \"context quality\") AND (hallucination OR factuality)",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "rrf_rank": 26,
+      "group_id": "version:4fbc6af4e0bd5627101a52f16405d33b4b15043f4efaac31ca9a5240f4977fb7",
+      "rrf_score": 0.014705882352941176,
+      "title": "Benchmarking Retrieval-Augmented Generation for Medicine",
+      "paper_id": "doi:10.18653/v1/2024.findings-acl.372",
+      "year": 2024,
+      "abstract": "While large language models (LLMs) have achieved state-of-the-art performance on a wide range of medical question answering (QA) tasks, they still face challenges with hallucinations and outdated knowledge.Retrievalaugmented generation (RAG) is a promising solution and has been widely adopted.However, a RAG system can involve multiple flexible components, and there is a lack of best practices regarding the optimal RAG setting for various medical purposes.To systematically evaluate such systems, we propose the Medical Information Retrieval-Augmented Generation Evaluation (MIRAGE), a first-of-its-kind benchmark including 7,663 questions from five medical QA datasets.Using MIRAGE, we conducted large-scale experiments with over 1.8 trillion prompt tokens on 41 combinations of different corpora, retrievers, and backbone LLMs through the MEDRAG toolkit introduced in this work.Overall, MEDRAG improves the accuracy of six different LLMs by up to 18% over chain-of-thought prompting, elevating the performance of GPT-3.5 and Mixtral to GPT-4level.Our results show that the combination of various medical corpora and retrievers achieves the best performance.In addition, we discovered a log-linear scaling property and the \"lostin-the-middle\" effects in medical RAG.We believe our comprehensive evaluations can serve as practical guidelines for implementing RAG systems for medicine 1 .",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q1",
+          "query_text": "\"retrieval-augmented generation\" AND (hallucination OR factuality) AND \"large language model\"",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "rrf_rank": 27,
+      "group_id": "version:3b19fad8042a4592307db80f7c2736b8220fb1615c3799658d65556236df2dd7",
+      "rrf_score": 0.014705882352941176,
+      "title": "Evaluating Faithfulness in Agentic RAG Systems for e-Governance Applications Using LLM-Based Judging Frameworks",
+      "paper_id": "doi:10.3390/bdcc9120309",
+      "year": 2025,
+      "abstract": "As Large Language Models (LLMs) are core components in Retrieval-Augmented Generation (RAG) systems for knowledge-intensive tasks, concerns regarding hallucinations, redundancy, and unverifiable outputs have intensified, particularly in high-stakes domains, such as e-government. This study proposes a modular, multi-pipeline framework for statement-level faithfulness evaluation for characterizing hallucination and redundancy across both simple and agentic RAG pipelines. Using GPT-4.1, Claude Sonnet-4.0, and Gemini 2.5 Pro as LLM-based judges, this study examines how tool-specific attribution within agentic multi-tool architectures influences the interpretability and traceability of the generated content. By using a modular agentic RAG framework combining symbolic (GraphRAG), semantic (embedding), and real-time (web) retrieval, we benchmark hallucination and redundancy patterns, using state-of-the-art LLM judges. The study examines RAG and agent-based pipelines that attribute outputs to distinct tools, in contrast to traditional single-source RAG systems that rely on aggregated retrieval. Using e-government data sourced from the European Commission’s Press Corner, our evaluation framework assesses not only the frequency, but also the source-aware detectability of hallucinated content. The findings provide actionable insights into how source granularity and retrieval orchestration impact faithfulness evaluation across different pipeline architectures, while also suggesting new directions for explainability-aware RAG design. The study contributes a reproducible, modular framework for automated faithfulness assessment, with implications for transparency, governance compliance, and trustworthy AI deployment.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q3",
+          "query_text": "(\"retrieval grounding\" OR \"knowledge-grounded generation\" OR \"document-grounded generation\") AND (hallucination OR \"unsupported claims\")",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "rrf_rank": 28,
+      "group_id": "version:d267d82cc75ea41632d0973a13e14b0c40e6ac7d915af4a5ab977ce753666185",
+      "rrf_score": 0.014705882352941176,
+      "title": "ForensicLLM: A local large language model for digital forensics",
+      "paper_id": "doi:10.1016/j.fsidi.2025.301872",
+      "year": 2025,
+      "abstract": "Large Language Models (LLMs) excel in diverse natural language tasks but often lack specialization for fields like digital forensics. Their reliance on cloud-based APIs or high-performance computers restricts use in resource-limited environments, and response hallucinations could compromise their applicability in forensic contexts. We introduce ForensicLLM, a 4-bit quantized LLaMA-3.1–8B model fine-tuned on Q&A samples extracted from digital forensic research articles and curated digital artifacts. Quantitative evaluation showed that ForensicLLM outperformed both the base LLaMA-3.1–8B model and the Retrieval Augmented Generation (RAG) model. ForensicLLM accurately attributes sources 86.6 % of the time, with 81.2 % of the responses including both authors and title. Additionally, a user survey conducted with digital forensics professionals confirmed significant improvements of ForensicLLM and RAG model over the base model. ForensicLLM showed strength in “correctness” and “relevance” metrics, while the RAG model was appreciated for providing more detailed responses. These advancements mark ForensicLLM as a transformative tool in digital forensics, elevating model performance and source attribution in critical investigative contexts.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q4",
+          "query_text": "(\"large language models\" OR LLMs) AND (retrieval OR \"external knowledge\") AND (\"citation generation\" OR \"evidence attribution\" OR \"source attribution\")",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "rrf_rank": 29,
+      "group_id": "version:8e3ccef640c165b95e5abae732b290ab2fa11bea83328aaa15b508e96ae00cbc",
+      "rrf_score": 0.014705882352941176,
+      "title": "Retrieval-Augmented Generation for AI-Generated Content: A Survey",
+      "paper_id": "doi:10.48550/arxiv.2402.19473",
+      "year": 2024,
+      "abstract": "Advancements in model algorithms, the growth of foundational models, and access to high-quality datasets have propelled the evolution of Artificial Intelligence Generated Content (AIGC). Despite its notable successes, AIGC still faces hurdles such as updating knowledge, handling long-tail data, mitigating data leakage, and managing high training and inference costs. Retrieval-Augmented Generation (RAG) has recently emerged as a paradigm to address such challenges. In particular, RAG introduces the information retrieval process, which enhances the generation process by retrieving relevant objects from available data stores, leading to higher accuracy and better robustness. In this paper, we comprehensively review existing efforts that integrate RAG technique into AIGC scenarios. We first classify RAG foundations according to how the retriever augments the generator, distilling the fundamental abstractions of the augmentation methodologies for various retrievers and generators. This unified perspective encompasses all RAG scenarios, illuminating advancements and pivotal technologies that help with potential future progress. We also summarize additional enhancements methods for RAG, facilitating effective engineering and implementation of RAG systems. Then from another view, we survey on practical applications of RAG across different modalities and tasks, offering valuable references for researchers and practitioners. Furthermore, we introduce the benchmarks for RAG, discuss the limitations of current RAG systems, and suggest potential directions for future research. Github: https://github.com/PKU-DAIR/RAG-Survey.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q5",
+          "query_text": "(\"retrieval-augmented generation\" OR \"retrieval-augmented language model\") AND (\"retrieval quality\" OR \"retrieval relevance\" OR \"context quality\") AND (hallucination OR factuality)",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "rrf_rank": 30,
+      "group_id": "version:55b8fea1a274330da0186b53fb630885f5b43687f531008e089414a626c5a690",
+      "rrf_score": 0.014492753623188406,
+      "title": "Integrating Retrieval-Augmented Generation with Large Language Models in Nephrology: Advancing Practical Applications",
+      "paper_id": "doi:10.3390/medicina60030445",
+      "year": 2024,
+      "abstract": "The integration of large language models (LLMs) into healthcare, particularly in nephrology, represents a significant advancement in applying advanced technology to patient care, medical research, and education. These advanced models have progressed from simple text processors to tools capable of deep language understanding, offering innovative ways to handle health-related data, thus improving medical practice efficiency and effectiveness. A significant challenge in medical applications of LLMs is their imperfect accuracy and/or tendency to produce hallucinations-outputs that are factually incorrect or irrelevant. This issue is particularly critical in healthcare, where precision is essential, as inaccuracies can undermine the reliability of these models in crucial decision-making processes. To overcome these challenges, various strategies have been developed. One such strategy is prompt engineering, like the chain-of-thought approach, which directs LLMs towards more accurate responses by breaking down the problem into intermediate steps or reasoning sequences. Another one is the retrieval-augmented generation (RAG) strategy, which helps address hallucinations by integrating external data, enhancing output accuracy and relevance. Hence, RAG is favored for tasks requiring up-to-date, comprehensive information, such as in clinical decision making or educational applications. In this article, we showcase the creation of a specialized ChatGPT model integrated with a RAG system, tailored to align with the KDIGO 2023 guidelines for chronic kidney disease. This example demonstrates its potential in providing specialized, accurate medical advice, marking a step towards more reliable and efficient nephrology practices.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q1",
+          "query_text": "\"retrieval-augmented generation\" AND (hallucination OR factuality) AND \"large language model\"",
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "rrf_rank": 31,
+      "group_id": "version:bd1e666390619a79a579c7bb203d79e0280c63513e20759dd627ad6b540f030d",
+      "rrf_score": 0.014492753623188406,
+      "title": "Improving Dialog System Grounded with Unstructured Knowledge by Domain Adaptive Pre-Training and Post-Ranking",
+      "paper_id": "doi:10.1142/s0219843621500195",
+      "year": 2021,
+      "abstract": "Linguistic intelligence and the ability to converse with human are important and indispensable parts of humanoid robots. One of the most challenging tasks in knowledge-grounded task-oriented dialog systems (KTDS) is the knowledge selection task, which aims to find the proper knowledge snippets to respond to user dialog requests. In this paper, we first propose domain adapted-BERT (DA-BERT) which employs pre-trained bidirectional encoder representations from transformers (BERT) with domain adaptive training and dynamic masking probability for knowledge selection in KTDS. Domain adaptive training can minimize the domain gap between the general text data that BERT is pre-trained on and the dialog–knowledge joint data while dynamic masking probability enhances the training in an easy-to-hard manner. After knowledge selection, the next task in KTDS is knowledge-grounded generation. To improve the performance in knowledge-grounded generation, we propose GPT-PR to employ post-ranking on the generator’s outputs. Post-ranking eliminates the possibility of generating hallucination response by a large portion during the sampling-based decoding process and thus can improve the quality of the generated response. Experimental results on the benchmark dataset show that our proposed pre-training and post-ranking methods, DA-BERT and GPT-PR, respectively, outperform the state-of-the-art models with large margins across all the evaluation metrics. Moreover, in the experiments, we also analyze the bad cases of DA-BERT and GPT-PR and do visualizations to facilitate further research in this direction.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q3",
+          "query_text": "(\"retrieval grounding\" OR \"knowledge-grounded generation\" OR \"document-grounded generation\") AND (hallucination OR \"unsupported claims\")",
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "rrf_rank": 32,
+      "group_id": "version:314f40ce250d4573b411a7ec3b6474f5e5861ea3d32bd0dab8ed5baaecbfa752",
+      "rrf_score": 0.014492753623188406,
+      "title": "SurgeryLLM: a retrieval-augmented generation large language model framework for surgical decision support and workflow enhancement",
+      "paper_id": "doi:10.1038/s41746-024-01391-3",
+      "year": 2024,
+      "abstract": "SurgeryLLM, a large language model framework using Retrieval Augmented Generation demonstrably incorporated domain-specific knowledge from current evidence-based surgical guidelines when presented with patient-specific data. The successful incorporation of guideline-based information represents a substantial step toward enabling greater surgeon efficiency, improving patient safety, and optimizing surgical outcomes.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q4",
+          "query_text": "(\"large language models\" OR LLMs) AND (retrieval OR \"external knowledge\") AND (\"citation generation\" OR \"evidence attribution\" OR \"source attribution\")",
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "rrf_rank": 33,
+      "group_id": "version:75e8b124e04d4d4a4a889920784d3a5ad9eaa6d9fd562b32cde7f2c14bd955cc",
+      "rrf_score": 0.014492753623188406,
+      "title": "Knowledge Graph-Guided Retrieval Augmented Generation",
+      "paper_id": "doi:10.18653/v1/2025.naacl-long.449",
+      "year": 2025,
+      "abstract": "Xiangrong Zhu, Yuexiang Xie, Yi Liu, Yaliang Li, Wei Hu. Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers). 2025.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q5",
+          "query_text": "(\"retrieval-augmented generation\" OR \"retrieval-augmented language model\") AND (\"retrieval quality\" OR \"retrieval relevance\" OR \"context quality\") AND (hallucination OR factuality)",
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "rrf_rank": 34,
+      "group_id": "version:11fe4e18efb5cf237292b7085844bc1c04579fbeee2a754b14c7a6fa13cf7621",
+      "rrf_score": 0.014285714285714285,
+      "title": "Chain-of-Verification Reduces Hallucination in Large Language Models",
+      "paper_id": "doi:10.18653/v1/2024.findings-acl.212",
+      "year": 2024,
+      "abstract": "Generation of plausible yet incorrect factual information, termed hallucination, is an unsolved issue in large language models.We study the ability of language models to deliberate on the responses they give in order to correct their mistakes.We develop the Chain-of-Verification (COVE) method whereby the model first (i) drafts an initial response; then (ii) plans verification questions to fact-check its draft; (iii) answers those questions independently so the answers are not biased by other responses; and (iv) generates its final verified response.In experiments, we show COVE decreases hallucinations across a variety of tasks, from list-based questions from Wikidata, closed book Multi-SpanQA and longform text generation.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q1",
+          "query_text": "\"retrieval-augmented generation\" AND (hallucination OR factuality) AND \"large language model\"",
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "rrf_rank": 35,
+      "group_id": "version:157358bbf0b8d63559f35a5d80b621cb0826a1a8ae80b31fcad798e6065b6e9f",
+      "rrf_score": 0.014285714285714285,
+      "title": "Retrieval-augmented generation for educational application: A systematic survey",
+      "paper_id": "doi:10.1016/j.caeai.2025.100417",
+      "year": 2025,
+      "abstract": "Advancements in large language models (LLMs) have transformed AI-driven education, enabling innovative applications across various learning and teaching domains. However, LLMs still face several challenges, including hallucination and static internal knowledge, which hinder their reliability in educational settings. Retrieval-Augmented Generation (RAG) enhances LLMs by retrieving relevant information from an external knowledge base and incorporating it into the LLM's generation process. This approach improves factual accuracy and enables dynamic knowledge updates, making LLMs particularly suitable for educational applications. In this paper, we comprehensively review existing research that integrates RAG into educational scenarios. We first clarify the definition and workflow of RAG, and following the indexing mechanism of RAG, we introduce different types of retrievers and generation optimization methods. As the main focus of this work, we explore the practical applications of RAG in education, covering interactive learning systems, generation and assessment of educational content, and large-scale deployment in educational ecosystems. Based on our comprehensive review, this paper discusses existing challenges and future directions, including mitigating hallucinations, ensuring the completeness and timeliness of retrieved knowledge, reducing computational costs, and enhancing multimodal support for RAG-based educational applications.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q2",
+          "query_text": "(\"retrieval-augmented generation\" OR RAG) AND (\"factual consistency\" OR \"faithfulness\" OR \"factual accuracy\")",
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "rrf_rank": 36,
+      "group_id": "version:4bfb9fd13a64a0b5fd4f44ffa6659d686692cb9a1aa2708be534cb700b259922",
+      "rrf_score": 0.014285714285714285,
+      "title": "Chain-of-Knowledge: Grounding Large Language Models via Dynamic Knowledge Adapting over Heterogeneous Sources",
+      "paper_id": "doi:10.48550/arxiv.2305.13269",
+      "year": 2023,
+      "abstract": "We present chain-of-knowledge (CoK), a novel framework that augments large language models (LLMs) by dynamically incorporating grounding information from heterogeneous sources. It results in more factual rationales and reduced hallucination in generation. Specifically, CoK consists of three stages: reasoning preparation, dynamic knowledge adapting, and answer consolidation. Given a knowledge-intensive question, CoK first prepares several preliminary rationales and answers while identifying the relevant knowledge domains. If there is no majority consensus among the answers from samples, CoK corrects the rationales step by step by adapting knowledge from the identified domains. These corrected rationales can plausibly serve as a better foundation for the final answer consolidation. Unlike prior studies that primarily use unstructured data, CoK also leverages structured knowledge sources such as Wikidata and tables that provide more reliable factual information. To access both unstructured and structured knowledge sources in the dynamic knowledge adapting stage, we propose an adaptive query generator that allows the generation of queries for various types of query languages, including SPARQL, SQL, and natural sentences. Moreover, to minimize error propagation between rationales, CoK corrects the rationales progressively using preceding corrected rationales to generate and correct subsequent rationales. Extensive experiments show that CoK consistently improves the performance of LLMs on knowledge-intensive tasks across different domains.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q3",
+          "query_text": "(\"retrieval grounding\" OR \"knowledge-grounded generation\" OR \"document-grounded generation\") AND (hallucination OR \"unsupported claims\")",
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "rrf_rank": 37,
+      "group_id": "version:aa4eb3cda776f9a4346fca071f295f4a799657db75ed22080bf7f5ed440c8192",
+      "rrf_score": 0.014285714285714285,
+      "title": "An automated framework for assessing how well LLMs cite relevant medical references",
+      "paper_id": "doi:10.1038/s41467-025-58551-6",
+      "year": 2025,
+      "abstract": "As large language models (LLMs) are increasingly used to address health-related queries, it is crucial that they support their conclusions with credible references. While models can cite sources, the extent to which these support claims remains unclear. To address this gap, we introduce SourceCheckup, an automated agent-based pipeline that evaluates the relevance and supportiveness of sources in LLM responses. We evaluate seven popular LLMs on a dataset of 800 questions and 58,000 pairs of statements and sources on data that represent common medical queries. Our findings reveal that between 50% and 90% of LLM responses are not fully supported, and sometimes contradicted, by the sources they cite. Even for GPT-4o with Web Search, approximately 30% of individual statements are unsupported, and nearly half of its responses are not fully supported. Independent assessments by doctors further validate these results. Our research underscores significant limitations in current LLMs to produce trustworthy medical references. Assessing the degree to which medical large language models reliably convey existing, trustworthy knowledge is crucial. This study introduces SourceCheckup, an automated framework revealing that large language models frequently cite medical references that do not fully support, or even contradict, their responses, showing significant gaps in reliability for clinical use.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q4",
+          "query_text": "(\"large language models\" OR LLMs) AND (retrieval OR \"external knowledge\") AND (\"citation generation\" OR \"evidence attribution\" OR \"source attribution\")",
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "rrf_rank": 38,
+      "group_id": "version:8481ad81b7a777fea02d64516ea023063d985e8e1970c5f26cc726b4f580596e",
+      "rrf_score": 0.014285714285714285,
+      "title": "Automating Systematic Literature Reviews with Retrieval-Augmented Generation: A Comprehensive Overview",
+      "paper_id": "doi:10.3390/app14199103",
+      "year": 2024,
+      "abstract": "This study examines Retrieval-Augmented Generation (RAG) in large language models (LLMs) and their significant application for undertaking systematic literature reviews (SLRs). RAG-based LLMs can potentially automate tasks like data extraction, summarization, and trend identification. However, while LLMs are exceptionally proficient in generating human-like text and interpreting complex linguistic nuances, their dependence on static, pre-trained knowledge can result in inaccuracies and hallucinations. RAG mitigates these limitations by integrating LLMs’ generative capabilities with the precision of real-time information retrieval. We review in detail the three key processes of the RAG framework—retrieval, augmentation, and generation. We then discuss applications of RAG-based LLMs to SLR automation and highlight future research topics, including integration of domain-specific LLMs, multimodal data processing and generation, and utilization of multiple retrieval sources. We propose a framework of RAG-based LLMs for automating SRLs, which covers four stages of SLR process: literature search, literature screening, data extraction, and information synthesis. Future research aims to optimize the interaction between LLM selection, training strategies, RAG techniques, and prompt engineering to implement the proposed framework, with particular emphasis on the retrieval of information from individual scientific papers and the integration of these data to produce outputs addressing various aspects such as current status, existing gaps, and emerging trends.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q5",
+          "query_text": "(\"retrieval-augmented generation\" OR \"retrieval-augmented language model\") AND (\"retrieval quality\" OR \"retrieval relevance\" OR \"context quality\") AND (hallucination OR factuality)",
+          "rank": 10
+        }
+      ]
+    }
+  ]
+}

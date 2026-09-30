@@ -1,0 +1,280 @@
+{
+  "schema_version": 1,
+  "benchmark_id": "cot_reasoning_faithfulness_v1",
+  "research_question": "How does chain-of-thought prompting affect reasoning accuracy and faithfulness in large language models?",
+  "search_queries": [
+    {
+      "query_id": "q1",
+      "text": "\"chain of thought\" AND reasoning"
+    },
+    {
+      "query_id": "q2",
+      "text": "\"chain of thought\" AND faithfulness"
+    },
+    {
+      "query_id": "q3",
+      "text": "\"chain of thought\" AND accuracy"
+    }
+  ],
+  "relevance_scale": {
+    "0": "Off-target for this benchmark",
+    "1": "Bridge/Supporting",
+    "2": "Direct/Core"
+  },
+  "provenance": {
+    "source": "User-provided frozen human gold judgments for all 22 candidate groups, mapped from original RRF ranks to existing group_id values.",
+    "frozen_on": "2026-09-17",
+    "evaluation_unit": "paper_version_group",
+    "candidate_snapshot": "eval/datasets/cot_reasoning_faithfulness_v1_candidates.json",
+    "scope": "Complete human judgments for the 22-group frozen candidate pool, not the entire research literature or a replayable raw-search snapshot.",
+    "identifiers": "Judgment keys and baseline item ids are the exact group_id values from the candidate snapshot. known_paper_ids preserve each frozen representative paper_id.",
+    "judgment_reason_basis": "Concise explanations grounded only in the frozen titles and abstracts, supporting the supplied human labels. Bibliographic-only or null abstracts do not justify inferring unobserved methods or results.",
+    "judgment_policy": "These labels are frozen human gold judgments and must not be inferred, altered, or replaced using model behavior.",
+    "baseline_note": "The official RRF baseline uses all 22 human judgments for the ideal ranking, including candidates outside the RRF Top 10.",
+    "rrf_k_basis": "The frozen candidate snapshot was produced by the existing RRFRanker with k=60. Its original ranks, scores, and query hits remain unchanged.",
+    "unavailable_snapshot_fields": [
+      "complete_group_membership",
+      "per_member_query_hits"
+    ]
+  },
+  "metric_conventions": {
+    "precision_denominator": "k; missing result slots count as non-relevant.",
+    "ideal_ranking": "All judgments in this frozen pool, sorted by relevance descending and truncated to k.",
+    "unjudged_items": "Reject unjudged items in the evaluated top k instead of silently assigning relevance 0.",
+    "duplicate_items": "Reject duplicate item ids in the evaluated top k."
+  },
+  "baseline": {
+    "method": "group_rrf",
+    "rrf_k": 60,
+    "k": 10,
+    "ranked_item_ids": [
+      "version:c00e8ba42890369d7f38211de65512e1c1c7833d347b76f6ea34b5b696a69ea0",
+      "version:993e12e4013d782d9415f5a747dedb772fa95b995f3ae941c2ce38d10e3230a1",
+      "version:a4e5a68c9f6143dad856a15d062d20e20b896fd3834de4098139e3ecfcdfd4df",
+      "version:56d9d87e4b754bd411bf976805e42bf5d5f4b6e50cc59858e6eb6d621ee1b23c",
+      "version:c489cbd9f4d740055c56225c2edb4e1b358a29bd259a8bcd3b2490cc1bf6b8eb",
+      "version:76cc0bd49d1b2854be984006831c02a5a51b1329576a95a045f4edea929c2af3",
+      "version:5bb599df2e747b966e596e1604002f6b891fd237384aa00332d349642c513b6e",
+      "version:16c6111b254599f73210417ed7f9cdab6a0ae939c6efd0f5a6246f48fccc7fd4",
+      "version:a6f8cb54e40040f477e0c85b8191b979e22ce74bdd8cb2a2e6f96d6c4091fa42",
+      "version:7e709013b0710885ded03bf7a815db8682e8a9468dc293f759734bdda966be1a",
+      "version:d03caa07de55f8058e95b7c349f29e340d42935e5c07ebf295205c96262f8f6a",
+      "version:6b458621104c6e93b90220b9b5b27bebeb4d990291ab1c9d2544c2a5052de48d",
+      "version:42adbc319f9f78f05960b114bd675fd4187ccb2dc6231d0306600e01e0a3390b",
+      "version:d13364bb8b96515019ee3ad86b9d07dba9720e9a85da21e758e81999acc1dd25",
+      "version:dcadbfb6114af7a0042bac62d91c76e750872da230f1324cdf2e45094a2ef0c3",
+      "version:d8a8ab8acd5758ca0e6e941e5fb55987f86a7a85483f51ba6c78de7b70b722c9",
+      "version:e9104717ecfc98f2059ef436df547e8a46594334eda802a3e7aca3fe6a8c9787",
+      "version:2830797d09de086393f52b6252c18eba4cf2b896b5f9174d9782b821f2225f42",
+      "version:8d260e3ad03f049717b6c2d836b33e9873e8b8d9e22ca910514b1aeddc42cda9",
+      "version:bd5255d547da921efac24ed858e6b6e63b8e58e7eb7571e930c6ba776cf17ed0",
+      "version:d520c7d42af3d5815957a116980e42a7211d172bf122cd478cbe8e9f40ef47be",
+      "version:2380659b4346ee6f22ebaddc7b0859725da36743e4916c2b703c5991e537ac3a"
+    ],
+    "expected_metrics": {
+      "precision_at_10": 0.8,
+      "strict_precision_at_10": 0.3,
+      "ndcg_at_10": 0.6398670761344658
+    }
+  },
+  "judgments": {
+    "version:c00e8ba42890369d7f38211de65512e1c1c7833d347b76f6ea34b5b696a69ea0": {
+      "title": "Automatic Chain of Thought Prompting in Large Language Models",
+      "group_id": "version:c00e8ba42890369d7f38211de65512e1c1c7833d347b76f6ea34b5b696a69ea0",
+      "known_paper_ids": [
+        "doi:10.48550/arxiv.2210.03493"
+      ],
+      "relevance": 2,
+      "reason": "Evaluates automatically constructed CoT demonstrations across reasoning tasks, directly examining how prompting design affects reasoning performance."
+    },
+    "version:993e12e4013d782d9415f5a747dedb772fa95b995f3ae941c2ce38d10e3230a1": {
+      "title": "Faithful Chain-of-Thought Reasoning",
+      "group_id": "version:993e12e4013d782d9415f5a747dedb772fa95b995f3ae941c2ce38d10e3230a1",
+      "known_paper_ids": [
+        "doi:10.18653/v1/2023.ijcnlp-main.20"
+      ],
+      "relevance": 1,
+      "reason": "The title concerns faithful CoT reasoning, but the frozen abstract contains only bibliographic information and no substantive methods or results; retain the human Supporting label without inferring unseen details."
+    },
+    "version:a4e5a68c9f6143dad856a15d062d20e20b896fd3834de4098139e3ecfcdfd4df": {
+      "title": "Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions",
+      "group_id": "version:a4e5a68c9f6143dad856a15d062d20e20b896fd3834de4098139e3ecfcdfd4df",
+      "known_paper_ids": [
+        "doi:10.18653/v1/2023.acl-long.557"
+      ],
+      "relevance": 1,
+      "reason": "Interleaves retrieval with CoT for knowledge-intensive multi-step question answering, reporting improved answers and reduced hallucination; supplies supporting methodology for factually accurate reasoning."
+    },
+    "version:56d9d87e4b754bd411bf976805e42bf5d5f4b6e50cc59858e6eb6d621ee1b23c": {
+      "title": "Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models",
+      "group_id": "version:56d9d87e4b754bd411bf976805e42bf5d5f4b6e50cc59858e6eb6d621ee1b23c",
+      "known_paper_ids": [
+        "doi:10.18653/v1/2023.acl-long.147"
+      ],
+      "relevance": 1,
+      "reason": "The title concerns improving zero-shot CoT through Plan-and-Solve prompting, but the frozen record contains bibliographic information with no substantive abstract; retain Supporting without inferring methods or results."
+    },
+    "version:c489cbd9f4d740055c56225c2edb4e1b358a29bd259a8bcd3b2490cc1bf6b8eb": {
+      "title": "Reasoning Implicit Sentiment with Chain-of-Thought Prompting",
+      "group_id": "version:c489cbd9f4d740055c56225c2edb4e1b358a29bd259a8bcd3b2490cc1bf6b8eb",
+      "known_paper_ids": [
+        "doi:10.18653/v1/2023.acl-short.101"
+      ],
+      "relevance": 0,
+      "reason": "Applies three-step CoT prompting to implicit sentiment classification and evaluates sentiment F1; this application-specific contribution is outside the benchmark's reasoning and faithfulness focus."
+    },
+    "version:76cc0bd49d1b2854be984006831c02a5a51b1329576a95a045f4edea929c2af3": {
+      "title": "Chain-Of-Thought Prompting Elicits Reasoning in Large Language Models",
+      "group_id": "version:76cc0bd49d1b2854be984006831c02a5a51b1329576a95a045f4edea929c2af3",
+      "known_paper_ids": [
+        "doi:10.52202/068431-1800"
+      ],
+      "relevance": 1,
+      "reason": "The title identifies CoT prompting for LLM reasoning, but the abstract is null; retain the human Supporting label without using outside knowledge to infer experiments or findings."
+    },
+    "version:5bb599df2e747b966e596e1604002f6b891fd237384aa00332d349642c513b6e": {
+      "title": "Self-Consistency Improves Chain of Thought Reasoning in Language Models",
+      "group_id": "version:5bb599df2e747b966e596e1604002f6b891fd237384aa00332d349642c513b6e",
+      "known_paper_ids": [
+        "doi:10.48550/arxiv.2203.11171"
+      ],
+      "relevance": 2,
+      "reason": "Evaluates sampling and aggregating multiple CoT paths, reporting accuracy gains on arithmetic and commonsense reasoning benchmarks; directly addresses reasoning performance."
+    },
+    "version:16c6111b254599f73210417ed7f9cdab6a0ae939c6efd0f5a6246f48fccc7fd4": {
+      "title": "DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning",
+      "group_id": "version:16c6111b254599f73210417ed7f9cdab6a0ae939c6efd0f5a6246f48fccc7fd4",
+      "known_paper_ids": [
+        "doi:10.1038/s41586-025-09422-z"
+      ],
+      "relevance": 1,
+      "reason": "Studies reinforcement learning that elicits reasoning, self-reflection, and verification without human-labelled reasoning trajectories; provides training-based context for LLM reasoning capabilities."
+    },
+    "version:a6f8cb54e40040f477e0c85b8191b979e22ce74bdd8cb2a2e6f96d6c4091fa42": {
+      "title": "Faithful Logical Reasoning via Symbolic Chain-of-Thought",
+      "group_id": "version:a6f8cb54e40040f477e0c85b8191b979e22ce74bdd8cb2a2e6f96d6c4091fa42",
+      "known_paper_ids": [
+        "doi:10.18653/v1/2024.acl-long.720"
+      ],
+      "relevance": 2,
+      "reason": "Integrates symbolic rules and verification with CoT prompting, reporting improved logical reasoning performance and faithfulness across evaluation datasets."
+    },
+    "version:7e709013b0710885ded03bf7a815db8682e8a9468dc293f759734bdda966be1a": {
+      "title": "Applying large language models and chain-of-thought for automatic scoring",
+      "group_id": "version:7e709013b0710885ded03bf7a815db8682e8a9468dc293f759734bdda966be1a",
+      "known_paper_ids": [
+        "doi:10.1016/j.caeai.2024.100213"
+      ],
+      "relevance": 0,
+      "reason": "Evaluates CoT and scoring rubrics for automatically grading student responses; the contribution concerns educational scoring accuracy, outside this benchmark's core reasoning and faithfulness scope."
+    },
+    "version:d03caa07de55f8058e95b7c349f29e340d42935e5c07ebf295205c96262f8f6a": {
+      "title": "Measuring Faithfulness in Chain-of-Thought Reasoning",
+      "group_id": "version:d03caa07de55f8058e95b7c349f29e340d42935e5c07ebf295205c96262f8f6a",
+      "known_paper_ids": [
+        "doi:10.48550/arxiv.2307.13702"
+      ],
+      "relevance": 2,
+      "reason": "Intervenes on CoT explanations to measure how model answers depend on them, directly investigating faithfulness and the sources of CoT performance gains."
+    },
+    "version:6b458621104c6e93b90220b9b5b27bebeb4d990291ab1c9d2544c2a5052de48d": {
+      "title": "Challenging BIG-Bench Tasks and Whether Chain-of-Thought Can Solve Them",
+      "group_id": "version:6b458621104c6e93b90220b9b5b27bebeb4d990291ab1c9d2544c2a5052de48d",
+      "known_paper_ids": [
+        "doi:10.18653/v1/2023.findings-acl.824"
+      ],
+      "relevance": 1,
+      "reason": "The title concerns evaluating CoT on challenging BIG-Bench tasks, but the frozen record contains bibliographic information with no substantive abstract; retain Supporting without inferring benchmark results."
+    },
+    "version:42adbc319f9f78f05960b114bd675fd4187ccb2dc6231d0306600e01e0a3390b": {
+      "title": "BNAI, NO-TOKEN, and MIND-UNITY: Pillars of a Systemic Revolution in Artificial Intelligence",
+      "group_id": "version:42adbc319f9f78f05960b114bd675fd4187ccb2dc6231d0306600e01e0a3390b",
+      "known_paper_ids": [
+        "doi:10.48550/arxiv.2201.11903"
+      ],
+      "relevance": 0,
+      "reason": "Characterizes a conceptual failure mode of apparent reasoning and outlines design requirements; the abstract reports no evaluation of CoT prompting effects on accuracy or faithfulness."
+    },
+    "version:d13364bb8b96515019ee3ad86b9d07dba9720e9a85da21e758e81999acc1dd25": {
+      "title": "SCOTT: Self-Consistent Chain-of-Thought Distillation",
+      "group_id": "version:d13364bb8b96515019ee3ad86b9d07dba9720e9a85da21e758e81999acc1dd25",
+      "known_paper_ids": [
+        "doi:10.18653/v1/2023.acl-long.304"
+      ],
+      "relevance": 1,
+      "reason": "Distils teacher-generated CoT rationales into smaller models using a counterfactual objective, providing supporting methodology and evidence for rationale faithfulness."
+    },
+    "version:dcadbfb6114af7a0042bac62d91c76e750872da230f1324cdf2e45094a2ef0c3": {
+      "title": "Structured Chain-of-Thought Prompting for Code Generation",
+      "group_id": "version:dcadbfb6114af7a0042bac62d91c76e750872da230f1324cdf2e45094a2ef0c3",
+      "known_paper_ids": [
+        "doi:10.1145/3690635"
+      ],
+      "relevance": 1,
+      "reason": "Introduces structured CoT for code generation and reports improvements in code correctness, providing application-specific evidence about structured prompting."
+    },
+    "version:d8a8ab8acd5758ca0e6e941e5fb55987f86a7a85483f51ba6c78de7b70b722c9": {
+      "title": "Towards Understanding Chain-of-Thought Prompting: An Empirical Study of What Matters",
+      "group_id": "version:d8a8ab8acd5758ca0e6e941e5fb55987f86a7a85483f51ba6c78de7b70b722c9",
+      "known_paper_ids": [
+        "doi:10.18653/v1/2023.acl-long.153"
+      ],
+      "relevance": 1,
+      "reason": "The title identifies an empirical study of CoT prompting, but the frozen record contains bibliographic information with no substantive abstract; retain Supporting without inferring what the study found."
+    },
+    "version:e9104717ecfc98f2059ef436df547e8a46594334eda802a3e7aca3fe6a8c9787": {
+      "title": "Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting",
+      "group_id": "version:e9104717ecfc98f2059ef436df547e8a46594334eda802a3e7aca3fe6a8c9787",
+      "known_paper_ids": [
+        "doi:10.48550/arxiv.2305.04388"
+      ],
+      "relevance": 2,
+      "reason": "Shows that biased inputs can produce misleading CoT explanations and reduce answer accuracy, directly examining the relationship between reasoning performance and faithfulness."
+    },
+    "version:2830797d09de086393f52b6252c18eba4cf2b896b5f9174d9782b821f2225f42": {
+      "title": "Large Language Models are Zero-Shot Reasoners",
+      "group_id": "version:2830797d09de086393f52b6252c18eba4cf2b896b5f9174d9782b821f2225f42",
+      "known_paper_ids": [
+        "doi:10.48550/arxiv.2205.11916"
+      ],
+      "relevance": 2,
+      "reason": "Evaluates a simple step-by-step prompt across arithmetic, symbolic, and logical reasoning tasks, directly reporting improvements in zero-shot reasoning accuracy."
+    },
+    "version:8d260e3ad03f049717b6c2d836b33e9873e8b8d9e22ca910514b1aeddc42cda9": {
+      "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+      "group_id": "version:8d260e3ad03f049717b6c2d836b33e9873e8b8d9e22ca910514b1aeddc42cda9",
+      "known_paper_ids": [
+        "doi:10.48550/arxiv.2305.10601"
+      ],
+      "relevance": 1,
+      "reason": "Generalizes CoT to search over reasoning paths with self-evaluation and backtracking, providing comparative evidence about the limits and extensions of linear CoT reasoning."
+    },
+    "version:bd5255d547da921efac24ed858e6b6e63b8e58e7eb7571e930c6ba776cf17ed0": {
+      "title": "Multimodal Chain-of-Thought Reasoning in Language Models",
+      "group_id": "version:bd5255d547da921efac24ed858e6b6e63b8e58e7eb7571e930c6ba776cf17ed0",
+      "known_paper_ids": [
+        "doi:10.48550/arxiv.2302.00923"
+      ],
+      "relevance": 1,
+      "reason": "Extends CoT to text and images by separating rationale generation from answer inference, supplying multimodal evidence about reasoning performance and hallucination mitigation."
+    },
+    "version:d520c7d42af3d5815957a116980e42a7211d172bf122cd478cbe8e9f40ef47be": {
+      "title": "Extractive Summarization via ChatGPT for Faithful Summary Generation",
+      "group_id": "version:d520c7d42af3d5815957a116980e42a7211d172bf122cd478cbe8e9f40ef47be",
+      "known_paper_ids": [
+        "doi:10.18653/v1/2023.findings-emnlp.214"
+      ],
+      "relevance": 0,
+      "reason": "Focuses on extractive summarization and an extract-then-generate pipeline; its faithfulness findings concern summaries, outside this benchmark's focus on reasoning explanations."
+    },
+    "version:2380659b4346ee6f22ebaddc7b0859725da36743e4916c2b703c5991e537ac3a": {
+      "title": "Scaling Instruction-Finetuned Language Models",
+      "group_id": "version:2380659b4346ee6f22ebaddc7b0859725da36743e4916c2b703c5991e537ac3a",
+      "known_paper_ids": [
+        "doi:10.48550/arxiv.2210.11416"
+      ],
+      "relevance": 0,
+      "reason": "Studies scaling instruction fine-tuning, including training on CoT data; the evaluated intervention is model training, outside this benchmark's focus on CoT prompting."
+    }
+  }
+}

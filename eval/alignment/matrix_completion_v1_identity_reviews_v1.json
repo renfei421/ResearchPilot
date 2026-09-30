@@ -1,0 +1,14 @@
+{
+  "benchmark_id": "matrix_completion_v1",
+  "version": "v1",
+  "decisions": [
+    {
+      "left_source": "human",
+      "left_group_id": "version:f29052f8eb35c02608aae9b52dda225bfcd26fd4251a36b06d926ad88dffe7da",
+      "right_source": "llm",
+      "right_group_id": "version:fefd21e9bcc31d8bda7b5dc01ef328b56404ad1daefeea2d800d29adb9b0e602",
+      "decision": "same_work",
+      "note": "Same work: arXiv preprint 2202.04623 and the later IEEE TGRS publication DOI 10.1109/TGRS.2023.3237464."
+    }
+  ]
+}

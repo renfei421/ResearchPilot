@@ -1,0 +1,415 @@
+{
+  "benchmark_id": "cot_reasoning_faithfulness_v1",
+  "question": "How does chain-of-thought prompting affect reasoning accuracy and faithfulness in large language models?",
+  "candidates": [
+    {
+      "rrf_rank": 1,
+      "group_id": "version:c00e8ba42890369d7f38211de65512e1c1c7833d347b76f6ea34b5b696a69ea0",
+      "rrf_score": 0.0474478480153437,
+      "title": "Automatic Chain of Thought Prompting in Large Language Models",
+      "paper_id": "doi:10.48550/arxiv.2210.03493",
+      "year": 2022,
+      "abstract": "Large language models (LLMs) can perform complex reasoning by generating intermediate reasoning steps. Providing these steps for prompting demonstrations is called chain-of-thought (CoT) prompting. CoT prompting has two major paradigms. One leverages a simple prompt like \"Let's think step by step\" to facilitate step-by-step thinking before answering a question. The other uses a few manual demonstrations one by one, each composed of a question and a reasoning chain that leads to an answer. The superior performance of the second paradigm hinges on the hand-crafting of task-specific demonstrations one by one. We show that such manual efforts may be eliminated by leveraging LLMs with the \"Let's think step by step\" prompt to generate reasoning chains for demonstrations one by one, i.e., let's think not just step by step, but also one by one. However, these generated chains often come with mistakes. To mitigate the effect of such mistakes, we find that diversity matters for automatically constructing demonstrations. We propose an automatic CoT prompting method: Auto-CoT. It samples questions with diversity and generates reasoning chains to construct demonstrations. On ten public benchmark reasoning tasks with GPT-3, Auto-CoT consistently matches or exceeds the performance of the CoT paradigm that requires manual designs of demonstrations. Code is available at https://github.com/amazon-research/auto-cot",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q1",
+          "query_text": "\"chain of thought\" AND reasoning",
+          "rank": 7
+        },
+        {
+          "query_id": "q2",
+          "query_text": "\"chain of thought\" AND faithfulness",
+          "rank": 2
+        },
+        {
+          "query_id": "q3",
+          "query_text": "\"chain of thought\" AND accuracy",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "rrf_rank": 2,
+      "group_id": "version:993e12e4013d782d9415f5a747dedb772fa95b995f3ae941c2ce38d10e3230a1",
+      "rrf_score": 0.046024698110220356,
+      "title": "Faithful Chain-of-Thought Reasoning",
+      "paper_id": "doi:10.18653/v1/2023.ijcnlp-main.20",
+      "year": 2023,
+      "abstract": "Qing Lyu, Shreya Havaldar, Adam Stein, Li Zhang, Delip Rao, Eric Wong, Marianna Apidianaki, Chris Callison-Burch. Proceedings of the 13th International Joint Conference on Natural Language Processing and the 3rd Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics (Volume 1: Long Papers). 2023.",
+      "version_count": 2,
+      "hits": [
+        {
+          "query_id": "q1",
+          "query_text": "\"chain of thought\" AND reasoning",
+          "rank": 8
+        },
+        {
+          "query_id": "q2",
+          "query_text": "\"chain of thought\" AND faithfulness",
+          "rank": 1
+        },
+        {
+          "query_id": "q3",
+          "query_text": "\"chain of thought\" AND accuracy",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "rrf_rank": 3,
+      "group_id": "version:a4e5a68c9f6143dad856a15d062d20e20b896fd3834de4098139e3ecfcdfd4df",
+      "rrf_score": 0.031754032258064516,
+      "title": "Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions",
+      "paper_id": "doi:10.18653/v1/2023.acl-long.557",
+      "year": 2023,
+      "abstract": "Prompting-based large language models (LLMs) are surprisingly powerful at generating natural language reasoning steps or Chains-of-Thoughts (CoT) for multi-step question answering (QA).They struggle, however, when the necessary knowledge is either unavailable to the LLM or not up-to-date within its parameters.While using the question to retrieve relevant text from an external knowledge source helps LLMs, we observe that this one-step retrieve-and-read approach is insufficient for multi-step QA.Here, what to retrieve depends on what has already been derived, which in turn may depend on what was previously retrieved.To address this, we propose IRCoT, a new approach for multi-step QA that interleaves retrieval with steps (sentences) in a CoT, guiding the retrieval with CoT and in turn using retrieved results to improve CoT.Using IRCoT with GPT3 substantially improves retrieval (up to 21 points) as well as downstream QA (up to 15 points) on four datasets: HotpotQA, 2WikiMultihopQA, MuSiQue, and IIRC.We observe similar substantial gains in out-ofdistribution (OOD) settings as well as with much smaller models such as Flan-T5-large without additional training.IRCoT reduces model hallucination, resulting in factually more accurate CoT reasoning.1 .erdotii Nostri Primordia died?",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q1",
+          "query_text": "\"chain of thought\" AND reasoning",
+          "rank": 4
+        },
+        {
+          "query_id": "q3",
+          "query_text": "\"chain of thought\" AND accuracy",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "rrf_rank": 4,
+      "group_id": "version:56d9d87e4b754bd411bf976805e42bf5d5f4b6e50cc59858e6eb6d621ee1b23c",
+      "rrf_score": 0.031009615384615385,
+      "title": "Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models",
+      "paper_id": "doi:10.18653/v1/2023.acl-long.147",
+      "year": 2023,
+      "abstract": "Lei Wang, Wanyu Xu, Yihuai Lan, Zhiqiang Hu, Yunshi Lan, Roy Ka-Wei Lee, Ee-Peng Lim. Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2023.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q1",
+          "query_text": "\"chain of thought\" AND reasoning",
+          "rank": 5
+        },
+        {
+          "query_id": "q3",
+          "query_text": "\"chain of thought\" AND accuracy",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "rrf_rank": 5,
+      "group_id": "version:c489cbd9f4d740055c56225c2edb4e1b358a29bd259a8bcd3b2490cc1bf6b8eb",
+      "rrf_score": 0.028991596638655463,
+      "title": "Reasoning Implicit Sentiment with Chain-of-Thought Prompting",
+      "paper_id": "doi:10.18653/v1/2023.acl-short.101",
+      "year": 2023,
+      "abstract": "While sentiment analysis systems try to determine the sentiment polarities of given targets based on the key opinion expressions in input texts, in implicit sentiment analysis (ISA) the opinion cues come in an implicit and obscure manner.Thus detecting implicit sentiment requires the common-sense and multi-hop reasoning ability to infer the latent intent of opinion.Inspired by the recent chain-of-thought (CoT) idea, in this work we introduce a Threehop Reasoning (THOR) CoT framework to mimic the human-like reasoning process for ISA.We design a three-step prompting principle for THOR to step-by-step induce the implicit aspect, opinion, and finally the sentiment polarity.Our THOR+Flan-T5 (11B) pushes the state-of-the-art (SoTA) by over 6% F1 on supervised setup.More strikingly, THOR+GPT3 (175B) boosts the SoTA by over 50% F1 on zero-shot setting.Our code is open at https",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q1",
+          "query_text": "\"chain of thought\" AND reasoning",
+          "rank": 10
+        },
+        {
+          "query_id": "q3",
+          "query_text": "\"chain of thought\" AND accuracy",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "rrf_rank": 6,
+      "group_id": "version:76cc0bd49d1b2854be984006831c02a5a51b1329576a95a045f4edea929c2af3",
+      "rrf_score": 0.01639344262295082,
+      "title": "Chain-Of-Thought Prompting Elicits Reasoning in Large Language Models",
+      "paper_id": "doi:10.52202/068431-1800",
+      "year": 2022,
+      "abstract": null,
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q1",
+          "query_text": "\"chain of thought\" AND reasoning",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "rrf_rank": 7,
+      "group_id": "version:5bb599df2e747b966e596e1604002f6b891fd237384aa00332d349642c513b6e",
+      "rrf_score": 0.016129032258064516,
+      "title": "Self-Consistency Improves Chain of Thought Reasoning in Language Models",
+      "paper_id": "doi:10.48550/arxiv.2203.11171",
+      "year": 2022,
+      "abstract": "Chain-of-thought prompting combined with pre-trained large language models has achieved encouraging results on complex reasoning tasks. In this paper, we propose a new decoding strategy, self-consistency, to replace the naive greedy decoding used in chain-of-thought prompting. It first samples a diverse set of reasoning paths instead of only taking the greedy one, and then selects the most consistent answer by marginalizing out the sampled reasoning paths. Self-consistency leverages the intuition that a complex reasoning problem typically admits multiple different ways of thinking leading to its unique correct answer. Our extensive empirical evaluation shows that self-consistency boosts the performance of chain-of-thought prompting with a striking margin on a range of popular arithmetic and commonsense reasoning benchmarks, including GSM8K (+17.9%), SVAMP (+11.0%), AQuA (+12.2%), StrategyQA (+6.4%) and ARC-challenge (+3.9%).",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q1",
+          "query_text": "\"chain of thought\" AND reasoning",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "rrf_rank": 8,
+      "group_id": "version:16c6111b254599f73210417ed7f9cdab6a0ae939c6efd0f5a6246f48fccc7fd4",
+      "rrf_score": 0.015873015873015872,
+      "title": "DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning",
+      "paper_id": "doi:10.1038/s41586-025-09422-z",
+      "year": 2025,
+      "abstract": "Abstract General reasoning represents a long-standing and formidable challenge in artificial intelligence (AI). Recent breakthroughs, exemplified by large language models (LLMs) 1,2 and chain-of-thought (CoT) prompting 3 , have achieved considerable success on foundational reasoning tasks. However, this success is heavily contingent on extensive human-annotated demonstrations and the capabilities of models are still insufficient for more complex problems. Here we show that the reasoning abilities of LLMs can be incentivized through pure reinforcement learning (RL), obviating the need for human-labelled reasoning trajectories. The proposed RL framework facilitates the emergent development of advanced reasoning patterns, such as self-reflection, verification and dynamic strategy adaptation. Consequently, the trained model achieves superior performance on verifiable tasks such as mathematics, coding competitions and STEM fields, surpassing its counterparts trained through conventional supervised learning on human demonstrations. Moreover, the emergent reasoning patterns exhibited by these large-scale models can be systematically used to guide and enhance the reasoning capabilities of smaller models.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q1",
+          "query_text": "\"chain of thought\" AND reasoning",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "rrf_rank": 9,
+      "group_id": "version:a6f8cb54e40040f477e0c85b8191b979e22ce74bdd8cb2a2e6f96d6c4091fa42",
+      "rrf_score": 0.015873015873015872,
+      "title": "Faithful Logical Reasoning via Symbolic Chain-of-Thought",
+      "paper_id": "doi:10.18653/v1/2024.acl-long.720",
+      "year": 2024,
+      "abstract": "While the recent Chain-of-Thought (CoT) technique enhances the reasoning ability of large language models (LLMs) with the theory of mind, it might still struggle in handling logical reasoning that relies much on symbolic expressions and rigid deducing rules.To strengthen the logical reasoning capability of LLMs, we propose a novel Symbolic Chain-of-Thought, namely SymbCoT, a fully LLM-based framework that integrates symbolic expressions and logic rules with CoT prompting.Technically, building upon an LLM, SymbCoT 1) first translates the natural language context into the symbolic format, and then 2) derives a step-by-step plan to solve the problem with symbolic logical rules, 3) followed by a verifier to check the translation and reasoning chain.Via thorough evaluations on 5 standard datasets with both First-Order Logic and Constraint Optimization symbolic expressions, SymbCoT shows striking improvements over the CoT method consistently, meanwhile refreshing the current stateof-the-art performances.We further demonstrate that our system advances in more faithful, flexible, and explainable logical reasoning.To our knowledge, this is the first to combine symbolic expressions and rules into CoT for logical reasoning with LLMs.Code is open at https://github.com/Aiden0526/SymbCoT.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q2",
+          "query_text": "\"chain of thought\" AND faithfulness",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "rrf_rank": 10,
+      "group_id": "version:7e709013b0710885ded03bf7a815db8682e8a9468dc293f759734bdda966be1a",
+      "rrf_score": 0.015873015873015872,
+      "title": "Applying large language models and chain-of-thought for automatic scoring",
+      "paper_id": "doi:10.1016/j.caeai.2024.100213",
+      "year": 2024,
+      "abstract": "This study investigates the application of large language models (LLMs), specifically GPT-3.5 and GPT-4, with Chain-of-Though (CoT) in the automatic scoring of student-written responses to science assessments. We focused on overcoming the challenges of accessibility, technical complexity, and lack of explainability that have previously limited the use of artificial intelligence-based automatic scoring tools among researchers and educators. With a testing dataset comprising six assessment tasks (three binomial and three trinomial) with 1650 student responses, we employed six prompt engineering strategies to automatically score student responses. The six strategies combined zero-shot or few-shot learning with CoT, either alone or alongside item stem and scoring rubrics, developed based on a novel approach, WRVRT (prompt writing, reviewing, validating, revising, and testing). Results indicated that few-shot (acc = 0.67) outperformed zero-shot learning (acc = 0.60), with 12.6% increase. CoT, when used without item stem and scoring rubrics, did not significantly affect scoring accuracy (acc = 0.60). However, CoT prompting paired with contextual item stems and rubrics proved to be a significant contributor to scoring accuracy (13.44% increase for zero-shot; 3.7% increase for few-shot). We found a more balanced accuracy across different proficiency categories when CoT was used with a scoring rubric, highlighting the importance of domain-specific reasoning in enhancing the effectiveness of LLMs in scoring tasks. We also found that GPT-4 demonstrated superior performance over GPT -3.5 in various scoring tasks when combined with the single-call greedy sampling or ensemble voting nucleus sampling strategy, showing 8.64% difference. Particularly, the single-call greedy sampling strategy with GPT-4 outperformed other approaches. This study also demonstrates the potential of LLMs in facilitating explainable and interpretable automatic scoring, emphasizing that CoT enhances accuracy and transparency, particularly when used with item stem and scoring rubrics.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q3",
+          "query_text": "\"chain of thought\" AND accuracy",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "rrf_rank": 11,
+      "group_id": "version:d03caa07de55f8058e95b7c349f29e340d42935e5c07ebf295205c96262f8f6a",
+      "rrf_score": 0.015625,
+      "title": "Measuring Faithfulness in Chain-of-Thought Reasoning",
+      "paper_id": "doi:10.48550/arxiv.2307.13702",
+      "year": 2023,
+      "abstract": "Large language models (LLMs) perform better when they produce step-by-step, \"Chain-of-Thought\" (CoT) reasoning before answering a question, but it is unclear if the stated reasoning is a faithful explanation of the model's actual reasoning (i.e., its process for answering the question). We investigate hypotheses for how CoT reasoning may be unfaithful, by examining how the model predictions change when we intervene on the CoT (e.g., by adding mistakes or paraphrasing it). Models show large variation across tasks in how strongly they condition on the CoT when predicting their answer, sometimes relying heavily on the CoT and other times primarily ignoring it. CoT's performance boost does not seem to come from CoT's added test-time compute alone or from information encoded via the particular phrasing of the CoT. As models become larger and more capable, they produce less faithful reasoning on most tasks we study. Overall, our results suggest that CoT can be faithful if the circumstances such as the model size and task are carefully chosen.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q2",
+          "query_text": "\"chain of thought\" AND faithfulness",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "rrf_rank": 12,
+      "group_id": "version:6b458621104c6e93b90220b9b5b27bebeb4d990291ab1c9d2544c2a5052de48d",
+      "rrf_score": 0.015384615384615385,
+      "title": "Challenging BIG-Bench Tasks and Whether Chain-of-Thought Can Solve Them",
+      "paper_id": "doi:10.18653/v1/2023.findings-acl.824",
+      "year": 2023,
+      "abstract": "Mirac Suzgun, Nathan Scales, Nathanael Schärli, Sebastian Gehrmann, Yi Tay, Hyung Won Chung, Aakanksha Chowdhery, Quoc Le, Ed Chi, Denny Zhou, Jason Wei. Findings of the Association for Computational Linguistics: ACL 2023. 2023.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q3",
+          "query_text": "\"chain of thought\" AND accuracy",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "rrf_rank": 13,
+      "group_id": "version:42adbc319f9f78f05960b114bd675fd4187ccb2dc6231d0306600e01e0a3390b",
+      "rrf_score": 0.015151515151515152,
+      "title": "BNAI, NO-TOKEN, and MIND-UNITY: Pillars of a Systemic Revolution in Artificial Intelligence",
+      "paper_id": "doi:10.48550/arxiv.2201.11903",
+      "year": 2022,
+      "abstract": "AbstractThere is a failure mode in large language models that we do not have a good name for, and thatwe therefore tend not to treat seriously enough. It is not hallucination — the model is not assertingsomething false. It is not refusal — the model answers at length. It is the production of responses thatcarry the complete outward form of careful reasoning while the cognitive work that reasoning issupposed to represent has not, in any meaningful sense, occurred. We call this theatrical compliance,and we argue that it is, in practical terms, more dangerous than either of the failure modes thatcurrently dominate alignment research. This paper identifies the phenomenon, characterizes its fiveprincipal forms, explains the asymmetry that makes it particularly costly in high-stakes settings, andoutlines the design requirements for systems intended to resist it. We do not describe such a systemin detail here. Our goal is to establish theatrical compliance as a research problem in its own rightand to argue that addressing it requires instruments operating at a fundamentally different level ofabstraction than task-level prompting frameworks.Keywords: theatrical compliance, large language models, AI reasoning quality, cognitiveprocess evaluation, prompt engineering, metacognitive systems.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q1",
+          "query_text": "\"chain of thought\" AND reasoning",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "rrf_rank": 14,
+      "group_id": "version:d13364bb8b96515019ee3ad86b9d07dba9720e9a85da21e758e81999acc1dd25",
+      "rrf_score": 0.015151515151515152,
+      "title": "SCOTT: Self-Consistent Chain-of-Thought Distillation",
+      "paper_id": "doi:10.18653/v1/2023.acl-long.304",
+      "year": 2023,
+      "abstract": "Large language models (LMs) beyond a certain scale, demonstrate the emergent capability of generating free-text rationales for their predictions via chain-of-thought (CoT) prompting.While CoT can yield dramatically improved performance, such gains are only observed for sufficiently large LMs.Even more concerning, there is little guarantee that the generated rationales are consistent with LM's predictions or faithfully justify the decisions.In this work, we propose SCOTT, a faithful knowledge distillation method to learn a small, self-consistent CoT model from a teacher model that is orders of magnitude larger.To form better supervision, we elicit rationales supporting the gold answers from a large LM (teacher) by contrastive decoding, which encourages the teacher to generate tokens that become more plausible only when the answer is considered.To ensure faithful distillation, we use the teacher-generated rationales to learn a student LM with a counterfactual reasoning objective, which prevents the student from ignoring the rationales to make inconsistent predictions.Experiments show that, while yielding comparable end-task performance, our method can generate CoT rationales that are more faithful than baselines do.Further analysis suggests that such a model respects the rationales more when making decisions; thus, we can improve its performance more by refining its rationales.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q2",
+          "query_text": "\"chain of thought\" AND faithfulness",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "rrf_rank": 15,
+      "group_id": "version:dcadbfb6114af7a0042bac62d91c76e750872da230f1324cdf2e45094a2ef0c3",
+      "rrf_score": 0.015151515151515152,
+      "title": "Structured Chain-of-Thought Prompting for Code Generation",
+      "paper_id": "doi:10.1145/3690635",
+      "year": 2024,
+      "abstract": "Large Language Models (LLMs) have shown impressive abilities in code generation. Chain-of-Thought (CoT) prompting is the state-of-the-art approach to utilizing LLMs. CoT prompting asks LLMs first to generate CoTs (i.e., intermediate natural language reasoning steps) and then output the code. However, the accuracy of CoT prompting still cannot satisfy practical applications. For example, gpt-3.5-turbo with CoT prompting only achieves 53.29% Pass@1 in HumanEval. In this article, we propose Structured CoTs (SCoTs) and present a novel prompting technique for code generation named SCoT prompting. Our motivation is that human developers follow structured programming. Developers use three programming structures (i.e., sequential, branch, and loop) to design and implement structured programs. Thus, we ask LLMs to use three programming structures to generate SCoTs (structured reasoning steps) before outputting the final code. Compared to CoT prompting, SCoT prompting explicitly introduces programming structures and unlocks the structured programming thinking of LLMs. We apply SCoT prompting to two LLMs (i.e., gpt-4-turbo, gpt-3.5-turbo, and DeepSeek Coder-Instruct- \\(\\{\\) 1.3B, 6.7B, 33B \\(\\}\\) ) and evaluate it on three benchmarks (i.e., HumanEval, MBPP, and MBCPP). SCoT prompting outperforms CoT prompting by up to 13.79% in Pass@1. SCoT prompting is robust to examples and achieves substantial improvements. The human evaluation also shows human developers prefer programs from SCoT prompting.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q3",
+          "query_text": "\"chain of thought\" AND accuracy",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "rrf_rank": 16,
+      "group_id": "version:d8a8ab8acd5758ca0e6e941e5fb55987f86a7a85483f51ba6c78de7b70b722c9",
+      "rrf_score": 0.014925373134328358,
+      "title": "Towards Understanding Chain-of-Thought Prompting: An Empirical Study of What Matters",
+      "paper_id": "doi:10.18653/v1/2023.acl-long.153",
+      "year": 2023,
+      "abstract": "Boshi Wang, Sewon Min, Xiang Deng, Jiaming Shen, You Wu, Luke Zettlemoyer, Huan Sun. Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2023.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q2",
+          "query_text": "\"chain of thought\" AND faithfulness",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "rrf_rank": 17,
+      "group_id": "version:e9104717ecfc98f2059ef436df547e8a46594334eda802a3e7aca3fe6a8c9787",
+      "rrf_score": 0.014705882352941176,
+      "title": "Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting",
+      "paper_id": "doi:10.48550/arxiv.2305.04388",
+      "year": 2023,
+      "abstract": "Large Language Models (LLMs) can achieve strong performance on many tasks by producing step-by-step reasoning before giving a final output, often referred to as chain-of-thought reasoning (CoT). It is tempting to interpret these CoT explanations as the LLM's process for solving a task. This level of transparency into LLMs' predictions would yield significant safety benefits. However, we find that CoT explanations can systematically misrepresent the true reason for a model's prediction. We demonstrate that CoT explanations can be heavily influenced by adding biasing features to model inputs--e.g., by reordering the multiple-choice options in a few-shot prompt to make the answer always \"(A)\"--which models systematically fail to mention in their explanations. When we bias models toward incorrect answers, they frequently generate CoT explanations rationalizing those answers. This causes accuracy to drop by as much as 36% on a suite of 13 tasks from BIG-Bench Hard, when testing with GPT-3.5 from OpenAI and Claude 1.0 from Anthropic. On a social-bias task, model explanations justify giving answers in line with stereotypes without mentioning the influence of these social biases. Our findings indicate that CoT explanations can be plausible yet misleading, which risks increasing our trust in LLMs without guaranteeing their safety. Building more transparent and explainable systems will require either improving CoT faithfulness through targeted efforts or abandoning CoT in favor of alternative methods.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q2",
+          "query_text": "\"chain of thought\" AND faithfulness",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "rrf_rank": 18,
+      "group_id": "version:2830797d09de086393f52b6252c18eba4cf2b896b5f9174d9782b821f2225f42",
+      "rrf_score": 0.014492753623188406,
+      "title": "Large Language Models are Zero-Shot Reasoners",
+      "paper_id": "doi:10.48550/arxiv.2205.11916",
+      "year": 2022,
+      "abstract": "Pretrained large language models (LLMs) are widely used in many sub-fields of natural language processing (NLP) and generally known as excellent few-shot learners with task-specific exemplars. Notably, chain of thought (CoT) prompting, a recent technique for eliciting complex multi-step reasoning through step-by-step answer examples, achieved the state-of-the-art performances in arithmetics and symbolic reasoning, difficult system-2 tasks that do not follow the standard scaling laws for LLMs. While these successes are often attributed to LLMs' ability for few-shot learning, we show that LLMs are decent zero-shot reasoners by simply adding \"Let's think step by step\" before each answer. Experimental results demonstrate that our Zero-shot-CoT, using the same single prompt template, significantly outperforms zero-shot LLM performances on diverse benchmark reasoning tasks including arithmetics (MultiArith, GSM8K, AQUA-RAT, SVAMP), symbolic reasoning (Last Letter, Coin Flip), and other logical reasoning tasks (Date Understanding, Tracking Shuffled Objects), without any hand-crafted few-shot examples, e.g. increasing the accuracy on MultiArith from 17.7% to 78.7% and GSM8K from 10.4% to 40.7% with large InstructGPT model (text-davinci-002), as well as similar magnitudes of improvements with another off-the-shelf large model, 540B parameter PaLM. The versatility of this single prompt across very diverse reasoning tasks hints at untapped and understudied fundamental zero-shot capabilities of LLMs, suggesting high-level, multi-task broad cognitive capabilities may be extracted by simple prompting. We hope our work not only serves as the minimal strongest zero-shot baseline for the challenging reasoning benchmarks, but also highlights the importance of carefully exploring and analyzing the enormous zero-shot knowledge hidden inside LLMs before crafting finetuning datasets or few-shot exemplars.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q1",
+          "query_text": "\"chain of thought\" AND reasoning",
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "rrf_rank": 19,
+      "group_id": "version:8d260e3ad03f049717b6c2d836b33e9873e8b8d9e22ca910514b1aeddc42cda9",
+      "rrf_score": 0.014492753623188406,
+      "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+      "paper_id": "doi:10.48550/arxiv.2305.10601",
+      "year": 2023,
+      "abstract": "Language models are increasingly being deployed for general problem solving across a wide range of tasks, but are still confined to token-level, left-to-right decision-making processes during inference. This means they can fall short in tasks that require exploration, strategic lookahead, or where initial decisions play a pivotal role. To surmount these challenges, we introduce a new framework for language model inference, Tree of Thoughts (ToT), which generalizes over the popular Chain of Thought approach to prompting language models, and enables exploration over coherent units of text (thoughts) that serve as intermediate steps toward problem solving. ToT allows LMs to perform deliberate decision making by considering multiple different reasoning paths and self-evaluating choices to decide the next course of action, as well as looking ahead or backtracking when necessary to make global choices. Our experiments show that ToT significantly enhances language models' problem-solving abilities on three novel tasks requiring non-trivial planning or search: Game of 24, Creative Writing, and Mini Crosswords. For instance, in Game of 24, while GPT-4 with chain-of-thought prompting only solved 4% of tasks, our method achieved a success rate of 74%. Code repo with all prompts: https://github.com/princeton-nlp/tree-of-thought-llm.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q2",
+          "query_text": "\"chain of thought\" AND faithfulness",
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "rrf_rank": 20,
+      "group_id": "version:bd5255d547da921efac24ed858e6b6e63b8e58e7eb7571e930c6ba776cf17ed0",
+      "rrf_score": 0.014492753623188406,
+      "title": "Multimodal Chain-of-Thought Reasoning in Language Models",
+      "paper_id": "doi:10.48550/arxiv.2302.00923",
+      "year": 2023,
+      "abstract": "Large language models (LLMs) have shown impressive performance on complex reasoning by leveraging chain-of-thought (CoT) prompting to generate intermediate reasoning chains as the rationale to infer the answer. However, existing CoT studies have primarily focused on the language modality. We propose Multimodal-CoT that incorporates language (text) and vision (images) modalities into a two-stage framework that separates rationale generation and answer inference. In this way, answer inference can leverage better generated rationales that are based on multimodal information. Experimental results on ScienceQA and A-OKVQA benchmark datasets show the effectiveness of our proposed approach. With Multimodal-CoT, our model under 1 billion parameters achieves state-of-the-art performance on the ScienceQA benchmark. Our analysis indicates that Multimodal-CoT offers the advantages of mitigating hallucination and enhancing convergence speed. Code is publicly available at https://github.com/amazon-science/mm-cot.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q3",
+          "query_text": "\"chain of thought\" AND accuracy",
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "rrf_rank": 21,
+      "group_id": "version:d520c7d42af3d5815957a116980e42a7211d172bf122cd478cbe8e9f40ef47be",
+      "rrf_score": 0.014285714285714285,
+      "title": "Extractive Summarization via ChatGPT for Faithful Summary Generation",
+      "paper_id": "doi:10.18653/v1/2023.findings-emnlp.214",
+      "year": 2023,
+      "abstract": "Extractive summarization is a crucial task in natural language processing that aims to condense long documents into shorter versions by directly extracting sentences.The recent introduction of large language models has attracted significant interest in the NLP community due to its remarkable performance on a wide range of downstream tasks.This paper first presents a thorough evaluation of ChatGPT's performance on extractive summarization and compares it with traditional fine-tuning methods on various benchmark datasets.Our experimental analysis reveals that ChatGPT exhibits inferior extractive summarization performance in terms of ROUGE scores compared to existing supervised systems, while achieving higher performance based on LLM-based evaluation metrics.In addition, we explore the effectiveness of in-context learning and chain-of-thought reasoning for enhancing its performance.Furthermore, we find that applying an extract-thengenerate pipeline with ChatGPT yields significant performance improvements over abstractive baselines in terms of summary faithfulness.These observations highlight potential directions for enhancing ChatGPT's capabilities in faithful summarization using two-stage approaches.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q2",
+          "query_text": "\"chain of thought\" AND faithfulness",
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "rrf_rank": 22,
+      "group_id": "version:2380659b4346ee6f22ebaddc7b0859725da36743e4916c2b703c5991e537ac3a",
+      "rrf_score": 0.014285714285714285,
+      "title": "Scaling Instruction-Finetuned Language Models",
+      "paper_id": "doi:10.48550/arxiv.2210.11416",
+      "year": 2022,
+      "abstract": "Finetuning language models on a collection of datasets phrased as instructions has been shown to improve model performance and generalization to unseen tasks. In this paper we explore instruction finetuning with a particular focus on (1) scaling the number of tasks, (2) scaling the model size, and (3) finetuning on chain-of-thought data. We find that instruction finetuning with the above aspects dramatically improves performance on a variety of model classes (PaLM, T5, U-PaLM), prompting setups (zero-shot, few-shot, CoT), and evaluation benchmarks (MMLU, BBH, TyDiQA, MGSM, open-ended generation). For instance, Flan-PaLM 540B instruction-finetuned on 1.8K tasks outperforms PALM 540B by a large margin (+9.4% on average). Flan-PaLM 540B achieves state-of-the-art performance on several benchmarks, such as 75.2% on five-shot MMLU. We also publicly release Flan-T5 checkpoints, which achieve strong few-shot performance even compared to much larger models, such as PaLM 62B. Overall, instruction finetuning is a general method for improving the performance and usability of pretrained language models.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q3",
+          "query_text": "\"chain of thought\" AND accuracy",
+          "rank": 10
+        }
+      ]
+    }
+  ]
+}

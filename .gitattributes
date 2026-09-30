@@ -1,0 +1,14 @@
+# Archive exclusion only: this does NOT remove files from Git history/clones.
+/docs/phase*.md export-ignore
+/docs/manuscript*.md export-ignore
+/docs/final_*.md export-ignore
+/docs/paper_novelty_audit.* export-ignore
+/docs/idea_check_source_recovery_validation.md export-ignore
+/manuscript export-ignore
+/output export-ignore
+/.researchpilot_cache export-ignore
+/.venv export-ignore
+/git export-ignore
+/.env export-ignore
+/.env.* export-ignore
+/.env.example -export-ignore

@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ResearchPilot · 文献与证据</title>
+  <link rel="stylesheet" href="/assets/app.css">
+  <script src="/assets/app.js" defer></script>
+  <script src="/assets/projects.js" defer></script>
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="brand" href="/" aria-label="ResearchPilot 首页"><span class="brand-mark">R</span> ResearchPilot</a>
+    <p class="sidebar-caption">从研究问题，回到原始证据。</p>
+    <button id="new-research" class="secondary wide" type="button">＋ 新研究</button>
+    <div class="history-heading"><h2>研究项目</h2><button id="new-project" class="text-button" type="button">＋ 新建</button></div>
+    <nav id="project-list" aria-label="研究项目"></nav>
+    <div class="history-heading"><h2>研究历史</h2><button id="refresh-history" class="text-button" type="button">刷新</button></div>
+    <nav id="history" aria-label="研究历史"></nav>
+    <button id="more-history" class="text-button" type="button" hidden>更多历史</button>
+    <p class="local-note">LOCAL WORKSPACE<br>记录保存在本机 · 单用户 MVP</p>
+  </aside>
+  <main>
+    <header class="page-header"><span class="eyebrow">EVIDENCE-GROUNDED RESEARCH</span><span class="status-pill">本地运行</span></header>
+    <section class="intro">
+      <h1>让每个发现，都有据可查。</h1>
+      <p>检索学术文献，核验结论，并沿着引用查看支持它的证据。</p>
+    </section>
+    <p id="configuration" class="notice" hidden></p>
+    <form id="project-create" class="panel" hidden>
+      <h2>新建研究项目</h2>
+      <label for="project-title">项目名称<input id="project-title" required maxlength="200"></label>
+      <label for="project-description">研究目标<textarea id="project-description" rows="2" maxlength="6000"></textarea></label>
+      <label for="project-field">领域（可选）<input id="project-field" maxlength="300"></label>
+      <button type="submit">创建项目</button>
+    </form>
+    <section id="project-panel" class="panel" hidden>
+      <div class="project-actions">
+        <button id="project-ask" class="secondary" type="button">提出研究问题</button>
+        <button id="project-idea" class="secondary" type="button">检查主张</button>
+        <button id="project-edit" class="text-button" type="button">编辑项目</button>
+        <button id="project-archive" class="text-button" type="button">归档项目</button>
+        <a id="project-export-json" class="secondary">导出项目 JSON</a>
+        <a id="project-export-md" class="secondary">导出 Markdown</a>
+      </div>
+      <form id="project-edit-form" hidden>
+        <label>名称<input id="project-edit-title" required maxlength="200"></label>
+        <label>目标<textarea id="project-edit-description" maxlength="6000"></textarea></label>
+        <label>领域<input id="project-edit-field" maxlength="300"></label>
+        <button type="submit">保存修改</button>
+      </form>
+      <nav class="project-tabs" aria-label="项目内容">
+        <a href="#project-questions">问题</a><a href="#project-claims">主张</a><a href="#project-papers">文献</a>
+        <a href="#project-evidence">证据</a><a href="#project-findings">发现</a><a href="#project-gaps">缺口</a><a href="#project-runs">历史</a>
+      </nav>
+      <div id="project-detail"></div>
+      <form id="project-record-form">
+        <label for="project-record-kind">保存到项目</label>
+        <select id="project-record-kind"><option value="questions">研究问题</option><option value="claims">主张／假设</option><option value="notes">用户笔记（未核验）</option></select>
+        <textarea id="project-record-text" rows="2" required maxlength="6000"></textarea>
+        <button type="submit">保存记录</button>
+      </form>
+      <form id="project-continue-form" hidden>
+        <h3>继续研究</h3><p id="project-continue-label"></p>
+        <label>补充方向（可选）<textarea id="project-continue-instruction" maxlength="2000" rows="2"></textarea></label>
+        <label class="checkbox"><input id="project-continue-refresh" type="checkbox">重新执行查询，跳过短期查询缓存</label>
+        <p class="muted">沿用普通运行预算；每次点击只启动一次研究。新结论仍须核验。</p>
+        <button type="submit">开始继续研究</button>
+      </form>
+    </section>
+    <form id="research-form" class="panel">
+      <label for="run-project">所属项目</label>
+      <select id="run-project"><option value="">独立研究（不加入项目）</option></select>
+      <label for="mode">研究模式</label>
+      <select id="mode" name="mode"><option value="research">Research Question · 回答研究问题</option><option value="claim_check">Check My Idea · 比较研究主张</option></select>
+      <label id="question-label" for="question">你想研究什么？</label>
+      <textarea id="question" name="question" rows="3" required placeholder="例如：参数高效微调如何降低大语言模型的训练和内存需求？"></textarea>
+      <div id="idea-options" hidden>
+        <label for="claim-field">研究领域（可选）<input id="claim-field" type="text" maxlength="300" placeholder="例如：机器学习 / 生物学"></label>
+        <label for="claim-context">背景与关键条件（可选）<textarea id="claim-context" rows="2" maxlength="4000"></textarea></label>
+        <p class="muted">比较已检索文献中的重合与差异。未找到近似工作不等于证明新颖性。</p>
+      </div>
+      <details class="advanced">
+        <summary>研究范围与预算</summary>
+        <div class="controls">
+          <label for="year-from">起始年份<input id="year-from" type="number" step="1" placeholder="不限"></label>
+          <label for="year-to">结束年份<input id="year-to" type="number" step="1" placeholder="不限"></label>
+          <label for="max-papers"><span id="paper-budget-label">每轮最多文献</span><input id="max-papers" type="number" min="1" max="20" step="1" value="6" required></label>
+          <label for="max-rounds">最多检索轮次<input id="max-rounds" type="number" min="1" max="3" step="1" value="2" required></label>
+        </div>
+        <label class="checkbox"><input id="refresh-search" type="checkbox">刷新项目查询缓存</label>
+        <p id="budget-help" class="muted">有证据缺口时才继续下一轮。总文献上限为每轮文献数 × 轮次数。</p>
+      </details>
+      <div class="form-footer"><span class="muted">研究通常需要几分钟，关闭页面后仍会继续。</span><button id="submit" type="submit">开始研究 <span aria-hidden="true">↗</span></button></div>
+    </form>
+    <p id="error" class="error" role="alert" hidden></p>
+    <section id="run-panel" class="panel" hidden>
+      <div class="run-heading"><h2 id="run-question"></h2><span id="run-status" class="status-pill"></span></div>
+      <div class="progress" aria-live="polite">
+        <div><span class="metric-label">当前阶段</span><strong id="stage"></strong></div>
+        <div><span class="metric-label">检索轮次</span><strong id="round">0</strong></div>
+        <div><span class="metric-label">已选文献</span><strong id="papers">0</strong></div>
+        <div><span class="metric-label">证据段落</span><strong id="evidence">0</strong></div>
+      </div>
+      <ul id="warnings" class="warnings" hidden></ul>
+      <p id="run-meta" class="muted"></p>
+      <div id="exports" class="exports" hidden><a id="export-markdown" class="secondary">导出 Markdown</a><a id="export-json" class="secondary">导出 JSON</a></div>
+      <div id="result"></div>
+    </section>
+    <footer>结论以当前可获得的文献与证据为限。引用可展开查看；摘要证据会明确标注。</footer>
+  </main>
+</body>
+</html>

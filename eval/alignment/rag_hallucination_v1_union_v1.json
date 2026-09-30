@@ -1,0 +1,961 @@
+{
+  "benchmark_id": "rag_hallucination_v1",
+  "version": "v1",
+  "identity_review_complete": true,
+  "counts_status": "final",
+  "works": [
+    {
+      "union_id": "union:a4ddb3a6e9858f507eb9e977e7ccc4dfbdaaeb8371c0c7b2846b3ec90635bb4b",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 1,
+          "group_id": "version:dad91b6a012ec4c70b8c5162153987b08808c3719a75aba246b0f3838528c413",
+          "paper_id": "doi:10.48550/arxiv.2312.10997",
+          "title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+          "year": 2023,
+          "version_count": 1
+        },
+        {
+          "source": "llm",
+          "original_rank": 1,
+          "group_id": "version:dad91b6a012ec4c70b8c5162153987b08808c3719a75aba246b0f3838528c413",
+          "paper_id": "doi:10.48550/arxiv.2312.10997",
+          "title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+          "year": 2023,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": true,
+      "human_best_rank": 1,
+      "llm_best_rank": 1
+    },
+    {
+      "union_id": "union:0f068f25a4a6f68544edd1a9cd83f1ff9fcaf9455d9ca3ce2470945147ba83a2",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 2,
+          "group_id": "version:2022bab10e21d22fee7760455688a9ce74cea7a8a4ded58a86dd8d411834c2bb",
+          "paper_id": "doi:10.18653/v1/2023.emnlp-main.495",
+          "title": "Active Retrieval Augmented Generation",
+          "year": 2023,
+          "version_count": 1
+        },
+        {
+          "source": "llm",
+          "original_rank": 2,
+          "group_id": "version:2022bab10e21d22fee7760455688a9ce74cea7a8a4ded58a86dd8d411834c2bb",
+          "paper_id": "doi:10.18653/v1/2023.emnlp-main.495",
+          "title": "Active Retrieval Augmented Generation",
+          "year": 2023,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": true,
+      "human_best_rank": 2,
+      "llm_best_rank": 2
+    },
+    {
+      "union_id": "union:995e2944980324fe0b1d9a04b09927594ade2ce461260685fbe8abcda17e8656",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 3,
+          "group_id": "version:4fbc6af4e0bd5627101a52f16405d33b4b15043f4efaac31ca9a5240f4977fb7",
+          "paper_id": "doi:10.18653/v1/2024.findings-acl.372",
+          "title": "Benchmarking Retrieval-Augmented Generation for Medicine",
+          "year": 2024,
+          "version_count": 1
+        },
+        {
+          "source": "llm",
+          "original_rank": 26,
+          "group_id": "version:4fbc6af4e0bd5627101a52f16405d33b4b15043f4efaac31ca9a5240f4977fb7",
+          "paper_id": "doi:10.18653/v1/2024.findings-acl.372",
+          "title": "Benchmarking Retrieval-Augmented Generation for Medicine",
+          "year": 2024,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": true,
+      "human_best_rank": 3,
+      "llm_best_rank": 26
+    },
+    {
+      "union_id": "union:1a71fa5a65388c849277677dc12e09c3e0778fefad2789a222d7af2148448056",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 4,
+          "group_id": "version:55b8fea1a274330da0186b53fb630885f5b43687f531008e089414a626c5a690",
+          "paper_id": "doi:10.3390/medicina60030445",
+          "title": "Integrating Retrieval-Augmented Generation with Large Language Models in Nephrology: Advancing Practical Applications",
+          "year": 2024,
+          "version_count": 1
+        },
+        {
+          "source": "llm",
+          "original_rank": 30,
+          "group_id": "version:55b8fea1a274330da0186b53fb630885f5b43687f531008e089414a626c5a690",
+          "paper_id": "doi:10.3390/medicina60030445",
+          "title": "Integrating Retrieval-Augmented Generation with Large Language Models in Nephrology: Advancing Practical Applications",
+          "year": 2024,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": true,
+      "human_best_rank": 4,
+      "llm_best_rank": 30
+    },
+    {
+      "union_id": "union:10237208d498c736e85239aa7bf1b872ab4ef571678c77b4e5fd1add7ba37656",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 5,
+          "group_id": "version:e1fee44aebdf33cb8404ac653537868c043f9ec8e169b7637c5909275f34bee5",
+          "paper_id": "doi:10.18653/v1/2024.eacl-demo.16",
+          "title": "RAGAs: Automated Evaluation of Retrieval Augmented Generation",
+          "year": 2024,
+          "version_count": 1
+        },
+        {
+          "source": "llm",
+          "original_rank": 5,
+          "group_id": "version:e1fee44aebdf33cb8404ac653537868c043f9ec8e169b7637c5909275f34bee5",
+          "paper_id": "doi:10.18653/v1/2024.eacl-demo.16",
+          "title": "RAGAs: Automated Evaluation of Retrieval Augmented Generation",
+          "year": 2024,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": true,
+      "human_best_rank": 5,
+      "llm_best_rank": 5
+    },
+    {
+      "union_id": "union:074db086ba7eec9b7e52f6fd804fde2b1b67da0674adf4f4242dd379e0114d9d",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 6,
+          "group_id": "version:9dc16cf734022405d7deac7415627d9338799889e4702ee8da9e36de88d48cf7",
+          "paper_id": "doi:10.1609/aaai.v38i16.29728",
+          "title": "Benchmarking Large Language Models in Retrieval-Augmented Generation",
+          "year": 2024,
+          "version_count": 1
+        },
+        {
+          "source": "llm",
+          "original_rank": 4,
+          "group_id": "version:9dc16cf734022405d7deac7415627d9338799889e4702ee8da9e36de88d48cf7",
+          "paper_id": "doi:10.1609/aaai.v38i16.29728",
+          "title": "Benchmarking Large Language Models in Retrieval-Augmented Generation",
+          "year": 2024,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": true,
+      "human_best_rank": 6,
+      "llm_best_rank": 4
+    },
+    {
+      "union_id": "union:1d75e64d4955cac034356ba7e1dd8ede7007967fc44dc800fc38c836968d6b35",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 7,
+          "group_id": "version:3b183b2565682c9e0a852f62d6f8661369e28531a17a4cc762c10cc4483b972a",
+          "paper_id": "doi:10.18653/v1/2025.findings-emnlp.568",
+          "title": "LightRAG: Simple and Fast Retrieval-Augmented Generation",
+          "year": 2025,
+          "version_count": 1
+        },
+        {
+          "source": "llm",
+          "original_rank": 16,
+          "group_id": "version:3b183b2565682c9e0a852f62d6f8661369e28531a17a4cc762c10cc4483b972a",
+          "paper_id": "doi:10.18653/v1/2025.findings-emnlp.568",
+          "title": "LightRAG: Simple and Fast Retrieval-Augmented Generation",
+          "year": 2025,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": true,
+      "human_best_rank": 7,
+      "llm_best_rank": 16
+    },
+    {
+      "union_id": "union:334aa4bfbd445cd5e87b8967c2c30daba6a5213853559aae9c46d4f8cbaf96a6",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 8,
+          "group_id": "version:8bb990637397dc668bbea1de538761db992641d93e9f6e8f6f24bd04004aba16",
+          "paper_id": "doi:10.1162/tacl_a_00530",
+          "title": "Improving the Domain Adaptation of Retrieval Augmented Generation (RAG) Models for Open Domain Question Answering",
+          "year": 2023,
+          "version_count": 1
+        },
+        {
+          "source": "llm",
+          "original_rank": 17,
+          "group_id": "version:8bb990637397dc668bbea1de538761db992641d93e9f6e8f6f24bd04004aba16",
+          "paper_id": "doi:10.1162/tacl_a_00530",
+          "title": "Improving the Domain Adaptation of Retrieval Augmented Generation (RAG) Models for Open Domain Question Answering",
+          "year": 2023,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": true,
+      "human_best_rank": 8,
+      "llm_best_rank": 17
+    },
+    {
+      "union_id": "union:67c18afddba53182dee206eede36d91b8a128fbf08e4693d1103a2ad0b08725b",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 9,
+          "group_id": "version:157358bbf0b8d63559f35a5d80b621cb0826a1a8ae80b31fcad798e6065b6e9f",
+          "paper_id": "doi:10.1016/j.caeai.2025.100417",
+          "title": "Retrieval-augmented generation for educational application: A systematic survey",
+          "year": 2025,
+          "version_count": 1
+        },
+        {
+          "source": "llm",
+          "original_rank": 35,
+          "group_id": "version:157358bbf0b8d63559f35a5d80b621cb0826a1a8ae80b31fcad798e6065b6e9f",
+          "paper_id": "doi:10.1016/j.caeai.2025.100417",
+          "title": "Retrieval-augmented generation for educational application: A systematic survey",
+          "year": 2025,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": true,
+      "human_best_rank": 9,
+      "llm_best_rank": 35
+    },
+    {
+      "union_id": "union:7f0d9d58480a55a7caa2b3cee4c51a2f2b2a5ba243b3ac13c4b2a6d069ee8000",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 10,
+          "group_id": "version:530f9fcd99cbb05e7123fde8ac6b4fb565b1fadf7614b73643d6f759b35b4413",
+          "paper_id": "doi:10.1145/3777378",
+          "title": "Graph Retrieval-Augmented Generation: A Survey",
+          "year": 2025,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": false,
+      "human_best_rank": 10,
+      "llm_best_rank": null
+    },
+    {
+      "union_id": "union:5c68cc08373ec17a93c528abd135c582651f31605549e3324f29b87409e872b5",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 11,
+          "group_id": "version:51181febdb3bd8698e120475d2f847daea1418dab086352cadb006d882306841",
+          "paper_id": "doi:10.1007/s12599-025-00945-3",
+          "title": "Retrieval-Augmented Generation (RAG)",
+          "year": 2025,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": false,
+      "human_best_rank": 11,
+      "llm_best_rank": null
+    },
+    {
+      "union_id": "union:e63a3cc4f8ede09d97009385734b2a7fe56e0149bb3d18c698397b4720e19e7a",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 12,
+          "group_id": "version:5fbbc5b4185fff73f68233c73d34144a6a7b1bca46c0e0247ffc6045722948c7",
+          "paper_id": "doi:10.1371/journal.pdig.0000877",
+          "title": "Retrieval augmented generation for large language models in healthcare: A systematic review",
+          "year": 2025,
+          "version_count": 1
+        },
+        {
+          "source": "llm",
+          "original_rank": 3,
+          "group_id": "version:5fbbc5b4185fff73f68233c73d34144a6a7b1bca46c0e0247ffc6045722948c7",
+          "paper_id": "doi:10.1371/journal.pdig.0000877",
+          "title": "Retrieval augmented generation for large language models in healthcare: A systematic review",
+          "year": 2025,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": true,
+      "human_best_rank": 12,
+      "llm_best_rank": 3
+    },
+    {
+      "union_id": "union:ac6faaeb766e720e5090dae3af25160b8e5a6f7aff7ce3bb4d8f42b7649fdb16",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 13,
+          "group_id": "version:8e3ccef640c165b95e5abae732b290ab2fa11bea83328aaa15b508e96ae00cbc",
+          "paper_id": "doi:10.48550/arxiv.2402.19473",
+          "title": "Retrieval-Augmented Generation for AI-Generated Content: A Survey",
+          "year": 2024,
+          "version_count": 1
+        },
+        {
+          "source": "llm",
+          "original_rank": 29,
+          "group_id": "version:8e3ccef640c165b95e5abae732b290ab2fa11bea83328aaa15b508e96ae00cbc",
+          "paper_id": "doi:10.48550/arxiv.2402.19473",
+          "title": "Retrieval-Augmented Generation for AI-Generated Content: A Survey",
+          "year": 2024,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": true,
+      "human_best_rank": 13,
+      "llm_best_rank": 29
+    },
+    {
+      "union_id": "union:3054ebbc674c3d4eb769b1f76e3413c410dbe124101b441382f0da7311d770bb",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 14,
+          "group_id": "version:61e0e3110c04daaa4f332d938c2a52c8a5dade14e91f2817b90db44ccd51f678",
+          "paper_id": "doi:10.2139/ssrn.5267341",
+          "title": "Corrective Retrieval Augmented Generation",
+          "year": 2025,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": false,
+      "human_best_rank": 14,
+      "llm_best_rank": null
+    },
+    {
+      "union_id": "union:1580f79470af2f6309cb805f2a183d1e08fb33282d6c9ef89409840ea8acc8f7",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 15,
+          "group_id": "version:a17f3e0a6b9d2d534aece4f171da9cc9f26ed93f2628d29c9d57b2d3485fdf62",
+          "paper_id": "doi:10.1145/3696410.3714782",
+          "title": "MedRAG: Enhancing Retrieval-augmented Generation with Knowledge Graph-Elicited Reasoning for Healthcare Copilot",
+          "year": 2025,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": false,
+      "human_best_rank": 15,
+      "llm_best_rank": null
+    },
+    {
+      "union_id": "union:a2d3897bc4e6f9b940fe85509775abb17e349f5151724105aeb114c716b6b401",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 16,
+          "group_id": "version:581a31ee29ae92d2bfa971839069ce1f9b79d77361ff5f7ee06d46299349bfd9",
+          "paper_id": "doi:10.3390/ai6090226",
+          "title": "Retrieval-Augmented Generation (RAG) in Healthcare: A Comprehensive Review",
+          "year": 2025,
+          "version_count": 1
+        },
+        {
+          "source": "llm",
+          "original_rank": 7,
+          "group_id": "version:581a31ee29ae92d2bfa971839069ce1f9b79d77361ff5f7ee06d46299349bfd9",
+          "paper_id": "doi:10.3390/ai6090226",
+          "title": "Retrieval-Augmented Generation (RAG) in Healthcare: A Comprehensive Review",
+          "year": 2025,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": true,
+      "human_best_rank": 16,
+      "llm_best_rank": 7
+    },
+    {
+      "union_id": "union:2f0461817235b7cf17afef2515eba633f296164d8dc1a12dba043f093d4b1683",
+      "members": [
+        {
+          "source": "human",
+          "original_rank": 17,
+          "group_id": "version:5423e20e7f4bfb6c9afadb503e2e90dda2f9e99fe6ac591916189e3d7ee0ac53",
+          "paper_id": "doi:10.48550/arxiv.2310.11511",
+          "title": "CareerX: A Retrieval-Augmented Generation Framework for Personalized AI-Driven Career Guidance",
+          "year": 2023,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": true,
+      "present_in_llm": false,
+      "human_best_rank": 17,
+      "llm_best_rank": null
+    },
+    {
+      "union_id": "union:5e4ae8745ea4d01255e54f395be02a5e210e8753b25bdda2daa5ee3d4a359e31",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 6,
+          "group_id": "version:9d809d6171bba9f6c43de418014c6ef147654cbc5ffe7ac76d0579f691660e75",
+          "paper_id": "doi:10.1145/3637528.3671470",
+          "title": "A Survey on RAG Meeting LLMs: Towards Retrieval-Augmented Large Language Models",
+          "year": 2024,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 6
+    },
+    {
+      "union_id": "union:0013362cb6189b93ec3d5a86b2c5ad691f5579001415da4055b1752eb6b07dbd",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 8,
+          "group_id": "version:9f04ff239413c758316764541640569ca37344ff6dc2ce5caa370b924242b95c",
+          "paper_id": "doi:10.18653/v1/2022.naacl-main.387",
+          "title": "On the Origin of Hallucinations in Conversational Models: Is it the Datasets or the Models?",
+          "year": 2022,
+          "version_count": 2
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 8
+    },
+    {
+      "union_id": "union:0f351b36074cce0dd29ddc1bf86ad44bc7d706f206ed7bc75ed4552bec291820",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 9,
+          "group_id": "version:ab00ba31f1f00f31ccf7c1eef8a27318831cdd663f7047eec4db295a5fa72b45",
+          "paper_id": "doi:10.48550/arxiv.2311.05232",
+          "title": "A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions",
+          "year": 2023,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 9
+    },
+    {
+      "union_id": "union:2aa5d8bd2acb5a2885cc5e3dd4611f6d5d0ac3d60daf7c91f6dfc47d50d7fe55",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 10,
+          "group_id": "version:f2f33eb309ab58ffc17ccfa2747645d96e242500932ea90c895b0d90498d3720",
+          "paper_id": "doi:10.18653/v1/2021.naacl-main.338",
+          "title": "Focused Attention Improves Document-Grounded Generation",
+          "year": 2021,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 10
+    },
+    {
+      "union_id": "union:cf2573cf967ad2a67383d00b9baf7f3686e4dafcfe91fe73735a6688074db2a1",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 11,
+          "group_id": "version:028d11b27e3406307a0a174a1e95b13d374809d1c8b4071d97c0dc13e1165605",
+          "paper_id": "doi:10.1162/tacl_a_00605",
+          "title": "In-Context Retrieval-Augmented Language Models",
+          "year": 2023,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 11
+    },
+    {
+      "union_id": "union:50971d48fd1d3760e58554f040236bb10f4c1770435893cf03abd2fda37b6032",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 12,
+          "group_id": "version:b3c8fd2991de6965070859e03eb86ecc236d50c6ad94687aaf98d2368fabf0d3",
+          "paper_id": "doi:10.1007/s11704-026-60308-3",
+          "title": "A Survey of Large Language Models",
+          "year": 2026,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 12
+    },
+    {
+      "union_id": "union:fca12a0f8b043513ec8127d0b5aada2e6b9f8ce28f1f0554ac790e38d211d0f1",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 13,
+          "group_id": "version:50f6bfc3df4f028ae08dffcef8ef3d11f0ed0fd039b442c7bfd978b9782aa7ad",
+          "paper_id": "doi:10.1038/s42256-024-00881-z",
+          "title": "Factuality challenges in the era of large language models and opportunities for fact-checking",
+          "year": 2024,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 13
+    },
+    {
+      "union_id": "union:6f95939ad552d9c84f76e67698afda98378a1083ef0fed09fc68bcb497c4b1ab",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 14,
+          "group_id": "version:27441e1edc404f8806e8bb5905e7172d650205772f876c9c338e8e29cf366956",
+          "paper_id": "doi:10.18653/v1/2023.emnlp-main.867",
+          "title": "KCTS: Knowledge-Constrained Tree Search Decoding with Token-Level Hallucination Detection",
+          "year": 2023,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 14
+    },
+    {
+      "union_id": "union:d7e55a242b2e1d743c51dfc9cda3feb6deea926c5bc2f8bf8278f24c4b20e2ca",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 15,
+          "group_id": "version:ed02109f0c0b59b42dea721b432cfd74cf0520e591148c3f543c90a8b8d1eea1",
+          "paper_id": "doi:10.1145/3637528.3671458",
+          "title": "Bias and Unfairness in Information Retrieval Systems: New Challenges in the LLM Era",
+          "year": 2024,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 15
+    },
+    {
+      "union_id": "union:4f391262d5ccbb506d87d461bf3de0d8a23301df9a835a60bb20be1c82f9a09f",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 18,
+          "group_id": "version:25bc7d6174fa99158ca2b1e7cc61cc3587c1df8ce9c113fbb43a273af08d2f91",
+          "paper_id": "doi:10.1162/tacl_a_00529",
+          "title": "FaithDial : A Faithful Benchmark for Information-Seeking Dialogue",
+          "year": 2022,
+          "version_count": 2
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 18
+    },
+    {
+      "union_id": "union:c35a265de8a066a815416d98456f957aec677a1f9a96a9e7cda83d1469b81b90",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 19,
+          "group_id": "version:2d5b1516fad483643cc576cf4246135cd32a938acb9cf122cf23257901492c21",
+          "paper_id": "doi:10.48550/arxiv.2312.02003",
+          "title": "A Survey on Large Language Model (LLM) Security and Privacy: The Good, the Bad, and the Ugly",
+          "year": 2023,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 19
+    },
+    {
+      "union_id": "union:40df839f32f950d32dafd3e42485e9a28fe26b1c55982e19478f0542d118849a",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 20,
+          "group_id": "version:38eef126348887cc6570c267db09d06d58c6a9de20a91d10b0ad1d24eeaa8b6a",
+          "paper_id": "doi:10.1007/978-981-96-1024-2_8",
+          "title": "Evaluation of Retrieval-Augmented Generation: A Survey",
+          "year": 2025,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 20
+    },
+    {
+      "union_id": "union:9f4fc6da726640e118c2cbef2a5109987492edee7ee85e29330dc5004ef0f8ec",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 21,
+          "group_id": "version:afeda3b5abe099d81e254ebdc9dc55d019749c30dc52ce6be53291f8f348f9ff",
+          "paper_id": "doi:10.18653/v1/2025.findings-emnlp.1035",
+          "title": "Evaluating Evaluation Metrics – The Mirage of Hallucination Detection",
+          "year": 2025,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 21
+    },
+    {
+      "union_id": "union:21d3b3d23964b41ca369ca6d07d57a4ffacbfa8a911424f1b0cd738536697215",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 22,
+          "group_id": "version:f52fd2cd183d5acefd4350e7c907a42e8b11c4c519c74cfde39f335f0839d978",
+          "paper_id": "doi:10.1145/3742420",
+          "title": "Survey on Factuality in Large Language Models",
+          "year": 2025,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 22
+    },
+    {
+      "union_id": "union:1d3a92d2846d833c7cbd0ee3f8957d4b05175381b79700a0f911edcb6fe81fb9",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 23,
+          "group_id": "version:a601b5ab0304c8241810a49184d14d1c333bd4a503de02791f68fc740e2be6c7",
+          "paper_id": "doi:10.1038/s41746-025-01519-z",
+          "title": "Retrieval augmented generation for 10 large language models and its generalizability in assessing medical fitness",
+          "year": 2025,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 23
+    },
+    {
+      "union_id": "union:8fadfd94ff33b9c745189332eacb8c15a1748c83183bbed4cf3d15f8599c0dbd",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 24,
+          "group_id": "version:c52ea2c3340c063503a79955887b6b65e9dfb56802e646cb805b679441cd1a4c",
+          "paper_id": "doi:10.4196/kjpp.2024.28.5.393",
+          "title": "The transformative impact of large language models on medical writing and publishing: current applications, challenges and future directions",
+          "year": 2024,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 24
+    },
+    {
+      "union_id": "union:b089c95540d7eb6ca25d79131f0767911a0ba79a656953768a8c346ab68500e7",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 25,
+          "group_id": "version:e46adc60f58952751d43fd168b4ef17aef7b582e6f35daaac7a6a482261666b5",
+          "paper_id": "doi:10.18653/v1/2024.emnlp-main.981",
+          "title": "Searching for Best Practices in Retrieval-Augmented Generation",
+          "year": 2024,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 25
+    },
+    {
+      "union_id": "union:79f5e8934d8b14537827a77c40de36da8e1c92ae10367342a3a13e8da9dd789f",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 27,
+          "group_id": "version:3b19fad8042a4592307db80f7c2736b8220fb1615c3799658d65556236df2dd7",
+          "paper_id": "doi:10.3390/bdcc9120309",
+          "title": "Evaluating Faithfulness in Agentic RAG Systems for e-Governance Applications Using LLM-Based Judging Frameworks",
+          "year": 2025,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 27
+    },
+    {
+      "union_id": "union:eee9fa58e4126dc221326d22a0858cea2249b59fbc16ecfd28d5e30ee85031c0",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 28,
+          "group_id": "version:d267d82cc75ea41632d0973a13e14b0c40e6ac7d915af4a5ab977ce753666185",
+          "paper_id": "doi:10.1016/j.fsidi.2025.301872",
+          "title": "ForensicLLM: A local large language model for digital forensics",
+          "year": 2025,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 28
+    },
+    {
+      "union_id": "union:aa0535752d6e8b825b7f37b72e1512f908ef56993fb09d4beb29ac0ad3e5f7b4",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 31,
+          "group_id": "version:bd1e666390619a79a579c7bb203d79e0280c63513e20759dd627ad6b540f030d",
+          "paper_id": "doi:10.1142/s0219843621500195",
+          "title": "Improving Dialog System Grounded with Unstructured Knowledge by Domain Adaptive Pre-Training and Post-Ranking",
+          "year": 2021,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 31
+    },
+    {
+      "union_id": "union:73769677aa679f8ff3ff3033be200e1aaae1f23e89171ebf4d44d3229fed75f2",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 32,
+          "group_id": "version:314f40ce250d4573b411a7ec3b6474f5e5861ea3d32bd0dab8ed5baaecbfa752",
+          "paper_id": "doi:10.1038/s41746-024-01391-3",
+          "title": "SurgeryLLM: a retrieval-augmented generation large language model framework for surgical decision support and workflow enhancement",
+          "year": 2024,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 32
+    },
+    {
+      "union_id": "union:5208d838a8eeef394ea6fcd09455dc6727c452cdc0209708a5884aa299ef09b7",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 33,
+          "group_id": "version:75e8b124e04d4d4a4a889920784d3a5ad9eaa6d9fd562b32cde7f2c14bd955cc",
+          "paper_id": "doi:10.18653/v1/2025.naacl-long.449",
+          "title": "Knowledge Graph-Guided Retrieval Augmented Generation",
+          "year": 2025,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 33
+    },
+    {
+      "union_id": "union:68db18b20484809eb49ca079620260be25b701b6f039068beaaed558f1a18759",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 34,
+          "group_id": "version:11fe4e18efb5cf237292b7085844bc1c04579fbeee2a754b14c7a6fa13cf7621",
+          "paper_id": "doi:10.18653/v1/2024.findings-acl.212",
+          "title": "Chain-of-Verification Reduces Hallucination in Large Language Models",
+          "year": 2024,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 34
+    },
+    {
+      "union_id": "union:538302f8c2d9ffa0d4de51c3a7666ac3a3eb93f9713fe6990b3cde23784c2cb0",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 36,
+          "group_id": "version:4bfb9fd13a64a0b5fd4f44ffa6659d686692cb9a1aa2708be534cb700b259922",
+          "paper_id": "doi:10.48550/arxiv.2305.13269",
+          "title": "Chain-of-Knowledge: Grounding Large Language Models via Dynamic Knowledge Adapting over Heterogeneous Sources",
+          "year": 2023,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 36
+    },
+    {
+      "union_id": "union:0c4c47ee18f76af8f20fcc8b1bbd956d1443f7ba5d6cf2162816abf3b5e7f850",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 37,
+          "group_id": "version:aa4eb3cda776f9a4346fca071f295f4a799657db75ed22080bf7f5ed440c8192",
+          "paper_id": "doi:10.1038/s41467-025-58551-6",
+          "title": "An automated framework for assessing how well LLMs cite relevant medical references",
+          "year": 2025,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 37
+    },
+    {
+      "union_id": "union:38891e1dddcc749df2e64b95ac22dafbbc0e12fa0bde1d7eb0f2e8b9312b151c",
+      "members": [
+        {
+          "source": "llm",
+          "original_rank": 38,
+          "group_id": "version:8481ad81b7a777fea02d64516ea023063d985e8e1970c5f26cc726b4f580596e",
+          "paper_id": "doi:10.3390/app14199103",
+          "title": "Automating Systematic Literature Reviews with Retrieval-Augmented Generation: A Comprehensive Overview",
+          "year": 2024,
+          "version_count": 1
+        }
+      ],
+      "present_in_human": false,
+      "present_in_llm": true,
+      "human_best_rank": null,
+      "llm_best_rank": 38
+    }
+  ],
+  "human_union_ranking": [
+    "union:a4ddb3a6e9858f507eb9e977e7ccc4dfbdaaeb8371c0c7b2846b3ec90635bb4b",
+    "union:0f068f25a4a6f68544edd1a9cd83f1ff9fcaf9455d9ca3ce2470945147ba83a2",
+    "union:995e2944980324fe0b1d9a04b09927594ade2ce461260685fbe8abcda17e8656",
+    "union:1a71fa5a65388c849277677dc12e09c3e0778fefad2789a222d7af2148448056",
+    "union:10237208d498c736e85239aa7bf1b872ab4ef571678c77b4e5fd1add7ba37656",
+    "union:074db086ba7eec9b7e52f6fd804fde2b1b67da0674adf4f4242dd379e0114d9d",
+    "union:1d75e64d4955cac034356ba7e1dd8ede7007967fc44dc800fc38c836968d6b35",
+    "union:334aa4bfbd445cd5e87b8967c2c30daba6a5213853559aae9c46d4f8cbaf96a6",
+    "union:67c18afddba53182dee206eede36d91b8a128fbf08e4693d1103a2ad0b08725b",
+    "union:7f0d9d58480a55a7caa2b3cee4c51a2f2b2a5ba243b3ac13c4b2a6d069ee8000",
+    "union:5c68cc08373ec17a93c528abd135c582651f31605549e3324f29b87409e872b5",
+    "union:e63a3cc4f8ede09d97009385734b2a7fe56e0149bb3d18c698397b4720e19e7a",
+    "union:ac6faaeb766e720e5090dae3af25160b8e5a6f7aff7ce3bb4d8f42b7649fdb16",
+    "union:3054ebbc674c3d4eb769b1f76e3413c410dbe124101b441382f0da7311d770bb",
+    "union:1580f79470af2f6309cb805f2a183d1e08fb33282d6c9ef89409840ea8acc8f7",
+    "union:a2d3897bc4e6f9b940fe85509775abb17e349f5151724105aeb114c716b6b401",
+    "union:2f0461817235b7cf17afef2515eba633f296164d8dc1a12dba043f093d4b1683"
+  ],
+  "llm_union_ranking": [
+    "union:a4ddb3a6e9858f507eb9e977e7ccc4dfbdaaeb8371c0c7b2846b3ec90635bb4b",
+    "union:0f068f25a4a6f68544edd1a9cd83f1ff9fcaf9455d9ca3ce2470945147ba83a2",
+    "union:e63a3cc4f8ede09d97009385734b2a7fe56e0149bb3d18c698397b4720e19e7a",
+    "union:074db086ba7eec9b7e52f6fd804fde2b1b67da0674adf4f4242dd379e0114d9d",
+    "union:10237208d498c736e85239aa7bf1b872ab4ef571678c77b4e5fd1add7ba37656",
+    "union:5e4ae8745ea4d01255e54f395be02a5e210e8753b25bdda2daa5ee3d4a359e31",
+    "union:a2d3897bc4e6f9b940fe85509775abb17e349f5151724105aeb114c716b6b401",
+    "union:0013362cb6189b93ec3d5a86b2c5ad691f5579001415da4055b1752eb6b07dbd",
+    "union:0f351b36074cce0dd29ddc1bf86ad44bc7d706f206ed7bc75ed4552bec291820",
+    "union:2aa5d8bd2acb5a2885cc5e3dd4611f6d5d0ac3d60daf7c91f6dfc47d50d7fe55",
+    "union:cf2573cf967ad2a67383d00b9baf7f3686e4dafcfe91fe73735a6688074db2a1",
+    "union:50971d48fd1d3760e58554f040236bb10f4c1770435893cf03abd2fda37b6032",
+    "union:fca12a0f8b043513ec8127d0b5aada2e6b9f8ce28f1f0554ac790e38d211d0f1",
+    "union:6f95939ad552d9c84f76e67698afda98378a1083ef0fed09fc68bcb497c4b1ab",
+    "union:d7e55a242b2e1d743c51dfc9cda3feb6deea926c5bc2f8bf8278f24c4b20e2ca",
+    "union:1d75e64d4955cac034356ba7e1dd8ede7007967fc44dc800fc38c836968d6b35",
+    "union:334aa4bfbd445cd5e87b8967c2c30daba6a5213853559aae9c46d4f8cbaf96a6",
+    "union:4f391262d5ccbb506d87d461bf3de0d8a23301df9a835a60bb20be1c82f9a09f",
+    "union:c35a265de8a066a815416d98456f957aec677a1f9a96a9e7cda83d1469b81b90",
+    "union:40df839f32f950d32dafd3e42485e9a28fe26b1c55982e19478f0542d118849a",
+    "union:9f4fc6da726640e118c2cbef2a5109987492edee7ee85e29330dc5004ef0f8ec",
+    "union:21d3b3d23964b41ca369ca6d07d57a4ffacbfa8a911424f1b0cd738536697215",
+    "union:1d3a92d2846d833c7cbd0ee3f8957d4b05175381b79700a0f911edcb6fe81fb9",
+    "union:8fadfd94ff33b9c745189332eacb8c15a1748c83183bbed4cf3d15f8599c0dbd",
+    "union:b089c95540d7eb6ca25d79131f0767911a0ba79a656953768a8c346ab68500e7",
+    "union:995e2944980324fe0b1d9a04b09927594ade2ce461260685fbe8abcda17e8656",
+    "union:79f5e8934d8b14537827a77c40de36da8e1c92ae10367342a3a13e8da9dd789f",
+    "union:eee9fa58e4126dc221326d22a0858cea2249b59fbc16ecfd28d5e30ee85031c0",
+    "union:ac6faaeb766e720e5090dae3af25160b8e5a6f7aff7ce3bb4d8f42b7649fdb16",
+    "union:1a71fa5a65388c849277677dc12e09c3e0778fefad2789a222d7af2148448056",
+    "union:aa0535752d6e8b825b7f37b72e1512f908ef56993fb09d4beb29ac0ad3e5f7b4",
+    "union:73769677aa679f8ff3ff3033be200e1aaae1f23e89171ebf4d44d3229fed75f2",
+    "union:5208d838a8eeef394ea6fcd09455dc6727c452cdc0209708a5884aa299ef09b7",
+    "union:68db18b20484809eb49ca079620260be25b701b6f039068beaaed558f1a18759",
+    "union:67c18afddba53182dee206eede36d91b8a128fbf08e4693d1103a2ad0b08725b",
+    "union:538302f8c2d9ffa0d4de51c3a7666ac3a3eb93f9713fe6990b3cde23784c2cb0",
+    "union:0c4c47ee18f76af8f20fcc8b1bbd956d1443f7ba5d6cf2162816abf3b5e7f850",
+    "union:38891e1dddcc749df2e64b95ac22dafbbc0e12fa0bde1d7eb0f2e8b9312b151c"
+  ],
+  "review_candidates": [],
+  "review_decisions": [],
+  "summary": {
+    "raw_human_groups": 17,
+    "raw_llm_groups": 38,
+    "canonical_human_works": 17,
+    "canonical_llm_works": 38,
+    "intersection": 12,
+    "human_only": 5,
+    "llm_only": 26,
+    "unresolved_title_pairs": 0
+  }
+}

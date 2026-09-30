@@ -1,0 +1,910 @@
+{
+  "schema_version": 1,
+  "experiment_id": "query_planner_v1",
+  "experiment": {
+    "comparison": "Human handcrafted queries versus frozen LLM Query Planner V1",
+    "relevance_set": "Final adopted canonical union relevance; all labels weighted equally",
+    "semantic_reranking": false,
+    "retrieval_rerun": false,
+    "recall_scope": "Full frozen canonical union for each benchmark, not the research literature",
+    "precision_denominator": 10,
+    "ndcg_gain": "2**relevance - 1",
+    "ndcg_discount": "log2(one_based_rank + 1)",
+    "ndcg_ideal_pool": "Full canonical union relevance set",
+    "macro_weighting": "Arithmetic mean, one equal weight per benchmark",
+    "shared_rank_definition": "One-based positions in canonical rankings after deduplication; original best ranks retained as audit fields",
+    "rank_delta_definition": "human_rank - llm_rank; positive means LLM ranked higher; diagnostic only",
+    "provenance_policy": "History retained; confidence, provenance, notes, and review completion do not affect metrics"
+  },
+  "benchmarks": {
+    "matrix_completion_v1": {
+      "benchmark_id": "matrix_completion_v1",
+      "research_question": "How does spectral expansion affect deterministic matrix completion under fixed observation patterns?",
+      "k": 10,
+      "structural_counts": {
+        "human_retrieved": 22,
+        "llm_retrieved": 30,
+        "intersection": 12,
+        "human_only": 10,
+        "llm_only": 18,
+        "union_size": 40
+      },
+      "label_counts": {
+        "human": {
+          "label_0": 10,
+          "label_1": 5,
+          "label_2": 7
+        },
+        "adopted": {
+          "label_0": 9,
+          "label_1": 4,
+          "label_2": 5
+        },
+        "final": {
+          "label_0": 19,
+          "label_1": 9,
+          "label_2": 12
+        }
+      },
+      "relevance_denominators": {
+        "relevant": 21,
+        "direct": 12
+      },
+      "rankings": {
+        "human": [
+          "union:5b5e3936a729135b882463b7d9076fd420b827764c807af1837e5e4436d80e2a",
+          "union:8c208e41b2f7692be27d2b865ec81b764c7588593776e60050ff12c9cbd90ce7",
+          "union:9605632ea0321cae4bd5d59f31c66db4b8c1674f2011ea8ab9a09b8493ef19da",
+          "union:8acd5654dad7b3d70043f9057a711574dab2f5cb4c8c0135c26c95ed649d727d",
+          "union:5d8ce79d6e2bc8bf32cf55b2521adab55c95454c76ce22aaa62c30dba88f194c",
+          "union:68a8fd801cffce5fa46db30cbee335bd5e3225963cad070d777eae41533fb57e",
+          "union:57ac13a4a10cb393a538a70111105915ef61033baa22af38083c14ccc6d56aac",
+          "union:848b337edc2bea5b71ea65e21f46db123dd5f27e3d0c3ab354aac5e3e5e56e03",
+          "union:38e35de0a38fa7cad8de50775cdd2e8bfa0ee6895f4ae8a6a6b143a9a52f8131",
+          "union:e12f93b69cbc4325423a27b89e776e1a89b549a663a1e4c2585524dfca583c3b",
+          "union:2603d17873118180508539c71341059b98496dbfeb574c7e9b72d0a10a97b9a8",
+          "union:281d245ce3279067d7ce39dd42c1a5f23bbbd5ca487789c264eaec151c380b3b",
+          "union:f38fd1fd59b1645ebb9488dc75e0ff42a144de7c43988dddbd395e291d27ff60",
+          "union:1355afb134e4c44cf34969eb4f40d8d5f9b9865c08bb4983fc0d720acd22cf66",
+          "union:5d93de44ef3ddb61824e4e79d34876684ddea489fee8521b8571e05f01e4c2e0",
+          "union:d9674f4b603f2d7a429d7263d8d0362fe1285cbc6841542875a15f874cbb4fa6",
+          "union:0d8caa4ab9f1db38af460d427ccb777c5293327859ed69d2e8ed7fa11f816300",
+          "union:bed034a268cf40f3bbdab14cf52452639bc7d11cffc8d92d426c233b29bd5b95",
+          "union:8c83904b6c814701be1c56739c357c2c06d284926afab5ae8217fc3c234f11bd",
+          "union:1fbab3286b930a3e374a2d9bcb8eff0d704ad273242a5b380ee10f807dc0916a",
+          "union:02d6416cacc6d69210d51d5f6ecddc38077f7a57f4564c3740bfad9d64000c50",
+          "union:9e9277c746d063948b972cf392b43e0d10bcda5fb6f55ca29327501f72920d75"
+        ],
+        "llm": [
+          "union:5b5e3936a729135b882463b7d9076fd420b827764c807af1837e5e4436d80e2a",
+          "union:68a8fd801cffce5fa46db30cbee335bd5e3225963cad070d777eae41533fb57e",
+          "union:f38fd1fd59b1645ebb9488dc75e0ff42a144de7c43988dddbd395e291d27ff60",
+          "union:9605632ea0321cae4bd5d59f31c66db4b8c1674f2011ea8ab9a09b8493ef19da",
+          "union:b374e0fa1f29d368a6c2ed70723cbad9d8109d69fda0a1ea91a4c361a3902130",
+          "union:02d6416cacc6d69210d51d5f6ecddc38077f7a57f4564c3740bfad9d64000c50",
+          "union:c0b973b059b4e2be3951bb9bbeed9e260dbb6d9a3c5635d3f0c9a082ba9f5c3d",
+          "union:fe269d708df4a40c8b44d3f4e540f0940c57df68fa1cbfc7f3a26a4825ae52de",
+          "union:0d8caa4ab9f1db38af460d427ccb777c5293327859ed69d2e8ed7fa11f816300",
+          "union:5e20bfa90c5f973fa728f073ff5fe856decda1890401db4a35842a0858019a1d",
+          "union:8c208e41b2f7692be27d2b865ec81b764c7588593776e60050ff12c9cbd90ce7",
+          "union:e12f93b69cbc4325423a27b89e776e1a89b549a663a1e4c2585524dfca583c3b",
+          "union:98e8916d5a96436083c6c82eb34d957e1ec322ffbc144bbead8072e428e4db51",
+          "union:0381a7abe02700a70072e31fe0eda9a488ed819daee210fb323dd977ce95cf2b",
+          "union:54d2a409d20e5a52ea3307dba3c55da019604b2facd764ff2b00a9556742ad65",
+          "union:38e35de0a38fa7cad8de50775cdd2e8bfa0ee6895f4ae8a6a6b143a9a52f8131",
+          "union:8af083e009b40e5a15bf23c77ddc325d540f74f335d4a01c2a2d7d65a91645f5",
+          "union:3db627f9ff938c082812520cc99356174a0252986591d6237fd5506b27fee689",
+          "union:8acd5654dad7b3d70043f9057a711574dab2f5cb4c8c0135c26c95ed649d727d",
+          "union:7fc07130ae07606ffc32a755d2f014873e847d5c5c3d4aa1718a25e3ab5a6c8a",
+          "union:2603d17873118180508539c71341059b98496dbfeb574c7e9b72d0a10a97b9a8",
+          "union:d8863daeba02025744235f7aff3e8da7e0cf2d80671eaed22d94b7a5089cf5a1",
+          "union:97d5359cdb7f3129e67c4d1137b6796784bd97254c8f5cc679af346b8a9de0b9",
+          "union:b68ec275c3ea2faff30dc817fd1144d202045c0353c3b619bb6b70c7c2f1a780",
+          "union:f4f2b55386ed20a2674cc7ca19c470559dfaef40a84cd443d5da7621d05f6d64",
+          "union:5d93de44ef3ddb61824e4e79d34876684ddea489fee8521b8571e05f01e4c2e0",
+          "union:1897f6163d9c02b64814033d5cfdb835ce83a0207943059ae8717357789927c6",
+          "union:b02809e166666377b7c4bd4233baf9c6651ff0377d3204a332af7f0d5d3994d3",
+          "union:828a27173a5870f38743b7b035a70cf165d5324e51546a8458e68f2956ec8e2e",
+          "union:4c2728fb1bc544a3014b63900a25536818fdcc1dbcedcd4e3e52e078027a9a4c"
+        ]
+      },
+      "retrieved_counts": {
+        "human": {
+          "relevant": 12,
+          "direct": 7
+        },
+        "llm": {
+          "relevant": 17,
+          "direct": 10
+        }
+      },
+      "metrics": {
+        "human": {
+          "relevant_recall": 0.5714285714285714,
+          "direct_recall": 0.5833333333333334,
+          "precision_at_10": 0.6,
+          "strict_precision_at_10": 0.5,
+          "ndcg_at_10": 0.5880434804412078
+        },
+        "llm": {
+          "relevant_recall": 0.8095238095238095,
+          "direct_recall": 0.8333333333333334,
+          "precision_at_10": 0.9,
+          "strict_precision_at_10": 0.5,
+          "ndcg_at_10": 0.7010817729721175
+        },
+        "delta": {
+          "relevant_recall": 0.23809523809523814,
+          "direct_recall": 0.25,
+          "precision_at_10": 0.30000000000000004,
+          "strict_precision_at_10": 0.0,
+          "ndcg_at_10": 0.11303829253090969
+        }
+      },
+      "unique_coverage": {
+        "human_only": {
+          "total_unique_works": 10,
+          "label_0": 6,
+          "label_1": 2,
+          "label_2": 2,
+          "off_target_unique_works": 6,
+          "supporting_unique_works": 2,
+          "direct_core_unique_works": 2,
+          "relevant_unique_works": 4
+        },
+        "llm_only": {
+          "total_unique_works": 18,
+          "label_0": 9,
+          "label_1": 4,
+          "label_2": 5,
+          "off_target_unique_works": 9,
+          "supporting_unique_works": 4,
+          "direct_core_unique_works": 5,
+          "relevant_unique_works": 9
+        }
+      },
+      "shared_work_rank_diagnostics": [
+        {
+          "union_id": "union:5b5e3936a729135b882463b7d9076fd420b827764c807af1837e5e4436d80e2a",
+          "title": "A Characterization of Deterministic Sampling Patterns for Low-Rank Matrix Completion",
+          "relevance": 2,
+          "human_rank": 1,
+          "llm_rank": 1,
+          "rank_delta": 0,
+          "human_best_original_rank": 1,
+          "llm_best_original_rank": 1
+        },
+        {
+          "union_id": "union:8c208e41b2f7692be27d2b865ec81b764c7588593776e60050ff12c9cbd90ce7",
+          "title": "Implicit Regularization in Nonconvex Statistical Estimation: Gradient Descent Converges Linearly for Phase Retrieval, Matrix Completion, and Blind Deconvolution",
+          "relevance": 0,
+          "human_rank": 2,
+          "llm_rank": 11,
+          "rank_delta": -9,
+          "human_best_original_rank": 2,
+          "llm_best_original_rank": 11
+        },
+        {
+          "union_id": "union:9605632ea0321cae4bd5d59f31c66db4b8c1674f2011ea8ab9a09b8493ef19da",
+          "title": "On Deterministic Sampling Patterns for Robust Low-Rank Matrix Completion",
+          "relevance": 2,
+          "human_rank": 3,
+          "llm_rank": 4,
+          "rank_delta": -1,
+          "human_best_original_rank": 3,
+          "llm_best_original_rank": 4
+        },
+        {
+          "union_id": "union:8acd5654dad7b3d70043f9057a711574dab2f5cb4c8c0135c26c95ed649d727d",
+          "title": "De-biasing low-rank projection for matrix completion",
+          "relevance": 2,
+          "human_rank": 4,
+          "llm_rank": 19,
+          "rank_delta": -15,
+          "human_best_original_rank": 4,
+          "llm_best_original_rank": 19
+        },
+        {
+          "union_id": "union:68a8fd801cffce5fa46db30cbee335bd5e3225963cad070d777eae41533fb57e",
+          "title": "Spectral gap in random bipartite biregular graphs and applications",
+          "relevance": 1,
+          "human_rank": 6,
+          "llm_rank": 2,
+          "rank_delta": 4,
+          "human_best_original_rank": 6,
+          "llm_best_original_rank": 2
+        },
+        {
+          "union_id": "union:38e35de0a38fa7cad8de50775cdd2e8bfa0ee6895f4ae8a6a6b143a9a52f8131",
+          "title": "Size biased couplings and the spectral gap for random regular graphs",
+          "relevance": 0,
+          "human_rank": 9,
+          "llm_rank": 16,
+          "rank_delta": -7,
+          "human_best_original_rank": 9,
+          "llm_best_original_rank": 16
+        },
+        {
+          "union_id": "union:e12f93b69cbc4325423a27b89e776e1a89b549a663a1e4c2585524dfca583c3b",
+          "title": "Matrix Completion with Deterministic Sampling: Theories and Methods",
+          "relevance": 2,
+          "human_rank": 10,
+          "llm_rank": 12,
+          "rank_delta": -2,
+          "human_best_original_rank": 10,
+          "llm_best_original_rank": 12
+        },
+        {
+          "union_id": "union:2603d17873118180508539c71341059b98496dbfeb574c7e9b72d0a10a97b9a8",
+          "title": "Entrywise eigenvector analysis of random matrices with low expected rank",
+          "relevance": 0,
+          "human_rank": 11,
+          "llm_rank": 21,
+          "rank_delta": -10,
+          "human_best_original_rank": 11,
+          "llm_best_original_rank": 22
+        },
+        {
+          "union_id": "union:f38fd1fd59b1645ebb9488dc75e0ff42a144de7c43988dddbd395e291d27ff60",
+          "title": "Spectral Gap-Based Seismic Survey Design",
+          "relevance": 2,
+          "human_rank": 13,
+          "llm_rank": 3,
+          "rank_delta": 10,
+          "human_best_original_rank": 13,
+          "llm_best_original_rank": 3
+        },
+        {
+          "union_id": "union:5d93de44ef3ddb61824e4e79d34876684ddea489fee8521b8571e05f01e4c2e0",
+          "title": "1-Bit Matrix Completion under Exact Low-Rank Constraint",
+          "relevance": 0,
+          "human_rank": 15,
+          "llm_rank": 26,
+          "rank_delta": -11,
+          "human_best_original_rank": 15,
+          "llm_best_original_rank": 27
+        },
+        {
+          "union_id": "union:0d8caa4ab9f1db38af460d427ccb777c5293327859ed69d2e8ed7fa11f816300",
+          "title": "Matrix Completion from $O(n)$ Samples in Linear Time",
+          "relevance": 1,
+          "human_rank": 17,
+          "llm_rank": 9,
+          "rank_delta": 8,
+          "human_best_original_rank": 17,
+          "llm_best_original_rank": 9
+        },
+        {
+          "union_id": "union:02d6416cacc6d69210d51d5f6ecddc38077f7a57f4564c3740bfad9d64000c50",
+          "title": "Corrections to “A Characterization of Deterministic Sampling Patterns for Low-Rank Matrix Completion”",
+          "relevance": 1,
+          "human_rank": 21,
+          "llm_rank": 6,
+          "rank_delta": 15,
+          "human_best_original_rank": 21,
+          "llm_best_original_rank": 6
+        }
+      ],
+      "shared_work_rank_summary": {
+        "shared_count": 12,
+        "llm_higher": 4,
+        "human_higher": 7,
+        "tied": 1
+      },
+      "input_artifacts": {
+        "manifest": {
+          "path": "eval/alignment/matrix_completion_v1_union_v1.json",
+          "sha256": "0271e8d1ab987083f1edbe538ee23892ca91a30d8e517fd57493487d02c39386"
+        },
+        "human_gold": {
+          "path": "eval/datasets/matrix_completion_v1.json",
+          "sha256": "e52b0fa208a49f85ce516d78713b16dc46889d6622609cb445e0b14e7086ad77"
+        },
+        "adopted_labels": {
+          "path": "eval/annotations/model_assisted/matrix_completion_v1_silver_labels_v1.json",
+          "sha256": "6063f3bc12c000073dcd1995137e26433c9b3e360bbf9a40e0f14868f0cc4c6d"
+        }
+      },
+      "final_relevance_artifact": "eval/datasets/matrix_completion_v1_union_relevance_v1.json"
+    },
+    "rag_hallucination_v1": {
+      "benchmark_id": "rag_hallucination_v1",
+      "research_question": "How does retrieval-augmented generation reduce hallucination and improve factuality in large language models?",
+      "k": 10,
+      "structural_counts": {
+        "human_retrieved": 17,
+        "llm_retrieved": 38,
+        "intersection": 12,
+        "human_only": 5,
+        "llm_only": 26,
+        "union_size": 43
+      },
+      "label_counts": {
+        "human": {
+          "label_0": 1,
+          "label_1": 12,
+          "label_2": 4
+        },
+        "adopted": {
+          "label_0": 6,
+          "label_1": 12,
+          "label_2": 8
+        },
+        "final": {
+          "label_0": 7,
+          "label_1": 24,
+          "label_2": 12
+        }
+      },
+      "relevance_denominators": {
+        "relevant": 36,
+        "direct": 12
+      },
+      "rankings": {
+        "human": [
+          "union:a4ddb3a6e9858f507eb9e977e7ccc4dfbdaaeb8371c0c7b2846b3ec90635bb4b",
+          "union:0f068f25a4a6f68544edd1a9cd83f1ff9fcaf9455d9ca3ce2470945147ba83a2",
+          "union:995e2944980324fe0b1d9a04b09927594ade2ce461260685fbe8abcda17e8656",
+          "union:1a71fa5a65388c849277677dc12e09c3e0778fefad2789a222d7af2148448056",
+          "union:10237208d498c736e85239aa7bf1b872ab4ef571678c77b4e5fd1add7ba37656",
+          "union:074db086ba7eec9b7e52f6fd804fde2b1b67da0674adf4f4242dd379e0114d9d",
+          "union:1d75e64d4955cac034356ba7e1dd8ede7007967fc44dc800fc38c836968d6b35",
+          "union:334aa4bfbd445cd5e87b8967c2c30daba6a5213853559aae9c46d4f8cbaf96a6",
+          "union:67c18afddba53182dee206eede36d91b8a128fbf08e4693d1103a2ad0b08725b",
+          "union:7f0d9d58480a55a7caa2b3cee4c51a2f2b2a5ba243b3ac13c4b2a6d069ee8000",
+          "union:5c68cc08373ec17a93c528abd135c582651f31605549e3324f29b87409e872b5",
+          "union:e63a3cc4f8ede09d97009385734b2a7fe56e0149bb3d18c698397b4720e19e7a",
+          "union:ac6faaeb766e720e5090dae3af25160b8e5a6f7aff7ce3bb4d8f42b7649fdb16",
+          "union:3054ebbc674c3d4eb769b1f76e3413c410dbe124101b441382f0da7311d770bb",
+          "union:1580f79470af2f6309cb805f2a183d1e08fb33282d6c9ef89409840ea8acc8f7",
+          "union:a2d3897bc4e6f9b940fe85509775abb17e349f5151724105aeb114c716b6b401",
+          "union:2f0461817235b7cf17afef2515eba633f296164d8dc1a12dba043f093d4b1683"
+        ],
+        "llm": [
+          "union:a4ddb3a6e9858f507eb9e977e7ccc4dfbdaaeb8371c0c7b2846b3ec90635bb4b",
+          "union:0f068f25a4a6f68544edd1a9cd83f1ff9fcaf9455d9ca3ce2470945147ba83a2",
+          "union:e63a3cc4f8ede09d97009385734b2a7fe56e0149bb3d18c698397b4720e19e7a",
+          "union:074db086ba7eec9b7e52f6fd804fde2b1b67da0674adf4f4242dd379e0114d9d",
+          "union:10237208d498c736e85239aa7bf1b872ab4ef571678c77b4e5fd1add7ba37656",
+          "union:5e4ae8745ea4d01255e54f395be02a5e210e8753b25bdda2daa5ee3d4a359e31",
+          "union:a2d3897bc4e6f9b940fe85509775abb17e349f5151724105aeb114c716b6b401",
+          "union:0013362cb6189b93ec3d5a86b2c5ad691f5579001415da4055b1752eb6b07dbd",
+          "union:0f351b36074cce0dd29ddc1bf86ad44bc7d706f206ed7bc75ed4552bec291820",
+          "union:2aa5d8bd2acb5a2885cc5e3dd4611f6d5d0ac3d60daf7c91f6dfc47d50d7fe55",
+          "union:cf2573cf967ad2a67383d00b9baf7f3686e4dafcfe91fe73735a6688074db2a1",
+          "union:50971d48fd1d3760e58554f040236bb10f4c1770435893cf03abd2fda37b6032",
+          "union:fca12a0f8b043513ec8127d0b5aada2e6b9f8ce28f1f0554ac790e38d211d0f1",
+          "union:6f95939ad552d9c84f76e67698afda98378a1083ef0fed09fc68bcb497c4b1ab",
+          "union:d7e55a242b2e1d743c51dfc9cda3feb6deea926c5bc2f8bf8278f24c4b20e2ca",
+          "union:1d75e64d4955cac034356ba7e1dd8ede7007967fc44dc800fc38c836968d6b35",
+          "union:334aa4bfbd445cd5e87b8967c2c30daba6a5213853559aae9c46d4f8cbaf96a6",
+          "union:4f391262d5ccbb506d87d461bf3de0d8a23301df9a835a60bb20be1c82f9a09f",
+          "union:c35a265de8a066a815416d98456f957aec677a1f9a96a9e7cda83d1469b81b90",
+          "union:40df839f32f950d32dafd3e42485e9a28fe26b1c55982e19478f0542d118849a",
+          "union:9f4fc6da726640e118c2cbef2a5109987492edee7ee85e29330dc5004ef0f8ec",
+          "union:21d3b3d23964b41ca369ca6d07d57a4ffacbfa8a911424f1b0cd738536697215",
+          "union:1d3a92d2846d833c7cbd0ee3f8957d4b05175381b79700a0f911edcb6fe81fb9",
+          "union:8fadfd94ff33b9c745189332eacb8c15a1748c83183bbed4cf3d15f8599c0dbd",
+          "union:b089c95540d7eb6ca25d79131f0767911a0ba79a656953768a8c346ab68500e7",
+          "union:995e2944980324fe0b1d9a04b09927594ade2ce461260685fbe8abcda17e8656",
+          "union:79f5e8934d8b14537827a77c40de36da8e1c92ae10367342a3a13e8da9dd789f",
+          "union:eee9fa58e4126dc221326d22a0858cea2249b59fbc16ecfd28d5e30ee85031c0",
+          "union:ac6faaeb766e720e5090dae3af25160b8e5a6f7aff7ce3bb4d8f42b7649fdb16",
+          "union:1a71fa5a65388c849277677dc12e09c3e0778fefad2789a222d7af2148448056",
+          "union:aa0535752d6e8b825b7f37b72e1512f908ef56993fb09d4beb29ac0ad3e5f7b4",
+          "union:73769677aa679f8ff3ff3033be200e1aaae1f23e89171ebf4d44d3229fed75f2",
+          "union:5208d838a8eeef394ea6fcd09455dc6727c452cdc0209708a5884aa299ef09b7",
+          "union:68db18b20484809eb49ca079620260be25b701b6f039068beaaed558f1a18759",
+          "union:67c18afddba53182dee206eede36d91b8a128fbf08e4693d1103a2ad0b08725b",
+          "union:538302f8c2d9ffa0d4de51c3a7666ac3a3eb93f9713fe6990b3cde23784c2cb0",
+          "union:0c4c47ee18f76af8f20fcc8b1bbd956d1443f7ba5d6cf2162816abf3b5e7f850",
+          "union:38891e1dddcc749df2e64b95ac22dafbbc0e12fa0bde1d7eb0f2e8b9312b151c"
+        ]
+      },
+      "retrieved_counts": {
+        "human": {
+          "relevant": 16,
+          "direct": 4
+        },
+        "llm": {
+          "relevant": 32,
+          "direct": 11
+        }
+      },
+      "metrics": {
+        "human": {
+          "relevant_recall": 0.4444444444444444,
+          "direct_recall": 0.3333333333333333,
+          "precision_at_10": 1.0,
+          "strict_precision_at_10": 0.3,
+          "ndcg_at_10": 0.5747405489838048
+        },
+        "llm": {
+          "relevant_recall": 0.8888888888888888,
+          "direct_recall": 0.9166666666666666,
+          "precision_at_10": 1.0,
+          "strict_precision_at_10": 0.5,
+          "ndcg_at_10": 0.6885976968000369
+        },
+        "delta": {
+          "relevant_recall": 0.4444444444444444,
+          "direct_recall": 0.5833333333333333,
+          "precision_at_10": 0.0,
+          "strict_precision_at_10": 0.2,
+          "ndcg_at_10": 0.11385714781623213
+        }
+      },
+      "unique_coverage": {
+        "human_only": {
+          "total_unique_works": 5,
+          "label_0": 1,
+          "label_1": 3,
+          "label_2": 1,
+          "off_target_unique_works": 1,
+          "supporting_unique_works": 3,
+          "direct_core_unique_works": 1,
+          "relevant_unique_works": 4
+        },
+        "llm_only": {
+          "total_unique_works": 26,
+          "label_0": 6,
+          "label_1": 12,
+          "label_2": 8,
+          "off_target_unique_works": 6,
+          "supporting_unique_works": 12,
+          "direct_core_unique_works": 8,
+          "relevant_unique_works": 20
+        }
+      },
+      "shared_work_rank_diagnostics": [
+        {
+          "union_id": "union:a4ddb3a6e9858f507eb9e977e7ccc4dfbdaaeb8371c0c7b2846b3ec90635bb4b",
+          "title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+          "relevance": 2,
+          "human_rank": 1,
+          "llm_rank": 1,
+          "rank_delta": 0,
+          "human_best_original_rank": 1,
+          "llm_best_original_rank": 1
+        },
+        {
+          "union_id": "union:0f068f25a4a6f68544edd1a9cd83f1ff9fcaf9455d9ca3ce2470945147ba83a2",
+          "title": "Active Retrieval Augmented Generation",
+          "relevance": 1,
+          "human_rank": 2,
+          "llm_rank": 2,
+          "rank_delta": 0,
+          "human_best_original_rank": 2,
+          "llm_best_original_rank": 2
+        },
+        {
+          "union_id": "union:995e2944980324fe0b1d9a04b09927594ade2ce461260685fbe8abcda17e8656",
+          "title": "Benchmarking Retrieval-Augmented Generation for Medicine",
+          "relevance": 1,
+          "human_rank": 3,
+          "llm_rank": 26,
+          "rank_delta": -23,
+          "human_best_original_rank": 3,
+          "llm_best_original_rank": 26
+        },
+        {
+          "union_id": "union:1a71fa5a65388c849277677dc12e09c3e0778fefad2789a222d7af2148448056",
+          "title": "Integrating Retrieval-Augmented Generation with Large Language Models in Nephrology: Advancing Practical Applications",
+          "relevance": 1,
+          "human_rank": 4,
+          "llm_rank": 30,
+          "rank_delta": -26,
+          "human_best_original_rank": 4,
+          "llm_best_original_rank": 30
+        },
+        {
+          "union_id": "union:10237208d498c736e85239aa7bf1b872ab4ef571678c77b4e5fd1add7ba37656",
+          "title": "RAGAs: Automated Evaluation of Retrieval Augmented Generation",
+          "relevance": 1,
+          "human_rank": 5,
+          "llm_rank": 5,
+          "rank_delta": 0,
+          "human_best_original_rank": 5,
+          "llm_best_original_rank": 5
+        },
+        {
+          "union_id": "union:074db086ba7eec9b7e52f6fd804fde2b1b67da0674adf4f4242dd379e0114d9d",
+          "title": "Benchmarking Large Language Models in Retrieval-Augmented Generation",
+          "relevance": 2,
+          "human_rank": 6,
+          "llm_rank": 4,
+          "rank_delta": 2,
+          "human_best_original_rank": 6,
+          "llm_best_original_rank": 4
+        },
+        {
+          "union_id": "union:1d75e64d4955cac034356ba7e1dd8ede7007967fc44dc800fc38c836968d6b35",
+          "title": "LightRAG: Simple and Fast Retrieval-Augmented Generation",
+          "relevance": 1,
+          "human_rank": 7,
+          "llm_rank": 16,
+          "rank_delta": -9,
+          "human_best_original_rank": 7,
+          "llm_best_original_rank": 16
+        },
+        {
+          "union_id": "union:334aa4bfbd445cd5e87b8967c2c30daba6a5213853559aae9c46d4f8cbaf96a6",
+          "title": "Improving the Domain Adaptation of Retrieval Augmented Generation (RAG) Models for Open Domain Question Answering",
+          "relevance": 1,
+          "human_rank": 8,
+          "llm_rank": 17,
+          "rank_delta": -9,
+          "human_best_original_rank": 8,
+          "llm_best_original_rank": 17
+        },
+        {
+          "union_id": "union:67c18afddba53182dee206eede36d91b8a128fbf08e4693d1103a2ad0b08725b",
+          "title": "Retrieval-augmented generation for educational application: A systematic survey",
+          "relevance": 1,
+          "human_rank": 9,
+          "llm_rank": 35,
+          "rank_delta": -26,
+          "human_best_original_rank": 9,
+          "llm_best_original_rank": 35
+        },
+        {
+          "union_id": "union:e63a3cc4f8ede09d97009385734b2a7fe56e0149bb3d18c698397b4720e19e7a",
+          "title": "Retrieval augmented generation for large language models in healthcare: A systematic review",
+          "relevance": 1,
+          "human_rank": 12,
+          "llm_rank": 3,
+          "rank_delta": 9,
+          "human_best_original_rank": 12,
+          "llm_best_original_rank": 3
+        },
+        {
+          "union_id": "union:ac6faaeb766e720e5090dae3af25160b8e5a6f7aff7ce3bb4d8f42b7649fdb16",
+          "title": "Retrieval-Augmented Generation for AI-Generated Content: A Survey",
+          "relevance": 1,
+          "human_rank": 13,
+          "llm_rank": 29,
+          "rank_delta": -16,
+          "human_best_original_rank": 13,
+          "llm_best_original_rank": 29
+        },
+        {
+          "union_id": "union:a2d3897bc4e6f9b940fe85509775abb17e349f5151724105aeb114c716b6b401",
+          "title": "Retrieval-Augmented Generation (RAG) in Healthcare: A Comprehensive Review",
+          "relevance": 2,
+          "human_rank": 16,
+          "llm_rank": 7,
+          "rank_delta": 9,
+          "human_best_original_rank": 16,
+          "llm_best_original_rank": 7
+        }
+      ],
+      "shared_work_rank_summary": {
+        "shared_count": 12,
+        "llm_higher": 3,
+        "human_higher": 6,
+        "tied": 3
+      },
+      "input_artifacts": {
+        "manifest": {
+          "path": "eval/alignment/rag_hallucination_v1_union_v1.json",
+          "sha256": "8145f3da22d52a7e031807fbf2797bfe462e6342fe66b8bd2dc5f6d0324e002e"
+        },
+        "human_gold": {
+          "path": "eval/datasets/rag_hallucination_v1.json",
+          "sha256": "01929b680b91302c208f8ddb347b32a1eb3afbd4a89ac9027c3e7170858dcbba"
+        },
+        "adopted_labels": {
+          "path": "eval/annotations/model_assisted/rag_hallucination_v1_silver_labels_v1.json",
+          "sha256": "02fd49c7c20c766dbd4d15648468ba5776dfb9b46751e049fe2742081d47ee00"
+        }
+      },
+      "final_relevance_artifact": "eval/datasets/rag_hallucination_v1_union_relevance_v1.json"
+    },
+    "cot_reasoning_faithfulness_v1": {
+      "benchmark_id": "cot_reasoning_faithfulness_v1",
+      "research_question": "How does chain-of-thought prompting affect reasoning accuracy and faithfulness in large language models?",
+      "k": 10,
+      "structural_counts": {
+        "human_retrieved": 22,
+        "llm_retrieved": 42,
+        "intersection": 7,
+        "human_only": 15,
+        "llm_only": 35,
+        "union_size": 57
+      },
+      "label_counts": {
+        "human": {
+          "label_0": 5,
+          "label_1": 11,
+          "label_2": 6
+        },
+        "adopted": {
+          "label_0": 21,
+          "label_1": 12,
+          "label_2": 2
+        },
+        "final": {
+          "label_0": 26,
+          "label_1": 23,
+          "label_2": 8
+        }
+      },
+      "relevance_denominators": {
+        "relevant": 31,
+        "direct": 8
+      },
+      "rankings": {
+        "human": [
+          "union:122d9d1b5f8486c091fd5f4bc5cca18fe3ab054f6aa79a197eb26871eabafab5",
+          "union:36842c292cc2146163dd9b623ec1ddf92b4168d62c246bca03e4fe4d96c19de8",
+          "union:bef3a95534e6bbb961d914644c3fe1bb82750464cbe4363eff9949a9d20e9103",
+          "union:96d91638d2647144346a83a8ca1cc0da53e8091698cf59bcbbf582615883c09b",
+          "union:05b3b2cebe5ea98dc7029424079b6b63722d0fc67a065e4f7cb695f89a34d9b8",
+          "union:04c65ee6a7ce3deaa314cd9c4b2c6713dbf783f6eed7cb1c6622b935589e262f",
+          "union:09a2a1fa045576065daa09eb6136099aa5d0f549bf71fb823758563298ecf5e4",
+          "union:60ea6e18d95245a7f9d3181dffa7e4d358a146fc84bc168758e594234cb7cba2",
+          "union:f81c7d4bddafd52eb75006121f985c94e57f049adfd1abb8c90cd4627f7e4a88",
+          "union:c9791e91145222392024b22a75e82e97381f543624872d6e3e80675efd400267",
+          "union:a64d4f659c3fa13b63ac18826446012f9ee4a21672092ff92159cfbef612052d",
+          "union:9ae3a6d9cae1c4ed57eb977c09fd14047b1af91d9872484ccd1f76ce9e37e670",
+          "union:c34817f636383bb71826e691ec3d1fca106fe7e38cb2562ca966dbe8489b970e",
+          "union:37c32ba980f41c38729f2ee1ec1a7eb9ae50d77b48600b5aea4a5e97879c12b0",
+          "union:27a1c4f54188ff806e529566abed1581fa76a818060b8d304bca9fea4398d6a0",
+          "union:d79e951b8cc6dd503158ec7cee460ae9d7c1f4bcaaa9fcf2585c1bf1d155ef5d",
+          "union:4febb348917aff092437bf928ca720c441900ceecd770f8448047817a8840ff1",
+          "union:a62750f462ab6bf0e14ecd109fa89a7e2cb213520fcd5c2163f87c76f9c907b1",
+          "union:62c128f6b00f4eb66cc7fad4f52fc21a2b3caff28c0c423610ec874832afc397",
+          "union:397edb0c7aa2622192e2ba74225714b901bfcce15839bfa6a5ccbcffe67f1c4e",
+          "union:19bfa10fdd5a8aec5618cdb2a944680543c2c3169875d5ea8d935320854d2aab",
+          "union:c8b1e6e1a4909cd495ca54b58aa0eed8541014303b9d422640b70924864a3a23"
+        ],
+        "llm": [
+          "union:122d9d1b5f8486c091fd5f4bc5cca18fe3ab054f6aa79a197eb26871eabafab5",
+          "union:a26a426d92ab7480066a3f0379b18367b7ea92799add0bc25dceb0292cefc000",
+          "union:7d2f214add732ac0ec37bedf69be8f877c6606222faa2c69160cdec2d20f8feb",
+          "union:1c1de556ea60379ede361fc816d5d14b443fe5324f4d7005e48c3cf9627c0be8",
+          "union:a62750f462ab6bf0e14ecd109fa89a7e2cb213520fcd5c2163f87c76f9c907b1",
+          "union:50971d48fd1d3760e58554f040236bb10f4c1770435893cf03abd2fda37b6032",
+          "union:4febb348917aff092437bf928ca720c441900ceecd770f8448047817a8840ff1",
+          "union:5e4ae8745ea4d01255e54f395be02a5e210e8753b25bdda2daa5ee3d4a359e31",
+          "union:05b3b2cebe5ea98dc7029424079b6b63722d0fc67a065e4f7cb695f89a34d9b8",
+          "union:62c128f6b00f4eb66cc7fad4f52fc21a2b3caff28c0c423610ec874832afc397",
+          "union:413d86d492fe54723b7f6ac5dcdd118fdcc1450e6db9a8183099c350c32a87b7",
+          "union:8d5885b0386c556860321bfc5248a90fd43551fc11a7676b91a2b52878531fe2",
+          "union:1884959c33fa9c725043da3a7ffe3b8a8ef0414a5928548a990113851f602411",
+          "union:53a4f83045965dcba52f4a80e96cc730111efa5dfb95bcd5e053aecf83ea8bc4",
+          "union:906a287885849ff7ec65ca0699ac664fe621611d61390d14166b2cf18a0bf512",
+          "union:5254507c56a67117f436481aaf305e25cd389d0d723d1c61da917dab09d6464e",
+          "union:60ea6e18d95245a7f9d3181dffa7e4d358a146fc84bc168758e594234cb7cba2",
+          "union:a554d41cbc5a11a54d6e55610fef6163e4e1b2a5713c4c971c87d218ffbb62f2",
+          "union:68db18b20484809eb49ca079620260be25b701b6f039068beaaed558f1a18759",
+          "union:d7ffcf5fec9755827964c319a5b2c6d7e2ecf25e4c955884ac655a05a3ef6b2a",
+          "union:68408ddfe4793c2e4bc6498e29e6ee99d0a928da4ad2190126a7e415ff8a405b",
+          "union:4f4361d6544cb9b6046b8578229ade80c14b6bd86296324cdefae07b0bd3eb8b",
+          "union:dfcabaf5006ff5cacbc192a51cc914466349339d74084a7982254bb900e34b10",
+          "union:53ecf35ab18a4ee58bc95da4c465e17bec7097bc0577bbf439fb17a4594ef370",
+          "union:8cbeff63c7ec64e732aa0ccc1b45c0a37fdf66589512d0a0f58d65d145936927",
+          "union:a5fb220a7718fde50f83b5fb0c1267158beb9e5f775a6d657c8922d1271cd2a7",
+          "union:19e6093d7cfedc5121d1d43ad05024715edc5c3e07c7b64905758a66e703d790",
+          "union:2ce7946f294dac60c3b3b1dccd6fcb2e292324d8822ada9c5c50a81ebf19de81",
+          "union:650827cbfa7f3327e5cf29e2a5e0ea202f886ef1f62089f60f192a8dbe877ca9",
+          "union:6d674899720f14071a6790d7df7940c473258680933482abe619cf12fecb4ac2",
+          "union:4547327d09947bb488e5cb7e6edee18cf1379e7a792c09e4de06940d52fca585",
+          "union:9e9e3c6175e90dde34dd87e6da1cf6db93ae6ca1c5f5d9f25fb9e4a02f3b7c62",
+          "union:c949cb0116d0d5febf64cb27bc928b6e1c481633781566680d035419d12ffe3c",
+          "union:060ff5a913fbe4725273b7e5d9231eda20d2ec4d5f3b795fc7b02c26cc76ebae",
+          "union:bb8aed419ca0fe2b330f8322350529c5a6d991d1740788f0d0140a38171644c1",
+          "union:304a028cc9820e348fbabf345b46d4e5e5a9b6c202178839d850f3228ea54e69",
+          "union:36842c292cc2146163dd9b623ec1ddf92b4168d62c246bca03e4fe4d96c19de8",
+          "union:da471aa5f4df7391e899bd27b3e79f6b5dbf7b6cd60e1cd70c887d0f9f01fab5",
+          "union:008c6f1ca4643b8f03c83c140bf72c69be70320d5090c4d687c173b068eff583",
+          "union:4adec69fc9e0423a1d8f99050120b26384280d42af32c88105e6a517a275c43b",
+          "union:0a44f0e09fbae91b5396a4fdc56d2bad6f1aedf951cf00f30d6137de43b93782",
+          "union:99975e67d7e195b1984faa53e35ef3220f831c6a7b555afc3995382f89d2d037"
+        ]
+      },
+      "retrieved_counts": {
+        "human": {
+          "relevant": 17,
+          "direct": 6
+        },
+        "llm": {
+          "relevant": 20,
+          "direct": 5
+        }
+      },
+      "metrics": {
+        "human": {
+          "relevant_recall": 0.5483870967741935,
+          "direct_recall": 0.75,
+          "precision_at_10": 0.8,
+          "strict_precision_at_10": 0.3,
+          "ndcg_at_10": 0.5731797942603793
+        },
+        "llm": {
+          "relevant_recall": 0.6451612903225806,
+          "direct_recall": 0.625,
+          "precision_at_10": 0.6,
+          "strict_precision_at_10": 0.4,
+          "ndcg_at_10": 0.6298879429856533
+        },
+        "delta": {
+          "relevant_recall": 0.09677419354838712,
+          "direct_recall": -0.125,
+          "precision_at_10": -0.20000000000000007,
+          "strict_precision_at_10": 0.10000000000000003,
+          "ndcg_at_10": 0.056708148725273966
+        }
+      },
+      "unique_coverage": {
+        "human_only": {
+          "total_unique_works": 15,
+          "label_0": 4,
+          "label_1": 8,
+          "label_2": 3,
+          "off_target_unique_works": 4,
+          "supporting_unique_works": 8,
+          "direct_core_unique_works": 3,
+          "relevant_unique_works": 11
+        },
+        "llm_only": {
+          "total_unique_works": 35,
+          "label_0": 21,
+          "label_1": 12,
+          "label_2": 2,
+          "off_target_unique_works": 21,
+          "supporting_unique_works": 12,
+          "direct_core_unique_works": 2,
+          "relevant_unique_works": 14
+        }
+      },
+      "shared_work_rank_diagnostics": [
+        {
+          "union_id": "union:122d9d1b5f8486c091fd5f4bc5cca18fe3ab054f6aa79a197eb26871eabafab5",
+          "title": "Automatic Chain of Thought Prompting in Large Language Models",
+          "relevance": 2,
+          "human_rank": 1,
+          "llm_rank": 1,
+          "rank_delta": 0,
+          "human_best_original_rank": 1,
+          "llm_best_original_rank": 1
+        },
+        {
+          "union_id": "union:36842c292cc2146163dd9b623ec1ddf92b4168d62c246bca03e4fe4d96c19de8",
+          "title": "Faithful Chain-of-Thought Reasoning",
+          "relevance": 1,
+          "human_rank": 2,
+          "llm_rank": 37,
+          "rank_delta": -35,
+          "human_best_original_rank": 2,
+          "llm_best_original_rank": 39
+        },
+        {
+          "union_id": "union:05b3b2cebe5ea98dc7029424079b6b63722d0fc67a065e4f7cb695f89a34d9b8",
+          "title": "Reasoning Implicit Sentiment with Chain-of-Thought Prompting",
+          "relevance": 0,
+          "human_rank": 5,
+          "llm_rank": 9,
+          "rank_delta": -4,
+          "human_best_original_rank": 5,
+          "llm_best_original_rank": 9
+        },
+        {
+          "union_id": "union:60ea6e18d95245a7f9d3181dffa7e4d358a146fc84bc168758e594234cb7cba2",
+          "title": "DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning",
+          "relevance": 1,
+          "human_rank": 8,
+          "llm_rank": 17,
+          "rank_delta": -9,
+          "human_best_original_rank": 8,
+          "llm_best_original_rank": 18
+        },
+        {
+          "union_id": "union:4febb348917aff092437bf928ca720c441900ceecd770f8448047817a8840ff1",
+          "title": "Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting",
+          "relevance": 2,
+          "human_rank": 17,
+          "llm_rank": 7,
+          "rank_delta": 10,
+          "human_best_original_rank": 17,
+          "llm_best_original_rank": 7
+        },
+        {
+          "union_id": "union:a62750f462ab6bf0e14ecd109fa89a7e2cb213520fcd5c2163f87c76f9c907b1",
+          "title": "Large Language Models are Zero-Shot Reasoners",
+          "relevance": 2,
+          "human_rank": 18,
+          "llm_rank": 5,
+          "rank_delta": 13,
+          "human_best_original_rank": 18,
+          "llm_best_original_rank": 5
+        },
+        {
+          "union_id": "union:62c128f6b00f4eb66cc7fad4f52fc21a2b3caff28c0c423610ec874832afc397",
+          "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+          "relevance": 1,
+          "human_rank": 19,
+          "llm_rank": 10,
+          "rank_delta": 9,
+          "human_best_original_rank": 19,
+          "llm_best_original_rank": 10
+        }
+      ],
+      "shared_work_rank_summary": {
+        "shared_count": 7,
+        "llm_higher": 3,
+        "human_higher": 3,
+        "tied": 1
+      },
+      "input_artifacts": {
+        "manifest": {
+          "path": "eval/alignment/cot_reasoning_faithfulness_v1_union_v1.json",
+          "sha256": "ba1e1ae98841e0484dbbe14c524099b50ebc37f6084d2cb1afca36c16b28e3e0"
+        },
+        "human_gold": {
+          "path": "eval/datasets/cot_reasoning_faithfulness_v1.json",
+          "sha256": "b457e0efdeac8b835b222bbdf4c3aa12aa4dcea49bc98e00a1dc45481063728c"
+        },
+        "adopted_labels": {
+          "path": "eval/annotations/model_assisted/cot_reasoning_faithfulness_v1_silver_labels_v1.json",
+          "sha256": "1346c1c86d34826fdc77168af528c34ad23573df98901e4597a7070df19de8ce"
+        }
+      },
+      "final_relevance_artifact": "eval/datasets/cot_reasoning_faithfulness_v1_union_relevance_v1.json"
+    }
+  },
+  "macro_metrics": {
+    "human": {
+      "relevant_recall": 0.5214200375490697,
+      "direct_recall": 0.5555555555555556,
+      "precision_at_10": 0.8000000000000002,
+      "strict_precision_at_10": 0.3666666666666667,
+      "ndcg_at_10": 0.5786546078951306
+    },
+    "llm": {
+      "relevant_recall": 0.7811913295784264,
+      "direct_recall": 0.7916666666666666,
+      "precision_at_10": 0.8333333333333334,
+      "strict_precision_at_10": 0.4666666666666666,
+      "ndcg_at_10": 0.6731891375859359
+    },
+    "delta": {
+      "relevant_recall": 0.25977129202935667,
+      "direct_recall": 0.23611111111111105,
+      "precision_at_10": 0.033333333333333215,
+      "strict_precision_at_10": 0.09999999999999992,
+      "ndcg_at_10": 0.09453452969080534
+    }
+  },
+  "totals": {
+    "judgments": 140,
+    "label_counts": {
+      "label_0": 52,
+      "label_1": 56,
+      "label_2": 32
+    },
+    "unique_coverage": {
+      "human_only": {
+        "total_unique_works": 30,
+        "label_0": 11,
+        "label_1": 13,
+        "label_2": 6,
+        "off_target_unique_works": 11,
+        "supporting_unique_works": 13,
+        "direct_core_unique_works": 6,
+        "relevant_unique_works": 19
+      },
+      "llm_only": {
+        "total_unique_works": 79,
+        "label_0": 36,
+        "label_1": 28,
+        "label_2": 15,
+        "off_target_unique_works": 36,
+        "supporting_unique_works": 28,
+        "direct_core_unique_works": 15,
+        "relevant_unique_works": 43
+      }
+    },
+    "counting_unit": "Benchmark-work pairs; no cross-question deduplication"
+  }
+}

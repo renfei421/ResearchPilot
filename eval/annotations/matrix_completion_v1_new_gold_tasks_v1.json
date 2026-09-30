@@ -1,0 +1,392 @@
+{
+  "schema_version": 1,
+  "benchmark_id": "matrix_completion_v1",
+  "version": "v1",
+  "research_question": "How does spectral expansion affect deterministic matrix completion under fixed observation patterns?",
+  "relevance_scale": {
+    "0": "Off-target for this benchmark",
+    "1": "Bridge/Supporting",
+    "2": "Direct/Core"
+  },
+  "expected_task_count": 18,
+  "tasks": [
+    {
+      "union_id": "union:0381a7abe02700a70072e31fe0eda9a488ed819daee210fb323dd977ce95cf2b",
+      "title": "Multimedia Data Recovery and Latent Factor Analysis",
+      "year": 2026,
+      "abstract": "Linear factor models (LFMs) provide a principled framework for discovering low-dimensional latent structures underlying high-dimensional multimedia data. This paper presents a mask-aware Expectation-Maximization (EM) formulation for estimating LFM/factor-analysis parameters when different images, or different image patches, have different missing-pixel locations. The probabilistic latent-variable model itself is classical; the contribution of this work is an explicit image-oriented estimation and recovery workflow in which the observation masks are used in both the E-step and a row-wise M-step. In particular, each pixel’s mean, loading-row parameters, and diagonal noise variance are estimated only from samples where that pixel is actually observed. The paper also clarifies the relationship to EM-FA, EM-PCA, probabilistic PCA, and matrix-completion methods, specifies a low-rank implementation of the observed-data likelihood, and provides a reproducible experimental protocol including initialization, stopping criteria, random-mask generation, classifier specification, repeated trials, and factor-ranking stability checks. Experiments on Camera Man patches and MNIST handwritten digits characterize reconstruction quality and classification accuracy under increasing missing-pixel ratios, with repeated random-mask and initialization trials reported as means and standard deviations. Latent-factor indices are interpreted only after component alignment and stability assessment across random initializations.",
+      "identifiers": [
+        "doi:10.33969/j-nana.2026.060203",
+        "version:4a4ffd8f6c24bbea3597260db28470d6ec455c528b3025d81105275b234fc6aa"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:4a4ffd8f6c24bbea3597260db28470d6ec455c528b3025d81105275b234fc6aa",
+          "paper_id": "doi:10.33969/j-nana.2026.060203",
+          "title": "Multimedia Data Recovery and Latent Factor Analysis",
+          "year": 2026,
+          "abstract": "Linear factor models (LFMs) provide a principled framework for discovering low-dimensional latent structures underlying high-dimensional multimedia data. This paper presents a mask-aware Expectation-Maximization (EM) formulation for estimating LFM/factor-analysis parameters when different images, or different image patches, have different missing-pixel locations. The probabilistic latent-variable model itself is classical; the contribution of this work is an explicit image-oriented estimation and recovery workflow in which the observation masks are used in both the E-step and a row-wise M-step. In particular, each pixel’s mean, loading-row parameters, and diagonal noise variance are estimated only from samples where that pixel is actually observed. The paper also clarifies the relationship to EM-FA, EM-PCA, probabilistic PCA, and matrix-completion methods, specifies a low-rank implementation of the observed-data likelihood, and provides a reproducible experimental protocol including initialization, stopping criteria, random-mask generation, classifier specification, repeated trials, and factor-ranking stability checks. Experiments on Camera Man patches and MNIST handwritten digits characterize reconstruction quality and classification accuracy under increasing missing-pixel ratios, with repeated random-mask and initialization trials reported as means and standard deviations. Latent-factor indices are interpreted only after component alignment and stability assessment across random initializations."
+        }
+      ],
+      "label": 0,
+      "note": ""
+    },
+    {
+      "union_id": "union:1897f6163d9c02b64814033d5cfdb835ce83a0207943059ae8717357789927c6",
+      "title": "Matrix Completion with Nonuniform Sampling: Theories and Methods.",
+      "year": 2018,
+      "abstract": "In some significant applications such as data forecasting, the locations of missing entries cannot obey any non-degenerate distributions, questioning the validity of the prevalent assumption that the missing data is randomly chosen according to some probabilistic model. To break through the limits of random sampling, we explore in this paper the problem of real-valued matrix completion under the setup of deterministic sampling. We propose two conditions, isomeric condition and relative well-conditionedness, for guaranteeing an arbitrary matrix to be recoverable from a sampling of the matrix entries. It is provable that the proposed conditions are weaker than the assumption of uniform sampling and, most importantly, it is also provable that the isomeric condition is necessary for the completions of any partial matrices to be identifiable. Equipped with these new tools, we prove a collection of theorems for missing data recovery as well as convex/nonconvex matrix completion. Among other things, we study in detail a Schatten quasi-norm induced method termed isomeric dictionary pursuit (IsoDP), and we show that IsoDP exhibits some distinct behaviors absent in the traditional bilinear programs.",
+      "identifiers": [
+        "openalex:W2802356633",
+        "version:f3473c04d56355fceb4f413f24fdc2f3834279d4b878dac0c362f1be6b73e3e9"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:f3473c04d56355fceb4f413f24fdc2f3834279d4b878dac0c362f1be6b73e3e9",
+          "paper_id": "openalex:W2802356633",
+          "title": "Matrix Completion with Nonuniform Sampling: Theories and Methods.",
+          "year": 2018,
+          "abstract": "In some significant applications such as data forecasting, the locations of missing entries cannot obey any non-degenerate distributions, questioning the validity of the prevalent assumption that the missing data is randomly chosen according to some probabilistic model. To break through the limits of random sampling, we explore in this paper the problem of real-valued matrix completion under the setup of deterministic sampling. We propose two conditions, isomeric condition and relative well-conditionedness, for guaranteeing an arbitrary matrix to be recoverable from a sampling of the matrix entries. It is provable that the proposed conditions are weaker than the assumption of uniform sampling and, most importantly, it is also provable that the isomeric condition is necessary for the completions of any partial matrices to be identifiable. Equipped with these new tools, we prove a collection of theorems for missing data recovery as well as convex/nonconvex matrix completion. Among other things, we study in detail a Schatten quasi-norm induced method termed isomeric dictionary pursuit (IsoDP), and we show that IsoDP exhibits some distinct behaviors absent in the traditional bilinear programs."
+        }
+      ],
+      "label": null,
+      "note": ""
+    },
+    {
+      "union_id": "union:3db627f9ff938c082812520cc99356174a0252986591d6237fd5506b27fee689",
+      "title": "Rosetta: A Method for Integration of Genetically Informative Studies of Reading Comprehension Development",
+      "year": 2025,
+      "abstract": "Purpose Data sets are often combined to increase power to better understand the development of reading. However, there is difficulty in measure alignment, resulting in harmonization issues for analysis and interpretation. This study uses Rosetta, which allows for the concurrent analysis of related but incompletely overlapping data, to combine the Western Reserve Reading Project (WRRP) and Colorado Longitudinal Twin Study (LTS) to analyze the development of reading.Method Reading comprehension was assessed across grades 1-5 and 9 (N = 1602; male = 49%), and across three reading comprehension measures in the WRRP sample (Mz = 135 pairs, Dz = 224 pairs) and the LTS sample (Mz = 205 pairs, Dz = 237 pairs). The primary language was English.Results Results demonstrate expected heritability, shared environmental, and nonshared environmental estimates, but with decreased standard error estimates. Rosetta is a useful tool for developing more robust results on the development of reading and other complex traits.",
+      "identifiers": [
+        "doi:10.1080/10888438.2025.2557919",
+        "version:58384fedf58271c3f246521e48c1711e1bc200f5181655a1ecbe6c7bcf7a65aa"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:58384fedf58271c3f246521e48c1711e1bc200f5181655a1ecbe6c7bcf7a65aa",
+          "paper_id": "doi:10.1080/10888438.2025.2557919",
+          "title": "Rosetta: A Method for Integration of Genetically Informative Studies of Reading Comprehension Development",
+          "year": 2025,
+          "abstract": "Purpose Data sets are often combined to increase power to better understand the development of reading. However, there is difficulty in measure alignment, resulting in harmonization issues for analysis and interpretation. This study uses Rosetta, which allows for the concurrent analysis of related but incompletely overlapping data, to combine the Western Reserve Reading Project (WRRP) and Colorado Longitudinal Twin Study (LTS) to analyze the development of reading.Method Reading comprehension was assessed across grades 1-5 and 9 (N = 1602; male = 49%), and across three reading comprehension measures in the WRRP sample (Mz = 135 pairs, Dz = 224 pairs) and the LTS sample (Mz = 205 pairs, Dz = 237 pairs). The primary language was English.Results Results demonstrate expected heritability, shared environmental, and nonshared environmental estimates, but with decreased standard error estimates. Rosetta is a useful tool for developing more robust results on the development of reading and other complex traits."
+        }
+      ],
+      "label": null,
+      "note": ""
+    },
+    {
+      "union_id": "union:4c2728fb1bc544a3014b63900a25536818fdcc1dbcedcd4e3e52e078027a9a4c",
+      "title": "Robust CUR Decomposition: Theory and Imaging Applications",
+      "year": 2021,
+      "abstract": "This paper considers the use of Robust PCA in a CUR decomposition framework and applications thereof. Our main algorithms produce a robust version of column-row factorizations of matrices $\\mathbf{D}=\\mathbf{L}+\\mathbf{S}$ where $\\mathbf{L}$ is low-rank and $\\mathbf{S}$ contains sparse outliers. These methods yield interpretable factorizations at low computational cost, and provide new CUR decompositions that are robust to sparse outliers, in contrast to previous methods. We consider two key imaging applications of Robust PCA: video foreground-background separation and face modeling. This paper examines the qualitative behavior of our Robust CUR decompositions on the benchmark videos and face datasets, and find that our method works as well as standard Robust PCA while being significantly faster. Additionally, we consider hybrid randomized and deterministic sampling methods which produce a compact CUR decomposition of a given matrix, and apply this to video sequences to produce canonical frames thereof.",
+      "identifiers": [
+        "doi:10.48550/arxiv.2101.05231",
+        "version:31a4487b9dfdb8e155f205a8b4aa6eaf3f5f769bf66b9ff6b553caae7f6491a0"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:31a4487b9dfdb8e155f205a8b4aa6eaf3f5f769bf66b9ff6b553caae7f6491a0",
+          "paper_id": "doi:10.48550/arxiv.2101.05231",
+          "title": "Robust CUR Decomposition: Theory and Imaging Applications",
+          "year": 2021,
+          "abstract": "This paper considers the use of Robust PCA in a CUR decomposition framework and applications thereof. Our main algorithms produce a robust version of column-row factorizations of matrices $\\mathbf{D}=\\mathbf{L}+\\mathbf{S}$ where $\\mathbf{L}$ is low-rank and $\\mathbf{S}$ contains sparse outliers. These methods yield interpretable factorizations at low computational cost, and provide new CUR decompositions that are robust to sparse outliers, in contrast to previous methods. We consider two key imaging applications of Robust PCA: video foreground-background separation and face modeling. This paper examines the qualitative behavior of our Robust CUR decompositions on the benchmark videos and face datasets, and find that our method works as well as standard Robust PCA while being significantly faster. Additionally, we consider hybrid randomized and deterministic sampling methods which produce a compact CUR decomposition of a given matrix, and apply this to video sequences to produce canonical frames thereof."
+        }
+      ],
+      "label": null,
+      "note": ""
+    },
+    {
+      "union_id": "union:54d2a409d20e5a52ea3307dba3c55da019604b2facd764ff2b00a9556742ad65",
+      "title": "Sparse graph based sketching for fast numerical linear algebra",
+      "year": 2021,
+      "abstract": "In recent years, a variety of randomized constructions of sketching matrices have been devised, that have been used in fast algorithms for numerical linear algebra problems, such as least squares regression, low-rank approximation, and the approximation of leverage scores. A key property of sketching matrices is that of subspace embedding. In this paper, we study sketching matrices that are obtained from bipartite graphs that are sparse, i.e., have left degree~s that is small. In particular, we explore two popular classes of sparse graphs, namely, expander graphs and magical graphs. For a given subspace $\\mathcal{U} \\subseteq \\mathbb{R}^n$ of dimension $k$, we show that the magical graph with left degree $s=2$ yields a $(1\\pm ε)$ ${\\ell}_2$-subspace embedding for $\\mathcal{U}$, if the number of right vertices (the sketch size) $m = \\mathcal{O}({k^2}/{ε^2})$. The expander graph with $s = \\mathcal{O}({\\log k}/ε)$ yields a subspace embedding for $m = \\mathcal{O}({k \\log k}/{ε^2})$. We also discuss the construction of sparse sketching matrices with reduced randomness using expanders based on error-correcting codes. Empirical results on various synthetic and real datasets show that these sparse graph sketching matrices work very well in practice.",
+      "identifiers": [
+        "doi:10.48550/arxiv.2102.05758",
+        "version:88adfd569fafb9f4b36198515a736eda095ff5e04386331a54e65fd610395236"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:88adfd569fafb9f4b36198515a736eda095ff5e04386331a54e65fd610395236",
+          "paper_id": "doi:10.48550/arxiv.2102.05758",
+          "title": "Sparse graph based sketching for fast numerical linear algebra",
+          "year": 2021,
+          "abstract": "In recent years, a variety of randomized constructions of sketching matrices have been devised, that have been used in fast algorithms for numerical linear algebra problems, such as least squares regression, low-rank approximation, and the approximation of leverage scores. A key property of sketching matrices is that of subspace embedding. In this paper, we study sketching matrices that are obtained from bipartite graphs that are sparse, i.e., have left degree~s that is small. In particular, we explore two popular classes of sparse graphs, namely, expander graphs and magical graphs. For a given subspace $\\mathcal{U} \\subseteq \\mathbb{R}^n$ of dimension $k$, we show that the magical graph with left degree $s=2$ yields a $(1\\pm ε)$ ${\\ell}_2$-subspace embedding for $\\mathcal{U}$, if the number of right vertices (the sketch size) $m = \\mathcal{O}({k^2}/{ε^2})$. The expander graph with $s = \\mathcal{O}({\\log k}/ε)$ yields a subspace embedding for $m = \\mathcal{O}({k \\log k}/{ε^2})$. We also discuss the construction of sparse sketching matrices with reduced randomness using expanders based on error-correcting codes. Empirical results on various synthetic and real datasets show that these sparse graph sketching matrices work very well in practice."
+        }
+      ],
+      "label": null,
+      "note": ""
+    },
+    {
+      "union_id": "union:5e20bfa90c5f973fa728f073ff5fe856decda1890401db4a35842a0858019a1d",
+      "title": "Compressive Sampling Photoacoustic Microscope System based on Low Rank Matrix Completion",
+      "year": 2016,
+      "abstract": null,
+      "identifiers": [
+        "doi:10.1016/j.bspc.2015.12.008",
+        "version:6d23fa50fa264a0d04e764d39d2bd77eb22f2c6be9cc1bfc2c5430d8c651db28"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:6d23fa50fa264a0d04e764d39d2bd77eb22f2c6be9cc1bfc2c5430d8c651db28",
+          "paper_id": "doi:10.1016/j.bspc.2015.12.008",
+          "title": "Compressive Sampling Photoacoustic Microscope System based on Low Rank Matrix Completion",
+          "year": 2016,
+          "abstract": null
+        }
+      ],
+      "label": null,
+      "note": ""
+    },
+    {
+      "union_id": "union:7fc07130ae07606ffc32a755d2f014873e847d5c5c3d4aa1718a25e3ab5a6c8a",
+      "title": "Matrix Completion in Almost-Verification Time",
+      "year": 2023,
+      "abstract": "We give a new framework for solving the fundamental problem of low-rank matrix completion, i.e., approximating a rank-$r$ matrix $\\mathbf{M} \\in \\mathbb{R}^{m \\times n}$ (where $m \\ge n$) from random observations. First, we provide an algorithm which completes $\\mathbf{M}$ on $99\\%$ of rows and columns under no further assumptions on $\\mathbf{M}$ from $\\approx mr$ samples and using $\\approx mr^2$ time. Then, assuming the row and column spans of $\\mathbf{M}$ satisfy additional regularity properties, we show how to boost this partial completion guarantee to a full matrix completion algorithm by aggregating solutions to regression problems involving the observations. In the well-studied setting where $\\mathbf{M}$ has incoherent row and column spans, our algorithms complete $\\mathbf{M}$ to high precision from $mr^{2+o(1)}$ observations in $mr^{3 + o(1)}$ time (omitting logarithmic factors in problem parameters), improving upon the prior state-of-the-art [JN15] which used $\\approx mr^5$ samples and $\\approx mr^7$ time. Under an assumption on the row and column spans of $\\mathbf{M}$ we introduce (which is satisfied by random subspaces with high probability), our sample complexity improves to an almost information-theoretically optimal $mr^{1 + o(1)}$, and our runtime improves to $mr^{2 + o(1)}$. Our runtimes have the appealing property of matching the best known runtime to verify that a rank-$r$ decomposition $\\mathbf{U}\\mathbf{V}^\\top$ agrees with the sampled observations. We also provide robust variants of our algorithms that, given random observations from $\\mathbf{M} + \\mathbf{N}$ with $\\|\\mathbf{N}\\|_{F} \\le Δ$, complete $\\mathbf{M}$ to Frobenius norm distance $\\approx r^{1.5}Δ$ in the same runtimes as the noiseless setting. Prior noisy matrix completion algorithms [CP10] only guaranteed a distance of $\\approx \\sqrt{n}Δ$.",
+      "identifiers": [
+        "doi:10.48550/arxiv.2308.03661",
+        "version:bb2c9870598605fb4453f100b1c4b2ef23f5984bb71c68cadd24c7dbb7a87037"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:bb2c9870598605fb4453f100b1c4b2ef23f5984bb71c68cadd24c7dbb7a87037",
+          "paper_id": "doi:10.48550/arxiv.2308.03661",
+          "title": "Matrix Completion in Almost-Verification Time",
+          "year": 2023,
+          "abstract": "We give a new framework for solving the fundamental problem of low-rank matrix completion, i.e., approximating a rank-$r$ matrix $\\mathbf{M} \\in \\mathbb{R}^{m \\times n}$ (where $m \\ge n$) from random observations. First, we provide an algorithm which completes $\\mathbf{M}$ on $99\\%$ of rows and columns under no further assumptions on $\\mathbf{M}$ from $\\approx mr$ samples and using $\\approx mr^2$ time. Then, assuming the row and column spans of $\\mathbf{M}$ satisfy additional regularity properties, we show how to boost this partial completion guarantee to a full matrix completion algorithm by aggregating solutions to regression problems involving the observations. In the well-studied setting where $\\mathbf{M}$ has incoherent row and column spans, our algorithms complete $\\mathbf{M}$ to high precision from $mr^{2+o(1)}$ observations in $mr^{3 + o(1)}$ time (omitting logarithmic factors in problem parameters), improving upon the prior state-of-the-art [JN15] which used $\\approx mr^5$ samples and $\\approx mr^7$ time. Under an assumption on the row and column spans of $\\mathbf{M}$ we introduce (which is satisfied by random subspaces with high probability), our sample complexity improves to an almost information-theoretically optimal $mr^{1 + o(1)}$, and our runtime improves to $mr^{2 + o(1)}$. Our runtimes have the appealing property of matching the best known runtime to verify that a rank-$r$ decomposition $\\mathbf{U}\\mathbf{V}^\\top$ agrees with the sampled observations. We also provide robust variants of our algorithms that, given random observations from $\\mathbf{M} + \\mathbf{N}$ with $\\|\\mathbf{N}\\|_{F} \\le Δ$, complete $\\mathbf{M}$ to Frobenius norm distance $\\approx r^{1.5}Δ$ in the same runtimes as the noiseless setting. Prior noisy matrix completion algorithms [CP10] only guaranteed a distance of $\\approx \\sqrt{n}Δ$."
+        }
+      ],
+      "label": null,
+      "note": ""
+    },
+    {
+      "union_id": "union:828a27173a5870f38743b7b035a70cf165d5324e51546a8458e68f2956ec8e2e",
+      "title": "Truncated Matrix Completion - An Empirical Study",
+      "year": 2022,
+      "abstract": "Low-rank Matrix Completion (LRMC) describes the problem where we wish to recover missing entries of partially observed low-rank matrix. Most existing matrix completion work deals with sampling procedures that are independent of the underlying data values. While this assumption allows the derivation of nice theoretical guarantees, it seldom holds in real-world applications. In this paper, we consider various settings where the sampling mask is dependent on the underlying data values, motivated by applications in sensing, sequential decision-making, and recommender systems. Through a series of experiments, we study and compare the performance of various LRMC algorithms that were originally successful for data-independent sampling patterns.",
+      "identifiers": [
+        "doi:10.23919/eusipco55093.2022.9909952",
+        "version:78790626a3c18d993829b5d03e94f3d8e7b74f4bf12b8bc8da47537b98130f6d"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:78790626a3c18d993829b5d03e94f3d8e7b74f4bf12b8bc8da47537b98130f6d",
+          "paper_id": "doi:10.23919/eusipco55093.2022.9909952",
+          "title": "Truncated Matrix Completion - An Empirical Study",
+          "year": 2022,
+          "abstract": "Low-rank Matrix Completion (LRMC) describes the problem where we wish to recover missing entries of partially observed low-rank matrix. Most existing matrix completion work deals with sampling procedures that are independent of the underlying data values. While this assumption allows the derivation of nice theoretical guarantees, it seldom holds in real-world applications. In this paper, we consider various settings where the sampling mask is dependent on the underlying data values, motivated by applications in sensing, sequential decision-making, and recommender systems. Through a series of experiments, we study and compare the performance of various LRMC algorithms that were originally successful for data-independent sampling patterns."
+        }
+      ],
+      "label": null,
+      "note": ""
+    },
+    {
+      "union_id": "union:8af083e009b40e5a15bf23c77ddc325d540f74f335d4a01c2a2d7d65a91645f5",
+      "title": "Harmonic Mean Iteratively Reweighted Least Squares for Low-Rank Matrix Recovery",
+      "year": 2017,
+      "abstract": "We propose a new iteratively reweighted least squares (IRLS) algorithm for the recovery of a matrix $X \\in \\mathbb{C}^{d_1\\times d_2}$ of rank $r \\ll\\min(d_1,d_2)$ from incomplete linear observations, solving a sequence of low complexity linear problems. The easily implementable algorithm, which we call harmonic mean iteratively reweighted least squares (HM-IRLS), optimizes a non-convex Schatten-$p$ quasi-norm penalization to promote low-rankness and carries three major strengths, in particular for the matrix completion setting. First, we observe a remarkable global convergence behavior of the algorithm's iterates to the low-rank matrix for relevant, interesting cases, for which any other state-of-the-art optimization approach fails the recovery. Secondly, HM-IRLS exhibits an empirical recovery probability close to $1$ even for a number of measurements very close to the theoretical lower bound $r (d_1 +d_2 -r)$, i.e., already for significantly fewer linear observations than any other tractable approach in the literature. Thirdly, HM-IRLS exhibits a locally superlinear rate of convergence (of order $2-p$) if the linear observations fulfill a suitable null space property. While for the first two properties we have so far only strong empirical evidence, we prove the third property as our main theoretical result.",
+      "identifiers": [
+        "doi:10.48550/arxiv.1703.05038",
+        "version:981a9996776fde9eb4f46e9440ab50327c071e9eea60b6437a88f8b28d09f812"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:981a9996776fde9eb4f46e9440ab50327c071e9eea60b6437a88f8b28d09f812",
+          "paper_id": "doi:10.48550/arxiv.1703.05038",
+          "title": "Harmonic Mean Iteratively Reweighted Least Squares for Low-Rank Matrix Recovery",
+          "year": 2017,
+          "abstract": "We propose a new iteratively reweighted least squares (IRLS) algorithm for the recovery of a matrix $X \\in \\mathbb{C}^{d_1\\times d_2}$ of rank $r \\ll\\min(d_1,d_2)$ from incomplete linear observations, solving a sequence of low complexity linear problems. The easily implementable algorithm, which we call harmonic mean iteratively reweighted least squares (HM-IRLS), optimizes a non-convex Schatten-$p$ quasi-norm penalization to promote low-rankness and carries three major strengths, in particular for the matrix completion setting. First, we observe a remarkable global convergence behavior of the algorithm's iterates to the low-rank matrix for relevant, interesting cases, for which any other state-of-the-art optimization approach fails the recovery. Secondly, HM-IRLS exhibits an empirical recovery probability close to $1$ even for a number of measurements very close to the theoretical lower bound $r (d_1 +d_2 -r)$, i.e., already for significantly fewer linear observations than any other tractable approach in the literature. Thirdly, HM-IRLS exhibits a locally superlinear rate of convergence (of order $2-p$) if the linear observations fulfill a suitable null space property. While for the first two properties we have so far only strong empirical evidence, we prove the third property as our main theoretical result."
+        }
+      ],
+      "label": null,
+      "note": ""
+    },
+    {
+      "union_id": "union:97d5359cdb7f3129e67c4d1137b6796784bd97254c8f5cc679af346b8a9de0b9",
+      "title": "Robust Matrix Completion With Deterministic Sampling via Convex Optimization",
+      "year": 2026,
+      "abstract": "The problem of robust matrix completion-the recovery of a low-rank matrix and a sparse matrix from a sampling of their superposition-has been addressed extensively in prior literature. Yet, much of this work has focused exclusively on the case in which the matrix sampling is done at random, as this scenario is amenable to theoretical analysis. In contrast, sampling with an arbitrary deterministic pattern is often more accommodating to hardware implementation; consequently, the problem of robust matrix completion under deterministic sampling is considered. To this end, a restricted approximate isometry property is proposed and used, along with a modified golfing scheme and a slightly strengthened incoherence condition, to prove that the latent low-rank and sparse matrices are uniquely recoverable via convex optimization with asymptotically high probability, providing the first exact-recovery theory for robust matrix completion with arbitrary deterministic sampling. A corresponding convex-optimization algorithm, driven by a traditional nuclear norm, is developed and then subsequently generalized by substituting a convolutional nuclear norm in order to cover a broader range of application scenarios. Empirical experiments on synthetic data verify the proposed theory while a battery of results on real-world images demonstrate the practical efficacy of the generalized algorithm for robust matrix recovery.",
+      "identifiers": [
+        "doi:10.1109/tpami.2026.3659200",
+        "version:6d61975f148ae061ee24237423df10446fa8ef4bb57ff7531a7d8be35c9e7eb5"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:6d61975f148ae061ee24237423df10446fa8ef4bb57ff7531a7d8be35c9e7eb5",
+          "paper_id": "doi:10.1109/tpami.2026.3659200",
+          "title": "Robust Matrix Completion With Deterministic Sampling via Convex Optimization",
+          "year": 2026,
+          "abstract": "The problem of robust matrix completion-the recovery of a low-rank matrix and a sparse matrix from a sampling of their superposition-has been addressed extensively in prior literature. Yet, much of this work has focused exclusively on the case in which the matrix sampling is done at random, as this scenario is amenable to theoretical analysis. In contrast, sampling with an arbitrary deterministic pattern is often more accommodating to hardware implementation; consequently, the problem of robust matrix completion under deterministic sampling is considered. To this end, a restricted approximate isometry property is proposed and used, along with a modified golfing scheme and a slightly strengthened incoherence condition, to prove that the latent low-rank and sparse matrices are uniquely recoverable via convex optimization with asymptotically high probability, providing the first exact-recovery theory for robust matrix completion with arbitrary deterministic sampling. A corresponding convex-optimization algorithm, driven by a traditional nuclear norm, is developed and then subsequently generalized by substituting a convolutional nuclear norm in order to cover a broader range of application scenarios. Empirical experiments on synthetic data verify the proposed theory while a battery of results on real-world images demonstrate the practical efficacy of the generalized algorithm for robust matrix recovery."
+        }
+      ],
+      "label": null,
+      "note": ""
+    },
+    {
+      "union_id": "union:98e8916d5a96436083c6c82eb34d957e1ec322ffbc144bbead8072e428e4db51",
+      "title": "Expander Graph and Communication-Efficient Decentralized Optimization",
+      "year": 2016,
+      "abstract": "In this paper, we discuss how to design the graph topology to reduce the communication complexity of certain algorithms for decentralized optimization. Our goal is to minimize the total communication needed to achieve a prescribed accuracy. We discover that the so-called expander graphs are near-optimal choices. We propose three approaches to construct expander graphs for different numbers of nodes and node degrees. Our numerical results show that the performance of decentralized optimization is significantly better on expander graphs than other regular graphs.",
+      "identifiers": [
+        "doi:10.48550/arxiv.1612.00903",
+        "version:3f6352bc8aceeb8e8a1f6c98288d01839824abae3b8303d0da4194e728155c28"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:3f6352bc8aceeb8e8a1f6c98288d01839824abae3b8303d0da4194e728155c28",
+          "paper_id": "doi:10.48550/arxiv.1612.00903",
+          "title": "Expander Graph and Communication-Efficient Decentralized Optimization",
+          "year": 2016,
+          "abstract": "In this paper, we discuss how to design the graph topology to reduce the communication complexity of certain algorithms for decentralized optimization. Our goal is to minimize the total communication needed to achieve a prescribed accuracy. We discover that the so-called expander graphs are near-optimal choices. We propose three approaches to construct expander graphs for different numbers of nodes and node degrees. Our numerical results show that the performance of decentralized optimization is significantly better on expander graphs than other regular graphs."
+        }
+      ],
+      "label": null,
+      "note": ""
+    },
+    {
+      "union_id": "union:b02809e166666377b7c4bd4233baf9c6651ff0377d3204a332af7f0d5d3994d3",
+      "title": "Trellis codes with a good distance profile constructed from expander graphs",
+      "year": 2026,
+      "abstract": "We derive Singleton-type bounds on the free distance and column distances of trellis codes. Our results show that, at a given time instant, the maximum attainable column distance of trellis codes can exceed that of convolutional codes. Moreover, using expander graphs, we construct trellis codes over constant-size alphabets that achieve a rate-distance trade-off arbitrarily close to that of convolutional codes with a maximum distance profile. By comparison, all known constructions of convolutional codes with a maximum distance profile require working over alphabets whose size grows at least exponentially with the number of output symbols per time instant.",
+      "identifiers": [
+        "openalex:W7128554658",
+        "version:c2d285d3c1b1a5d332e6b5d40f4e1e0dc55194758a96930f0c2d71878904113a"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:c2d285d3c1b1a5d332e6b5d40f4e1e0dc55194758a96930f0c2d71878904113a",
+          "paper_id": "openalex:W7128554658",
+          "title": "Trellis codes with a good distance profile constructed from expander graphs",
+          "year": 2026,
+          "abstract": "We derive Singleton-type bounds on the free distance and column distances of trellis codes. Our results show that, at a given time instant, the maximum attainable column distance of trellis codes can exceed that of convolutional codes. Moreover, using expander graphs, we construct trellis codes over constant-size alphabets that achieve a rate-distance trade-off arbitrarily close to that of convolutional codes with a maximum distance profile. By comparison, all known constructions of convolutional codes with a maximum distance profile require working over alphabets whose size grows at least exponentially with the number of output symbols per time instant."
+        }
+      ],
+      "label": null,
+      "note": ""
+    },
+    {
+      "union_id": "union:b374e0fa1f29d368a6c2ed70723cbad9d8109d69fda0a1ea91a4c361a3902130",
+      "title": "Nonconvex deterministic matrix completion by projected gradient descent methods",
+      "year": 2026,
+      "abstract": null,
+      "identifiers": [
+        "doi:10.1016/j.jco.2026.102056",
+        "version:a4245144eb105941c340055578c004c80229d04cb4d5c87b7924cde39b8c0dd0"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:a4245144eb105941c340055578c004c80229d04cb4d5c87b7924cde39b8c0dd0",
+          "paper_id": "doi:10.1016/j.jco.2026.102056",
+          "title": "Nonconvex deterministic matrix completion by projected gradient descent methods",
+          "year": 2026,
+          "abstract": null
+        }
+      ],
+      "label": null,
+      "note": ""
+    },
+    {
+      "union_id": "union:b68ec275c3ea2faff30dc817fd1144d202045c0353c3b619bb6b70c7c2f1a780",
+      "title": "LERE: Learning-Based Low-Rank Matrix Recovery with Rank Estimation",
+      "year": 2024,
+      "abstract": "A fundamental task in the realms of computer vision, Low-Rank Matrix Recovery (LRMR) focuses on the inherent low-rank structure precise recovery from incomplete data and/or corrupted measurements given that the rank is a known prior or accurately estimated. However, it remains challenging for existing rank estimation methods to accurately estimate the rank of an ill-conditioned matrix. Also, existing LRMR optimization methods are heavily dependent on the chosen parameters, and are therefore difficult to adapt to different situations. Addressing these issues, A novel LEarning-based low-rank matrix recovery with Rank Estimation (LERE) is proposed. More specifically, considering the characteristics of the Gerschgorin disk's center and radius, a new heuristic decision rule in the Gerschgorin Disk Theorem is significantly enhanced and the low-rank boundary can be exactly located, which leads to a marked improvement in the accuracy of rank estimation. According to the estimated rank, we select row and column sub-matrices from the observation matrix by uniformly random sampling. A 17-iteration feedforward-recurrent-mixed neural network is then adapted to learn the parameters in the sub-matrix recovery processing. Finally, by the correlation of the row sub-matrix and column sub-matrix, LERE successfully recovers the underlying low-rank matrix. Overall, LERE is more efficient and robust than existing LRMR methods. Experimental results demonstrate that LERE surpasses state-of-the-art (SOTA) methods. The code for this work is accessible at https://github.com/zhengqinxu/LERE.",
+      "identifiers": [
+        "doi:10.1609/aaai.v38i14.29557",
+        "version:2282839c3fcf0f84825e98b057c189e1efabf8ed644b3ae824a3bc41db229e2c"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:2282839c3fcf0f84825e98b057c189e1efabf8ed644b3ae824a3bc41db229e2c",
+          "paper_id": "doi:10.1609/aaai.v38i14.29557",
+          "title": "LERE: Learning-Based Low-Rank Matrix Recovery with Rank Estimation",
+          "year": 2024,
+          "abstract": "A fundamental task in the realms of computer vision, Low-Rank Matrix Recovery (LRMR) focuses on the inherent low-rank structure precise recovery from incomplete data and/or corrupted measurements given that the rank is a known prior or accurately estimated. However, it remains challenging for existing rank estimation methods to accurately estimate the rank of an ill-conditioned matrix. Also, existing LRMR optimization methods are heavily dependent on the chosen parameters, and are therefore difficult to adapt to different situations. Addressing these issues, A novel LEarning-based low-rank matrix recovery with Rank Estimation (LERE) is proposed. More specifically, considering the characteristics of the Gerschgorin disk's center and radius, a new heuristic decision rule in the Gerschgorin Disk Theorem is significantly enhanced and the low-rank boundary can be exactly located, which leads to a marked improvement in the accuracy of rank estimation. According to the estimated rank, we select row and column sub-matrices from the observation matrix by uniformly random sampling. A 17-iteration feedforward-recurrent-mixed neural network is then adapted to learn the parameters in the sub-matrix recovery processing. Finally, by the correlation of the row sub-matrix and column sub-matrix, LERE successfully recovers the underlying low-rank matrix. Overall, LERE is more efficient and robust than existing LRMR methods. Experimental results demonstrate that LERE surpasses state-of-the-art (SOTA) methods. The code for this work is accessible at https://github.com/zhengqinxu/LERE."
+        }
+      ],
+      "label": null,
+      "note": ""
+    },
+    {
+      "union_id": "union:c0b973b059b4e2be3951bb9bbeed9e260dbb6d9a3c5635d3f0c9a082ba9f5c3d",
+      "title": "Weighted matrix completion from non-random, non-uniform sampling\\n patterns",
+      "year": 2019,
+      "abstract": "We study the matrix completion problem when the observation pattern is\\ndeterministic and possibly non-uniform. We propose a simple and efficient\\ndebiased projection scheme for recovery from noisy observations and analyze the\\nerror under a suitable weighted metric. We introduce a simple function of the\\nweight matrix and the sampling pattern that governs the accuracy of the\\nrecovered matrix. We derive theoretical guarantees that upper bound the\\nrecovery error and nearly matching lower bounds that showcase optimality in\\nseveral regimes. Our numerical experiments demonstrate the computational\\nefficiency and accuracy of our approach, and show that debiasing is essential\\nwhen using non-uniform sampling patterns.\\n",
+      "identifiers": [
+        "doi:10.48550/arxiv.1910.13986",
+        "version:42ee6423d0ddacd92377bac5cc1808dec1ca2d3dd86cecfb9260f53c6504dd6f"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:42ee6423d0ddacd92377bac5cc1808dec1ca2d3dd86cecfb9260f53c6504dd6f",
+          "paper_id": "doi:10.48550/arxiv.1910.13986",
+          "title": "Weighted matrix completion from non-random, non-uniform sampling\\n patterns",
+          "year": 2019,
+          "abstract": "We study the matrix completion problem when the observation pattern is\\ndeterministic and possibly non-uniform. We propose a simple and efficient\\ndebiased projection scheme for recovery from noisy observations and analyze the\\nerror under a suitable weighted metric. We introduce a simple function of the\\nweight matrix and the sampling pattern that governs the accuracy of the\\nrecovered matrix. We derive theoretical guarantees that upper bound the\\nrecovery error and nearly matching lower bounds that showcase optimality in\\nseveral regimes. Our numerical experiments demonstrate the computational\\nefficiency and accuracy of our approach, and show that debiasing is essential\\nwhen using non-uniform sampling patterns.\\n"
+        }
+      ],
+      "label": null,
+      "note": ""
+    },
+    {
+      "union_id": "union:d8863daeba02025744235f7aff3e8da7e0cf2d80671eaed22d94b7a5089cf5a1",
+      "title": "Low-Rank Matrix Completion Theory via Plücker Coordinates",
+      "year": 2023,
+      "abstract": "Despite the popularity of low-rank matrix completion, the majority of its theory has been developed under the assumption of random observation patterns, whereas very little is known about the practically relevant case of non-random patterns. Specifically, a fundamental yet largely open question is to describe patterns that allow for unique or finitely many completions. This paper provides three such families of patterns for any rank and any matrix size. A key to achieving this is a novel formulation of low-rank matrix completion in terms of Plücker coordinates, the latter a traditional tool in computer vision. This connection is of potential significance to a wide family of matrix and subspace learning problems with incomplete data.",
+      "identifiers": [
+        "doi:10.1109/tpami.2023.3250325",
+        "version:511365b184a50330c0213cf81df37f0e740515343c836533f9eff80ed53fbb88"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:511365b184a50330c0213cf81df37f0e740515343c836533f9eff80ed53fbb88",
+          "paper_id": "doi:10.1109/tpami.2023.3250325",
+          "title": "Low-Rank Matrix Completion Theory via Plücker Coordinates",
+          "year": 2023,
+          "abstract": "Despite the popularity of low-rank matrix completion, the majority of its theory has been developed under the assumption of random observation patterns, whereas very little is known about the practically relevant case of non-random patterns. Specifically, a fundamental yet largely open question is to describe patterns that allow for unique or finitely many completions. This paper provides three such families of patterns for any rank and any matrix size. A key to achieving this is a novel formulation of low-rank matrix completion in terms of Plücker coordinates, the latter a traditional tool in computer vision. This connection is of potential significance to a wide family of matrix and subspace learning problems with incomplete data."
+        }
+      ],
+      "label": null,
+      "note": ""
+    },
+    {
+      "union_id": "union:f4f2b55386ed20a2674cc7ca19c470559dfaef40a84cd443d5da7621d05f6d64",
+      "title": "An Introduction to Compressed Sensing",
+      "year": 2019,
+      "abstract": "The SIAM series on Computational Science and Engineering publishes research monographs, advanced undergraduate-or graduate-level textbooks, and other volumes of interest to an interdisciplinary CS&E community of computational mathematicians, computer scientists, scientists, and engineers.The series includes introductory volumes aimed at a broad audience of mathematically motivated readers interested in understanding methods and applications within computational science and engineering, monographs reporting on the most recent developments in the field, and volumes addressed to specific groups of professionals whose work relies extensively on computational science and engineering.SIAM created the CS&E series to support access to the rapid and far-ranging advances in computer modeling and simulation of complex problems in science and engineering, to promote the interdisciplinary culture required to meet these large-scale challenges, and to provide the means to the next generation of computational scientists and engineers.",
+      "identifiers": [
+        "doi:10.1137/1.9781611976120",
+        "version:a1c0926c664022d625e840c444ffcd59c2a06e402c8d85cfdcba2083dc2bb817"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:a1c0926c664022d625e840c444ffcd59c2a06e402c8d85cfdcba2083dc2bb817",
+          "paper_id": "doi:10.1137/1.9781611976120",
+          "title": "An Introduction to Compressed Sensing",
+          "year": 2019,
+          "abstract": "The SIAM series on Computational Science and Engineering publishes research monographs, advanced undergraduate-or graduate-level textbooks, and other volumes of interest to an interdisciplinary CS&E community of computational mathematicians, computer scientists, scientists, and engineers.The series includes introductory volumes aimed at a broad audience of mathematically motivated readers interested in understanding methods and applications within computational science and engineering, monographs reporting on the most recent developments in the field, and volumes addressed to specific groups of professionals whose work relies extensively on computational science and engineering.SIAM created the CS&E series to support access to the rapid and far-ranging advances in computer modeling and simulation of complex problems in science and engineering, to promote the interdisciplinary culture required to meet these large-scale challenges, and to provide the means to the next generation of computational scientists and engineers."
+        }
+      ],
+      "label": null,
+      "note": ""
+    },
+    {
+      "union_id": "union:fe269d708df4a40c8b44d3f4e540f0940c57df68fa1cbfc7f3a26a4825ae52de",
+      "title": "A Scalable Second Order Method for Ill-Conditioned Matrix Completion from Few Samples",
+      "year": 2021,
+      "abstract": "We propose an iterative algorithm for low-rank matrix completion that can be interpreted as an iteratively reweighted least squares (IRLS) algorithm, a saddle-escaping smoothing Newton method or a variable metric proximal gradient method applied to a non-convex rank surrogate. It combines the favorable data-efficiency of previous IRLS approaches with an improved scalability by several orders of magnitude. We establish the first local convergence guarantee from a minimal number of samples for that class of algorithms, showing that the method attains a local quadratic convergence rate. Furthermore, we show that the linear systems to be solved are well-conditioned even for very ill-conditioned ground truth matrices. We provide extensive experiments, indicating that unlike many state-of-the-art approaches, our method is able to complete very ill-conditioned matrices with a condition number of up to $10^{10}$ from few samples, while being competitive in its scalability.",
+      "identifiers": [
+        "doi:10.48550/arxiv.2106.02119",
+        "version:4c948a21b3d9efcabe4a85cac89a4c8e036c816a33ac3c63a7390cad2fadccf5"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:4c948a21b3d9efcabe4a85cac89a4c8e036c816a33ac3c63a7390cad2fadccf5",
+          "paper_id": "doi:10.48550/arxiv.2106.02119",
+          "title": "A Scalable Second Order Method for Ill-Conditioned Matrix Completion from Few Samples",
+          "year": 2021,
+          "abstract": "We propose an iterative algorithm for low-rank matrix completion that can be interpreted as an iteratively reweighted least squares (IRLS) algorithm, a saddle-escaping smoothing Newton method or a variable metric proximal gradient method applied to a non-convex rank surrogate. It combines the favorable data-efficiency of previous IRLS approaches with an improved scalability by several orders of magnitude. We establish the first local convergence guarantee from a minimal number of samples for that class of algorithms, showing that the method attains a local quadratic convergence rate. Furthermore, we show that the linear systems to be solved are well-conditioned even for very ill-conditioned ground truth matrices. We provide extensive experiments, indicating that unlike many state-of-the-art approaches, our method is able to complete very ill-conditioned matrices with a condition number of up to $10^{10}$ from few samples, while being competitive in its scalability."
+        }
+      ],
+      "label": null,
+      "note": ""
+    }
+  ]
+}

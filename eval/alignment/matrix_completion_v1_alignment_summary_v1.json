@@ -1,0 +1,14 @@
+{
+  "benchmark_id": "matrix_completion_v1",
+  "version": "v1",
+  "identity_review_complete": true,
+  "counts_status": "final",
+  "raw_human_groups": 22,
+  "raw_llm_groups": 31,
+  "canonical_human_works": 22,
+  "canonical_llm_works": 30,
+  "intersection": 12,
+  "human_only": 10,
+  "llm_only": 18,
+  "unresolved_title_pairs": 0
+}

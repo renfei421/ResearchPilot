@@ -1,0 +1,54 @@
+{
+  "benchmark_id": "matrix_completion_v1",
+  "planner_version": "v1",
+  "model": "gpt-5.6-terra",
+  "generated_at": "2026-09-17T07:14:54.304436+00:00",
+  "request": {
+    "research_question": "How does spectral expansion affect deterministic matrix completion under fixed observation patterns?",
+    "year_from": 2015,
+    "year_to": 2026,
+    "max_queries": 5
+  },
+  "plan": {
+    "research_question": "How does spectral expansion affect deterministic matrix completion under fixed observation patterns?",
+    "concepts": [
+      "spectral expansion",
+      "deterministic matrix completion",
+      "fixed observation patterns",
+      "expander graphs",
+      "sampling operators"
+    ],
+    "queries": [
+      {
+        "query_id": "q1",
+        "text": "\"deterministic matrix completion\" AND (\"spectral expansion\" OR expander)",
+        "role": "core",
+        "rationale": "Directly targets work analyzing deterministic completion guarantees through spectral expansion or expander structure."
+      },
+      {
+        "query_id": "q2",
+        "text": "\"matrix completion\" AND (\"fixed observation pattern\" OR \"deterministic sampling\")",
+        "role": "facet",
+        "rationale": "Covers the fixed-pattern and deterministic-observation constraint independently of a particular expansion formalism."
+      },
+      {
+        "query_id": "q3",
+        "text": "(\"bipartite expander\" OR \"expander graph\") AND \"matrix completion\"",
+        "role": "bridge",
+        "rationale": "Connects graph-expansion literature to matrix completion, where observation patterns are commonly represented as bipartite graphs."
+      },
+      {
+        "query_id": "q4",
+        "text": "(\"spectral gap\" OR \"second singular value\") AND (\"matrix completion\" OR \"low-rank matrix recovery\")",
+        "role": "synonym",
+        "rationale": "Retrieves studies using spectral-gap or singular-value terminology rather than the phrase spectral expansion."
+      },
+      {
+        "query_id": "q5",
+        "text": "(\"deterministic sampling\" OR \"graph-based sampling\") AND (\"low-rank matrix recovery\" OR \"low-rank matrix completion\")",
+        "role": "facet",
+        "rationale": "Broadens to adjacent low-rank recovery terminology and graph-defined sampling designs relevant to fixed observations."
+      }
+    ]
+  }
+}

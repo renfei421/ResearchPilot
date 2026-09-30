@@ -1,0 +1,360 @@
+{
+  "benchmark_id": "rag_hallucination_v1",
+  "question": "How does retrieval-augmented generation reduce hallucination and improve factuality in large language models?",
+  "candidates": [
+    {
+      "rrf_rank": 1,
+      "group_id": "version:dad91b6a012ec4c70b8c5162153987b08808c3719a75aba246b0f3838528c413",
+      "rrf_score": 0.04918032786885246,
+      "title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+      "paper_id": "doi:10.48550/arxiv.2312.10997",
+      "year": 2023,
+      "abstract": "Large Language Models (LLMs) showcase impressive capabilities but encounter challenges like hallucination, outdated knowledge, and non-transparent, untraceable reasoning processes. Retrieval-Augmented Generation (RAG) has emerged as a promising solution by incorporating knowledge from external databases. This enhances the accuracy and credibility of the generation, particularly for knowledge-intensive tasks, and allows for continuous knowledge updates and integration of domain-specific information. RAG synergistically merges LLMs' intrinsic knowledge with the vast, dynamic repositories of external databases. This comprehensive review paper offers a detailed examination of the progression of RAG paradigms, encompassing the Naive RAG, the Advanced RAG, and the Modular RAG. It meticulously scrutinizes the tripartite foundation of RAG frameworks, which includes the retrieval, the generation and the augmentation techniques. The paper highlights the state-of-the-art technologies embedded in each of these critical components, providing a profound understanding of the advancements in RAG systems. Furthermore, this paper introduces up-to-date evaluation framework and benchmark. At the end, this article delineates the challenges currently faced and points out prospective avenues for research and development.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q1",
+          "query_text": "\"retrieval augmented generation\" AND hallucination",
+          "rank": 1
+        },
+        {
+          "query_id": "q2",
+          "query_text": "\"retrieval augmented generation\" AND factuality",
+          "rank": 1
+        },
+        {
+          "query_id": "q3",
+          "query_text": "\"retrieval augmented generation\" AND grounding",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "rrf_rank": 2,
+      "group_id": "version:2022bab10e21d22fee7760455688a9ce74cea7a8a4ded58a86dd8d411834c2bb",
+      "rrf_score": 0.04838709677419355,
+      "title": "Active Retrieval Augmented Generation",
+      "paper_id": "doi:10.18653/v1/2023.emnlp-main.495",
+      "year": 2023,
+      "abstract": "Zhengbao Jiang, Frank Xu, Luyu Gao, Zhiqing Sun, Qian Liu, Jane Dwivedi-Yu, Yiming Yang, Jamie Callan, Graham Neubig. Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing. 2023.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q1",
+          "query_text": "\"retrieval augmented generation\" AND hallucination",
+          "rank": 2
+        },
+        {
+          "query_id": "q2",
+          "query_text": "\"retrieval augmented generation\" AND factuality",
+          "rank": 2
+        },
+        {
+          "query_id": "q3",
+          "query_text": "\"retrieval augmented generation\" AND grounding",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "rrf_rank": 3,
+      "group_id": "version:4fbc6af4e0bd5627101a52f16405d33b4b15043f4efaac31ca9a5240f4977fb7",
+      "rrf_score": 0.04664224664224664,
+      "title": "Benchmarking Retrieval-Augmented Generation for Medicine",
+      "paper_id": "doi:10.18653/v1/2024.findings-acl.372",
+      "year": 2024,
+      "abstract": "While large language models (LLMs) have achieved state-of-the-art performance on a wide range of medical question answering (QA) tasks, they still face challenges with hallucinations and outdated knowledge.Retrievalaugmented generation (RAG) is a promising solution and has been widely adopted.However, a RAG system can involve multiple flexible components, and there is a lack of best practices regarding the optimal RAG setting for various medical purposes.To systematically evaluate such systems, we propose the Medical Information Retrieval-Augmented Generation Evaluation (MIRAGE), a first-of-its-kind benchmark including 7,663 questions from five medical QA datasets.Using MIRAGE, we conducted large-scale experiments with over 1.8 trillion prompt tokens on 41 combinations of different corpora, retrievers, and backbone LLMs through the MEDRAG toolkit introduced in this work.Overall, MEDRAG improves the accuracy of six different LLMs by up to 18% over chain-of-thought prompting, elevating the performance of GPT-3.5 and Mixtral to GPT-4level.Our results show that the combination of various medical corpora and retrievers achieves the best performance.In addition, we discovered a log-linear scaling property and the \"lostin-the-middle\" effects in medical RAG.We believe our comprehensive evaluations can serve as practical guidelines for implementing RAG systems for medicine 1 .",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q1",
+          "query_text": "\"retrieval augmented generation\" AND hallucination",
+          "rank": 5
+        },
+        {
+          "query_id": "q2",
+          "query_text": "\"retrieval augmented generation\" AND factuality",
+          "rank": 5
+        },
+        {
+          "query_id": "q3",
+          "query_text": "\"retrieval augmented generation\" AND grounding",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "rrf_rank": 4,
+      "group_id": "version:55b8fea1a274330da0186b53fb630885f5b43687f531008e089414a626c5a690",
+      "rrf_score": 0.04395604395604395,
+      "title": "Integrating Retrieval-Augmented Generation with Large Language Models in Nephrology: Advancing Practical Applications",
+      "paper_id": "doi:10.3390/medicina60030445",
+      "year": 2024,
+      "abstract": "The integration of large language models (LLMs) into healthcare, particularly in nephrology, represents a significant advancement in applying advanced technology to patient care, medical research, and education. These advanced models have progressed from simple text processors to tools capable of deep language understanding, offering innovative ways to handle health-related data, thus improving medical practice efficiency and effectiveness. A significant challenge in medical applications of LLMs is their imperfect accuracy and/or tendency to produce hallucinations-outputs that are factually incorrect or irrelevant. This issue is particularly critical in healthcare, where precision is essential, as inaccuracies can undermine the reliability of these models in crucial decision-making processes. To overcome these challenges, various strategies have been developed. One such strategy is prompt engineering, like the chain-of-thought approach, which directs LLMs towards more accurate responses by breaking down the problem into intermediate steps or reasoning sequences. Another one is the retrieval-augmented generation (RAG) strategy, which helps address hallucinations by integrating external data, enhancing output accuracy and relevance. Hence, RAG is favored for tasks requiring up-to-date, comprehensive information, such as in clinical decision making or educational applications. In this article, we showcase the creation of a specialized ChatGPT model integrated with a RAG system, tailored to align with the KDIGO 2023 guidelines for chronic kidney disease. This example demonstrates its potential in providing specialized, accurate medical advice, marking a step towards more reliable and efficient nephrology practices.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q1",
+          "query_text": "\"retrieval augmented generation\" AND hallucination",
+          "rank": 10
+        },
+        {
+          "query_id": "q2",
+          "query_text": "\"retrieval augmented generation\" AND factuality",
+          "rank": 10
+        },
+        {
+          "query_id": "q3",
+          "query_text": "\"retrieval augmented generation\" AND grounding",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "rrf_rank": 5,
+      "group_id": "version:e1fee44aebdf33cb8404ac653537868c043f9ec8e169b7637c5909275f34bee5",
+      "rrf_score": 0.031746031746031744,
+      "title": "RAGAs: Automated Evaluation of Retrieval Augmented Generation",
+      "paper_id": "doi:10.18653/v1/2024.eacl-demo.16",
+      "year": 2024,
+      "abstract": "Shahul Es, Jithin James, Luis Espinosa Anke, Steven Schockaert. Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics: System Demonstrations. 2024.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q1",
+          "query_text": "\"retrieval augmented generation\" AND hallucination",
+          "rank": 3
+        },
+        {
+          "query_id": "q2",
+          "query_text": "\"retrieval augmented generation\" AND factuality",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "rrf_rank": 6,
+      "group_id": "version:9dc16cf734022405d7deac7415627d9338799889e4702ee8da9e36de88d48cf7",
+      "rrf_score": 0.03125,
+      "title": "Benchmarking Large Language Models in Retrieval-Augmented Generation",
+      "paper_id": "doi:10.1609/aaai.v38i16.29728",
+      "year": 2024,
+      "abstract": "Retrieval-Augmented Generation (RAG) is a promising approach for mitigating the hallucination of large language models (LLMs). However, existing research lacks rigorous evaluation of the impact of retrieval-augmented generation on different large language models, which make it challenging to identify the potential bottlenecks in the capabilities of RAG for different LLMs. In this paper, we systematically investigate the impact of Retrieval-Augmented Generation on large language models. We analyze the performance of different large language models in 4 fundamental abilities required for RAG, including noise robustness, negative rejection, information integration, and counterfactual robustness. To this end, we establish Retrieval-Augmented Generation Benchmark (RGB), a new corpus for RAG evaluation in both English and Chinese. RGB divides the instances within the benchmark into 4 separate testbeds based on the aforementioned fundamental abilities required to resolve the case. Then we evaluate 6 representative LLMs on RGB to diagnose the challenges of current LLMs when applying RAG. Evaluation reveals that while LLMs exhibit a certain degree of noise robustness, they still struggle significantly in terms of negative rejection, information integration, and dealing with false information. The aforementioned assessment outcomes indicate that there is still a considerable journey ahead to effectively apply RAG to LLMs.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q1",
+          "query_text": "\"retrieval augmented generation\" AND hallucination",
+          "rank": 4
+        },
+        {
+          "query_id": "q2",
+          "query_text": "\"retrieval augmented generation\" AND factuality",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "rrf_rank": 7,
+      "group_id": "version:3b183b2565682c9e0a852f62d6f8661369e28531a17a4cc762c10cc4483b972a",
+      "rrf_score": 0.030330882352941176,
+      "title": "LightRAG: Simple and Fast Retrieval-Augmented Generation",
+      "paper_id": "doi:10.18653/v1/2025.findings-emnlp.568",
+      "year": 2025,
+      "abstract": "Retrieval-Augmented Generation (RAG) systems enhance large language models (LLMs) by integrating external knowledge sources, enabling more accurate and contextually relevant responses tailored to user needs.However, existing RAG systems have significant limitations, including reliance on flat data representations and inadequate contextual awareness, which can lead to fragmented answers that fail to capture complex interdependencies.To address these challenges, we propose Ligh-tRAG, a novel framework that incorporates graph structures into text indexing and retrieval processes.This innovative approach employs a dual-level retrieval system that enhances comprehensive information retrieval from both lowand high-level knowledge discovery.Additionally, the integration of graph structures with vector representations facilitates efficient retrieval of related entities and their relationships, significantly improving response times while maintaining contextual relevance.This capability is further enhanced by an incremental update algorithm that ensures the timely integration of new data, allowing the system to remain effective and responsive in rapidly changing data environments.Extensive experimental validation demonstrates considerable improvements in retrieval accuracy and efficiency compared to existing approaches.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q2",
+          "query_text": "\"retrieval augmented generation\" AND factuality",
+          "rank": 8
+        },
+        {
+          "query_id": "q3",
+          "query_text": "\"retrieval augmented generation\" AND grounding",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "rrf_rank": 8,
+      "group_id": "version:8bb990637397dc668bbea1de538761db992641d93e9f6e8f6f24bd04004aba16",
+      "rrf_score": 0.03007688828584351,
+      "title": "Improving the Domain Adaptation of Retrieval Augmented Generation (RAG) Models for Open Domain Question Answering",
+      "paper_id": "doi:10.1162/tacl_a_00530",
+      "year": 2023,
+      "abstract": "Abstract Retrieval Augment Generation (RAG) is a recent advancement in Open-Domain Question Answering (ODQA). RAG has only been trained and explored with a Wikipedia-based external knowledge base and is not optimized for use in other specialized domains such as healthcare and news. In this paper, we evaluate the impact of joint training of the retriever and generator components of RAG for the task of domain adaptation in ODQA. We propose RAG-end2end, an extension to RAG that can adapt to a domain-specific knowledge base by updating all components of the external knowledge base during training. In addition, we introduce an auxiliary training signal to inject more domain-specific knowledge. This auxiliary signal forces RAG-end2end to reconstruct a given sentence by accessing the relevant information from the external knowledge base. Our novel contribution is that, unlike RAG, RAG-end2end does joint training of the retriever and generator for the end QA task and domain adaptation. We evaluate our approach with datasets from three domains: COVID-19, News, and Conversations, and achieve significant performance improvements compared to the original RAG model. Our work has been open-sourced through the HuggingFace Transformers library, attesting to our work’s credibility and technical consistency.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q1",
+          "query_text": "\"retrieval augmented generation\" AND hallucination",
+          "rank": 7
+        },
+        {
+          "query_id": "q2",
+          "query_text": "\"retrieval augmented generation\" AND factuality",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "rrf_rank": 9,
+      "group_id": "version:157358bbf0b8d63559f35a5d80b621cb0826a1a8ae80b31fcad798e6065b6e9f",
+      "rrf_score": 0.028985507246376812,
+      "title": "Retrieval-augmented generation for educational application: A systematic survey",
+      "paper_id": "doi:10.1016/j.caeai.2025.100417",
+      "year": 2025,
+      "abstract": "Advancements in large language models (LLMs) have transformed AI-driven education, enabling innovative applications across various learning and teaching domains. However, LLMs still face several challenges, including hallucination and static internal knowledge, which hinder their reliability in educational settings. Retrieval-Augmented Generation (RAG) enhances LLMs by retrieving relevant information from an external knowledge base and incorporating it into the LLM's generation process. This approach improves factual accuracy and enables dynamic knowledge updates, making LLMs particularly suitable for educational applications. In this paper, we comprehensively review existing research that integrates RAG into educational scenarios. We first clarify the definition and workflow of RAG, and following the indexing mechanism of RAG, we introduce different types of retrievers and generation optimization methods. As the main focus of this work, we explore the practical applications of RAG in education, covering interactive learning systems, generation and assessment of educational content, and large-scale deployment in educational ecosystems. Based on our comprehensive review, this paper discusses existing challenges and future directions, including mitigating hallucinations, ensuring the completeness and timeliness of retrieved knowledge, reducing computational costs, and enhancing multimodal support for RAG-based educational applications.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q1",
+          "query_text": "\"retrieval augmented generation\" AND hallucination",
+          "rank": 9
+        },
+        {
+          "query_id": "q2",
+          "query_text": "\"retrieval augmented generation\" AND factuality",
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "rrf_rank": 10,
+      "group_id": "version:530f9fcd99cbb05e7123fde8ac6b4fb565b1fadf7614b73643d6f759b35b4413",
+      "rrf_score": 0.015151515151515152,
+      "title": "Graph Retrieval-Augmented Generation: A Survey",
+      "paper_id": "doi:10.1145/3777378",
+      "year": 2025,
+      "abstract": "Recently, Retrieval-Augmented Generation (RAG) has achieved remarkable success in addressing the challenges of Large Language Models (LLMs) without necessitating retraining. By referencing an external knowledge base, RAG refines LLM outputs, effectively mitigating issues such as “hallucination,” lack of domain-specific knowledge, and outdated information. However, the complex structure of relationships among different entities in databases presents challenges for RAG systems. In response, GraphRAG leverages structural information across entities to enable more precise and comprehensive retrieval, capturing relational knowledge and facilitating more accurate, context-aware responses. Given the novelty and potential of GraphRAG, a systematic review of current technologies is imperative. This article provides the first comprehensive overview of GraphRAG methodologies. We formalize the GraphRAG workflow, encompassing Graph-Based Indexing, Graph-Guided Retrieval, and Graph-Enhanced Generation. We then outline the core technologies and training methods at each stage. Additionally, we examine downstream tasks, application domains, evaluation methodologies, and industrial use cases of GraphRAG. Finally, we explore future research directions to inspire further inquiries and advance progress in the field. In order to track recent progress, we set up a repository at https://github.com/pengboci/GraphRAG-Survey .",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q1",
+          "query_text": "\"retrieval augmented generation\" AND hallucination",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "rrf_rank": 11,
+      "group_id": "version:51181febdb3bd8698e120475d2f847daea1418dab086352cadb006d882306841",
+      "rrf_score": 0.015151515151515152,
+      "title": "Retrieval-Augmented Generation (RAG)",
+      "paper_id": "doi:10.1007/s12599-025-00945-3",
+      "year": 2025,
+      "abstract": "The necessity for information is a fundamental aspect of human nature, and as such, there are ongoing efforts to enhance information retrieval with information systems (Alavi and Leidner 2001 ; Alavi et al. 2024 ). Companies are particularly affected by this, as they have extensive data at their disposal, and employees need to access it. Unfortunately, current systems are not able to adequately meet employees’ expectations. In fact, studies have shown that 79% of employees are dissatisfied with the user interfaces of enterprise search systems (Cleverley and Burnett 2019 ). This has led to a need for new approaches that can better address the information needs of organizations.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q3",
+          "query_text": "\"retrieval augmented generation\" AND grounding",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "rrf_rank": 12,
+      "group_id": "version:5fbbc5b4185fff73f68233c73d34144a6a7b1bca46c0e0247ffc6045722948c7",
+      "rrf_score": 0.014925373134328358,
+      "title": "Retrieval augmented generation for large language models in healthcare: A systematic review",
+      "paper_id": "doi:10.1371/journal.pdig.0000877",
+      "year": 2025,
+      "abstract": "Large Language Models (LLMs) have demonstrated promising capabilities to solve complex tasks in critical sectors such as healthcare. However, LLMs are limited by their training data which is often outdated, the tendency to generate inaccurate (\"hallucinated\") content and a lack of transparency in the content they generate. To address these limitations, retrieval augmented generation (RAG) grounds the responses of LLMs by exposing them to external knowledge sources. However, in the healthcare domain there is currently a lack of systematic understanding of which datasets, RAG methodologies and evaluation frameworks are available. This review aims to bridge this gap by assessing RAG-based approaches employed by LLMs in healthcare, focusing on the different steps of retrieval, augmentation and generation. Additionally, we identify the limitations, strengths and gaps in the existing literature. Our synthesis shows that 78.9% of studies used English datasets and 21.1% of the datasets are in Chinese. We find that a range of techniques are employed RAG-based LLMs in healthcare, including Naive RAG, Advanced RAG, and Modular RAG. Surprisingly, proprietary models such as GPT-3.5/4 are the most used for RAG applications in healthcare. We find that there is a lack of standardised evaluation frameworks for RAG-based applications. In addition, the majority of the studies do not assess or address ethical considerations related to RAG in healthcare. It is important to account for ethical challenges that are inherent when AI systems are implemented in the clinical setting. Lastly, we highlight the need for further research and development to ensure responsible and effective adoption of RAG in the medical domain.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q2",
+          "query_text": "\"retrieval augmented generation\" AND factuality",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "rrf_rank": 13,
+      "group_id": "version:8e3ccef640c165b95e5abae732b290ab2fa11bea83328aaa15b508e96ae00cbc",
+      "rrf_score": 0.014925373134328358,
+      "title": "Retrieval-Augmented Generation for AI-Generated Content: A Survey",
+      "paper_id": "doi:10.48550/arxiv.2402.19473",
+      "year": 2024,
+      "abstract": "Advancements in model algorithms, the growth of foundational models, and access to high-quality datasets have propelled the evolution of Artificial Intelligence Generated Content (AIGC). Despite its notable successes, AIGC still faces hurdles such as updating knowledge, handling long-tail data, mitigating data leakage, and managing high training and inference costs. Retrieval-Augmented Generation (RAG) has recently emerged as a paradigm to address such challenges. In particular, RAG introduces the information retrieval process, which enhances the generation process by retrieving relevant objects from available data stores, leading to higher accuracy and better robustness. In this paper, we comprehensively review existing efforts that integrate RAG technique into AIGC scenarios. We first classify RAG foundations according to how the retriever augments the generator, distilling the fundamental abstractions of the augmentation methodologies for various retrievers and generators. This unified perspective encompasses all RAG scenarios, illuminating advancements and pivotal technologies that help with potential future progress. We also summarize additional enhancements methods for RAG, facilitating effective engineering and implementation of RAG systems. Then from another view, we survey on practical applications of RAG across different modalities and tasks, offering valuable references for researchers and practitioners. Furthermore, we introduce the benchmarks for RAG, discuss the limitations of current RAG systems, and suggest potential directions for future research. Github: https://github.com/PKU-DAIR/RAG-Survey.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q3",
+          "query_text": "\"retrieval augmented generation\" AND grounding",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "rrf_rank": 14,
+      "group_id": "version:61e0e3110c04daaa4f332d938c2a52c8a5dade14e91f2817b90db44ccd51f678",
+      "rrf_score": 0.014705882352941176,
+      "title": "Corrective Retrieval Augmented Generation",
+      "paper_id": "doi:10.2139/ssrn.5267341",
+      "year": 2025,
+      "abstract": null,
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q1",
+          "query_text": "\"retrieval augmented generation\" AND hallucination",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "rrf_rank": 15,
+      "group_id": "version:a17f3e0a6b9d2d534aece4f171da9cc9f26ed93f2628d29c9d57b2d3485fdf62",
+      "rrf_score": 0.014705882352941176,
+      "title": "MedRAG: Enhancing Retrieval-augmented Generation with Knowledge Graph-Elicited Reasoning for Healthcare Copilot",
+      "paper_id": "doi:10.1145/3696410.3714782",
+      "year": 2025,
+      "abstract": "Retrieval-augmented generation (RAG) is a well-suited technique for retrieving privacy-sensitive Electronic Health Records (EHR).It can serve as a key module of the healthcare copilot, helping reduce misdiagnosis for healthcare practitioners and patients.However, the diagnostic accuracy and specificity of existing heuristic-based RAG models used in the medical domain are inadequate, particularly for diseases with similar manifestations.This paper proposes MedRAG, a RAG model enhanced by knowledge graph (KG)-elicited reasoning for the medical domain that retrieves diagnosis and treatment recommendations based on manifestations.MedRAG systematically constructs a comprehensive four-tier hierarchical diagnostic KG encompassing critical diagnostic differences of various diseases.These differences are dynamically integrated with similar EHRs retrieved from an EHR database, and reasoned within a large language model.This process enables more accurate and specific decision support, while also proactively providing follow-up questions to enhance personalized medical decision-making.MedRAG is evaluated on both a public dataset DDXPlus and a private chronic pain diagnostic dataset (CPDD) collected from Tan Tock Seng Hospital, and its performance is compared against various existing RAG methods.Experimental results show that, leveraging the information integration and relational abilities of the KG, our MedRAG provides more specific diagnostic insights and outperforms state-of-the-art models in reducing misdiagnosis rates.Our code will be available at https:// github.com/ SNOWTEAM2023/ MedRAG",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q3",
+          "query_text": "\"retrieval augmented generation\" AND grounding",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "rrf_rank": 16,
+      "group_id": "version:581a31ee29ae92d2bfa971839069ce1f9b79d77361ff5f7ee06d46299349bfd9",
+      "rrf_score": 0.014492753623188406,
+      "title": "Retrieval-Augmented Generation (RAG) in Healthcare: A Comprehensive Review",
+      "paper_id": "doi:10.3390/ai6090226",
+      "year": 2025,
+      "abstract": "Retrieval-Augmented Generation (RAG) enhances large language models (LLMs) by integrating external knowledge retrieval to improve factual consistency and reduce hallucinations. Despite growing interest, its use in healthcare remains fragmented. This paper presents a Systematic Literature Review (SLR) following PRISMA guidelines, synthesizing 30 peer-reviewed studies on RAG in clinical domains, focusing on three of its most prevalent and promising applications in diagnostic support, electronic health record (EHR) summarization, and medical question answering. We synthesize the existing architectural variants (naïve, advanced, and modular) and examine their deployment across these applications. Persistent challenges are identified, including retrieval noise (irrelevant or low-quality retrieved information), domain shift (performance degradation when models are applied to data distributions different from their training set), generation latency, and limited explainability. Evaluation strategies are compared using both standard metrics and clinical-specific metrics, FactScore, RadGraph-F1, and MED-F1, which are particularly critical for ensuring factual accuracy, medical validity, and clinical relevance. This synthesis offers a domain-focused perspective to guide researchers, healthcare providers, and policymakers in developing reliable, interpretable, and clinically aligned AI systems, laying the groundwork for future innovation in RAG-based healthcare solutions.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q3",
+          "query_text": "\"retrieval augmented generation\" AND grounding",
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "rrf_rank": 17,
+      "group_id": "version:5423e20e7f4bfb6c9afadb503e2e90dda2f9e99fe6ac591916189e3d7ee0ac53",
+      "rrf_score": 0.014285714285714285,
+      "title": "CareerX: A Retrieval-Augmented Generation Framework for Personalized AI-Driven Career Guidance",
+      "paper_id": "doi:10.48550/arxiv.2310.11511",
+      "year": 2023,
+      "abstract": "Career guidance systems must adapt to rapidly shifting labor markets, yet traditional platforms rely on static databases while standalone large language models (LLMs) are limited by training data cutoffs and prone to hallucination. This paper presents CareerX, a web-based career guidance system that augments LLM generation with live web retrieval through a SearXNG-based meta-search pipeline. The system dynamically generates personalized intake questionnaires via LLM-driven schema generation, formulates targeted search queries, scrapes and cleans live web sources, and synthesizes structured career dashboards through Zod-enforced schema-constrained generation. Unlike canonical RAG architectures that retrieve from pre-built vector stores, CareerX performs direct web retrieval — live search results are scraped and injected into the LLM context window, trading embedding-based semantic precision for real-time data currency. The system produces location-specific salary data, source-attributed university recommendations, and traceable URL citations that standalone LLMs cannot provide without retrieval augmentation. Initial measurements across three successful test profiles indicate a mean end-to-end pipeline time of 66.7 seconds (SD = 6.2s), of which LLM synthesis accounts for approximately 15–20 seconds, with an average of 37.7 web sources retrieved per session and 79% schema completeness.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q3",
+          "query_text": "\"retrieval augmented generation\" AND grounding",
+          "rank": 10
+        }
+      ]
+    }
+  ]
+}

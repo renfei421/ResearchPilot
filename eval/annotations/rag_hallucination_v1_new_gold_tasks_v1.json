@@ -1,0 +1,560 @@
+{
+  "schema_version": 1,
+  "benchmark_id": "rag_hallucination_v1",
+  "version": "v1",
+  "research_question": "How does retrieval-augmented generation reduce hallucination and improve factuality in large language models?",
+  "relevance_scale": {
+    "0": "Off-target for this benchmark",
+    "1": "Bridge/Supporting",
+    "2": "Direct/Core"
+  },
+  "expected_task_count": 26,
+  "tasks": [
+    {
+      "union_id": "union:0013362cb6189b93ec3d5a86b2c5ad691f5579001415da4055b1752eb6b07dbd",
+      "title": "On the Origin of Hallucinations in Conversational Models: Is it the Datasets or the Models?",
+      "year": 2022,
+      "abstract": "Nouha Dziri, Sivan Milton, Mo Yu, Osmar Zaiane, Siva Reddy. Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies. 2022.",
+      "identifiers": [
+        "doi:10.18653/v1/2022.naacl-main.387",
+        "version:9f04ff239413c758316764541640569ca37344ff6dc2ce5caa370b924242b95c"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:9f04ff239413c758316764541640569ca37344ff6dc2ce5caa370b924242b95c",
+          "paper_id": "doi:10.18653/v1/2022.naacl-main.387",
+          "title": "On the Origin of Hallucinations in Conversational Models: Is it the Datasets or the Models?",
+          "year": 2022,
+          "abstract": "Nouha Dziri, Sivan Milton, Mo Yu, Osmar Zaiane, Siva Reddy. Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies. 2022."
+        }
+      ],
+      "label": null,
+      "note": ""
+    },
+    {
+      "union_id": "union:0c4c47ee18f76af8f20fcc8b1bbd956d1443f7ba5d6cf2162816abf3b5e7f850",
+      "title": "An automated framework for assessing how well LLMs cite relevant medical references",
+      "year": 2025,
+      "abstract": "As large language models (LLMs) are increasingly used to address health-related queries, it is crucial that they support their conclusions with credible references. While models can cite sources, the extent to which these support claims remains unclear. To address this gap, we introduce SourceCheckup, an automated agent-based pipeline that evaluates the relevance and supportiveness of sources in LLM responses. We evaluate seven popular LLMs on a dataset of 800 questions and 58,000 pairs of statements and sources on data that represent common medical queries. Our findings reveal that between 50% and 90% of LLM responses are not fully supported, and sometimes contradicted, by the sources they cite. Even for GPT-4o with Web Search, approximately 30% of individual statements are unsupported, and nearly half of its responses are not fully supported. Independent assessments by doctors further validate these results. Our research underscores significant limitations in current LLMs to produce trustworthy medical references. Assessing the degree to which medical large language models reliably convey existing, trustworthy knowledge is crucial. This study introduces SourceCheckup, an automated framework revealing that large language models frequently cite medical references that do not fully support, or even contradict, their responses, showing significant gaps in reliability for clinical use.",
+      "identifiers": [
+        "doi:10.1038/s41467-025-58551-6",
+        "version:aa4eb3cda776f9a4346fca071f295f4a799657db75ed22080bf7f5ed440c8192"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:aa4eb3cda776f9a4346fca071f295f4a799657db75ed22080bf7f5ed440c8192",
+          "paper_id": "doi:10.1038/s41467-025-58551-6",
+          "title": "An automated framework for assessing how well LLMs cite relevant medical references",
+          "year": 2025,
+          "abstract": "As large language models (LLMs) are increasingly used to address health-related queries, it is crucial that they support their conclusions with credible references. While models can cite sources, the extent to which these support claims remains unclear. To address this gap, we introduce SourceCheckup, an automated agent-based pipeline that evaluates the relevance and supportiveness of sources in LLM responses. We evaluate seven popular LLMs on a dataset of 800 questions and 58,000 pairs of statements and sources on data that represent common medical queries. Our findings reveal that between 50% and 90% of LLM responses are not fully supported, and sometimes contradicted, by the sources they cite. Even for GPT-4o with Web Search, approximately 30% of individual statements are unsupported, and nearly half of its responses are not fully supported. Independent assessments by doctors further validate these results. Our research underscores significant limitations in current LLMs to produce trustworthy medical references. Assessing the degree to which medical large language models reliably convey existing, trustworthy knowledge is crucial. This study introduces SourceCheckup, an automated framework revealing that large language models frequently cite medical references that do not fully support, or even contradict, their responses, showing significant gaps in reliability for clinical use."
+        }
+      ],
+      "label": null,
+      "note": ""
+    },
+    {
+      "union_id": "union:0f351b36074cce0dd29ddc1bf86ad44bc7d706f206ed7bc75ed4552bec291820",
+      "title": "A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions",
+      "year": 2023,
+      "abstract": "The emergence of large language models (LLMs) has marked a significant breakthrough in natural language processing (NLP), fueling a paradigm shift in information acquisition. Nevertheless, LLMs are prone to hallucination, generating plausible yet nonfactual content. This phenomenon raises significant concerns over the reliability of LLMs in real-world information retrieval (IR) systems and has attracted intensive research to detect and mitigate such hallucinations. Given the open-ended general-purpose attributes inherent to LLMs, LLM hallucinations present distinct challenges that diverge from prior task-specific models. This divergence highlights the urgency for a nuanced understanding and comprehensive overview of recent advances in LLM hallucinations. In this survey, we begin with an innovative taxonomy of hallucination in the era of LLM and then delve into the factors contributing to hallucinations. Subsequently, we present a thorough overview of hallucination detection methods and benchmarks. Our discussion then transfers to representative methodologies for mitigating LLM hallucinations. Additionally, we delve into the current limitations faced by retrieval-augmented LLMs in combating hallucinations, offering insights for developing more robust IR systems. Finally, we highlight the promising research directions on LLM hallucinations, including hallucination in large vision-language models and understanding of knowledge boundaries in LLM hallucinations.",
+      "identifiers": [
+        "doi:10.48550/arxiv.2311.05232",
+        "version:ab00ba31f1f00f31ccf7c1eef8a27318831cdd663f7047eec4db295a5fa72b45"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:ab00ba31f1f00f31ccf7c1eef8a27318831cdd663f7047eec4db295a5fa72b45",
+          "paper_id": "doi:10.48550/arxiv.2311.05232",
+          "title": "A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions",
+          "year": 2023,
+          "abstract": "The emergence of large language models (LLMs) has marked a significant breakthrough in natural language processing (NLP), fueling a paradigm shift in information acquisition. Nevertheless, LLMs are prone to hallucination, generating plausible yet nonfactual content. This phenomenon raises significant concerns over the reliability of LLMs in real-world information retrieval (IR) systems and has attracted intensive research to detect and mitigate such hallucinations. Given the open-ended general-purpose attributes inherent to LLMs, LLM hallucinations present distinct challenges that diverge from prior task-specific models. This divergence highlights the urgency for a nuanced understanding and comprehensive overview of recent advances in LLM hallucinations. In this survey, we begin with an innovative taxonomy of hallucination in the era of LLM and then delve into the factors contributing to hallucinations. Subsequently, we present a thorough overview of hallucination detection methods and benchmarks. Our discussion then transfers to representative methodologies for mitigating LLM hallucinations. Additionally, we delve into the current limitations faced by retrieval-augmented LLMs in combating hallucinations, offering insights for developing more robust IR systems. Finally, we highlight the promising research directions on LLM hallucinations, including hallucination in large vision-language models and understanding of knowledge boundaries in LLM hallucinations."
+        }
+      ],
+      "label": null,
+      "note": ""
+    },
+    {
+      "union_id": "union:1d3a92d2846d833c7cbd0ee3f8957d4b05175381b79700a0f911edcb6fe81fb9",
+      "title": "Retrieval augmented generation for 10 large language models and its generalizability in assessing medical fitness",
+      "year": 2025,
+      "abstract": "Large Language Models (LLMs) hold promise for medical applications but often lack domain-specific expertise. Retrieval Augmented Generation (RAG) enables customization by integrating specialized knowledge. This study assessed the accuracy, consistency, and safety of LLM-RAG models in determining surgical fitness and delivering preoperative instructions using 35 local and 23 international guidelines. Ten LLMs (e.g., GPT3.5, GPT4, GPT4o, Gemini, Llama2, and Llama3, Claude) were tested across 14 clinical scenarios. A total of 3234 responses were generated and compared to 448 human-generated answers. The GPT4 LLM-RAG model with international guidelines generated answers within 20 s and achieved the highest accuracy, which was significantly better than human-generated responses (96.4% vs. 86.6%, p = 0.016). Additionally, the model exhibited an absence of hallucinations and produced more consistent output than humans. This study underscores the potential of GPT-4-based LLM-RAG models to deliver highly accurate, efficient, and consistent preoperative assessments.",
+      "identifiers": [
+        "doi:10.1038/s41746-025-01519-z",
+        "version:a601b5ab0304c8241810a49184d14d1c333bd4a503de02791f68fc740e2be6c7"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:a601b5ab0304c8241810a49184d14d1c333bd4a503de02791f68fc740e2be6c7",
+          "paper_id": "doi:10.1038/s41746-025-01519-z",
+          "title": "Retrieval augmented generation for 10 large language models and its generalizability in assessing medical fitness",
+          "year": 2025,
+          "abstract": "Large Language Models (LLMs) hold promise for medical applications but often lack domain-specific expertise. Retrieval Augmented Generation (RAG) enables customization by integrating specialized knowledge. This study assessed the accuracy, consistency, and safety of LLM-RAG models in determining surgical fitness and delivering preoperative instructions using 35 local and 23 international guidelines. Ten LLMs (e.g., GPT3.5, GPT4, GPT4o, Gemini, Llama2, and Llama3, Claude) were tested across 14 clinical scenarios. A total of 3234 responses were generated and compared to 448 human-generated answers. The GPT4 LLM-RAG model with international guidelines generated answers within 20 s and achieved the highest accuracy, which was significantly better than human-generated responses (96.4% vs. 86.6%, p = 0.016). Additionally, the model exhibited an absence of hallucinations and produced more consistent output than humans. This study underscores the potential of GPT-4-based LLM-RAG models to deliver highly accurate, efficient, and consistent preoperative assessments."
+        }
+      ],
+      "label": null,
+      "note": ""
+    },
+    {
+      "union_id": "union:21d3b3d23964b41ca369ca6d07d57a4ffacbfa8a911424f1b0cd738536697215",
+      "title": "Survey on Factuality in Large Language Models",
+      "year": 2025,
+      "abstract": "This survey addresses the crucial issue of factuality in Large Language Models (LLMs). As LLMs find applications across diverse domains, the reliability and accuracy of their outputs become vital. We define the “factuality issue” as the probability of LLMs to produce content inconsistent with established facts. We first delve into the implications of these inaccuracies. Subsequently, we analyze the mechanisms through which LLMs store and process facts, seeking the primary causes of factual errors. Our discussion then transitions to methodologies for evaluating LLM factuality, emphasizing key metrics, benchmarks, and studies. We further explore strategies for enhancing LLM factuality. Our survey offers a structured guide for researchers aiming to fortify the factual reliability of LLMs. We consistently maintain and update the related open-source materials at https://github.com/wangcunxiang/LLM-Factuality-Survey .",
+      "identifiers": [
+        "doi:10.1145/3742420",
+        "version:f52fd2cd183d5acefd4350e7c907a42e8b11c4c519c74cfde39f335f0839d978"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:f52fd2cd183d5acefd4350e7c907a42e8b11c4c519c74cfde39f335f0839d978",
+          "paper_id": "doi:10.1145/3742420",
+          "title": "Survey on Factuality in Large Language Models",
+          "year": 2025,
+          "abstract": "This survey addresses the crucial issue of factuality in Large Language Models (LLMs). As LLMs find applications across diverse domains, the reliability and accuracy of their outputs become vital. We define the “factuality issue” as the probability of LLMs to produce content inconsistent with established facts. We first delve into the implications of these inaccuracies. Subsequently, we analyze the mechanisms through which LLMs store and process facts, seeking the primary causes of factual errors. Our discussion then transitions to methodologies for evaluating LLM factuality, emphasizing key metrics, benchmarks, and studies. We further explore strategies for enhancing LLM factuality. Our survey offers a structured guide for researchers aiming to fortify the factual reliability of LLMs. We consistently maintain and update the related open-source materials at https://github.com/wangcunxiang/LLM-Factuality-Survey ."
+        }
+      ],
+      "label": null,
+      "note": ""
+    },
+    {
+      "union_id": "union:2aa5d8bd2acb5a2885cc5e3dd4611f6d5d0ac3d60daf7c91f6dfc47d50d7fe55",
+      "title": "Focused Attention Improves Document-Grounded Generation",
+      "year": 2021,
+      "abstract": "Shrimai Prabhumoye, Kazuma Hashimoto, Yingbo Zhou, Alan W Black, Ruslan Salakhutdinov. Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies. 2021.",
+      "identifiers": [
+        "doi:10.18653/v1/2021.naacl-main.338",
+        "version:f2f33eb309ab58ffc17ccfa2747645d96e242500932ea90c895b0d90498d3720"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:f2f33eb309ab58ffc17ccfa2747645d96e242500932ea90c895b0d90498d3720",
+          "paper_id": "doi:10.18653/v1/2021.naacl-main.338",
+          "title": "Focused Attention Improves Document-Grounded Generation",
+          "year": 2021,
+          "abstract": "Shrimai Prabhumoye, Kazuma Hashimoto, Yingbo Zhou, Alan W Black, Ruslan Salakhutdinov. Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies. 2021."
+        }
+      ],
+      "label": null,
+      "note": ""
+    },
+    {
+      "union_id": "union:38891e1dddcc749df2e64b95ac22dafbbc0e12fa0bde1d7eb0f2e8b9312b151c",
+      "title": "Automating Systematic Literature Reviews with Retrieval-Augmented Generation: A Comprehensive Overview",
+      "year": 2024,
+      "abstract": "This study examines Retrieval-Augmented Generation (RAG) in large language models (LLMs) and their significant application for undertaking systematic literature reviews (SLRs). RAG-based LLMs can potentially automate tasks like data extraction, summarization, and trend identification. However, while LLMs are exceptionally proficient in generating human-like text and interpreting complex linguistic nuances, their dependence on static, pre-trained knowledge can result in inaccuracies and hallucinations. RAG mitigates these limitations by integrating LLMs’ generative capabilities with the precision of real-time information retrieval. We review in detail the three key processes of the RAG framework—retrieval, augmentation, and generation. We then discuss applications of RAG-based LLMs to SLR automation and highlight future research topics, including integration of domain-specific LLMs, multimodal data processing and generation, and utilization of multiple retrieval sources. We propose a framework of RAG-based LLMs for automating SRLs, which covers four stages of SLR process: literature search, literature screening, data extraction, and information synthesis. Future research aims to optimize the interaction between LLM selection, training strategies, RAG techniques, and prompt engineering to implement the proposed framework, with particular emphasis on the retrieval of information from individual scientific papers and the integration of these data to produce outputs addressing various aspects such as current status, existing gaps, and emerging trends.",
+      "identifiers": [
+        "doi:10.3390/app14199103",
+        "version:8481ad81b7a777fea02d64516ea023063d985e8e1970c5f26cc726b4f580596e"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:8481ad81b7a777fea02d64516ea023063d985e8e1970c5f26cc726b4f580596e",
+          "paper_id": "doi:10.3390/app14199103",
+          "title": "Automating Systematic Literature Reviews with Retrieval-Augmented Generation: A Comprehensive Overview",
+          "year": 2024,
+          "abstract": "This study examines Retrieval-Augmented Generation (RAG) in large language models (LLMs) and their significant application for undertaking systematic literature reviews (SLRs). RAG-based LLMs can potentially automate tasks like data extraction, summarization, and trend identification. However, while LLMs are exceptionally proficient in generating human-like text and interpreting complex linguistic nuances, their dependence on static, pre-trained knowledge can result in inaccuracies and hallucinations. RAG mitigates these limitations by integrating LLMs’ generative capabilities with the precision of real-time information retrieval. We review in detail the three key processes of the RAG framework—retrieval, augmentation, and generation. We then discuss applications of RAG-based LLMs to SLR automation and highlight future research topics, including integration of domain-specific LLMs, multimodal data processing and generation, and utilization of multiple retrieval sources. We propose a framework of RAG-based LLMs for automating SRLs, which covers four stages of SLR process: literature search, literature screening, data extraction, and information synthesis. Future research aims to optimize the interaction between LLM selection, training strategies, RAG techniques, and prompt engineering to implement the proposed framework, with particular emphasis on the retrieval of information from individual scientific papers and the integration of these data to produce outputs addressing various aspects such as current status, existing gaps, and emerging trends."
+        }
+      ],
+      "label": null,
+      "note": ""
+    },
+    {
+      "union_id": "union:40df839f32f950d32dafd3e42485e9a28fe26b1c55982e19478f0542d118849a",
+      "title": "Evaluation of Retrieval-Augmented Generation: A Survey",
+      "year": 2025,
+      "abstract": null,
+      "identifiers": [
+        "doi:10.1007/978-981-96-1024-2_8",
+        "version:38eef126348887cc6570c267db09d06d58c6a9de20a91d10b0ad1d24eeaa8b6a"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:38eef126348887cc6570c267db09d06d58c6a9de20a91d10b0ad1d24eeaa8b6a",
+          "paper_id": "doi:10.1007/978-981-96-1024-2_8",
+          "title": "Evaluation of Retrieval-Augmented Generation: A Survey",
+          "year": 2025,
+          "abstract": null
+        }
+      ],
+      "label": null,
+      "note": ""
+    },
+    {
+      "union_id": "union:4f391262d5ccbb506d87d461bf3de0d8a23301df9a835a60bb20be1c82f9a09f",
+      "title": "FaithDial : A Faithful Benchmark for Information-Seeking Dialogue",
+      "year": 2022,
+      "abstract": "Abstract The goal of information-seeking dialogue is to respond to seeker queries with natural language utterances that are grounded on knowledge sources. However, dialogue systems often produce unsupported utterances, a phenomenon known as hallucination. To mitigate this behavior, we adopt a data-centric solution and create FaithDial, a new benchmark for hallucination-free dialogues, by editing hallucinated responses in the Wizard of Wikipedia (WoW) benchmark. We observe that FaithDial is more faithful than WoW while also maintaining engaging conversations. We show that FaithDial can serve as training signal for: i) a hallucination critic, which discriminates whether an utterance is faithful or not, and boosts the performance by 12.8 F1 score on the BEGIN benchmark compared to existing datasets for dialogue coherence; ii) high-quality dialogue generation. We benchmark a series of state-of-the-art models and propose an auxiliary contrastive objective that achieves the highest level of faithfulness and abstractiveness based on several automated metrics. Further, we find that the benefits of FaithDial generalize to zero-shot transfer on other datasets, such as CMU-Dog and TopicalChat. Finally, human evaluation reveals that responses generated by models trained on FaithDial are perceived as more interpretable, cooperative, and engaging.",
+      "identifiers": [
+        "doi:10.1162/tacl_a_00529",
+        "version:25bc7d6174fa99158ca2b1e7cc61cc3587c1df8ce9c113fbb43a273af08d2f91"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:25bc7d6174fa99158ca2b1e7cc61cc3587c1df8ce9c113fbb43a273af08d2f91",
+          "paper_id": "doi:10.1162/tacl_a_00529",
+          "title": "FaithDial : A Faithful Benchmark for Information-Seeking Dialogue",
+          "year": 2022,
+          "abstract": "Abstract The goal of information-seeking dialogue is to respond to seeker queries with natural language utterances that are grounded on knowledge sources. However, dialogue systems often produce unsupported utterances, a phenomenon known as hallucination. To mitigate this behavior, we adopt a data-centric solution and create FaithDial, a new benchmark for hallucination-free dialogues, by editing hallucinated responses in the Wizard of Wikipedia (WoW) benchmark. We observe that FaithDial is more faithful than WoW while also maintaining engaging conversations. We show that FaithDial can serve as training signal for: i) a hallucination critic, which discriminates whether an utterance is faithful or not, and boosts the performance by 12.8 F1 score on the BEGIN benchmark compared to existing datasets for dialogue coherence; ii) high-quality dialogue generation. We benchmark a series of state-of-the-art models and propose an auxiliary contrastive objective that achieves the highest level of faithfulness and abstractiveness based on several automated metrics. Further, we find that the benefits of FaithDial generalize to zero-shot transfer on other datasets, such as CMU-Dog and TopicalChat. Finally, human evaluation reveals that responses generated by models trained on FaithDial are perceived as more interpretable, cooperative, and engaging."
+        }
+      ],
+      "label": null,
+      "note": ""
+    },
+    {
+      "union_id": "union:50971d48fd1d3760e58554f040236bb10f4c1770435893cf03abd2fda37b6032",
+      "title": "A Survey of Large Language Models",
+      "year": 2026,
+      "abstract": "Abstract The rapid evolution of large language models (LLMs) has driven a transformative shift in artificial intelligence (AI), reshaping both research paradigms and practical applications. Distinguished from their predecessors by unprecedented scale and advanced capabilities, LLMs necessitate new frameworks for understanding their development, behavior, and societal impact. This survey systematically reviews recent advancements in LLM techniques across four key dimensions: (1) pre-training methodologies, which establish core model capabilities through large-scale self-supervised training, architectural innovations, and data curation strategies; (2) post-training techniques, including supervised fine-tuning and reinforcement learning, which adapt foundational models to downstream tasks and enhance their alignment and safety; (3) utilization strategies, such as in-context learning, prompt engineering, and agentic reasoning, that optimize real-world deployment and enable effective interaction with external environments; and (4) evaluation methods, encompassing benchmarks for key ability dimensions such as core language capabilities, reasoning, and safety, which support comprehensive and reliable assessment of model performance. Additionally, we identify critical research issues, including those concerning theoretical foundations, efficient scaling, alignment, and agentic capability, and highlight the open challenges they present. By synthesizing state-of-the-art insights and emerging trends, this survey aims to provide a systematic and comprehensive framework for understanding the trajectory, current limitations, and future directions of LLM progress.",
+      "identifiers": [
+        "doi:10.1007/s11704-026-60308-3",
+        "version:b3c8fd2991de6965070859e03eb86ecc236d50c6ad94687aaf98d2368fabf0d3"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:b3c8fd2991de6965070859e03eb86ecc236d50c6ad94687aaf98d2368fabf0d3",
+          "paper_id": "doi:10.1007/s11704-026-60308-3",
+          "title": "A Survey of Large Language Models",
+          "year": 2026,
+          "abstract": "Abstract The rapid evolution of large language models (LLMs) has driven a transformative shift in artificial intelligence (AI), reshaping both research paradigms and practical applications. Distinguished from their predecessors by unprecedented scale and advanced capabilities, LLMs necessitate new frameworks for understanding their development, behavior, and societal impact. This survey systematically reviews recent advancements in LLM techniques across four key dimensions: (1) pre-training methodologies, which establish core model capabilities through large-scale self-supervised training, architectural innovations, and data curation strategies; (2) post-training techniques, including supervised fine-tuning and reinforcement learning, which adapt foundational models to downstream tasks and enhance their alignment and safety; (3) utilization strategies, such as in-context learning, prompt engineering, and agentic reasoning, that optimize real-world deployment and enable effective interaction with external environments; and (4) evaluation methods, encompassing benchmarks for key ability dimensions such as core language capabilities, reasoning, and safety, which support comprehensive and reliable assessment of model performance. Additionally, we identify critical research issues, including those concerning theoretical foundations, efficient scaling, alignment, and agentic capability, and highlight the open challenges they present. By synthesizing state-of-the-art insights and emerging trends, this survey aims to provide a systematic and comprehensive framework for understanding the trajectory, current limitations, and future directions of LLM progress."
+        }
+      ],
+      "label": null,
+      "note": ""
+    },
+    {
+      "union_id": "union:5208d838a8eeef394ea6fcd09455dc6727c452cdc0209708a5884aa299ef09b7",
+      "title": "Knowledge Graph-Guided Retrieval Augmented Generation",
+      "year": 2025,
+      "abstract": "Xiangrong Zhu, Yuexiang Xie, Yi Liu, Yaliang Li, Wei Hu. Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers). 2025.",
+      "identifiers": [
+        "doi:10.18653/v1/2025.naacl-long.449",
+        "version:75e8b124e04d4d4a4a889920784d3a5ad9eaa6d9fd562b32cde7f2c14bd955cc"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:75e8b124e04d4d4a4a889920784d3a5ad9eaa6d9fd562b32cde7f2c14bd955cc",
+          "paper_id": "doi:10.18653/v1/2025.naacl-long.449",
+          "title": "Knowledge Graph-Guided Retrieval Augmented Generation",
+          "year": 2025,
+          "abstract": "Xiangrong Zhu, Yuexiang Xie, Yi Liu, Yaliang Li, Wei Hu. Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers). 2025."
+        }
+      ],
+      "label": null,
+      "note": ""
+    },
+    {
+      "union_id": "union:538302f8c2d9ffa0d4de51c3a7666ac3a3eb93f9713fe6990b3cde23784c2cb0",
+      "title": "Chain-of-Knowledge: Grounding Large Language Models via Dynamic Knowledge Adapting over Heterogeneous Sources",
+      "year": 2023,
+      "abstract": "We present chain-of-knowledge (CoK), a novel framework that augments large language models (LLMs) by dynamically incorporating grounding information from heterogeneous sources. It results in more factual rationales and reduced hallucination in generation. Specifically, CoK consists of three stages: reasoning preparation, dynamic knowledge adapting, and answer consolidation. Given a knowledge-intensive question, CoK first prepares several preliminary rationales and answers while identifying the relevant knowledge domains. If there is no majority consensus among the answers from samples, CoK corrects the rationales step by step by adapting knowledge from the identified domains. These corrected rationales can plausibly serve as a better foundation for the final answer consolidation. Unlike prior studies that primarily use unstructured data, CoK also leverages structured knowledge sources such as Wikidata and tables that provide more reliable factual information. To access both unstructured and structured knowledge sources in the dynamic knowledge adapting stage, we propose an adaptive query generator that allows the generation of queries for various types of query languages, including SPARQL, SQL, and natural sentences. Moreover, to minimize error propagation between rationales, CoK corrects the rationales progressively using preceding corrected rationales to generate and correct subsequent rationales. Extensive experiments show that CoK consistently improves the performance of LLMs on knowledge-intensive tasks across different domains.",
+      "identifiers": [
+        "doi:10.48550/arxiv.2305.13269",
+        "version:4bfb9fd13a64a0b5fd4f44ffa6659d686692cb9a1aa2708be534cb700b259922"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:4bfb9fd13a64a0b5fd4f44ffa6659d686692cb9a1aa2708be534cb700b259922",
+          "paper_id": "doi:10.48550/arxiv.2305.13269",
+          "title": "Chain-of-Knowledge: Grounding Large Language Models via Dynamic Knowledge Adapting over Heterogeneous Sources",
+          "year": 2023,
+          "abstract": "We present chain-of-knowledge (CoK), a novel framework that augments large language models (LLMs) by dynamically incorporating grounding information from heterogeneous sources. It results in more factual rationales and reduced hallucination in generation. Specifically, CoK consists of three stages: reasoning preparation, dynamic knowledge adapting, and answer consolidation. Given a knowledge-intensive question, CoK first prepares several preliminary rationales and answers while identifying the relevant knowledge domains. If there is no majority consensus among the answers from samples, CoK corrects the rationales step by step by adapting knowledge from the identified domains. These corrected rationales can plausibly serve as a better foundation for the final answer consolidation. Unlike prior studies that primarily use unstructured data, CoK also leverages structured knowledge sources such as Wikidata and tables that provide more reliable factual information. To access both unstructured and structured knowledge sources in the dynamic knowledge adapting stage, we propose an adaptive query generator that allows the generation of queries for various types of query languages, including SPARQL, SQL, and natural sentences. Moreover, to minimize error propagation between rationales, CoK corrects the rationales progressively using preceding corrected rationales to generate and correct subsequent rationales. Extensive experiments show that CoK consistently improves the performance of LLMs on knowledge-intensive tasks across different domains."
+        }
+      ],
+      "label": null,
+      "note": ""
+    },
+    {
+      "union_id": "union:5e4ae8745ea4d01255e54f395be02a5e210e8753b25bdda2daa5ee3d4a359e31",
+      "title": "A Survey on RAG Meeting LLMs: Towards Retrieval-Augmented Large Language Models",
+      "year": 2024,
+      "abstract": "As one of the most advanced techniques in AI, Retrieval-Augmented Generation (RAG) can offer reliable and up-to-date external knowledge, providing huge convenience for numerous tasks. Particularly in the era of AI-Generated Content (AIGC), the powerful capacity of retrieval in providing additional knowledge enables RAG to assist existing generative AI in producing high-quality outputs. Recently, Large Language Models (LLMs) have demonstrated revolutionary abilities in language understanding and generation, while still facing inherent limitations such as hallucinations and out-of-date internal knowledge. Given the powerful abilities of RAG in providing the latest and helpful auxiliary information, Retrieval-Augmented Large Language Models (RA-LLMs) have emerged to harness external and authoritative knowledge bases, rather than solely relying on the model's internal knowledge, to augment the quality of the generated content of LLMs. In this survey, we comprehensively review existing research studies in RA-LLMs, covering three primary technical perspectives: Furthermore, to deliver deeper insights, we discuss current limitations and several promising directions for future research. Updated information about this survey can be found at: https://advanced-recommender-systems.github.io/RAG-Meets-LLMs/",
+      "identifiers": [
+        "doi:10.1145/3637528.3671470",
+        "version:9d809d6171bba9f6c43de418014c6ef147654cbc5ffe7ac76d0579f691660e75"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:9d809d6171bba9f6c43de418014c6ef147654cbc5ffe7ac76d0579f691660e75",
+          "paper_id": "doi:10.1145/3637528.3671470",
+          "title": "A Survey on RAG Meeting LLMs: Towards Retrieval-Augmented Large Language Models",
+          "year": 2024,
+          "abstract": "As one of the most advanced techniques in AI, Retrieval-Augmented Generation (RAG) can offer reliable and up-to-date external knowledge, providing huge convenience for numerous tasks. Particularly in the era of AI-Generated Content (AIGC), the powerful capacity of retrieval in providing additional knowledge enables RAG to assist existing generative AI in producing high-quality outputs. Recently, Large Language Models (LLMs) have demonstrated revolutionary abilities in language understanding and generation, while still facing inherent limitations such as hallucinations and out-of-date internal knowledge. Given the powerful abilities of RAG in providing the latest and helpful auxiliary information, Retrieval-Augmented Large Language Models (RA-LLMs) have emerged to harness external and authoritative knowledge bases, rather than solely relying on the model's internal knowledge, to augment the quality of the generated content of LLMs. In this survey, we comprehensively review existing research studies in RA-LLMs, covering three primary technical perspectives: Furthermore, to deliver deeper insights, we discuss current limitations and several promising directions for future research. Updated information about this survey can be found at: https://advanced-recommender-systems.github.io/RAG-Meets-LLMs/"
+        }
+      ],
+      "label": null,
+      "note": ""
+    },
+    {
+      "union_id": "union:68db18b20484809eb49ca079620260be25b701b6f039068beaaed558f1a18759",
+      "title": "Chain-of-Verification Reduces Hallucination in Large Language Models",
+      "year": 2024,
+      "abstract": "Generation of plausible yet incorrect factual information, termed hallucination, is an unsolved issue in large language models.We study the ability of language models to deliberate on the responses they give in order to correct their mistakes.We develop the Chain-of-Verification (COVE) method whereby the model first (i) drafts an initial response; then (ii) plans verification questions to fact-check its draft; (iii) answers those questions independently so the answers are not biased by other responses; and (iv) generates its final verified response.In experiments, we show COVE decreases hallucinations across a variety of tasks, from list-based questions from Wikidata, closed book Multi-SpanQA and longform text generation.",
+      "identifiers": [
+        "doi:10.18653/v1/2024.findings-acl.212",
+        "version:11fe4e18efb5cf237292b7085844bc1c04579fbeee2a754b14c7a6fa13cf7621"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:11fe4e18efb5cf237292b7085844bc1c04579fbeee2a754b14c7a6fa13cf7621",
+          "paper_id": "doi:10.18653/v1/2024.findings-acl.212",
+          "title": "Chain-of-Verification Reduces Hallucination in Large Language Models",
+          "year": 2024,
+          "abstract": "Generation of plausible yet incorrect factual information, termed hallucination, is an unsolved issue in large language models.We study the ability of language models to deliberate on the responses they give in order to correct their mistakes.We develop the Chain-of-Verification (COVE) method whereby the model first (i) drafts an initial response; then (ii) plans verification questions to fact-check its draft; (iii) answers those questions independently so the answers are not biased by other responses; and (iv) generates its final verified response.In experiments, we show COVE decreases hallucinations across a variety of tasks, from list-based questions from Wikidata, closed book Multi-SpanQA and longform text generation."
+        }
+      ],
+      "label": null,
+      "note": ""
+    },
+    {
+      "union_id": "union:6f95939ad552d9c84f76e67698afda98378a1083ef0fed09fc68bcb497c4b1ab",
+      "title": "KCTS: Knowledge-Constrained Tree Search Decoding with Token-Level Hallucination Detection",
+      "year": 2023,
+      "abstract": "Large Language Models (LLMs) have demonstrated remarkable human-level natural language generation capabilities.However, their potential to generate misinformation, often called the hallucination problem, poses a significant risk to their deployment.A common approach to address this issue is to retrieve relevant knowledge and fine-tune the LLM with the knowledge in its input.Unfortunately, this method incurs high training costs and may cause catastrophic forgetting for multitasking models.To overcome these limitations, we propose a knowledge-constrained decoding method called KCTS (Knowledge-Constrained Tree Search), which guides a frozen LM to generate text aligned with the reference knowledge at each decoding step using a knowledge classifier score and MCTS (Monte-Carlo Tree Search).To adapt the sequence-level knowledge classifier to token-level guidance, we also propose a novel token-level hallucination detection method called RIPA (Reward Inflection Point Approximation).Our empirical results on knowledge-grounded dialogue and abstractive summarization demonstrate the strength of KCTS 1 as a plug-and-play, model-agnostic decoding method that can effectively reduce hallucinations in natural language generation.",
+      "identifiers": [
+        "doi:10.18653/v1/2023.emnlp-main.867",
+        "version:27441e1edc404f8806e8bb5905e7172d650205772f876c9c338e8e29cf366956"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:27441e1edc404f8806e8bb5905e7172d650205772f876c9c338e8e29cf366956",
+          "paper_id": "doi:10.18653/v1/2023.emnlp-main.867",
+          "title": "KCTS: Knowledge-Constrained Tree Search Decoding with Token-Level Hallucination Detection",
+          "year": 2023,
+          "abstract": "Large Language Models (LLMs) have demonstrated remarkable human-level natural language generation capabilities.However, their potential to generate misinformation, often called the hallucination problem, poses a significant risk to their deployment.A common approach to address this issue is to retrieve relevant knowledge and fine-tune the LLM with the knowledge in its input.Unfortunately, this method incurs high training costs and may cause catastrophic forgetting for multitasking models.To overcome these limitations, we propose a knowledge-constrained decoding method called KCTS (Knowledge-Constrained Tree Search), which guides a frozen LM to generate text aligned with the reference knowledge at each decoding step using a knowledge classifier score and MCTS (Monte-Carlo Tree Search).To adapt the sequence-level knowledge classifier to token-level guidance, we also propose a novel token-level hallucination detection method called RIPA (Reward Inflection Point Approximation).Our empirical results on knowledge-grounded dialogue and abstractive summarization demonstrate the strength of KCTS 1 as a plug-and-play, model-agnostic decoding method that can effectively reduce hallucinations in natural language generation."
+        }
+      ],
+      "label": null,
+      "note": ""
+    },
+    {
+      "union_id": "union:73769677aa679f8ff3ff3033be200e1aaae1f23e89171ebf4d44d3229fed75f2",
+      "title": "SurgeryLLM: a retrieval-augmented generation large language model framework for surgical decision support and workflow enhancement",
+      "year": 2024,
+      "abstract": "SurgeryLLM, a large language model framework using Retrieval Augmented Generation demonstrably incorporated domain-specific knowledge from current evidence-based surgical guidelines when presented with patient-specific data. The successful incorporation of guideline-based information represents a substantial step toward enabling greater surgeon efficiency, improving patient safety, and optimizing surgical outcomes.",
+      "identifiers": [
+        "doi:10.1038/s41746-024-01391-3",
+        "version:314f40ce250d4573b411a7ec3b6474f5e5861ea3d32bd0dab8ed5baaecbfa752"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:314f40ce250d4573b411a7ec3b6474f5e5861ea3d32bd0dab8ed5baaecbfa752",
+          "paper_id": "doi:10.1038/s41746-024-01391-3",
+          "title": "SurgeryLLM: a retrieval-augmented generation large language model framework for surgical decision support and workflow enhancement",
+          "year": 2024,
+          "abstract": "SurgeryLLM, a large language model framework using Retrieval Augmented Generation demonstrably incorporated domain-specific knowledge from current evidence-based surgical guidelines when presented with patient-specific data. The successful incorporation of guideline-based information represents a substantial step toward enabling greater surgeon efficiency, improving patient safety, and optimizing surgical outcomes."
+        }
+      ],
+      "label": null,
+      "note": ""
+    },
+    {
+      "union_id": "union:79f5e8934d8b14537827a77c40de36da8e1c92ae10367342a3a13e8da9dd789f",
+      "title": "Evaluating Faithfulness in Agentic RAG Systems for e-Governance Applications Using LLM-Based Judging Frameworks",
+      "year": 2025,
+      "abstract": "As Large Language Models (LLMs) are core components in Retrieval-Augmented Generation (RAG) systems for knowledge-intensive tasks, concerns regarding hallucinations, redundancy, and unverifiable outputs have intensified, particularly in high-stakes domains, such as e-government. This study proposes a modular, multi-pipeline framework for statement-level faithfulness evaluation for characterizing hallucination and redundancy across both simple and agentic RAG pipelines. Using GPT-4.1, Claude Sonnet-4.0, and Gemini 2.5 Pro as LLM-based judges, this study examines how tool-specific attribution within agentic multi-tool architectures influences the interpretability and traceability of the generated content. By using a modular agentic RAG framework combining symbolic (GraphRAG), semantic (embedding), and real-time (web) retrieval, we benchmark hallucination and redundancy patterns, using state-of-the-art LLM judges. The study examines RAG and agent-based pipelines that attribute outputs to distinct tools, in contrast to traditional single-source RAG systems that rely on aggregated retrieval. Using e-government data sourced from the European Commission’s Press Corner, our evaluation framework assesses not only the frequency, but also the source-aware detectability of hallucinated content. The findings provide actionable insights into how source granularity and retrieval orchestration impact faithfulness evaluation across different pipeline architectures, while also suggesting new directions for explainability-aware RAG design. The study contributes a reproducible, modular framework for automated faithfulness assessment, with implications for transparency, governance compliance, and trustworthy AI deployment.",
+      "identifiers": [
+        "doi:10.3390/bdcc9120309",
+        "version:3b19fad8042a4592307db80f7c2736b8220fb1615c3799658d65556236df2dd7"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:3b19fad8042a4592307db80f7c2736b8220fb1615c3799658d65556236df2dd7",
+          "paper_id": "doi:10.3390/bdcc9120309",
+          "title": "Evaluating Faithfulness in Agentic RAG Systems for e-Governance Applications Using LLM-Based Judging Frameworks",
+          "year": 2025,
+          "abstract": "As Large Language Models (LLMs) are core components in Retrieval-Augmented Generation (RAG) systems for knowledge-intensive tasks, concerns regarding hallucinations, redundancy, and unverifiable outputs have intensified, particularly in high-stakes domains, such as e-government. This study proposes a modular, multi-pipeline framework for statement-level faithfulness evaluation for characterizing hallucination and redundancy across both simple and agentic RAG pipelines. Using GPT-4.1, Claude Sonnet-4.0, and Gemini 2.5 Pro as LLM-based judges, this study examines how tool-specific attribution within agentic multi-tool architectures influences the interpretability and traceability of the generated content. By using a modular agentic RAG framework combining symbolic (GraphRAG), semantic (embedding), and real-time (web) retrieval, we benchmark hallucination and redundancy patterns, using state-of-the-art LLM judges. The study examines RAG and agent-based pipelines that attribute outputs to distinct tools, in contrast to traditional single-source RAG systems that rely on aggregated retrieval. Using e-government data sourced from the European Commission’s Press Corner, our evaluation framework assesses not only the frequency, but also the source-aware detectability of hallucinated content. The findings provide actionable insights into how source granularity and retrieval orchestration impact faithfulness evaluation across different pipeline architectures, while also suggesting new directions for explainability-aware RAG design. The study contributes a reproducible, modular framework for automated faithfulness assessment, with implications for transparency, governance compliance, and trustworthy AI deployment."
+        }
+      ],
+      "label": null,
+      "note": ""
+    },
+    {
+      "union_id": "union:8fadfd94ff33b9c745189332eacb8c15a1748c83183bbed4cf3d15f8599c0dbd",
+      "title": "The transformative impact of large language models on medical writing and publishing: current applications, challenges and future directions",
+      "year": 2024,
+      "abstract": "Large language models (LLMs) are rapidly transforming medical writing and publishing. This review article focuses on experimental evidence to provide a comprehensive overview of the current applications, challenges, and future implications of LLMs in various stages of academic research and publishing process. Global surveys reveal a high prevalence of LLM usage in scientific writing, with both potential benefits and challenges associated with its adoption. LLMs have been successfully applied in literature search, research design, writing assistance, quality assessment, citation generation, and data analysis. LLMs have also been used in peer review and publication processes, including manuscript screening, generating review comments, and identifying potential biases. To ensure the integrity and quality of scholarly work in the era of LLM-assisted research, responsible artificial intelligence (AI) use is crucial. Researchers should prioritize verifying the accuracy and reliability of AI-generated content, maintain transparency in the use of LLMs, and develop collaborative human-AI workflows. Reviewers should focus on higher-order reviewing skills and be aware of the potential use of LLMs in manuscripts. Editorial offices should develop clear policies and guidelines on AI use and foster open dialogue within the academic community. Future directions include addressing the limitations and biases of current LLMs, exploring innovative applications, and continuously updating policies and practices in response to technological advancements. Collaborative efforts among stakeholders are necessary to harness the transformative potential of LLMs while maintaining the integrity of medical writing and publishing.",
+      "identifiers": [
+        "doi:10.4196/kjpp.2024.28.5.393",
+        "version:c52ea2c3340c063503a79955887b6b65e9dfb56802e646cb805b679441cd1a4c"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:c52ea2c3340c063503a79955887b6b65e9dfb56802e646cb805b679441cd1a4c",
+          "paper_id": "doi:10.4196/kjpp.2024.28.5.393",
+          "title": "The transformative impact of large language models on medical writing and publishing: current applications, challenges and future directions",
+          "year": 2024,
+          "abstract": "Large language models (LLMs) are rapidly transforming medical writing and publishing. This review article focuses on experimental evidence to provide a comprehensive overview of the current applications, challenges, and future implications of LLMs in various stages of academic research and publishing process. Global surveys reveal a high prevalence of LLM usage in scientific writing, with both potential benefits and challenges associated with its adoption. LLMs have been successfully applied in literature search, research design, writing assistance, quality assessment, citation generation, and data analysis. LLMs have also been used in peer review and publication processes, including manuscript screening, generating review comments, and identifying potential biases. To ensure the integrity and quality of scholarly work in the era of LLM-assisted research, responsible artificial intelligence (AI) use is crucial. Researchers should prioritize verifying the accuracy and reliability of AI-generated content, maintain transparency in the use of LLMs, and develop collaborative human-AI workflows. Reviewers should focus on higher-order reviewing skills and be aware of the potential use of LLMs in manuscripts. Editorial offices should develop clear policies and guidelines on AI use and foster open dialogue within the academic community. Future directions include addressing the limitations and biases of current LLMs, exploring innovative applications, and continuously updating policies and practices in response to technological advancements. Collaborative efforts among stakeholders are necessary to harness the transformative potential of LLMs while maintaining the integrity of medical writing and publishing."
+        }
+      ],
+      "label": null,
+      "note": ""
+    },
+    {
+      "union_id": "union:9f4fc6da726640e118c2cbef2a5109987492edee7ee85e29330dc5004ef0f8ec",
+      "title": "Evaluating Evaluation Metrics – The Mirage of Hallucination Detection",
+      "year": 2025,
+      "abstract": "Hallucinations pose a significant obstacle to the reliability and widespread adoption of language models, yet their accurate measurement remains a persistent challenge. While many task- and domain-specific metrics have been proposed to assess faithfulness and factuality concerns, the robustness and generalization of these metrics are still untested. In this paper, we conduct a large-scale empirical evaluation of 6 diverse sets of hallucination detection metrics across 4 datasets, 37 language models from 5 families, and 5 decoding methods. Our extensive investigation reveals concerning gaps in current hallucination evaluation: metrics often fail to align with human judgments, take an overtly myopic view of the problem, and show inconsistent gains with parameter scaling. Encouragingly, LLM-based evaluation, particularly with GPT-4, yields the best overall results, and mode-seeking decoding methods seem to reduce hallucinations, especially in knowledge-grounded settings. These findings underscore the need for more robust metrics to understand and quantify hallucinations, and better strategies to mitigate them.",
+      "identifiers": [
+        "doi:10.18653/v1/2025.findings-emnlp.1035",
+        "version:afeda3b5abe099d81e254ebdc9dc55d019749c30dc52ce6be53291f8f348f9ff"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:afeda3b5abe099d81e254ebdc9dc55d019749c30dc52ce6be53291f8f348f9ff",
+          "paper_id": "doi:10.18653/v1/2025.findings-emnlp.1035",
+          "title": "Evaluating Evaluation Metrics – The Mirage of Hallucination Detection",
+          "year": 2025,
+          "abstract": "Hallucinations pose a significant obstacle to the reliability and widespread adoption of language models, yet their accurate measurement remains a persistent challenge. While many task- and domain-specific metrics have been proposed to assess faithfulness and factuality concerns, the robustness and generalization of these metrics are still untested. In this paper, we conduct a large-scale empirical evaluation of 6 diverse sets of hallucination detection metrics across 4 datasets, 37 language models from 5 families, and 5 decoding methods. Our extensive investigation reveals concerning gaps in current hallucination evaluation: metrics often fail to align with human judgments, take an overtly myopic view of the problem, and show inconsistent gains with parameter scaling. Encouragingly, LLM-based evaluation, particularly with GPT-4, yields the best overall results, and mode-seeking decoding methods seem to reduce hallucinations, especially in knowledge-grounded settings. These findings underscore the need for more robust metrics to understand and quantify hallucinations, and better strategies to mitigate them."
+        }
+      ],
+      "label": null,
+      "note": ""
+    },
+    {
+      "union_id": "union:aa0535752d6e8b825b7f37b72e1512f908ef56993fb09d4beb29ac0ad3e5f7b4",
+      "title": "Improving Dialog System Grounded with Unstructured Knowledge by Domain Adaptive Pre-Training and Post-Ranking",
+      "year": 2021,
+      "abstract": "Linguistic intelligence and the ability to converse with human are important and indispensable parts of humanoid robots. One of the most challenging tasks in knowledge-grounded task-oriented dialog systems (KTDS) is the knowledge selection task, which aims to find the proper knowledge snippets to respond to user dialog requests. In this paper, we first propose domain adapted-BERT (DA-BERT) which employs pre-trained bidirectional encoder representations from transformers (BERT) with domain adaptive training and dynamic masking probability for knowledge selection in KTDS. Domain adaptive training can minimize the domain gap between the general text data that BERT is pre-trained on and the dialog–knowledge joint data while dynamic masking probability enhances the training in an easy-to-hard manner. After knowledge selection, the next task in KTDS is knowledge-grounded generation. To improve the performance in knowledge-grounded generation, we propose GPT-PR to employ post-ranking on the generator’s outputs. Post-ranking eliminates the possibility of generating hallucination response by a large portion during the sampling-based decoding process and thus can improve the quality of the generated response. Experimental results on the benchmark dataset show that our proposed pre-training and post-ranking methods, DA-BERT and GPT-PR, respectively, outperform the state-of-the-art models with large margins across all the evaluation metrics. Moreover, in the experiments, we also analyze the bad cases of DA-BERT and GPT-PR and do visualizations to facilitate further research in this direction.",
+      "identifiers": [
+        "doi:10.1142/s0219843621500195",
+        "version:bd1e666390619a79a579c7bb203d79e0280c63513e20759dd627ad6b540f030d"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:bd1e666390619a79a579c7bb203d79e0280c63513e20759dd627ad6b540f030d",
+          "paper_id": "doi:10.1142/s0219843621500195",
+          "title": "Improving Dialog System Grounded with Unstructured Knowledge by Domain Adaptive Pre-Training and Post-Ranking",
+          "year": 2021,
+          "abstract": "Linguistic intelligence and the ability to converse with human are important and indispensable parts of humanoid robots. One of the most challenging tasks in knowledge-grounded task-oriented dialog systems (KTDS) is the knowledge selection task, which aims to find the proper knowledge snippets to respond to user dialog requests. In this paper, we first propose domain adapted-BERT (DA-BERT) which employs pre-trained bidirectional encoder representations from transformers (BERT) with domain adaptive training and dynamic masking probability for knowledge selection in KTDS. Domain adaptive training can minimize the domain gap between the general text data that BERT is pre-trained on and the dialog–knowledge joint data while dynamic masking probability enhances the training in an easy-to-hard manner. After knowledge selection, the next task in KTDS is knowledge-grounded generation. To improve the performance in knowledge-grounded generation, we propose GPT-PR to employ post-ranking on the generator’s outputs. Post-ranking eliminates the possibility of generating hallucination response by a large portion during the sampling-based decoding process and thus can improve the quality of the generated response. Experimental results on the benchmark dataset show that our proposed pre-training and post-ranking methods, DA-BERT and GPT-PR, respectively, outperform the state-of-the-art models with large margins across all the evaluation metrics. Moreover, in the experiments, we also analyze the bad cases of DA-BERT and GPT-PR and do visualizations to facilitate further research in this direction."
+        }
+      ],
+      "label": null,
+      "note": ""
+    },
+    {
+      "union_id": "union:b089c95540d7eb6ca25d79131f0767911a0ba79a656953768a8c346ab68500e7",
+      "title": "Searching for Best Practices in Retrieval-Augmented Generation",
+      "year": 2024,
+      "abstract": "Xiaohua Wang, Zhenghua Wang, Xuan Gao, Feiran Zhang, Yixin Wu, Zhibo Xu, Tianyuan Shi, Zhengyuan Wang, Shizheng Li, Qi Qian, Ruicheng Yin, Changze Lv, Xiaoqing Zheng, Xuanjing Huang. Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing. 2024.",
+      "identifiers": [
+        "doi:10.18653/v1/2024.emnlp-main.981",
+        "version:e46adc60f58952751d43fd168b4ef17aef7b582e6f35daaac7a6a482261666b5"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:e46adc60f58952751d43fd168b4ef17aef7b582e6f35daaac7a6a482261666b5",
+          "paper_id": "doi:10.18653/v1/2024.emnlp-main.981",
+          "title": "Searching for Best Practices in Retrieval-Augmented Generation",
+          "year": 2024,
+          "abstract": "Xiaohua Wang, Zhenghua Wang, Xuan Gao, Feiran Zhang, Yixin Wu, Zhibo Xu, Tianyuan Shi, Zhengyuan Wang, Shizheng Li, Qi Qian, Ruicheng Yin, Changze Lv, Xiaoqing Zheng, Xuanjing Huang. Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing. 2024."
+        }
+      ],
+      "label": null,
+      "note": ""
+    },
+    {
+      "union_id": "union:c35a265de8a066a815416d98456f957aec677a1f9a96a9e7cda83d1469b81b90",
+      "title": "A Survey on Large Language Model (LLM) Security and Privacy: The Good, the Bad, and the Ugly",
+      "year": 2023,
+      "abstract": "Large Language Models (LLMs), such as ChatGPT and Bard, have revolutionized natural language understanding and generation. They possess deep language comprehension, human-like text generation capabilities, contextual awareness, and robust problem-solving skills, making them invaluable in various domains (e.g., search engines, customer support, translation). In the meantime, LLMs have also gained traction in the security community, revealing security vulnerabilities and showcasing their potential in security-related tasks. This paper explores the intersection of LLMs with security and privacy. Specifically, we investigate how LLMs positively impact security and privacy, potential risks and threats associated with their use, and inherent vulnerabilities within LLMs. Through a comprehensive literature review, the paper categorizes the papers into \"The Good\" (beneficial LLM applications), \"The Bad\" (offensive applications), and \"The Ugly\" (vulnerabilities of LLMs and their defenses). We have some interesting findings. For example, LLMs have proven to enhance code security (code vulnerability detection) and data privacy (data confidentiality protection), outperforming traditional methods. However, they can also be harnessed for various attacks (particularly user-level attacks) due to their human-like reasoning abilities. We have identified areas that require further research efforts. For example, Research on model and parameter extraction attacks is limited and often theoretical, hindered by LLM parameter scale and confidentiality. Safe instruction tuning, a recent development, requires more exploration. We hope that our work can shed light on the LLMs' potential to both bolster and jeopardize cybersecurity.",
+      "identifiers": [
+        "doi:10.48550/arxiv.2312.02003",
+        "version:2d5b1516fad483643cc576cf4246135cd32a938acb9cf122cf23257901492c21"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:2d5b1516fad483643cc576cf4246135cd32a938acb9cf122cf23257901492c21",
+          "paper_id": "doi:10.48550/arxiv.2312.02003",
+          "title": "A Survey on Large Language Model (LLM) Security and Privacy: The Good, the Bad, and the Ugly",
+          "year": 2023,
+          "abstract": "Large Language Models (LLMs), such as ChatGPT and Bard, have revolutionized natural language understanding and generation. They possess deep language comprehension, human-like text generation capabilities, contextual awareness, and robust problem-solving skills, making them invaluable in various domains (e.g., search engines, customer support, translation). In the meantime, LLMs have also gained traction in the security community, revealing security vulnerabilities and showcasing their potential in security-related tasks. This paper explores the intersection of LLMs with security and privacy. Specifically, we investigate how LLMs positively impact security and privacy, potential risks and threats associated with their use, and inherent vulnerabilities within LLMs. Through a comprehensive literature review, the paper categorizes the papers into \"The Good\" (beneficial LLM applications), \"The Bad\" (offensive applications), and \"The Ugly\" (vulnerabilities of LLMs and their defenses). We have some interesting findings. For example, LLMs have proven to enhance code security (code vulnerability detection) and data privacy (data confidentiality protection), outperforming traditional methods. However, they can also be harnessed for various attacks (particularly user-level attacks) due to their human-like reasoning abilities. We have identified areas that require further research efforts. For example, Research on model and parameter extraction attacks is limited and often theoretical, hindered by LLM parameter scale and confidentiality. Safe instruction tuning, a recent development, requires more exploration. We hope that our work can shed light on the LLMs' potential to both bolster and jeopardize cybersecurity."
+        }
+      ],
+      "label": null,
+      "note": ""
+    },
+    {
+      "union_id": "union:cf2573cf967ad2a67383d00b9baf7f3686e4dafcfe91fe73735a6688074db2a1",
+      "title": "In-Context Retrieval-Augmented Language Models",
+      "year": 2023,
+      "abstract": "Abstract Retrieval-Augmented Language Modeling (RALM) methods, which condition a language model (LM) on relevant documents from a grounding corpus during generation, were shown to significantly improve language modeling performance. In addition, they can mitigate the problem of factually inaccurate text generation and provide natural source attribution mechanism. Existing RALM approaches focus on modifying the LM architecture in order to facilitate the incorporation of external information, significantly complicating deployment. This paper considers a simple alternative, which we dub In-Context RALM: leaving the LM architecture unchanged and prepending grounding documents to the input, without any further training of the LM. We show that In-Context RALM that builds on off-the-shelf general purpose retrievers provides surprisingly large LM gains across model sizes and diverse corpora. We also demonstrate that the document retrieval and ranking mechanism can be specialized to the RALM setting to further boost performance. We conclude that In-Context RALM has considerable potential to increase the prevalence of LM grounding, particularly in settings where a pretrained LM must be used without modification or even via API access.1",
+      "identifiers": [
+        "doi:10.1162/tacl_a_00605",
+        "version:028d11b27e3406307a0a174a1e95b13d374809d1c8b4071d97c0dc13e1165605"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:028d11b27e3406307a0a174a1e95b13d374809d1c8b4071d97c0dc13e1165605",
+          "paper_id": "doi:10.1162/tacl_a_00605",
+          "title": "In-Context Retrieval-Augmented Language Models",
+          "year": 2023,
+          "abstract": "Abstract Retrieval-Augmented Language Modeling (RALM) methods, which condition a language model (LM) on relevant documents from a grounding corpus during generation, were shown to significantly improve language modeling performance. In addition, they can mitigate the problem of factually inaccurate text generation and provide natural source attribution mechanism. Existing RALM approaches focus on modifying the LM architecture in order to facilitate the incorporation of external information, significantly complicating deployment. This paper considers a simple alternative, which we dub In-Context RALM: leaving the LM architecture unchanged and prepending grounding documents to the input, without any further training of the LM. We show that In-Context RALM that builds on off-the-shelf general purpose retrievers provides surprisingly large LM gains across model sizes and diverse corpora. We also demonstrate that the document retrieval and ranking mechanism can be specialized to the RALM setting to further boost performance. We conclude that In-Context RALM has considerable potential to increase the prevalence of LM grounding, particularly in settings where a pretrained LM must be used without modification or even via API access.1"
+        }
+      ],
+      "label": null,
+      "note": ""
+    },
+    {
+      "union_id": "union:d7e55a242b2e1d743c51dfc9cda3feb6deea926c5bc2f8bf8278f24c4b20e2ca",
+      "title": "Bias and Unfairness in Information Retrieval Systems: New Challenges in the LLM Era",
+      "year": 2024,
+      "abstract": "With the rapid advancements of large language models (LLMs), information retrieval (IR) systems, such as search engines and recommender systems, have undergone a significant paradigm shift. This evolution, while heralding new opportunities, introduces emerging challenges, particularly in terms of biases and unfairness, which may threaten the information ecosystem. In this paper, we present a comprehensive survey of existing works on emerging and pressing bias and unfairness issues in IR systems when the integration of LLMs. We first unify bias and unfairness issues as distribution mismatch problems, providing a groundwork for categorizing various mitigation strategies through distribution alignment. Subsequently, we systematically delve into the specific bias and unfairness issues arising from three critical stages of LLMs integration into IR systems: data collection, model development, and result evaluation. In doing so, we meticulously review and analyze recent literature, focusing on the definitions, characteristics, and corresponding mitigation strategies associated with these issues. Finally, we identify and highlight some open problems and challenges for future work, aiming to inspire researchers and stakeholders in the IR field and beyond to better understand and mitigate bias and unfairness issues of IR in this LLM era. We also consistently maintain a GitHub repository for the relevant papers and resources in this rising direction at https://github.com/KID-22/LLM-IR-Bias-Fairness-Survey.",
+      "identifiers": [
+        "doi:10.1145/3637528.3671458",
+        "version:ed02109f0c0b59b42dea721b432cfd74cf0520e591148c3f543c90a8b8d1eea1"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:ed02109f0c0b59b42dea721b432cfd74cf0520e591148c3f543c90a8b8d1eea1",
+          "paper_id": "doi:10.1145/3637528.3671458",
+          "title": "Bias and Unfairness in Information Retrieval Systems: New Challenges in the LLM Era",
+          "year": 2024,
+          "abstract": "With the rapid advancements of large language models (LLMs), information retrieval (IR) systems, such as search engines and recommender systems, have undergone a significant paradigm shift. This evolution, while heralding new opportunities, introduces emerging challenges, particularly in terms of biases and unfairness, which may threaten the information ecosystem. In this paper, we present a comprehensive survey of existing works on emerging and pressing bias and unfairness issues in IR systems when the integration of LLMs. We first unify bias and unfairness issues as distribution mismatch problems, providing a groundwork for categorizing various mitigation strategies through distribution alignment. Subsequently, we systematically delve into the specific bias and unfairness issues arising from three critical stages of LLMs integration into IR systems: data collection, model development, and result evaluation. In doing so, we meticulously review and analyze recent literature, focusing on the definitions, characteristics, and corresponding mitigation strategies associated with these issues. Finally, we identify and highlight some open problems and challenges for future work, aiming to inspire researchers and stakeholders in the IR field and beyond to better understand and mitigate bias and unfairness issues of IR in this LLM era. We also consistently maintain a GitHub repository for the relevant papers and resources in this rising direction at https://github.com/KID-22/LLM-IR-Bias-Fairness-Survey."
+        }
+      ],
+      "label": null,
+      "note": ""
+    },
+    {
+      "union_id": "union:eee9fa58e4126dc221326d22a0858cea2249b59fbc16ecfd28d5e30ee85031c0",
+      "title": "ForensicLLM: A local large language model for digital forensics",
+      "year": 2025,
+      "abstract": "Large Language Models (LLMs) excel in diverse natural language tasks but often lack specialization for fields like digital forensics. Their reliance on cloud-based APIs or high-performance computers restricts use in resource-limited environments, and response hallucinations could compromise their applicability in forensic contexts. We introduce ForensicLLM, a 4-bit quantized LLaMA-3.1–8B model fine-tuned on Q&A samples extracted from digital forensic research articles and curated digital artifacts. Quantitative evaluation showed that ForensicLLM outperformed both the base LLaMA-3.1–8B model and the Retrieval Augmented Generation (RAG) model. ForensicLLM accurately attributes sources 86.6 % of the time, with 81.2 % of the responses including both authors and title. Additionally, a user survey conducted with digital forensics professionals confirmed significant improvements of ForensicLLM and RAG model over the base model. ForensicLLM showed strength in “correctness” and “relevance” metrics, while the RAG model was appreciated for providing more detailed responses. These advancements mark ForensicLLM as a transformative tool in digital forensics, elevating model performance and source attribution in critical investigative contexts.",
+      "identifiers": [
+        "doi:10.1016/j.fsidi.2025.301872",
+        "version:d267d82cc75ea41632d0973a13e14b0c40e6ac7d915af4a5ab977ce753666185"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:d267d82cc75ea41632d0973a13e14b0c40e6ac7d915af4a5ab977ce753666185",
+          "paper_id": "doi:10.1016/j.fsidi.2025.301872",
+          "title": "ForensicLLM: A local large language model for digital forensics",
+          "year": 2025,
+          "abstract": "Large Language Models (LLMs) excel in diverse natural language tasks but often lack specialization for fields like digital forensics. Their reliance on cloud-based APIs or high-performance computers restricts use in resource-limited environments, and response hallucinations could compromise their applicability in forensic contexts. We introduce ForensicLLM, a 4-bit quantized LLaMA-3.1–8B model fine-tuned on Q&A samples extracted from digital forensic research articles and curated digital artifacts. Quantitative evaluation showed that ForensicLLM outperformed both the base LLaMA-3.1–8B model and the Retrieval Augmented Generation (RAG) model. ForensicLLM accurately attributes sources 86.6 % of the time, with 81.2 % of the responses including both authors and title. Additionally, a user survey conducted with digital forensics professionals confirmed significant improvements of ForensicLLM and RAG model over the base model. ForensicLLM showed strength in “correctness” and “relevance” metrics, while the RAG model was appreciated for providing more detailed responses. These advancements mark ForensicLLM as a transformative tool in digital forensics, elevating model performance and source attribution in critical investigative contexts."
+        }
+      ],
+      "label": null,
+      "note": ""
+    },
+    {
+      "union_id": "union:fca12a0f8b043513ec8127d0b5aada2e6b9f8ce28f1f0554ac790e38d211d0f1",
+      "title": "Factuality challenges in the era of large language models and opportunities for fact-checking",
+      "year": 2024,
+      "abstract": null,
+      "identifiers": [
+        "doi:10.1038/s42256-024-00881-z",
+        "version:50f6bfc3df4f028ae08dffcef8ef3d11f0ed0fd039b442c7bfd978b9782aa7ad"
+      ],
+      "aliases": [
+        {
+          "group_id": "version:50f6bfc3df4f028ae08dffcef8ef3d11f0ed0fd039b442c7bfd978b9782aa7ad",
+          "paper_id": "doi:10.1038/s42256-024-00881-z",
+          "title": "Factuality challenges in the era of large language models and opportunities for fact-checking",
+          "year": 2024,
+          "abstract": null
+        }
+      ],
+      "label": null,
+      "note": ""
+    }
+  ]
+}

@@ -1,0 +1,284 @@
+{
+  "schema_version": 1,
+  "benchmark_id": "matrix_completion_v1",
+  "research_question": "How does spectral expansion affect deterministic matrix completion under fixed observation patterns?",
+  "search_queries": [
+    {
+      "query_id": "q1",
+      "text": "\"matrix completion\" AND deterministic"
+    },
+    {
+      "query_id": "q2",
+      "text": "\"matrix completion\" AND \"sampling pattern\""
+    },
+    {
+      "query_id": "q3",
+      "text": "\"matrix completion\" AND \"spectral gap\""
+    }
+  ],
+  "relevance_scale": {
+    "0": "Off-target for this benchmark",
+    "1": "Bridge/Supporting",
+    "2": "Direct/Core"
+  },
+  "provenance": {
+    "source": "User-provided frozen human gold judgments for all 22 candidate groups, mapped from original RRF ranks to existing group_id values.",
+    "frozen_on": "2026-09-16",
+    "evaluation_unit": "paper_version_group",
+    "candidate_snapshot": "eval/datasets/matrix_completion_candidates_v1.json",
+    "scope": "Complete human judgments for the 22-group frozen candidate pool, not the entire research literature or a replayable raw-search snapshot.",
+    "identifiers": "Judgment keys and baseline item ids are the exact group_id values from the candidate snapshot. known_paper_ids include the representative paper_id and previously supplied canonical version identifiers.",
+    "judgment_reason_basis": "Concise explanations based on supplied human labels, titles, and abstracts; no full-text review or model output is used. Missing abstracts are acknowledged.",
+    "judgment_policy": "These labels are frozen human gold judgments and must not be inferred or altered from model output.",
+    "baseline_note": "This complete judgment pool supersedes the previous Top-10-only partial pool; nDCG computed from that partial pool is no longer the official baseline.",
+    "rrf_k_basis": "The candidate snapshot's RRF scores and fused hits are consistent with the existing RRFRanker default k=60. Its original ranking is preserved.",
+    "unavailable_snapshot_fields": [
+      "complete_group_membership",
+      "per_member_query_hits",
+      "per_query",
+      "year_from",
+      "year_to"
+    ]
+  },
+  "metric_conventions": {
+    "precision_denominator": "k; missing result slots count as non-relevant.",
+    "ideal_ranking": "All judgments in this frozen pool, sorted by relevance descending and truncated to k.",
+    "unjudged_items": "Reject unjudged items in the evaluated top k instead of silently assigning relevance 0.",
+    "duplicate_items": "Reject duplicate item ids in the evaluated top k."
+  },
+  "baseline": {
+    "method": "group_rrf",
+    "rrf_k": 60,
+    "k": 10,
+    "ranked_item_ids": [
+      "version:fb9cd1e79b4020882e1225a96ef81ab3fbae5a6c39cb6844328dabbd8b559644",
+      "version:e76978fef10725854146bf7a7b7af97cf0532a4a14d8f7f1bd2444e13c8045d4",
+      "version:6486d681af3f09c380f1939ae9d5598a641897854f94562ab38cd24d05ab0e32",
+      "version:0510fb81d5019e24410f9236266b95194b46e2987f16d2ed215fa52f5154c2e0",
+      "version:adc7c07897a8df5a4353467cb86be68db2e2a718d531e7568cf6b1af16404431",
+      "version:38ed31c056bf1fc70ccfb98c98e97763737dc5cf0950682f39575abaa37a9306",
+      "version:380ff13e0cdc1f5a5130e3ea67fb6f4173ee368a9a4595c2d8d3814e469fce24",
+      "version:5040ed8f5a0796e4d461c8f13e45aea42a88a0ec954242b7eb6fab1fba53981e",
+      "version:1a7f55ad555431763a01f69437a8641f31aa5c8f75d5578a167334840766c13e",
+      "version:dec105bceb966bf1aa8f6cd51a7d24e6c163e5d91b465af831dbc2f01d4e6d84",
+      "version:28bb46cfd7e2a2b4c00f972f09fab365557e4f9383c233f503f8a6769bf161ab",
+      "version:356d9b588772daac1414fad417b775c5521ffbbd756daa09a98e93562cf6ae89",
+      "version:f29052f8eb35c02608aae9b52dda225bfcd26fd4251a36b06d926ad88dffe7da",
+      "version:71d6f4515e0fc35d0dd659fb6c747496376235ed9e6c947721922f4520b5368a",
+      "version:a9c1bae368ab351f55f5fc6d68063f3a8067cd247d6a5e885da993f7dd037cf4",
+      "version:dc9c2459b1d1569eefac2b64cfc9cdd092c7cc727321b740bce8d0415c381ce9",
+      "version:c085578f8fe8310a7de202a8f862987492d11114d490b669ba65a6b643c1e310",
+      "version:6f259d593832712fb17c9941aafdae060b5c062eff0ff90f3ce28badd05a7c6d",
+      "version:8f673bdf3f50a6ade7bcc954daed642c72c26372c74057c5cec59d445759d488",
+      "version:1cea7e7a06f705356ae770140064d4816b12b315b77c06195180bed69438d6ef",
+      "version:8b3562f10085a1afa2bdba526f98cf4ad6a1f6a74142aa49f55a78826fc347e0",
+      "version:cad2b6d607cc39f41f44cf1acb5b92a031f84e5b34656c89554398ddf5ae4257"
+    ],
+    "expected_metrics": {
+      "precision_at_10": 0.6,
+      "strict_precision_at_10": 0.5,
+      "ndcg_at_10": 0.6781498023908038
+    }
+  },
+  "judgments": {
+    "version:fb9cd1e79b4020882e1225a96ef81ab3fbae5a6c39cb6844328dabbd8b559644": {
+      "title": "A Characterization of Deterministic Sampling Patterns for Low-Rank Matrix Completion",
+      "group_id": "version:fb9cd1e79b4020882e1225a96ef81ab3fbae5a6c39cb6844328dabbd8b559644",
+      "known_paper_ids": [
+        "doi:10.1109/jstsp.2016.2537145",
+        "doi:10.1109/allerton.2015.7447128"
+      ],
+      "relevance": 2,
+      "reason": "Characterizes finitely completable observation sets and gives verifiable deterministic conditions for unique low-rank matrix completion."
+    },
+    "version:e76978fef10725854146bf7a7b7af97cf0532a4a14d8f7f1bd2444e13c8045d4": {
+      "title": "Implicit Regularization in Nonconvex Statistical Estimation: Gradient Descent Converges Linearly for Phase Retrieval, Matrix Completion, and Blind Deconvolution",
+      "group_id": "version:e76978fef10725854146bf7a7b7af97cf0532a4a14d8f7f1bd2444e13c8045d4",
+      "known_paper_ids": [
+        "doi:10.1007/s10208-019-09429-9"
+      ],
+      "relevance": 0,
+      "reason": "Studies implicit regularization of gradient descent across statistical estimation models; the abstract does not address spectral expansion of fixed observation patterns."
+    },
+    "version:6486d681af3f09c380f1939ae9d5598a641897854f94562ab38cd24d05ab0e32": {
+      "title": "On Deterministic Sampling Patterns for Robust Low-Rank Matrix Completion",
+      "group_id": "version:6486d681af3f09c380f1939ae9d5598a641897854f94562ab38cd24d05ab0e32",
+      "known_paper_ids": [
+        "doi:10.1109/lsp.2017.2780983"
+      ],
+      "relevance": 2,
+      "reason": "Studies deterministic sampling conditions for low-rank completion with sparse corruptions, a core extension of the target setting."
+    },
+    "version:0510fb81d5019e24410f9236266b95194b46e2987f16d2ed215fa52f5154c2e0": {
+      "title": "De-biasing low-rank projection for matrix completion",
+      "group_id": "version:0510fb81d5019e24410f9236266b95194b46e2987f16d2ed215fa52f5154c2e0",
+      "known_paper_ids": [
+        "doi:10.1117/12.2275004"
+      ],
+      "relevance": 2,
+      "reason": "Analyzes recovery and de-biasing under non-uniform deterministic sampling using a computable sampling-pattern parameter."
+    },
+    "version:adc7c07897a8df5a4353467cb86be68db2e2a718d531e7568cf6b1af16404431": {
+      "title": "A survey of matrix completion methods for recommendation systems",
+      "group_id": "version:adc7c07897a8df5a4353467cb86be68db2e2a718d531e7568cf6b1af16404431",
+      "known_paper_ids": [
+        "doi:10.26599/bdma.2018.9020008"
+      ],
+      "relevance": 0,
+      "reason": "Surveys collaborative filtering and recommendation algorithms; the abstract does not study fixed-pattern spectral recovery conditions."
+    },
+    "version:38ed31c056bf1fc70ccfb98c98e97763737dc5cf0950682f39575abaa37a9306": {
+      "title": "Spectral gap in random bipartite biregular graphs and applications",
+      "group_id": "version:38ed31c056bf1fc70ccfb98c98e97763737dc5cf0950682f39575abaa37a9306",
+      "known_paper_ids": [
+        "doi:10.1017/s0963548321000249"
+      ],
+      "relevance": 1,
+      "reason": "Proves spectral-gap results for bipartite biregular graphs and explicitly includes deterministic matrix completion among the applications."
+    },
+    "version:380ff13e0cdc1f5a5130e3ea67fb6f4173ee368a9a4595c2d8d3814e469fce24": {
+      "title": "Matrix Completion With Deterministic Pattern: A Geometric Perspective",
+      "group_id": "version:380ff13e0cdc1f5a5130e3ea67fb6f4173ee368a9a4595c2d8d3814e469fce24",
+      "known_paper_ids": [
+        "doi:10.1109/tsp.2018.2885494"
+      ],
+      "relevance": 2,
+      "reason": "Establishes geometric conditions for local uniqueness of matrix completion with deterministic observed-entry patterns."
+    },
+    "version:5040ed8f5a0796e4d461c8f13e45aea42a88a0ec954242b7eb6fab1fba53981e": {
+      "title": "Spectroscopic stimulated Raman scattering imaging of highly dynamic specimens through matrix completion",
+      "group_id": "version:5040ed8f5a0796e4d461c8f13e45aea42a88a0ec954242b7eb6fab1fba53981e",
+      "known_paper_ids": [
+        "doi:10.1038/lsa.2017.179"
+      ],
+      "relevance": 0,
+      "reason": "Uses matrix completion to accelerate Raman imaging; the contribution concerns imaging acquisition and reconstruction rather than graph expansion conditions."
+    },
+    "version:1a7f55ad555431763a01f69437a8641f31aa5c8f75d5578a167334840766c13e": {
+      "title": "Size biased couplings and the spectral gap for random regular graphs",
+      "group_id": "version:1a7f55ad555431763a01f69437a8641f31aa5c8f75d5578a167334840766c13e",
+      "known_paper_ids": [
+        "doi:10.1214/17-aop1180"
+      ],
+      "relevance": 0,
+      "reason": "Develops concentration bounds and spectral-gap results for random regular graphs; the abstract gives no connection to deterministic matrix completion."
+    },
+    "version:dec105bceb966bf1aa8f6cd51a7d24e6c163e5d91b465af831dbc2f01d4e6d84": {
+      "title": "Matrix Completion with Deterministic Sampling: Theories and Methods",
+      "group_id": "version:dec105bceb966bf1aa8f6cd51a7d24e6c163e5d91b465af831dbc2f01d4e6d84",
+      "known_paper_ids": [
+        "doi:10.1109/tpami.2019.2937869"
+      ],
+      "relevance": 2,
+      "reason": "Develops deterministic matrix-completion recovery conditions and associated convex and nonconvex methods, directly addressing the target setting."
+    },
+    "version:28bb46cfd7e2a2b4c00f972f09fab365557e4f9383c233f503f8a6769bf161ab": {
+      "title": "Entrywise eigenvector analysis of random matrices with low expected rank",
+      "group_id": "version:28bb46cfd7e2a2b4c00f972f09fab365557e4f9383c233f503f8a6769bf161ab",
+      "known_paper_ids": [
+        "doi:10.1214/19-aos1854"
+      ],
+      "relevance": 0,
+      "reason": "Studies entrywise eigenvector perturbations for random matrices and statistical recovery; the abstract does not establish deterministic sampling-pattern conditions."
+    },
+    "version:356d9b588772daac1414fad417b775c5521ffbbd756daa09a98e93562cf6ae89": {
+      "title": "A New Theory for Matrix Completion",
+      "group_id": "version:356d9b588772daac1414fad417b775c5521ffbbd756daa09a98e93562cf6ae89",
+      "known_paper_ids": [
+        "openalex:W2751391930"
+      ],
+      "relevance": 2,
+      "reason": "Introduces an isomeric condition and recovery theory motivated by nonuniform, deterministic missing data, directly addressing the core completion setting."
+    },
+    "version:f29052f8eb35c02608aae9b52dda225bfcd26fd4251a36b06d926ad88dffe7da": {
+      "title": "Spectral Gap-Based Seismic Survey Design",
+      "group_id": "version:f29052f8eb35c02608aae9b52dda225bfcd26fd4251a36b06d926ad88dffe7da",
+      "known_paper_ids": [
+        "doi:10.1109/tgrs.2023.3237464"
+      ],
+      "relevance": 2,
+      "reason": "Explicitly applies deterministic matrix-completion results to seismic acquisition and uses the sampling layout's bipartite spectral gap as a reconstruction-quality metric."
+    },
+    "version:71d6f4515e0fc35d0dd659fb6c747496376235ed9e6c947721922f4520b5368a": {
+      "title": "Cartesian MR fingerprinting in the eye at 7T using compressed sensing and matrix completion‐based reconstructions",
+      "group_id": "version:71d6f4515e0fc35d0dd659fb6c747496376235ed9e6c947721922f4520b5368a",
+      "known_paper_ids": [
+        "doi:10.1002/mrm.27594"
+      ],
+      "relevance": 0,
+      "reason": "Uses matrix completion for faster eye MR fingerprinting and parameter-map reconstruction, outside the benchmark's spectral expansion and fixed-pattern theory focus."
+    },
+    "version:a9c1bae368ab351f55f5fc6d68063f3a8067cd247d6a5e885da993f7dd037cf4": {
+      "title": "1-Bit Matrix Completion under Exact Low-Rank Constraint",
+      "group_id": "version:a9c1bae368ab351f55f5fc6d68063f3a8067cd247d6a5e885da993f7dd037cf4",
+      "known_paper_ids": [
+        "doi:10.48550/arxiv.1502.06689"
+      ],
+      "relevance": 0,
+      "reason": "Analyzes noisy binary measurements under a probabilistic model and exact rank constraints, outside the benchmark's fixed-pattern recovery focus."
+    },
+    "version:dc9c2459b1d1569eefac2b64cfc9cdd092c7cc727321b740bce8d0415c381ce9": {
+      "title": "Matrix Completion and Extrapolation via Kernel Regression",
+      "group_id": "version:dc9c2459b1d1569eefac2b64cfc9cdd092c7cc727321b740bce8d0415c381ce9",
+      "known_paper_ids": [
+        "doi:10.1109/tsp.2019.2932875"
+      ],
+      "relevance": 0,
+      "reason": "Uses kernel regression and prior information for matrix completion and extrapolation; the abstract does not address expansion of observation patterns."
+    },
+    "version:c085578f8fe8310a7de202a8f862987492d11114d490b669ba65a6b643c1e310": {
+      "title": "Matrix Completion from $O(n)$ Samples in Linear Time",
+      "group_id": "version:c085578f8fe8310a7de202a8f862987492d11114d490b669ba65a6b643c1e310",
+      "known_paper_ids": [
+        "doi:10.48550/arxiv.1702.02267"
+      ],
+      "relevance": 1,
+      "reason": "Uses sparse random regular bipartite graphs as a matrix-completion sampling scheme, providing related graph-based recovery methodology."
+    },
+    "version:6f259d593832712fb17c9941aafdae060b5c062eff0ff90f3ce28badd05a7c6d": {
+      "title": "A characterization of sampling patterns for low-rank multi-view data completion problem",
+      "group_id": "version:6f259d593832712fb17c9941aafdae060b5c062eff0ff90f3ce28badd05a7c6d",
+      "known_paper_ids": [
+        "doi:10.1109/isit.2017.8006708"
+      ],
+      "relevance": 1,
+      "reason": "Characterizes deterministic sampling conditions for multi-view completion with several rank constraints, supporting analysis of related completion settings."
+    },
+    "version:8f673bdf3f50a6ade7bcc954daed642c72c26372c74057c5cec59d445759d488": {
+      "title": "Detection thresholds in very sparse matrix completion",
+      "group_id": "version:8f673bdf3f50a6ade7bcc954daed642c72c26372c74057c5cec59d445759d488",
+      "known_paper_ids": [
+        "doi:10.48550/arxiv.2005.06062"
+      ],
+      "relevance": 0,
+      "reason": "Studies detection thresholds under sparse Bernoulli observations and asymmetric spectral methods, rather than conditions on fixed deterministic observation patterns."
+    },
+    "version:1cea7e7a06f705356ae770140064d4816b12b315b77c06195180bed69438d6ef": {
+      "title": "Robust matrix completion",
+      "group_id": "version:1cea7e7a06f705356ae770140064d4816b12b315b77c06195180bed69438d6ef",
+      "known_paper_ids": [
+        "doi:10.1007/s00440-016-0736-y"
+      ],
+      "relevance": 0,
+      "reason": "The title identifies robust matrix completion, but no abstract is available to establish a connection to fixed patterns or spectral expansion; the supplied human Off-target label is preserved."
+    },
+    "version:8b3562f10085a1afa2bdba526f98cf4ad6a1f6a74142aa49f55a78826fc347e0": {
+      "title": "Corrections to “A Characterization of Deterministic Sampling Patterns for Low-Rank Matrix Completion”",
+      "group_id": "version:8b3562f10085a1afa2bdba526f98cf4ad6a1f6a74142aa49f55a78826fc347e0",
+      "known_paper_ids": [
+        "doi:10.1109/jstsp.2016.2618502"
+      ],
+      "relevance": 1,
+      "reason": "Corrects a core deterministic sampling-pattern characterization paper, supporting accurate use of that result while remaining a separate bibliographic group."
+    },
+    "version:cad2b6d607cc39f41f44cf1acb5b92a031f84e5b34656c89554398ddf5ae4257": {
+      "title": "A simulation-free seismic survey design by maximizing the spectral gap",
+      "group_id": "version:cad2b6d607cc39f41f44cf1acb5b92a031f84e5b34656c89554398ddf5ae4257",
+      "known_paper_ids": [
+        "doi:10.1190/image2022-3751690.1"
+      ],
+      "relevance": 1,
+      "reason": "Optimizes seismic subsampling masks by increasing their spectral gap and reports improved matrix-completion reconstruction, providing an applied methodological bridge."
+    }
+  }
+}

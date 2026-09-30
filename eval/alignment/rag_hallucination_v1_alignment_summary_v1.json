@@ -1,0 +1,14 @@
+{
+  "benchmark_id": "rag_hallucination_v1",
+  "version": "v1",
+  "identity_review_complete": true,
+  "counts_status": "final",
+  "raw_human_groups": 17,
+  "raw_llm_groups": 38,
+  "canonical_human_works": 17,
+  "canonical_llm_works": 38,
+  "intersection": 12,
+  "human_only": 5,
+  "llm_only": 26,
+  "unresolved_title_pairs": 0
+}

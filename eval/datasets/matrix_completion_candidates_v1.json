@@ -1,0 +1,381 @@
+{
+  "question": "How does spectral expansion affect deterministic matrix completion under fixed observation patterns?",
+  "candidates": [
+    {
+      "rrf_rank": 1,
+      "group_id": "version:fb9cd1e79b4020882e1225a96ef81ab3fbae5a6c39cb6844328dabbd8b559644",
+      "rrf_score": 0.04891591750396616,
+      "title": "A Characterization of Deterministic Sampling Patterns for Low-Rank Matrix Completion",
+      "paper_id": "doi:10.1109/jstsp.2016.2537145",
+      "year": 2016,
+      "abstract": "Low-rank matrix completion (LRMC) problems arise in a wide variety of applications. Previous theory mainly provides conditions for completion under missing-at-random samplings. This paper studies deterministic conditions for completion. An incomplete d × N matrix is finitely rank-r completable if there are at most finitely many rank-r matrices that agree with all its observed entries. Finite completability is the tipping point in LRMC, as a few additional samples of a finitely completable matrix guarantee its unique completability. The main contribution of this paper is a characterization of finitely completable observation sets. We use this characterization to derive sufficient deterministic sampling conditions for unique completability that can be efficiently verified. We also show that under uniform random sampling schemes, these conditions are satisfied with high probability if (max{r, log d}) entries per column are observed. These findings have several implications on LRMC regarding lower bounds, sample and computational complexity, the role of coherence, adaptive settings, and the validation of any completion algorithm. We complement our theoretical results with experiments that support our findings and motivate future analysis of uncharted sampling regimes.",
+      "version_count": 2,
+      "hits": [
+        {
+          "query_id": "q1",
+          "rank": 1
+        },
+        {
+          "query_id": "q2",
+          "rank": 1
+        },
+        {
+          "query_id": "q3",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "rrf_rank": 2,
+      "group_id": "version:e76978fef10725854146bf7a7b7af97cf0532a4a14d8f7f1bd2444e13c8045d4",
+      "rrf_score": 0.04839549075403121,
+      "title": "Implicit Regularization in Nonconvex Statistical Estimation: Gradient Descent Converges Linearly for Phase Retrieval, Matrix Completion, and Blind Deconvolution",
+      "paper_id": "doi:10.1007/s10208-019-09429-9",
+      "year": 2019,
+      "abstract": "Recent years have seen a flurry of activities in designing provably efficient nonconvex procedures for solving statistical estimation problems.Due to the highly nonconvex nature of the empirical loss, state-of-the-art procedures often require proper regularization (e.g., trimming, regularized cost, projection) in order to guarantee fast convergence.For vanilla procedures such as gradient descent, however, prior theory either recommends highly conservative learning rates to avoid overshooting, or completely lacks performance guarantees.This paper uncovers a striking phenomenon in nonconvex optimization: even in the absence of explicit regularization, gradient descent enforces proper regularization implicitly under various statistical models.In fact, gradient descent follows a trajectory staying within a basin that enjoys nice geometry, consisting of points incoherent with the sampling mechanism.This \"implicit regularization\" feature allows gradient descent to proceed in a far more aggressive fashion without overshooting, which in turn results in substantial computational savings.Focusing on three fundamental statistical estimation problems, i.e., phase retrieval, low-rank matrix completion, and blind deconvolution, we establish that gradient descent achieves near-optimal statistical and computational guarantees without explicit regularization.In particular, by marrying statistical modeling with generic optimization theory, we develop a general recipe for analyzing the trajectories of iterative algorithms via a leave-one-out perturbation argument.As a by-product, for noisy matrix completion, we demonstrate that gradient descent achieves near-optimal error control-measured entrywise and by the spectral norm-which might be of independent interest.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q1",
+          "rank": 3
+        },
+        {
+          "query_id": "q2",
+          "rank": 2
+        },
+        {
+          "query_id": "q3",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "rrf_rank": 3,
+      "group_id": "version:6486d681af3f09c380f1939ae9d5598a641897854f94562ab38cd24d05ab0e32",
+      "rrf_score": 0.030798389007344232,
+      "title": "On Deterministic Sampling Patterns for Robust Low-Rank Matrix Completion",
+      "paper_id": "doi:10.1109/lsp.2017.2780983",
+      "year": 2017,
+      "abstract": "In this letter, we study the deterministic sampling patterns for the completion of low-rank matrix, when corrupted with a sparse noise, also known as robust matrix completion. We extend the recent results on the deterministic sampling patterns in the absence of noise based on the geometric analysis on the Grassmannian manifold. A special case where each column has a certain number of noisy entries is considered, where our probabilistic analysis performs very efficiently. Furthermore, assuming that the rank of the original matrix is not given, we provide an analysis to determine if the rank of a valid completion is indeed the actual rank of the data corrupted with sparse noise by verifying some conditions.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q1",
+          "rank": 7
+        },
+        {
+          "query_id": "q2",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "rrf_rank": 4,
+      "group_id": "version:0510fb81d5019e24410f9236266b95194b46e2987f16d2ed215fa52f5154c2e0",
+      "rrf_score": 0.02964426877470356,
+      "title": "De-biasing low-rank projection for matrix completion",
+      "paper_id": "doi:10.1117/12.2275004",
+      "year": 2017,
+      "abstract": "We study matrix completion with non-uniform, deterministic sampling patterns. We introduce a computable parameter, which is a function of the sampling pattern, and show that if this parameter is small, then we may recover missing entries of the matrix, with appropriate weights. We theoretically analyze a simple and well-known recovery method, which simply projects the (zero-padded) subsampled matrix onto the set of low-rank matrices. We show that under non-uniform deterministic sampling, this method yields a biased solution, and we propose an algorithm to de-bias it. Numerical simulations demonstrate that de-biasing significantly improves the estimate. However, when the observations are noisy, the error of this method can be sub-optimal when the sampling is highly non-uniform. To remedy this, we suggest an alternative which is based on projection onto the max-norm ball whose robustness to noise tolerates arbitrarily non-uniform sampling. Finally, we analyze convex optimization in this framework.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q1",
+          "rank": 9
+        },
+        {
+          "query_id": "q2",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "rrf_rank": 5,
+      "group_id": "version:adc7c07897a8df5a4353467cb86be68db2e2a718d531e7568cf6b1af16404431",
+      "rrf_score": 0.016129032258064516,
+      "title": "A survey of matrix completion methods for recommendation systems",
+      "paper_id": "doi:10.26599/bdma.2018.9020008",
+      "year": 2018,
+      "abstract": "In recent years, the recommendation systems have become increasingly popular and have been used in a broad variety of applications. Here, we investigate the matrix completion techniques for the recommendation systems that are based on collaborative filtering. The collaborative filtering problem can be viewed as predicting the favorability of a user with respect to new items of commodities. When a rating matrix is constructed with users as rows, items as columns, and entries as ratings, the collaborative filtering problem can then be modeled as a matrix completion problem by filling out the unknown elements in the rating matrix. This article presents a comprehensive survey of the matrix completion methods used in recommendation systems. We focus on the mathematical models for matrix completion and the corresponding computational algorithms as well as their characteristics and potential issues. Several applications other than the traditional user-item association prediction are also discussed.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q1",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "rrf_rank": 6,
+      "group_id": "version:38ed31c056bf1fc70ccfb98c98e97763737dc5cf0950682f39575abaa37a9306",
+      "rrf_score": 0.015873015873015872,
+      "title": "Spectral gap in random bipartite biregular graphs and applications",
+      "paper_id": "doi:10.1017/s0963548321000249",
+      "year": 2021,
+      "abstract": "Abstract We prove an analogue of Alon’s spectral gap conjecture for random bipartite, biregular graphs. We use the Ihara–Bass formula to connect the non-backtracking spectrum to that of the adjacency matrix, employing the moment method to show there exists a spectral gap for the non-backtracking matrix. A by-product of our main theorem is that random rectangular zero-one matrices with fixed row and column sums are full rank with high probability. Finally, we illustrate applications to community detection, coding theory, and deterministic matrix completion.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q3",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "rrf_rank": 7,
+      "group_id": "version:380ff13e0cdc1f5a5130e3ea67fb6f4173ee368a9a4595c2d8d3814e469fce24",
+      "rrf_score": 0.015625,
+      "title": "Matrix Completion With Deterministic Pattern: A Geometric Perspective",
+      "paper_id": "doi:10.1109/tsp.2018.2885494",
+      "year": 2018,
+      "abstract": "We consider the matrix completion problem with a deterministic pattern of observed entries. In this setting, we aim to answer the question: Under what conditions will there be (at least locally) unique solution to the matrix completion problem, i.e., the underlying true matrix is identifiable? We answer the question from a certain point of view and outline a geometric perspective. We give an algebraically verifiable sufficient condition, which we call the well-posedness condition, for the local uniqueness of minimum rank matrix completion (MRMC) solutions. It appears that this condition is basic for the analysis of MRMC, and we show that, in a sense, the condition is generic. We also argue that the low-rank approximation approaches are more stable than MRMC and further propose a sequential statistical testing procedure to determine the “true” rank from observed entries. Finally, we provide numerical examples aimed at verifying validity of the presented theory.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q1",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "rrf_rank": 8,
+      "group_id": "version:5040ed8f5a0796e4d461c8f13e45aea42a88a0ec954242b7eb6fab1fba53981e",
+      "rrf_score": 0.015625,
+      "title": "Spectroscopic stimulated Raman scattering imaging of highly dynamic specimens through matrix completion",
+      "paper_id": "doi:10.1038/lsa.2017.179",
+      "year": 2017,
+      "abstract": "Spectroscopic stimulated Raman scattering (SRS) imaging generates chemical maps of intrinsic molecules, with no need for prior knowledge. Despite great advances in instrumentation, the acquisition speed for a spectroscopic SRS image stack is fundamentally bounded by the pixel integration time. In this work, we report three-dimensional sparsely sampled spectroscopic SRS imaging that measures ~20% of pixels throughout the stack. In conjunction with related work in low-rank matrix completion (e.g., the Netflix Prize), we develop a regularized non-negative matrix factorization algorithm to decompose the sub-sampled image stack into spectral signatures and concentration maps. This design enables an acquisition speed of 0.8 s per image stack, with 50 frames in the spectral domain and 40,000 pixels in the spatial domain, which is faster than the conventional raster laser-scanning scheme by one order of magnitude. Such speed allows real-time metabolic imaging of living fungi suspended in a growth medium while effectively maintaining the spatial and spectral resolutions. This work is expected to promote broad application of matrix completion in spectroscopic laser-scanning imaging.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q2",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "rrf_rank": 9,
+      "group_id": "version:1a7f55ad555431763a01f69437a8641f31aa5c8f75d5578a167334840766c13e",
+      "rrf_score": 0.015625,
+      "title": "Size biased couplings and the spectral gap for random regular graphs",
+      "paper_id": "doi:10.1214/17-aop1180",
+      "year": 2018,
+      "abstract": "Let $\\lambda$ be the second largest eigenvalue in absolute value of a uniform random $d$-regular graph on $n$ vertices. It was famously conjectured by Alon and proved by Friedman that if $d$ is fixed independent of $n$, then $\\lambda=2\\sqrt{d-1}+o(1)$ with high probability. In the present work, we show that $\\lambda=O(\\sqrt{d})$ continues to hold with high probability as long as $d=O(n^{2/3})$, making progress toward a conjecture of Vu that the bound holds for all $1\\le d\\le n/2$. Prior to this work the best result was obtained by Broder, Frieze, Suen and Upfal (1999) using the configuration model, which hits a barrier at $d=o(n^{1/2})$. We are able to go beyond this barrier by proving concentration of measure results directly for the uniform distribution on $d$-regular graphs. These come as consequences of advances we make in the theory of concentration by size biased couplings. Specifically, we obtain Bennett-type tail estimates for random variables admitting certain unbounded size biased couplings.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q3",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "rrf_rank": 10,
+      "group_id": "version:dec105bceb966bf1aa8f6cd51a7d24e6c163e5d91b465af831dbc2f01d4e6d84",
+      "rrf_score": 0.015384615384615385,
+      "title": "Matrix Completion with Deterministic Sampling: Theories and Methods",
+      "paper_id": "doi:10.1109/tpami.2019.2937869",
+      "year": 2019,
+      "abstract": "In some significant applications such as data forecasting, the locations of missing entries cannot obey any non-degenerate distributions, questioning the validity of the prevalent assumption that the missing data is randomly chosen according to some probabilistic model. To break through the limits of random sampling, we explore in this paper the problem of real-valued matrix completion under the setup of deterministic sampling. We propose two conditions, isomeric condition and relative well-conditionedness, for guaranteeing an arbitrary matrix to be recoverable from a sampling of the matrix entries. It is provable that the proposed conditions are weaker than the assumption of uniform sampling and, most importantly, it is also provable that the isomeric condition is necessary for the completions of any partial matrices to be identifiable. Equipped with these new tools, we prove a collection of theorems for missing data recovery as well as convex/nonconvex matrix completion. Among other things, we study in detail a Schatten quasi-norm induced method termed isomeric dictionary pursuit (IsoDP), and we show that IsoDP exhibits some distinct behaviors absent in the traditional bilinear programs.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q1",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "rrf_rank": 11,
+      "group_id": "version:28bb46cfd7e2a2b4c00f972f09fab365557e4f9383c233f503f8a6769bf161ab",
+      "rrf_score": 0.015384615384615385,
+      "title": "Entrywise eigenvector analysis of random matrices with low expected rank",
+      "paper_id": "doi:10.1214/19-aos1854",
+      "year": 2020,
+      "abstract": "Recovering low-rank structures via eigenvector perturbation analysis is a common problem in statistical machine learning, such as in factor analysis, community detection, ranking, matrix completion, among others. While a large variety of bounds are available for average errors between empirical and population statistics of eigenvectors, few results are tight for entrywise analyses, which are critical for a number of problems such as community detection. This paper investigates entrywise behaviors of eigenvectors for a large class of random matrices whose expectations are low rank, which helps settle the conjecture in Abbe, Bandeira and Hall (2014) that the spectral algorithm achieves exact recovery in the stochastic block model without any trimming or cleaning steps. The key is a first-order approximation of eigenvectors under the $\\ell _{\\infty }$ norm: \\begin{equation*}u_{k}\\approx \\frac{Au_{k}^{*}}{\\lambda _{k}^{*}},\\end{equation*} where $\\{u_{k}\\}$ and $\\{u_{k}^{*}\\}$ are eigenvectors of a random matrix $A$ and its expectation $\\mathbb{E}A$, respectively. The fact that the approximation is both tight and linear in $A$ facilitates sharp comparisons between $u_{k}$ and $u_{k}^{*}$. In particular, it allows for comparing the signs of $u_{k}$ and $u_{k}^{*}$ even if $\\|u_{k}-u_{k}^{*}\\|_{\\infty }$ is large. The results are further extended to perturbations of eigenspaces, yielding new $\\ell _{\\infty }$-type bounds for synchronization ($\\mathbb{Z}_{2}$-spiked Wigner model) and noisy matrix completion.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q3",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "rrf_rank": 12,
+      "group_id": "version:356d9b588772daac1414fad417b775c5521ffbbd756daa09a98e93562cf6ae89",
+      "rrf_score": 0.015151515151515152,
+      "title": "A New Theory for Matrix Completion",
+      "paper_id": "openalex:W2751391930",
+      "year": 2017,
+      "abstract": "Prevalent matrix completion theories reply on an assumption that the locations of the missing data are distributed uniformly and randomly (i.e., uniform sampling). Nevertheless, the reason for observations being missing often depends on the unseen observations themselves, and thus the missing data in practice usually occurs in a nonuniform and deterministic fashion rather than randomly. To break through the limits of random sampling, this paper introduces a new hypothesis called \\emph{isomeric condition}, which is provably weaker than the assumption of uniform sampling and arguably holds even when the missing data is placed irregularly. Equipped with this new tool, we prove a series of theorems for missing data recovery and matrix completion. In particular, we prove that the exact solutions that identify the target matrix are included as critical points by the commonly used nonconvex programs. Unlike the existing theories for nonconvex matrix completion, which are built upon the same condition as convex programs, our theory shows that nonconvex programs have the potential to work with a much weaker condition. Comparing to the existing studies on nonuniform sampling, our setup is more general.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q1",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "rrf_rank": 13,
+      "group_id": "version:f29052f8eb35c02608aae9b52dda225bfcd26fd4251a36b06d926ad88dffe7da",
+      "rrf_score": 0.015151515151515152,
+      "title": "Spectral Gap-Based Seismic Survey Design",
+      "paper_id": "doi:10.1109/tgrs.2023.3237464",
+      "year": 2023,
+      "abstract": "Seismic imaging in challenging sedimentary basins and reservoirs requires acquiring, processing, and imaging very large volumes of data (tens of terabytes). To reduce the cost of acquisition and the time from acquiring the data to producing a subsurface image, novel acquisition systems based on compressive sensing (CS), low-rank matrix recovery (LRMR), and randomized sampling have been developed and implemented. These approaches allow practitioners to achieve dense wavefield reconstruction from a substantially reduced number of field samples. However, designing acquisition surveys suited for this new sampling paradigm remains a critical and challenging role in oil, gas, and geothermal exploration. Typical random designs studied in the LRMR and CS literature are difficult to achieve by standard industry hardware. For practical purposes, a compromise between stochastic and realizable samples is needed. In this article, we propose a deterministic and computationally cheap tool to alleviate randomized acquisition design, prior to survey deployment and large-scale optimization. We consider universal and deterministic matrix completion results in the context of seismology, where a bipartite graph representation of the source–receiver layout allows for the respective spectral gap (SG) to act as a quality metric for wavefield reconstruction. We provide realistic scenarios to demonstrate the utility of the SG as a flexible tool that can be incorporated into existing survey design workflows for successful seismic data acquisition via low-rank and sparse signal recovery.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q3",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "rrf_rank": 14,
+      "group_id": "version:71d6f4515e0fc35d0dd659fb6c747496376235ed9e6c947721922f4520b5368a",
+      "rrf_score": 0.014925373134328358,
+      "title": "Cartesian MR fingerprinting in the eye at 7T using compressed sensing and matrix completion‐based reconstructions",
+      "paper_id": "doi:10.1002/mrm.27594",
+      "year": 2018,
+      "abstract": "PURPOSE: To explore the feasibility of MR Fingerprinting (MRF) to rapidly quantify relaxation times in the human eye at 7T, and to provide a data acquisition and processing framework for future tissue characterization in eye tumor patients. METHODS: In this single-element receive coil MRF approach with Cartesian sampling, undersampling is used to shorten scan time and, therefore, to reduce the degree of motion artifacts. For reconstruction, approaches based on compressed sensing (CS) and matrix completion (MC) were used, while their effects on the quality of the MRF parameter maps were studied in simulations and experiments. Average relaxation times in the eye were measured in 6 healthy volunteers. One uveal melanoma patient was included to show the feasibility of MRF in a clinical context. RESULTS: Simulation results showed that an MC-based reconstruction enables large undersampling factors and also results in more accurate parameter maps compared with using CS. Experiments in 6 healthy volunteers used a reduction in scan time from 7:02 to 1:16 min, producing images without visible loss of detail in the parameter maps when using the MC-based reconstruction. Relaxation times from 6 healthy volunteers are in agreement with values obtained from fully sampled scans and values in literature, and parameter maps in a uveal melanoma patient show clear difference in relaxation times between tumor and healthy tissue. CONCLUSION: Cartesian-based MRF is feasible in the eye at 7T. High undersampling factors can be achieved by means of MC, significantly shortening scan time and increasing patient comfort, while also mitigating the risk of motion artifacts.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q2",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "rrf_rank": 15,
+      "group_id": "version:a9c1bae368ab351f55f5fc6d68063f3a8067cd247d6a5e885da993f7dd037cf4",
+      "rrf_score": 0.014925373134328358,
+      "title": "1-Bit Matrix Completion under Exact Low-Rank Constraint",
+      "paper_id": "doi:10.48550/arxiv.1502.06689",
+      "year": 2015,
+      "abstract": "We consider the problem of noisy 1-bit matrix completion under an exact rank constraint on the true underlying matrix $M^*$. Instead of observing a subset of the noisy continuous-valued entries of a matrix $M^*$, we observe a subset of noisy 1-bit (or binary) measurements generated according to a probabilistic model. We consider constrained maximum likelihood estimation of $M^*$, under a constraint on the entry-wise infinity-norm of $M^*$ and an exact rank constraint. This is in contrast to previous work which has used convex relaxations for the rank. We provide an upper bound on the matrix estimation error under this model. Compared to the existing results, our bound has faster convergence rate with matrix dimensions when the fraction of revealed 1-bit observations is fixed, independent of the matrix dimensions. We also propose an iterative algorithm for solving our nonconvex optimization with a certificate of global optimality of the limiting point. This algorithm is based on low rank factorization of $M^*$. We validate the method on synthetic and real data with improved performance over existing methods.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q3",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "rrf_rank": 16,
+      "group_id": "version:dc9c2459b1d1569eefac2b64cfc9cdd092c7cc727321b740bce8d0415c381ce9",
+      "rrf_score": 0.014705882352941176,
+      "title": "Matrix Completion and Extrapolation via Kernel Regression",
+      "paper_id": "doi:10.1109/tsp.2019.2932875",
+      "year": 2019,
+      "abstract": "Matrix completion and extrapolation (MCEX) are dealt with here over reproducing kernel Hilbert spaces (RKHSs) in order to account for prior information present in the available data. Aiming at a fast and low-complexity solver, the task is formulated as one of kernel ridge regression. The resultant MCEX algorithm can also afford online implementation, while the class of kernel functions also encompasses several existing approaches to MC with prior information. Numerical tests on synthetic and real datasets show that the novel approach is faster than widespread methods such as alternating least-squares (ALS) or stochastic gradient descent (SGD), and that the recovery error is reduced, especially when dealing with noisy data.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q2",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "rrf_rank": 17,
+      "group_id": "version:c085578f8fe8310a7de202a8f862987492d11114d490b669ba65a6b643c1e310",
+      "rrf_score": 0.014705882352941176,
+      "title": "Matrix Completion from $O(n)$ Samples in Linear Time",
+      "paper_id": "doi:10.48550/arxiv.1702.02267",
+      "year": 2017,
+      "abstract": "We consider the problem of reconstructing a rank-$k$ $n \\times n$ matrix $M$ from a sampling of its entries. Under a certain incoherence assumption on $M$ and for the case when both the rank and the condition number of $M$ are bounded, it was shown in \\cite{CandesRecht2009, CandesTao2010, keshavan2010, Recht2011, Jain2012, Hardt2014} that $M$ can be recovered exactly or approximately (depending on some trade-off between accuracy and computational complexity) using $O(n \\, \\text{poly}(\\log n))$ samples in super-linear time $O(n^{a} \\, \\text{poly}(\\log n))$ for some constant $a \\geq 1$. In this paper, we propose a new matrix completion algorithm using a novel sampling scheme based on a union of independent sparse random regular bipartite graphs. We show that under the same conditions w.h.p. our algorithm recovers an $ε$-approximation of $M$ in terms of the Frobenius norm using $O(n \\log^2(1/ε))$ samples and in linear time $O(n \\log^2(1/ε))$. This provides the best known bounds both on the sample complexity and computational complexity for reconstructing (approximately) an unknown low-rank matrix. The novelty of our algorithm is two new steps of thresholding singular values and rescaling singular vectors in the application of the \"vanilla\" alternating minimization algorithm. The structure of sparse random regular graphs is used heavily for controlling the impact of these regularization steps.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q3",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "rrf_rank": 18,
+      "group_id": "version:6f259d593832712fb17c9941aafdae060b5c062eff0ff90f3ce28badd05a7c6d",
+      "rrf_score": 0.014492753623188406,
+      "title": "A characterization of sampling patterns for low-rank multi-view data completion problem",
+      "paper_id": "doi:10.1109/isit.2017.8006708",
+      "year": 2017,
+      "abstract": "In this paper, we consider the problem of completing a sampled matrix U = [U1|U2] given the ranks of U, U1, and U2which is known as the multi-view data completion problem. We characterize the deterministic conditions on the locations of the sampled entries that is equivalent (necessary and sufficient) to finite completability of the sampled matrix. To this end, in contrast with the existing analysis on Grassmannian manifold for a single-view matrix, i.e., conventional matrix completion, we propose a geometric analysis on the manifold structure for multi-view data to incorporate more than one rank constraint. Then, using the proposed geometric analysis, we propose sufficient conditions on the sampling pattern, under which there exists only one completion (unique completability) given the three rank constraints.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q2",
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "rrf_rank": 19,
+      "group_id": "version:8f673bdf3f50a6ade7bcc954daed642c72c26372c74057c5cec59d445759d488",
+      "rrf_score": 0.014492753623188406,
+      "title": "Detection thresholds in very sparse matrix completion",
+      "paper_id": "doi:10.48550/arxiv.2005.06062",
+      "year": 2020,
+      "abstract": "Let $A$ be a rectangular matrix of size $m\\times n$ and $A_1$ be the random matrix where each entry of $A$ is multiplied by an independent $\\{0,1\\}$-Bernoulli random variable with parameter $1/2$. This paper is about when, how and why the non-Hermitian eigen-spectra of the randomly induced asymmetric matrices $A_1 (A - A_1)^*$ and $(A-A_1)^*A_1$ captures more of the relevant information about the principal component structure of $A$ than via its SVD or the eigen-spectra of $A A^*$ and $A^* A$, respectively. Hint: the asymmetry inducing randomness breaks the echo-chamber effect that cripples the SVD. We illustrate the application of this striking phenomenon on the low-rank matrix completion problem for the setting where each entry is observed with probability $d/n$, including the very sparse regime where $d$ is of order $1$, where matrix completion via the SVD of $A$ fails or produces unreliable recovery. We determine an asymptotically exact, matrix-dependent, non-universal detection threshold above which reliable, statistically optimal matrix recovery using a new, universal data-driven matrix-completion algorithm is possible. Averaging the left and right eigenvectors provably improves the recovered matrix but not the detection threshold. We define another variant of this asymmetric procedure that bypasses the randomization step and has a detection threshold that is smaller by a constant factor but with a computational cost that is larger by a polynomial factor of the number of observed entries. Both detection thresholds shatter the seeming barrier due to the well-known information theoretical limit $d \\asymp \\log n$ for matrix completion found in the literature.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q3",
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "rrf_rank": 20,
+      "group_id": "version:1cea7e7a06f705356ae770140064d4816b12b315b77c06195180bed69438d6ef",
+      "rrf_score": 0.014285714285714285,
+      "title": "Robust matrix completion",
+      "paper_id": "doi:10.1007/s00440-016-0736-y",
+      "year": 2016,
+      "abstract": null,
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q1",
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "rrf_rank": 21,
+      "group_id": "version:8b3562f10085a1afa2bdba526f98cf4ad6a1f6a74142aa49f55a78826fc347e0",
+      "rrf_score": 0.014285714285714285,
+      "title": "Corrections to “A Characterization of Deterministic Sampling Patterns for Low-Rank Matrix Completion”",
+      "paper_id": "doi:10.1109/jstsp.2016.2618502",
+      "year": 2016,
+      "abstract": "Presents corrections to the paper, “A characterization of deterministic sampling patterns for low-rank matrix completion,” (Pimentel-Alarcon, D. and Nowak, R.), IEEE J. Sel. Topics Signal Process., vol. 10, no. 4, pp. 623–636, Jun. 2016.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q2",
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "rrf_rank": 22,
+      "group_id": "version:cad2b6d607cc39f41f44cf1acb5b92a031f84e5b34656c89554398ddf5ae4257",
+      "rrf_score": 0.014285714285714285,
+      "title": "A simulation-free seismic survey design by maximizing the spectral gap",
+      "paper_id": "doi:10.1190/image2022-3751690.1",
+      "year": 2022,
+      "abstract": "Due to the tremendous cost of seismic data acquisition, methods have been developed to reduce the amount of data acquired by designing optimal missing trace reconstruction algorithms. These technologies are designed to record as little data as possible in the field, while providing accurate wavefield reconstruction in the areas of the survey that are not recorded. This is achieved by designing randomized subsampling masks that allow for accurate wavefield reconstruction via matrix completion methods. Motivated by these recent results, we propose a simulation-free seismic survey design that aims at improving the quality of a given randomized subsampling using a simulated annealing algorithm that iteratively increases the spectral gap of the subsampling mask, a property recently linked to the quality of the reconstruction. We demonstrate that our proposed method improves the data reconstruction quality for a fixed subsampling rate on a realistic synthetic dataset.",
+      "version_count": 1,
+      "hits": [
+        {
+          "query_id": "q3",
+          "rank": 10
+        }
+      ]
+    }
+  ]
+}
