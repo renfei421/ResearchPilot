@@ -151,10 +151,10 @@ configured models for live work. The repository pins Python 3.11 in
 `.python-version` and locks dependencies in `uv.lock`. Live work also needs
 network access to OpenAlex and document hosts. Tests do not need provider keys.
 
-Replace `<repository-url>` with the URL of the public repository when it is created.
+Replace `https://github.com/renfei421/Researchpilot.git` with the URL of the public repository when it is created.
 
 ```powershell
-git clone <repository-url> researchpilot
+git clone https://github.com/renfei421/Researchpilot.git researchpilot
 cd researchpilot
 uv sync --locked
 Copy-Item .env.example .env
