@@ -1,9 +1,9 @@
 {
   "release": "0.3.1",
   "description": "Explicit public snapshot whitelist; paths are repository-relative. Git metadata and generated local environments are excluded.",
-  "file_count": 217,
+  "file_count": 218,
   "categories": {
-    "root": 8,
+    "root": 9,
     "docs": 11,
     "eval": 60,
     "scripts": 13,
@@ -15,6 +15,7 @@
     ".gitattributes",
     ".gitignore",
     ".python-version",
+    "LICENSE",
     "PROJECT_SPEC.md",
     "README.md",
     "docs/HYBRID_PASSAGE_RETRIEVAL.md",

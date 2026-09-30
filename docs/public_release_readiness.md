@@ -15,12 +15,12 @@ by this preparation.
 | Package / CLI | Version and public-source import verified; Research CLI `--help` succeeds. |
 | Local application | Isolated loopback service on port 8011: home, health, API docs, OpenAPI schema, static assets, and both saved-result views returned HTTP 200. Temporary service stopped after verification. |
 | Product behavior | Source, tests, scripts, and frozen evaluation files retained byte-for-byte. No prompts, algorithms, or product workflows changed. |
-| History | Fresh `main` repository with one initial public commit; no inherited development commits or remote. |
+| History | Fresh `main` history: an initial public snapshot and a documentation-only licensing commit; no inherited development commits or remote. |
 | Privacy | Reviewed public whitelist, credential/private-path scan, and staged-file review; no actual credentials or private runtime artifacts included. |
 | Documentation | Relative Markdown links and local anchors checked; no private-machine result links. |
 | Screenshots | Two real, reviewed UI excerpts of existing completed RAG results; see the [case-study index](case-studies/README.md#product-screenshots). No new research calls. |
-| License | **LICENSE NOT YET SELECTED**. No license file has been added. |
-| Tag | No local release tag created while the licensing decision is pending. |
+| License | [MIT License](../LICENSE), copyright (c) 2026 Renfei Wang. |
+| Tag | Annotated local `v0.3.1` tag; not pushed. |
 
 Run the same offline test suite after installation:
 
@@ -50,15 +50,15 @@ and reproducible evaluation artifacts visible.
 
 ## Owner steps before publication
 
-1. Select an appropriate license, add its file, and review redistribution terms
-   for any included third-party bibliographic/abstract material.
+1. Review redistribution terms for any included third-party bibliographic/abstract
+   material; the project license does not replace those terms.
 2. Review the public files, screenshots, package author attribution, and initial
    Git commit identity. No personal author email is stored in package metadata;
    Git uses the owner's existing configured identity.
 3. Create the GitHub repository manually and replace the README clone-URL
    placeholder. Add a remote and push only when ready.
-4. After the remaining decisions and documentation edits, create an annotated
-   `v0.3.1` tag and GitHub release if desired.
+4. Review the tagged commit before publishing the existing local `v0.3.1` tag
+   and creating a GitHub release, if desired.
 
 Provider credentials are required only for live work. No live OpenAI/OpenAlex
 research, new Agent features, or new development phase was part of this release

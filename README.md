@@ -278,5 +278,6 @@ action.
 
 ## License
 
-A license has not yet been selected. This repository currently has no `LICENSE`
-file; public-release licensing remains an owner decision.
+ResearchPilot is licensed under the [MIT License](LICENSE).
+
+Copyright (c) 2026 Renfei Wang.
